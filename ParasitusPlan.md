@@ -100,6 +100,7 @@ make copies of the modded doors but with animation
 
 **Ore Processing**
 Make fluids for all the metals, for compatability towards BC Ore Processing
+- [ ] Fluid Mixer (use the ore processor as a reference)
 - [ ] Copper
 - [ ] Bronze
 - [ ] Tin
