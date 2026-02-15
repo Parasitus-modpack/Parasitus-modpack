@@ -4,25 +4,6 @@
 
 **Source Code:** https://github.com/suichanwa/Parasitus-Modpack-Fix-utiltiy
 
-### Fixes Needed
-
-- **SevenDaysToMine: Bandit**  
-  Make them not despawn
-
-- **Better Placement Mod**  
-  Fix being able to click seats through doors (While opening doors, was very annoying) caused by "better placement" mod
-
-
-- **SevenDaysToMine: Damage Balancing**  
-  Nerf damage of sevendaystomine wood spikes by half if possible? How does damage work for wooden spikes? (also nerf the damage of the augur by half)
-
-- **Techgun CE Audio Fix**  
-  Fixes an issue where techguns gunfire audio only coming out of left speaker/headphone due to improper sound source placement.. I think. I am not exactly sure what the sound issue is in original techguns or if they did directly fix it.  
-  **Reference:** TheSlize/Techguns2-Completion-Update: 1.12 Port/Rewrite of Techguns mod for Minecraft. Completed  
-  Also take Techgun CE gun HUD ammo ui (each gun has its own art for this part too)
-
----
-
 ## Small Idea
 
 ### First-Time World Load Screen
@@ -102,7 +83,7 @@ https://docs.google.com/document/d/1G7abD8zTuYHjv9CTVg9IrSIf8G7dV8m26kQujF2gVGY/
 - [ ] text
 - [ ] text
 
----
+____________________________________________________________________________________________________________________________
 
 ## Detailed Explanation of the Above Points
 
@@ -112,15 +93,22 @@ Make cities spawn in accordance with the following logic:
 ### Fluids
 Make fluids for all the ores
 
+## Better Placement Mod
+Fix being able to click seats through doors (While opening doors, was very annoying) caused by "better placement" mod
+
 ## rebalance 7dtm
-the damage done by all 7dtm blocks are too OP
+the damage done by all 7dtm blocks and tools are too OP
 - [ ] flame turret
 - [ ] metal spikes
 - [ ] wooden spikes
 - [ ] barbed wire
+- [ ] auger
 - [ ] others?
 
 ## Techguns CE
 copy items/code from CE for the modpack
 - [ ] camo
-- [ ] sounds
+- [ ] Fixes an issue where techguns gunfire audio only coming out of left speaker/headphone
+    - I am not exactly sure what the sound issue is in original techguns or if they did directly fix it.
+    - reference: TheSlize/Techguns2-Completion-Update: 1.12 Port/Rewrite of Techguns mod for Minecraft.  
+- [ ] Also take Techgun CE gun HUD ammo ui (each gun has its own art for this part too)
