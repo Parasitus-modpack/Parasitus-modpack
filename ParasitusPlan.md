@@ -88,7 +88,7 @@ https://docs.google.com/document/d/1G7abD8zTuYHjv9CTVg9IrSIf8G7dV8m26kQujF2gVGY/
 - [ ] text
 
 ### Priority 2
-- [ ] Add fluids
+- [x] Add fluids
 - [ ] text
 - [ ] text
 
