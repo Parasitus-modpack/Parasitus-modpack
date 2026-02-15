@@ -78,3 +78,19 @@ https://docs.google.com/document/d/1G7abD8zTuYHjv9CTVg9IrSIf8G7dV8m26kQujF2gVGY/
 - I should adjust the existing plane to make it look more like it crashed then a poorly buried plane that is intact
 
 - Adjust wrench description to mention it can interact with other pipes
+
+
+## to do list:
+**prioritization marked by numbers**
+**1**
+- [] add cities
+
+**2** add fluids
+
+
+
+## cities
+  make cities spawn in accordance with the following logic:
+
+## fluids
+  make fluids for all the ores
