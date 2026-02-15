@@ -19,7 +19,7 @@
   - [ ] complete
 - [ ] Animated Doors
   - [ ] needs testing
-  - [ ] complete
+  - [X] complete
 
 ### Priority 2
 - [x] Ore Processing
