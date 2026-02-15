@@ -83,9 +83,19 @@ https://docs.google.com/document/d/1G7abD8zTuYHjv9CTVg9IrSIf8G7dV8m26kQujF2gVGY/
 **Prioritization marked by numbers**
 
 ### Priority 1
-- [ ] Add cities
-- [ ] text
-- [ ] text
+- [ ] make 7dtm bandist stop despawning
+  - [ ] needs testing
+  - [ ] complete
+- [ ] "better placement" issue
+  - [ ] needs testing
+  - [ ] complete
+- [ ] rebalance 7dtm
+  - [ ] needs testing
+  - [ ] complete
+- [ ] Techgunc CE
+  - [ ] needs testing
+  - [ ] complete
+
 
 ### Priority 2
 - [x] Add fluids
@@ -101,3 +111,16 @@ Make cities spawn in accordance with the following logic:
 
 ### Fluids
 Make fluids for all the ores
+
+## rebalance 7dtm
+the damage done by all 7dtm blocks are too OP
+- [] flame turret
+- [] metal spikes
+- [] wooden spikes
+- [] barbed wire
+- [] others?
+
+## Techguns CE
+copy items/code from CE for the modpack
+- [] camo
+- [] sounds
