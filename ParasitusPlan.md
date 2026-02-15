@@ -89,9 +89,12 @@ https://docs.google.com/document/d/1G7abD8zTuYHjv9CTVg9IrSIf8G7dV8m26kQujF2gVGY/
 - []
 - []
 
-**detaailed explanation of the above points**
-## cities
-  make cities spawn in accordance with the following logic:
+---
 
-## fluids
-  make fluids for all the ores
+## Detailed Explanation of the Above Points
+
+### Cities
+Make cities spawn in accordance with the following logic:
+
+### Fluids
+Make fluids for all the ores
