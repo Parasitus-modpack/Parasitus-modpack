@@ -12,8 +12,6 @@
 - **Better Placement Mod**  
   Fix being able to click seats through doors (While opening doors, was very annoying) caused by "better placement" mod
 
-- **SevenDaysToMine: Zombies**  
-  Fix sevendaystomine zombies spawning naturally in the end
 
 - **SevenDaysToMine: Damage Balancing**  
   Nerf damage of sevendaystomine wood spikes by half if possible? How does damage work for wooden spikes? (also nerf the damage of the augur by half)
