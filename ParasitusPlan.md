@@ -1,43 +1,96 @@
 # Parasitus Modpack Plan
-
-## Parasitus Fixes Code To Do
-
 **Source Code:** https://github.com/suichanwa/Parasitus-Modpack-Fix-utiltiy
+---
+## To Do List
+**Prioritization marked by numbers**
 
-## Small Idea
+### Priority 1
+- [ ] Make 7dtm bandist stop despawning
+  - [ ] needs testing
+  - [ ] complete
+- [ ] "Better placement" issue
+  - [ ] needs testing
+  - [ ] complete
+- [ ] Rebalance 7dtm
+  - [ ] needs testing
+  - [ ] complete
+- [ ] Techgunc CE
+  - [ ] needs testing
+  - [ ] complete
+- [ ] Animated Doors
+  - [ ] needs testing
+  - [ ] complete
 
-### First-Time World Load Screen
+### Priority 2
+- [x] Ore Processing
+  - [ ] needs testing
+  - [ ] complete
+- [ ] Startup text
+  - [ ] needs testing
+  - [ ] complete
+- [ ] text
 
+### Priority3
+- [ ] City Generation
+  - [ ] needs testing
+  - [ ] complete
+- [ ] More Props
+  - [ ] needs testing
+  - [ ] complete
+---
+## Detailed Explanation of the Above Points
+
+## Better Placement Mod
+Fix being able to click seats through doors (While opening doors, was very annoying) caused by "better placement" mod
+
+## Rebalance 7dtm
+the damage done by all 7dtm blocks and tools are too OP
+- [ ] Flame turret
+- [ ] Metal spikes
+- [ ] Wooden spikes
+- [ ] Barbed wire
+- [ ] Auger
+- [ ] Others?
+
+## Techguns CE
+copy items/code from CE for the modpack
+- [ ] Camo
+- [ ] Fixes an issue where techguns gunfire audio only coming out of left speaker/headphone
+    - I am not exactly sure what the sound issue is in original techguns or if they did directly fix it.
+    - **Reference:** [TheSlize/Techguns2-Completion-Update](https://github.com/TheSlize/Techguns2-Completion-Update)
+- [ ] Also take Techgun CE gun HUD ammo ui (each gun has its own art for this part too)
+
+### Ore Processing
+Make fluids for all the metals, for compatability towards BC Ore Processing
+- [ ] Copper
+- [ ] Bronze
+- [ ] Tin
+- [ ] Lead
+- [ ] Zinc
+- [ ] Titanium
+- [ ] Brass
+- [ ] Steel
+- [ ] Obsidian Steel
+- [ ] Uranium
+- [ ] Diamond Steel
+
+## Startup Text
 When the player makes the world and loads in FOR THE FIRST TIME ONLY, a screen will pop up with image and start button:
 
 > "The earth heals, yet we decay.
-> 
 > 5 years has passed
-> 
 > You are not new here."
-> 
 > [Image here]
-> 
 > [Button to let player start playing "Survive"]
-
 (This should not pop up again in same world, if possible per player)
 
+## City Generation
+[Temp city planning](https://docs.google.com/document/d/1MN9tBP-kuxxmehy2LasvCY8bGb-GgL3RtbK21mxV2Co/edit?usp=sharing)
+
+## More Props
+Not done yet but Idea for new custom decoration props to be made into a mod for the modpack.
+[Doc for the artist](https://docs.google.com/document/d/1G7abD8zTuYHjv9CTVg9IrSIf8G7dV8m26kQujF2gVGY/edit?usp=sharing)
 ---
-
-## Final Idea After Above Is Done
-
-### City Idea
-
-I am not done making structures but we can use placeholders too  
-https://docs.google.com/document/d/1MN9tBP-kuxxmehy2LasvCY8bGb-GgL3RtbK21mxV2Co/edit?usp=sharing
-
-### Custom Decoration Props
-
-Not done yet but Idea for new custom decoration props to be made into a mod for the modpack. This doc is FOR THE ARTIST  
-https://docs.google.com/document/d/1G7abD8zTuYHjv9CTVg9IrSIf8G7dV8m26kQujF2gVGY/edit?usp=sharing
-
----
-
 ## To Do List For Myself
 
 - When making server file, remove ExtendPolyphonyLimit
@@ -58,71 +111,3 @@ https://docs.google.com/document/d/1G7abD8zTuYHjv9CTVg9IrSIf8G7dV8m26kQujF2gVGY/
 
 - Adjust wrench description to mention it can interact with other pipes
 
-
-## To Do List
-
-**Prioritization marked by numbers**
-
-### Priority 1
-- [ ] make 7dtm bandist stop despawning
-  - [ ] needs testing
-  - [ ] complete
-- [ ] "better placement" issue
-  - [ ] needs testing
-  - [ ] complete
-- [ ] rebalance 7dtm
-  - [ ] needs testing
-  - [ ] complete
-- [ ] Techgunc CE
-  - [ ] needs testing
-  - [ ] complete
-- [ ] Animated Doors
-  - [ ] needs testing
-  - [ ] complete
-
-
-### Priority 2
-- [x] Ore Processing
-- [ ] text
-- [ ] text
-
-____________________________________________________________________________________________________________________________
-
-## Detailed Explanation of the Above Points
-
-### Cities
-Make cities spawn in accordance with the following logic:
-
-### Ore Processing
-Make fluids for all the metals, for compatability towards BC Ore Processing
-- [ ] Copper
-- [ ] Bronze
-- [ ] Tin
-- [ ] Lead
-- [ ] Zinc
-- [ ] Titanium
-- [ ] Brass
-- [ ] Steel
-- [ ] Obsidian Steel
-- [ ] Uranium
-- [ ] Diamond Steel
-
-## Better Placement Mod
-Fix being able to click seats through doors (While opening doors, was very annoying) caused by "better placement" mod
-
-## Rebalance 7dtm
-the damage done by all 7dtm blocks and tools are too OP
-- [ ] flame turret
-- [ ] metal spikes
-- [ ] wooden spikes
-- [ ] barbed wire
-- [ ] auger
-- [ ] others?
-
-## Techguns CE
-copy items/code from CE for the modpack
-- [ ] camo
-- [ ] Fixes an issue where techguns gunfire audio only coming out of left speaker/headphone
-    - I am not exactly sure what the sound issue is in original techguns or if they did directly fix it.
-    - **Reference:** [TheSlize/Techguns2-Completion-Update](https://github.com/TheSlize/Techguns2-Completion-Update)
-- [ ] Also take Techgun CE gun HUD ammo ui (each gun has its own art for this part too)
