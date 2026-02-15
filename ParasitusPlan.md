@@ -78,16 +78,19 @@ https://docs.google.com/document/d/1G7abD8zTuYHjv9CTVg9IrSIf8G7dV8m26kQujF2gVGY/
 - Adjust wrench description to mention it can interact with other pipes
 
 
-## to do list:
-**prioritization marked by numbers**
-**1**
-- [] add cities
-- []
-- []
-**2**
-- [] add fluids
-- []
-- []
+## To Do List
+
+**Prioritization marked by numbers**
+
+### Priority 1
+- [ ] Add cities
+- [ ] 
+- [ ] 
+
+### Priority 2
+- [ ] Add fluids
+- [ ] 
+- [ ] 
 
 ---
 
