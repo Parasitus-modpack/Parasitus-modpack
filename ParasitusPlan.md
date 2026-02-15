@@ -1,0 +1,80 @@
+# Parasitus Modpack Plan
+
+## Parasitus Fixes Code To Do
+
+**Source Code:** https://github.com/suichanwa/Parasitus-Modpack-Fix-utiltiy
+
+### Fixes Needed
+
+- **SevenDaysToMine: Bandit**  
+  Make them not despawn
+
+- **Better Placement Mod**  
+  Fix being able to click seats through doors (While opening doors, was very annoying) caused by "better placement" mod
+
+- **SevenDaysToMine: Zombies**  
+  Fix sevendaystomine zombies spawning naturally in the end
+
+- **SevenDaysToMine: Damage Balancing**  
+  Nerf damage of sevendaystomine wood spikes by half if possible? How does damage work for wooden spikes? (also nerf the damage of the augur by half)
+
+- **Techgun CE Audio Fix**  
+  Fixes an issue where techguns gunfire audio only coming out of left speaker/headphone due to improper sound source placement.. I think. I am not exactly sure what the sound issue is in original techguns or if they did directly fix it.  
+  **Reference:** TheSlize/Techguns2-Completion-Update: 1.12 Port/Rewrite of Techguns mod for Minecraft. Completed  
+  Also take Techgun CE gun HUD ammo ui (each gun has its own art for this part too)
+
+---
+
+## Small Idea
+
+### First-Time World Load Screen
+
+When the player makes the world and loads in FOR THE FIRST TIME ONLY, a screen will pop up with image and start button:
+
+> "The earth heals, yet we decay.
+> 
+> 5 years has passed
+> 
+> You are not new here."
+> 
+> [Image here]
+> 
+> [Button to let player start playing "Survive"]
+
+(This should not pop up again in same world, if possible per player)
+
+---
+
+## Final Idea After Above Is Done
+
+### City Idea
+
+I am not done making structures but we can use placeholders too  
+https://docs.google.com/document/d/1MN9tBP-kuxxmehy2LasvCY8bGb-GgL3RtbK21mxV2Co/edit?usp=sharing
+
+### Custom Decoration Props
+
+Not done yet but Idea for new custom decoration props to be made into a mod for the modpack. This doc is FOR THE ARTIST  
+https://docs.google.com/document/d/1G7abD8zTuYHjv9CTVg9IrSIf8G7dV8m26kQujF2gVGY/edit?usp=sharing
+
+---
+
+## To Do List For Myself
+
+- When making server file, remove ExtendPolyphonyLimit
+
+- Make implants not lost upon death gamerule default via craft tweaker or smth
+
+- When adding new deco blocks make some chests old chests
+
+- Write down and put lore book in new zombie lab structure and a lore book in existing military structure
+
+- Convert the broadcast structure from online to the pack and the 2 giant military ship replacement
+
+- Test hordes still work after srp updates as well
+
+- A rare spawn, armored truck with soldiers being attacked by basic parasites
+
+- I should adjust the existing plane to make it look more like it crashed then a poorly buried plane that is intact
+
+- Adjust wrench description to mention it can interact with other pipes
