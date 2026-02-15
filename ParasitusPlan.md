@@ -76,10 +76,13 @@ https://docs.google.com/document/d/1G7abD8zTuYHjv9CTVg9IrSIf8G7dV8m26kQujF2gVGY/
 - [ ] Techgunc CE
   - [ ] needs testing
   - [ ] complete
+- [ ] Animated Doors
+  - [ ] needs testing
+  - [ ] complete
 
 
 ### Priority 2
-- [x] Add fluids
+- [x] Ore Processing
 - [ ] text
 - [ ] text
 
@@ -90,13 +93,24 @@ ________________________________________________________________________________
 ### Cities
 Make cities spawn in accordance with the following logic:
 
-### Fluids
-Make fluids for all the ores
+### Ore Processing
+Make fluids for all the metals, for compatability towards BC Ore Processing
+- [ ] Copper
+- [ ] Bronze
+- [ ] Tin
+- [ ] Lead
+- [ ] Zinc
+- [ ] Titanium
+- [ ] Brass
+- [ ] Steel
+- [ ] Obsidian Steel
+- [ ] Uranium
+- [ ] Diamond Steel
 
 ## Better Placement Mod
 Fix being able to click seats through doors (While opening doors, was very annoying) caused by "better placement" mod
 
-## rebalance 7dtm
+## Rebalance 7dtm
 the damage done by all 7dtm blocks and tools are too OP
 - [ ] flame turret
 - [ ] metal spikes
