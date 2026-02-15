@@ -124,5 +124,5 @@ copy items/code from CE for the modpack
 - [ ] camo
 - [ ] Fixes an issue where techguns gunfire audio only coming out of left speaker/headphone
     - I am not exactly sure what the sound issue is in original techguns or if they did directly fix it.
-    - reference: TheSlize/Techguns2-Completion-Update: 1.12 Port/Rewrite of Techguns mod for Minecraft.  
+    - **Reference:** [TheSlize/Techguns2-Completion-Update](https://github.com/TheSlize/Techguns2-Completion-Update)
 - [ ] Also take Techgun CE gun HUD ammo ui (each gun has its own art for this part too)
