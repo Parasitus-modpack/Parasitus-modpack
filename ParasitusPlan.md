@@ -124,6 +124,3 @@ the damage done by all 7dtm blocks are too OP
 copy items/code from CE for the modpack
 - [] camo
 - [] sounds
-
-![First Time Load Screen](pictures/tW90vuqJ.jpg)
-![Alt Text](#parasitus-fixes-code-to-do)
