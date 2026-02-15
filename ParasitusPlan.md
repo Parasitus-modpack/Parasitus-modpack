@@ -60,6 +60,44 @@ copy items/code from CE for the modpack
     - **Reference:** [TheSlize/Techguns2-Completion-Update](https://github.com/TheSlize/Techguns2-Completion-Update)
 - [ ] Also take Techgun CE gun HUD ammo ui (each gun has its own art for this part too)
 
+**Animated doors**
+make copies of the modded doors but with animation
+- [ ] PVJ
+  - [ ] Doorname
+    - [ ] Texture
+    - [ ] Animation
+    - [ ] CT Recipe
+  - [ ] Doorname
+    - [ ] Texture
+    - [ ] Animation
+    - [ ] CT Recipe
+  - [ ] Doorname
+    - [ ] Texture
+    - [ ] Animation
+    - [ ] CT Recipe
+  - [ ] Doorname
+    - [ ] Texture
+    - [ ] Animation
+    - [ ] CT Recipe
+- [ ] 7dtm
+  - [ ] Doorname
+    - [ ] Texture
+    - [ ] Animation
+    - [ ] CT Recipe
+  - [ ] Doorname
+    - [ ] Texture
+    - [ ] Animation
+    - [ ] CT Recipe
+  - [ ] Doorname
+    - [ ] Texture
+    - [ ] Animation
+    - [ ] CT Recipe
+- [ ] Techguns
+  - [ ] Doorname
+    - [ ] Texture
+    - [ ] Animation
+    - [ ] CT Recipe
+    
 **Ore Processing**
 Make fluids for all the metals, for compatability towards BC Ore Processing
 - [ ] Copper
