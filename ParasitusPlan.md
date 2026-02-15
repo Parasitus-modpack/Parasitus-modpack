@@ -114,13 +114,13 @@ Make fluids for all the ores
 
 ## rebalance 7dtm
 the damage done by all 7dtm blocks are too OP
-- [] flame turret
-- [] metal spikes
-- [] wooden spikes
-- [] barbed wire
-- [] others?
+- [ ] flame turret
+- [ ] metal spikes
+- [ ] wooden spikes
+- [ ] barbed wire
+- [ ] others?
 
 ## Techguns CE
 copy items/code from CE for the modpack
-- [] camo
-- [] sounds
+- [ ] camo
+- [ ] sounds
