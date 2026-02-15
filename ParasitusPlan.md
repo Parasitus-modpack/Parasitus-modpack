@@ -124,3 +124,7 @@ the damage done by all 7dtm blocks are too OP
 copy items/code from CE for the modpack
 - [] camo
 - [] sounds
+
+<img src="pictures/tW90vuqJ.jpg" alt="Description" width="600">
+
+[Watch the video](pictures/doc_2026-02-16_00-23-16.mp4)
