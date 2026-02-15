@@ -97,7 +97,7 @@ make copies of the modded doors but with animation
     - [ ] Texture
     - [ ] Animation
     - [ ] CT Recipe
-    
+
 **Ore Processing**
 Make fluids for all the metals, for compatability towards BC Ore Processing
 - [ ] Copper
