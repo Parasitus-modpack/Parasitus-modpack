@@ -5,6 +5,9 @@
 **Prioritization marked by numbers**
 
 ### Priority 1
+- [ ] Undo Quartz Pipe unlimited capcity and item info line that says it is unlimited.
+  - [ ] needs testing
+  - [ ] complete
 - [ ] Make 7dtm bandist stop despawning
   - [ ] needs testing
   - [ ] complete
@@ -137,8 +140,6 @@ Not done yet but Idea for new custom decoration props to be made into a mod for 
 **To Do List For the owner**
 
 - When making server file, remove ExtendPolyphonyLimit
-
-- Make steam armor harder
 
 - Remove weapons no longer craftable from the guidebook
 
