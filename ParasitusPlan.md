@@ -22,7 +22,7 @@
   - [X] complete
 
 ### Priority 2
-- [x] Ore Processing
+- [ ] Ore Processing
   - [ ] needs testing
   - [ ] complete
 - [ ] Startup text
@@ -63,37 +63,78 @@ copy items/code from CE for the modpack
 **Animated doors**
 make copies of the modded doors but with animation
 - [ ] PVJ
-  - [ ] Doorname
+  - [x] Willow_door_item
+    - [x] Texture
+    - [x] Animation
+    - [x] CT Recipe
+  - [x] mangrove_door_item
+    - [x] Texture
+    - [x] Animation
+    - [x] CT Recipe
+  - [ ] palm_door_item
     - [ ] Texture
     - [ ] Animation
     - [ ] CT Recipe
-  - [ ] Doorname
-    - [ ] Texture
-    - [ ] Animation
-    - [ ] CT Recipe
-  - [ ] Doorname
-    - [ ] Texture
-    - [ ] Animation
-    - [ ] CT Recipe
-  - [ ] Doorname
-    - [ ] Texture
-    - [ ] Animation
-    - [ ] CT Recipe
+  - [x] redwood_door_item
+    - [x] Texture
+    - [x] Animation
+    - [x] CT Recipe
+  - [x] fir_door_item
+    - [x] Texture
+    - [x] Animation
+    - [x] CT Recipe
+  - [x] pine_door_item
+    - [x] Texture
+    - [x] Animation
+    - [x] CT Recipe
+  - [x] aspen_door_item
+    - [x] Texture
+    - [x] Animation
+    - [x] CT Recipe
+  - [x] maple_door_item
+    - [x] Texture
+    - [x] Animation
+    - [x] CT Recipe
+  - [x] baobab_door_item
+    - [x] Texture
+    - [x] Animation
+    - [x] CT Recipe
+  - [x] cottonwood_door_item
+    - [x] Texture
+    - [x] Animation
+    - [x] CT Recipe
+  - [x] juniper_door_item
+    - [x] Texture
+    - [x] Animation
+    - [x] CT Recipe
+  - [x] cherry_blossom_door_item
+    - [x] Texture
+    - [x] Animation
+    - [x] CT Recipe
+  - [x] jacaranda_door_item
+    - [x] Texture
+    - [x] Animation
+    - [x] CT Recipe
 - [ ] 7dtm
-  - [ ] Doorname
+  - [ ] woodendooritem
     - [ ] Texture
     - [ ] Animation
     - [ ] CT Recipe
-  - [ ] Doorname
+  - [ ] woodendoorreinforceditem
     - [ ] Texture
     - [ ] Animation
     - [ ] CT Recipe
-  - [ ] Doorname
+  - [ ] wooden_door_iron_reinforced_item
     - [ ] Texture
     - [ ] Animation
     - [ ] CT Recipe
-- [ ] Techguns
-  - [ ] Doorname
+- [x] Techguns
+  - [x] item_bunkerdoor
+    - [x] Texture
+    - [x] Animation
+    - [x] CT Recipe
+- [ ] oceanic expance
+  - [ ] palm_door
     - [ ] Texture
     - [ ] Animation
     - [ ] CT Recipe
@@ -101,17 +142,21 @@ make copies of the modded doors but with animation
 **Ore Processing**
 Make fluids for all the metals, for compatability towards BC Ore Processing
 - [ ] Fluid Mixer (use the ore processor as a reference)
-- [ ] Copper
-- [ ] Bronze
-- [ ] Tin
-- [ ] Lead
-- [ ] Zinc
-- [ ] Titanium
-- [ ] Brass
-- [ ] Steel
-- [ ] Obsidian Steel
-- [ ] Uranium
-- [ ] Diamond Steel
+  - 2 fluid inputs
+  - 1 power input
+  - 1 liquid output
+  - no gui needed
+- [x] Copper
+- [x] Bronze
+- [x] Tin
+- [x] Lead
+- [x] Zinc
+- [x] Titanium
+- [x] Brass
+- [x] Steel
+- [x] Obsidian Steel
+- [x] Uranium
+- [x] Diamond Steel
 
 **Startup Text**
 When the player makes the world and loads in FOR THE FIRST TIME ONLY, a screen will pop up with image and start button:
