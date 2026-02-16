@@ -22,13 +22,9 @@
   - [X] complete
 
 ### Priority 2
-- [ ] Ore Processing
-  - [ ] needs testing
-  - [ ] complete
 - [ ] Startup text
   - [ ] needs testing
   - [ ] complete
-- [ ] text
 
 ### Priority3
 - [ ] City Generation
@@ -115,48 +111,11 @@ make copies of the modded doors but with animation
     - [x] Texture
     - [x] Animation
     - [x] CT Recipe
-- [ ] 7dtm
-  - [ ] woodendooritem
-    - [ ] Texture
-    - [ ] Animation
-    - [ ] CT Recipe
-  - [ ] woodendoorreinforceditem
-    - [ ] Texture
-    - [ ] Animation
-    - [ ] CT Recipe
-  - [ ] wooden_door_iron_reinforced_item
-    - [ ] Texture
-    - [ ] Animation
-    - [ ] CT Recipe
 - [x] Techguns
   - [x] item_bunkerdoor
     - [x] Texture
     - [x] Animation
     - [x] CT Recipe
-- [ ] oceanic expance
-  - [ ] palm_door
-    - [ ] Texture
-    - [ ] Animation
-    - [ ] CT Recipe
-
-**Ore Processing**
-Make fluids for all the metals, for compatability towards BC Ore Processing
-- [ ] Fluid Mixer (use the ore processor as a reference)
-  - 2 fluid inputs
-  - 1 power input
-  - 1 liquid output
-  - no gui needed
-- [x] Copper
-- [x] Bronze
-- [x] Tin
-- [x] Lead
-- [x] Zinc
-- [x] Titanium
-- [x] Brass
-- [x] Steel
-- [x] Obsidian Steel
-- [x] Uranium
-- [x] Diamond Steel
 
 **Startup Text**
 When the player makes the world and loads in FOR THE FIRST TIME ONLY, a screen will pop up with image and start button:
