@@ -143,6 +143,8 @@ Not done yet but Idea for new custom decoration props to be made into a mod for 
 - Remove weapons no longer craftable from the guidebook
 
 - Adjust kinesis pipe section of guide book (since quartz will be made a normal pipe again) 
+ 
+- Put uv emitter after reaction chamber, its now craftable and can be used to create greenery with the chamber 
 
 - When adding new deco blocks make some chests old chests
 
