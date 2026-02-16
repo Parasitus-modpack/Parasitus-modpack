@@ -5,9 +5,6 @@
 **Prioritization marked by numbers**
 
 ### Priority 1
-- [ ] Undo Quartz Pipe unlimited capcity and item info line that says it is unlimited.
-  - [ ] needs testing
-  - [ ] complete
 - [ ] Make 7dtm bandist stop despawning
   - [ ] needs testing
   - [ ] complete
@@ -141,12 +138,6 @@ Not done yet but Idea for new custom decoration props to be made into a mod for 
 
 - When making server file, remove ExtendPolyphonyLimit
 
-- Remove weapons no longer craftable from the guidebook
-
-- Adjust kinesis pipe section of guide book (since quartz will be made a normal pipe again) 
- 
-- Put uv emitter after reaction chamber, its now craftable and can be used to create greenery with the chamber 
-
 - When adding new deco blocks make some chests old chests
 
 - Write down and put lore book in new zombie lab structure and a lore book in existing military structure
@@ -158,7 +149,5 @@ Not done yet but Idea for new custom decoration props to be made into a mod for 
 - A rare spawn, armored truck with soldiers being attacked by basic parasites
 
 - I should adjust the existing plane to make it look more like it crashed then a poorly buried plane that is intact
-
-- Adjust wrench description to mention it can interact with other pipes
 
 
