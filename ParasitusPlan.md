@@ -71,10 +71,10 @@ make copies of the modded doors but with animation
     - [x] Texture
     - [x] Animation
     - [x] CT Recipe
-  - [ ] palm_door_item
-    - [ ] Texture
-    - [ ] Animation
-    - [ ] CT Recipe
+  - [x] palm_door_item
+    - [x] Texture
+    - [x] Animation
+    - [x] CT Recipe
   - [x] redwood_door_item
     - [x] Texture
     - [x] Animation
