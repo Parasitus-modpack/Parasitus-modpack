@@ -145,7 +145,9 @@ Not done yet but Idea for new custom decoration props to be made into a mod for 
 
 - When making server file, remove ExtendPolyphonyLimit
 
-- When adding new deco blocks make some chests old chests
+-Put texturing on the airplane
+
+- When adding new deco blocks, put some chests old chests
 
 - Write down and put lore book in new zombie lab structure and a lore book in existing military structure
 
