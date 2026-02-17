@@ -8,12 +8,9 @@
 - [ ] Make 7dtm bandist stop despawning
   - [ ] needs testing
   - [ ] complete
-   - [ ] Ant SkyBase Mechanic
+   - [ ] Anti SkyBase Mechanic
   - [ ] needs testng
   - [ ] Complete  
-- [ ] "Better placement" issue
-  - [ ] needs testing
-  - [ ] complete
 - [ ] Rebalance 7dtm
   - [ ] needs testing
   - [ ] complete
@@ -157,7 +154,5 @@ Not done yet but Idea for new custom decoration props to be made into a mod for 
 - Test hordes still work after srp updates as well
 
 - A rare spawn, armored truck with soldiers being attacked by basic parasites
-
-- I should adjust the existing plane to make it look more like it crashed then a poorly buried plane that is intact
 
 
