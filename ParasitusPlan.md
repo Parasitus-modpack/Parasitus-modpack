@@ -8,6 +8,9 @@
 - [ ] Make 7dtm bandist stop despawning
   - [ ] needs testing
   - [ ] complete
+   - [ ] Ant SkyBase Mechanic
+  - [ ] needs testng
+  - [ ] Complete  
 - [ ] "Better placement" issue
   - [ ] needs testing
   - [ ] complete
@@ -47,6 +50,13 @@ the damage done by all 7dtm blocks and tools are too OP
 - [ ] Barbed wire
 - [ ] Auger
 - [ ] Others?
+
+
+-If your y level is 163 blocks or higher, techgun attack helicopter spawn
+
+The message appears "Restricted altitude exceeded. Intercepting aircraft inbound."
+
+If player goes below 162 it despawns
 
 **Techguns CE**
 copy items/code from CE for the modpack
