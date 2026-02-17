@@ -8,9 +8,6 @@
 - [ ] Make 7dtm bandist stop despawning
   - [ ] needs testing
   - [ ] complete
-- [ ] "Better placement" issue
-  - [ ] needs testing
-  - [ ] complete
 - [ ] Rebalance 7dtm
   - [ ] needs testing
   - [ ] complete
