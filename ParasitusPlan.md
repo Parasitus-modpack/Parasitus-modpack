@@ -8,9 +8,6 @@
 - [ ] Make 7dtm bandist stop despawning
   - [ ] needs testing
   - [ ] complete
-- [ ] "Better placement" issue
-  - [ ] needs testing
-  - [ ] complete
 - [ ] Rebalance 7dtm
   - [ ] needs testing
   - [ ] complete
@@ -49,11 +46,137 @@ the damage done by all 7dtm blocks and tools are too OP
 - [ ] Others?
 
 
--If your y level is 163 blocks or higher, techgun attack helicopter spawn
+**Anti Skybase**
+-If player passes Y level 163 they get the message "Parasites become MORE dangerous if you build a home too far in the sky." (This message stops appearing after it shows up for the player 3 times)
+-If a player is higher then Y level 163 when a hoard night appears but no ground or water can be found for a valid spawn area, the hoard type will switch to "invasion_stage_air"
 
-The message appears "Restricted altitude exceeded. Intercepting aircraft inbound."
+(Hoards come from this mod: https://www.curseforge.com/minecraft/mc-mods/hostile-worlds-monsters | My hoard file setup can be found in config->CoroUtil->Data->Templates->actions->mob_spawns.json | The mod already tracks hoards per player and rotate between hoards I made in mob_spawns.json file, you just need to make the mod use a specific hoard type)
 
-If player goes below 162 it despawns
+Here is the hoard type set up it should switch to. I think you will have to replace "Condition": "random" with a condition name that matches air, line 65
+{
+      "name": "invasion_stage_3_air",
+      "wave_message": "§cA flying hoard comes to take you down",
+      "conditions": [
+        {
+          "condition": "invasion_number",
+          "min": 3
+        },
+        {
+          "condition": "random",
+          "weight": 10
+        }
+      ],
+      "spawns": [
+        {
+          "entities": [
+            "srparasites:bomber_light"
+          ],
+          "count": 3,
+          "count_max": 5,
+          "count_difficulty_multiplier": 2,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_miner"
+            },
+            {
+              "cmod": "template",
+              "template": "boringvanilla"
+            }
+          ]
+        },
+{
+          "entities": [
+            "srparasites:carrier_flying"
+          ],
+          "count": 4,
+          "count_max": 8,
+          "count_difficulty_multiplier": 2,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_soldier"
+            },
+            {
+              "cmod": "template",
+              "template": "boringvanilla"
+            }
+          ]
+        },
+{
+          "entities": [
+            "srparasites:pri_yelloweye"
+          ],
+          "count": 2,
+          "count_max": 4,
+          "count_difficulty_multiplier": 2,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_soldier"
+            },
+            {
+              "cmod": "template",
+              "template": "boringvanilla"
+            }
+          ]
+        },
+{
+          "entities": [
+            "srparasites:ada_yelloweye"
+          ],
+          "count": 4,
+          "count_max": 6,
+          "count_difficulty_multiplier": 2,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_soldier"
+            },
+            {
+              "cmod": "template",
+              "template": "boringvanilla"
+            }
+          ]
+        },
+{
+          "entities": [
+            "srparasites:bomber_heavy"
+          ],
+          "count": 3,
+          "count_max": 5,
+          "count_difficulty_multiplier": 2,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_soldier"
+            },
+            {
+              "cmod": "template",
+              "template": "boringvanilla"
+            }
+          ]
+        },
+{
+          "entities": [
+            "srparasites:carrier_flying"
+          ],
+          "count": 3,
+          "count_max": 5,
+          "count_difficulty_multiplier": 2,
+          "cmods": [
+            {
+              "cmod": "template",
+              "template": "invader_soldier"
+            },
+            {
+              "cmod": "template",
+              "template": "boringvanilla"
+            }
+          ]
+        }
+      ]
+    }
 
 **Techguns CE**
 copy items/code from CE for the modpack
