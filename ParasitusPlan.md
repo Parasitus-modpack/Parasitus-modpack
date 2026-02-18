@@ -5,6 +5,9 @@
 **Prioritization marked by numbers**
 
 ### Priority 1
+- [ ] FIX Sevendaystomine zombies spawning in lit areas, the mod did fix this before but it seems something broke the fix.
+  - [ ] needs testing
+  - [ ] complete
 - [ ] Make 7dtm bandist stop despawning
   - [ ] needs testing
   - [ ] complete
@@ -33,8 +36,8 @@
 ---
 ## Detailed Explanation of the Above Points
 
-**Better Placement Mod**
-Fix being able to click seats through doors (While opening doors, was very annoying) caused by "better placement" mod
+**Fix 7dtm zombies spawning in lit areas*
+, the mod did fix this before but it seems something broke the fix.
 
 **Rebalance 7dtm**
 the damage done by all 7dtm blocks and tools are too OP
