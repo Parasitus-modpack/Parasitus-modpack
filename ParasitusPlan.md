@@ -10,9 +10,9 @@
   - [ ] complete
 - [ ] Make 7dtm bandist stop despawning
   - [ ] needs testing
-  - [ ] complete
-- [ ] Rebalance 7dtm
-  - [ ] needs testing
+  - [X] complete
+- [ ] Rebalance 7dtm (Issued listed below)
+  - [X] needs testing
   - [ ] complete
 - [ ] Techgunc CE
   - [ ] needs testing
@@ -36,17 +36,19 @@
 ---
 ## Detailed Explanation of the Above Points
 
-**Fix 7dtm zombies spawning in lit areas*
+**Fix 7dtm zombies spawning in lit areas**
 , the mod did fix this before but it seems something broke the fix.
 
 **Rebalance 7dtm**
 the damage done by all 7dtm blocks and tools are too OP
-- [ ] Flame turret
-- [ ] Metal spikes
-- [ ] Wooden spikes
-- [ ] Barbed wire
-- [ ] Auger
-- [ ] Others?
+- [X] Flame turret
+- [ ] Metal spikes - Your damage change made it kill instantly
+- [ ] Wooden spikes - Your damage change made it kill instantly
+- [ ] Barbed wire - Your damage change made it kill instantly
+- [ ] sevendaystomine:barbedclub - Change from 7 to 15
+- [X] Auger
+- [ ] sevendaystomine:armyknife - Make it do 20 hearts of damage
+- [ ] sevendaystomine:kitchenknife - Make it do 20 hearts of damage
 
 
 **Anti Skybase**
@@ -188,67 +190,6 @@ copy items/code from CE for the modpack
     - I am not exactly sure what the sound issue is in original techguns or if they did directly fix it.
     - **Reference:** [TheSlize/Techguns2-Completion-Update](https://github.com/TheSlize/Techguns2-Completion-Update)
 - [ ] Also take Techgun CE gun HUD ammo ui (each gun has its own art for this part too)
-
-**Animated doors**
-make copies of the modded doors but with animation
-- [ ] PVJ
-  - [x] Willow_door_item
-    - [x] Texture
-    - [x] Animation
-    - [x] CT Recipe
-  - [x] mangrove_door_item
-    - [x] Texture
-    - [x] Animation
-    - [x] CT Recipe
-  - [x] palm_door_item
-    - [x] Texture
-    - [x] Animation
-    - [x] CT Recipe
-  - [x] redwood_door_item
-    - [x] Texture
-    - [x] Animation
-    - [x] CT Recipe
-  - [x] fir_door_item
-    - [x] Texture
-    - [x] Animation
-    - [x] CT Recipe
-  - [x] pine_door_item
-    - [x] Texture
-    - [x] Animation
-    - [x] CT Recipe
-  - [x] aspen_door_item
-    - [x] Texture
-    - [x] Animation
-    - [x] CT Recipe
-  - [x] maple_door_item
-    - [x] Texture
-    - [x] Animation
-    - [x] CT Recipe
-  - [x] baobab_door_item
-    - [x] Texture
-    - [x] Animation
-    - [x] CT Recipe
-  - [x] cottonwood_door_item
-    - [x] Texture
-    - [x] Animation
-    - [x] CT Recipe
-  - [x] juniper_door_item
-    - [x] Texture
-    - [x] Animation
-    - [x] CT Recipe
-  - [x] cherry_blossom_door_item
-    - [x] Texture
-    - [x] Animation
-    - [x] CT Recipe
-  - [x] jacaranda_door_item
-    - [x] Texture
-    - [x] Animation
-    - [x] CT Recipe
-- [x] Techguns
-  - [x] item_bunkerdoor
-    - [x] Texture
-    - [x] Animation
-    - [x] CT Recipe
 
 **Startup Text**
 When the player makes the world and loads in FOR THE FIRST TIME ONLY, a screen will pop up with image and start button:
