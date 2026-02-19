@@ -215,6 +215,8 @@ Not done yet but Idea for new custom decoration props to be made into a mod for 
 
 - When making server file, remove ExtendPolyphonyLimit
 
+- Make simmermen spawn ONLY in the end naturally and MAKE biotite naturally gen in the end
+
 -Put texturing on the airplane
 
 - When adding new deco blocks, put some chests old chests
