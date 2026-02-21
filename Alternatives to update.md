@@ -5,8 +5,13 @@
   - [ ] needs testing
   - [ ] complete
 - [ ] Animated Doors
+  - [ ] textures
   - [ ] needs testing
-  - [X] complete
+  - [ ] complete
+- [ ] Tiered pipes
+  - [ ] needs testing
+  - [ ] recipes
+  - [ ] complete
 
 ** details about the a list
 
@@ -49,3 +54,16 @@ make copies of the modded doors but with animation
     - [ ] Texture
     - [ ] Animation
     - [ ] CT Recipe
+**Tiered pipes**
+Use the rf pipes to make a 2. tier of pipes that has unlimited energy capacity
+use a config option to alter between these pipes and the version curently being used in the modpack
+- [ ] pipe_quartz_rf
+  - [ ] alternative recipe
+- [ ] pipe_iron_rf
+  - [ ] alternative recipe
+- [ ] pipe_gold_rf
+  - [ ] alternative recipe
+- [ ] pipe_sandstone_rf
+  - [ ] alternative recipe
+- [ ] pipe_diamond_rf
+  - [ ] alternative recipe
