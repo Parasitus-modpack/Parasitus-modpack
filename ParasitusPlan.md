@@ -62,7 +62,7 @@ the damage done by all 7dtm blocks and tools are too OP
 - [X] Auger
 - [ ] sevendaystomine:armyknife - Make it do 20 hearts of damage
 - [ ] sevendaystomine:kitchenknife - Make it do 20 hearts of damage
-- [ ] Make this the default for bleeding in the config "Total accumulated damage needed to trigger bleedingD:sumThreshold=6.0"
+- [ ] Make this the default for bleeding in the config "Total accumulated damage needed to trigger bleedingD:sumThreshold=7.0" and " I:damageIntervalTicks=40"
 - [ ] Make 7dtm bandage have a 1 sec cooldown between click use so you cant spam use them and accidentally use them all
 
 
