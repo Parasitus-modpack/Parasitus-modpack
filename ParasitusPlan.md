@@ -13,8 +13,10 @@
   
 - Make 7dtm bandist stop despawning
   - [X] complete
-  
-  
+
+- [ ] Make a parasite ender dragon spawn once the normal one dies "srparasites:sim_dragone"
+  - [ ] needs testing
+  - [ ] complete
   
 - [ ] Rebalance 7dtm (Issued listed below)
   - [X] needs testing
@@ -22,6 +24,10 @@
 
 - [ ] Anti Skybase
   - [X] needs testing (Issued listed below)
+  - [ ] complete
+
+- [ ]Replace end stronghold (Do you want to code ender eyes to go to my structure or do I give you nbt to replace vanilla stronghold?)
+  - [ ] needs testing
   - [ ] complete
   
 - [ ] Techgunc CE
@@ -58,6 +64,10 @@ the damage done by all 7dtm blocks and tools are too OP
 - [ ] sevendaystomine:kitchenknife - Make it do 20 hearts of damage
 - [ ] Make this the default for bleeding in the config "Total accumulated damage needed to trigger bleedingD:sumThreshold=6.0"
 - [ ] Make 7dtm bandage have a 1 sec cooldown between click use so you cant spam use them and accidentally use them all
+
+
+  **Ender Eyes goes to my structure with end portal**
+  (Do you want to code ender eyes to go to my structure or do I give you nbt to replace vanilla stronghold?)
   
 
 **Anti Skybase** 
