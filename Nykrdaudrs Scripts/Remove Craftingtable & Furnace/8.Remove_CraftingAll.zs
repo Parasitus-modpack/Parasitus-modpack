@@ -596,6 +596,7 @@ recipes.removeByRecipeName("techguns:camonet_top_0");
 recipes.removeByRecipeName("techguns:camonet_0");
 recipes.removeByRecipeName("techguns:simplemachine2_9_armor_bench");
 recipes.removeByRecipeName("techguns:simplemachine11_blast_furnace");
+recipes.removeByRecipeName("techguns:simplemachine_11_blast_furnace");
 //============================================================================================================================================================================================
 //AMMO etc
 recipes.removeByRecipeName("techguns:itemshared_0_stonebullets");
@@ -638,6 +639,8 @@ recipes.removeByRecipeName("techguns:aug");
 recipes.removeByRecipeName("techguns:advanced_shield");
 recipes.removeByRecipeName("techguns:m4_infiltrator_alt");
 recipes.removeByRecipeName("techguns:m4_infiltrator");
+recipes.removeByRecipeName("techguns:multiblockmachine_4_reactionchamber_glass");
+recipes.removeByRecipeName("techguns:multiblockmachine_5_reactionchamber_controller");
 //============================================================================================================================================================================================
 //MISC
 recipes.removeByRecipeName("techguns:itemshared_60_heavycloth");
@@ -688,6 +691,7 @@ recipes.removeByRecipeName("techguns:laserpistol");
 recipes.removeByRecipeName("techguns:laserpistol_alt");
 recipes.removeByRecipeName("techguns:gaussrifle");
 recipes.removeByRecipeName("techguns:gaussrifle_alt");
+recipes.removeByRecipeName("techguns:simplemachine_8_camo_bench");
 
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
@@ -916,6 +920,7 @@ recipes.removeByRecipeName("openblocks:canvas_0");
 recipes.removeByRecipeName("openblocks:miracle_magnet_1");
 recipes.removeByRecipeName("openblocks:miracle_magnet_0");
 recipes.removeByRecipeName("openblocks:xp_bottler_0");
+recipes.removeByRecipeName("openblocks:ladder_0")
 //============================================================================================================================================================================================
 //REMOVE
 recipes.removeByRecipeName("openblocks:sponge_0");

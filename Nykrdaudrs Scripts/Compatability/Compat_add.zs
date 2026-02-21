@@ -332,7 +332,8 @@ oreDict.candle.add(<quark:candle:0>, <quark:candle:1>, <quark:candle:2>, <quark:
 oreDict.bows.add(<sevendaystomine:compound_bow>, <sevendaystomine:crude_bow>, <minecraft:bow>, <spartanweaponry:longbow_wood>, <spartanweaponry:longbow_leather>, <spartanweaponry:longbow_iron>, <spartanweaponry:longbow_diamond>, <spartanweaponry:longbow_copper>);
 oreDict.ink.add(<minecraft:dye:0>, <oe:glow_ink_sac>);
 oreDict.leather.add(<techguns:itemshared:77>);
-
+oreDict.trapdoorWood. add(<malisisdoors:trapdoor_acacia>, <malisisdoors:trapdoor_birch>, <malisisdoors:trapdoor_dark_oak>, <malisisdoors:trapdoor_jungle>, <malisisdoors:trapdoor_spruce>, <pvj:willow_trapdoor>, <pvj:mangrove_trapdoor>, <pvj:palm_trapdoor>, <pvj:redwood_trapdoor>, <pvj:fir_trapdoor>, <pvj:pine_trapdoor>, <pvj:aspen_trapdoor>, <pvj:maple_trapdoor>, <pvj:baobab_trapdoor>, <pvj:cottonwood_trapdoor>, <pvj:juniper_trapdoor>, <pvj:cherry_blossom_trapdoor>, <pvj:jacaranda_trapdoor>);
+oreDict.ladder.add(<minecraft:ladder>, <sevendaystomine:metal_ladder>, <malisisdoors:rustyladder>, <openblocks:rope_ladder>, <techguns:ladder:*>, <techguns:slimyladder>);
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
 //ADD CHISEL GROUPS

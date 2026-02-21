@@ -12,6 +12,30 @@ recipes.addShaped("wet_adobe", <pvj:wet_adobe> * 9, [[<minecraft:clay>, <ore:san
 recipes.addShapeless("slime_droplets", <pvj:slime_droplet> * 9, [<minecraft:slime_ball>]);
 recipes.addShaped("redwood_bark", <pvj:redwood_bark:0>, [[<pvj:log_redwood:0>, <pvj:log_redwood:0>, <pvj:log_redwood:0>], [<pvj:log_redwood:0>, <pvj:log_redwood:0>, <pvj:log_redwood:0>], [<pvj:log_redwood:0>, <pvj:log_redwood:0>, <pvj:log_redwood:0>]]);
 recipes.addShapeless("redwood_log_from_bark", <pvj:log_redwood:0> * 9, [<pvj:redwood_bark:0>]);
+recipes.addShaped("leaf_carpet_1", <pvj:fallen_leaves_oak> * 3, [[<]]
+recipes.addShaped("leaf_carpet_2", <pvj:fallen_leaves_birch>
+recipes.addShaped("leaf_carpet_3", <pvj:fallen_leaves_spruce>
+recipes.addShaped("leaf_carpet_4", <pvj:fallen_leaves_jungle>
+recipes.addShaped("leaf_carpet_5", <pvj:fallen_leaves_darkoak>
+recipes.addShaped("leaf_carpet_6", <pvj:fallen_leaves_acacia>
+recipes.addShaped("leaf_carpet_7", <pvj:fallen_leaves_dead>
+recipes.addShaped("leaf_carpet_8", <pvj:fallen_leaves_willow>
+recipes.addShaped("leaf_carpet_9", <pvj:fallen_leaves_mangrove>
+recipes.addShaped("leaf_carpet_10", <pvj:fallen_leaves_palm>
+recipes.addShaped("leaf_carpet_11", <pvj:fallen_leaves_redwood>
+recipes.addShaped("leaf_carpet_12", <pvj:fallen_leaves_fir>
+recipes.addShaped("leaf_carpet_13", <pvj:fallen_leaves_pine>
+recipes.addShaped("leaf_carpet_14", <pvj:fallen_leaves_aspen>
+recipes.addShaped("leaf_carpet_15", <pvj:fallen_leaves_red_maple>
+recipes.addShaped("leaf_carpet_16", <pvj:fallen_leaves_orange_mapple>
+recipes.addShaped("leaf_carpet_17", <pvj:fallen_leaves_baobab>
+recipes.addShaped("leaf_carpet_18", <pvj:fallen_leaves_cottonwood>
+recipes.addShaped("leaf_carpet_19", <pvj:fallen_leaves_juniper>
+recipes.addShaped("leaf_carpet_20", <pvj:fallen_leaves_juniper_berried>
+recipes.addShaped("leaf_carpet_21", <pvj:fallen_leaves_white_cherry_blossom>
+recipes.addShaped("leaf_carpet_22", <pvj:fallen_leaves_pink_cherry_blossom>
+recipes.addShaped("leaf_carpet_23", <pvj:fallen_leaves_jacaranda>
+
 //============================================================================================================================================================================================
 //CORALREEF
 recipes.addShapeless("coral_blocks", <coralreef:reef:0> * 5, [<oe:purple_coral_block>, <oe:blue_coral_block>, <oe:yellow_coral_block>, <oe:red_coral_block>, <oe:pink_coral_block>]);

@@ -5,8 +5,10 @@
 
 
 
-recipes.addShapedMirrored("pole", <spartanweaponry:material:1> * 4, [[<minecraft:stick>, <minecraft:stick>, <minecraft:stick>], [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>], [<minecraft:stick>, <minecraft:stick>, <ore:wool>]]);
-recipes.addShapedMirrored("handle", <spartanweaponry:material:0> * 4, [[<minecraft:stick>, <minecraft:stick>, <minecraft:stick>], [<minecraft:stick>, <ore:wool>, null]]);
+recipes.addShapedMirrored("pole_1", <spartanweaponry:material:1> * 4, [[<minecraft:stick>, <minecraft:stick>, <minecraft:stick>], [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>], [<minecraft:stick>, <minecraft:stick>, <ore:wool>]]);
+recipes.addShapedMirrored("pole_2", <spartanweaponry:material:1>, [[<minecraft:stick>, null, null], [<minecraft:stick>, <sevendaystomine:plantfiber>, null], [<minecraft:stick>, null, null]]);
+recipes.addShapedMirrored("handle_1", <spartanweaponry:material:0> * 4, [[<minecraft:stick>, <minecraft:stick>, <minecraft:stick>], [<minecraft:stick>, <ore:wool>, null]]);
+recipes.addShapeless("handle_2", <spartanweaponry:material:0>, [<minecraft:stick>, <sevendaystomine:plantfiber>]);
 recipes.addShaped("caestus", <spartanweaponry:caestus>, [[<techguns:itemshared:60>, <ore:wool>]]);
 recipes.addShaped("arrow_quiver", <spartanweaponry:quiver_arrow>, [[<ore:leather>, <sevendaystomine:plantfiber>, <ore:leather>], [<ore:leather>, <ore:spartanweaponry:arrows>, <ore:leather>], [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
 recipes.addShapedMirrored("dynamite", <spartanweaponry:dynamite> * 2, [[null, <minecraft:paper>, <minecraft:string>], [<minecraft:paper>, <spartanweaponry:material:2>, <minecraft:paper>], [<spartanweaponry:material:2>, <minecraft:paper>, null]]);
@@ -99,7 +101,7 @@ recipes.addShapedMirrored("wooden_quarterstaff", <spartanweaponry:staff>, [[null
 recipes.addShaped("wooden_arrow", <spartanweaponry:arrow_wood> * 4, [[<sevendaystomine:woodplank>], [<minecraft:stick>], [<minecraft:feather>]]);
 //============================================================================================================================================================================================
 //STONE
-recipes.addShaped("stone_dagger", <spartanweaponry:dagger_stone>, [[<ore:stonesCobble>], [<spartanweaponry:material:9>]]);
+recipes.addShaped("stone_dagger", <spartanweaponry:dagger_stone>, [[<ore:stonesCobble>], [<spartanweaponry:material:0>]]);
 recipes.addShapedMirrored("stone_parrying_dagger", <spartanweaponry:parrying_dagger_stone>, [[null, <ore:stonesCobble>, null], [<ore:stonesCobble>, <spartanweaponry:material:0>, null]]);
 recipes.addShaped("stone_longsword", <spartanweaponry:longsword_stone>, [[null, <ore:stonesCobble>, null], [null, <ore:stonesCobble>, null], [<ore:stonesCobble>, <spartanweaponry:material:0>, <ore:stonesCobble>]]);
 recipes.addShapedMirrored("stone_katana", <spartanweaponry:katana_stone>, [[null, null, <ore:stonesCobble>], [null, <ore:stonesCobble>, null], [<spartanweaponry:material:0>, null, null]]);
