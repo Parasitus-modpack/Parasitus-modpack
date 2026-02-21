@@ -920,7 +920,7 @@ recipes.removeByRecipeName("openblocks:canvas_0");
 recipes.removeByRecipeName("openblocks:miracle_magnet_1");
 recipes.removeByRecipeName("openblocks:miracle_magnet_0");
 recipes.removeByRecipeName("openblocks:xp_bottler_0");
-recipes.removeByRecipeName("openblocks:ladder_0")
+recipes.removeByRecipeName("openblocks:ladder_0");
 //============================================================================================================================================================================================
 //REMOVE
 recipes.removeByRecipeName("openblocks:sponge_0");
