@@ -14,6 +14,8 @@
 - Make 7dtm bandist stop despawning
   - [X] complete
   
+  
+  
 - [ ] Rebalance 7dtm (Issued listed below)
   - [X] needs testing
   - [ ] complete
@@ -55,6 +57,8 @@ the damage done by all 7dtm blocks and tools are too OP
 - [ ] sevendaystomine:armyknife - Make it do 20 hearts of damage
 - [ ] sevendaystomine:kitchenknife - Make it do 20 hearts of damage
 - [ ] Make this the default for bleeding in the config "Total accumulated damage needed to trigger bleedingD:sumThreshold=6.0"
+- [ ] Make 7dtm bandage have a 1 sec cooldown between click use so you cant spam use them and accidentally use them all
+  
 
 **Anti Skybase** 
 ISSUE: I could not get our air hoard to trigger, I also tested command /coroutil testProfile invasion_stage_air and /coroutil testSpawn invasion_stage_air, the mod could not find the template. You can configure hordes to happen everyday in hostileworld config folder
@@ -217,7 +221,7 @@ Not done yet but Idea for new custom decoration props to be made into a mod for 
 
 - Make simmermen spawn ONLY in the end naturally and MAKE biotite naturally gen in the end
 
--Put texturing on the airplane
+- Put texturing on the airplane
 
 - When adding new deco blocks, put some chests old chests
 
