@@ -109,6 +109,7 @@ recipes.addShaped("fermented_spider_eye", <minecraft:fermented_spider_eye>, [[<m
 recipes.addShapedMirrored("lead_0", <minecraft:lead> * 2, [[<minecraft:string>, <minecraft:string>, null], [<minecraft:string>, <minecraft:slime_ball>, null], [null, null, <minecraft:string>]]);
 recipes.addShapedMirrored("lead_1", <minecraft:lead> * 2, [[<sevendaystomine:plantfiber>, <sevendaystomine:plantfiber>, null], [<sevendaystomine:plantfiber>, <minecraft:slime_ball>, null], [null, null, <sevendaystomine:plantfiber>]]);
 recipes.addShapedMirrored("fishing_rod", <minecraft:fishing_rod>, [[null, null, <minecraft:stick>], [null, <minecraft:stick>, <sevendaystomine:plantfiber>], [<minecraft:stick>, null, <sevendaystomine:plantfiber>]]);
+recipes.addShaped("sticks", <minecraft:stick> * 4, [[<sevendaystomine:woodplank>], [<sevendaystomine:woodplank>]]);
 //============================================================================================================================================================================================
 //OREREG
 recipes.addShaped("bookshelf", <minecraft:bookshelf>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:book>, <ore:book>, <ore:book>], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);

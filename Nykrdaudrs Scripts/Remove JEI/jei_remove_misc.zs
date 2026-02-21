@@ -377,6 +377,7 @@ mods.jei.JEI.removeAndHide(<techguns:alienblaster>, false);
 mods.jei.JEI.removeAndHide(<techguns:nucleardeathray>, false);
 mods.jei.JEI.removeAndHide(<techguns:gaussrifle>, false);
 mods.jei.JEI.removeAndHide(<techguns:laserpistol>, false);
+mods.jei.JEI.removeAndHide(<techguns:simplemachine:8>);
 //============================================================================================================================================================================================
 //PROJECT VIBRANT JOURNEY
 mods.jei.JEI.removeAndHide(<pvj:mystical_porkchop>);
@@ -423,6 +424,41 @@ mods.jei.JEI.removeAndHide(<openblocks:sprinkler>);
 mods.jei.JEI.removeAndHide(<openblocks:cannon>);
 mods.jei.JEI.removeAndHide(<openblocks:vacuum_hopper>);
 mods.jei.JEI.removeAndHide(<openblocks:sponge>);
+//============================================================================================================================================================================================
+mods.jei.JEI.removeAndHide(<openblocks:fan>);
+mods.jei.JEI.removeAndHide(<openblocks:block_breaker>);
+mods.jei.JEI.removeAndHide(<openblocks:block_placer>);
+mods.jei.JEI.removeAndHide(<openblocks:item_dropper>);
+mods.jei.JEI.removeAndHide(<openblocks:donation_station>);
+mods.jei.JEI.removeAndHide(<openblocks:projector>);
+mods.jei.JEI.removeAndHide(<openblocks:hang_glider>);
+mods.jei.JEI.removeAndHide(<openblocks:generic:0>);
+mods.jei.JEI.removeAndHide(<openblocks:generic:1>);
+mods.jei.JEI.removeAndHide(<openblocks:generic:2>);
+mods.jei.JEI.removeAndHide(<openblocks:generic:3>);
+mods.jei.JEI.removeAndHide(<openblocks:generic:4>);
+mods.jei.JEI.removeAndHide(<openblocks:generic:5>);
+mods.jei.JEI.removeAndHide(<openblocks:generic:6>);
+mods.jei.JEI.removeAndHide(<openblocks:generic:7>);
+mods.jei.JEI.removeAndHide(<openblocks:generic:9>);
+mods.jei.JEI.removeAndHide(<openblocks:luggage>);
+mods.jei.JEI.removeAndHide(<openblocks:crane_control>);
+mods.jei.JEI.removeAndHide(<openblocks:crane_backpack>);
+mods.jei.JEI.removeAndHide(<openblocks:sleeping_bag>);
+mods.jei.JEI.removeAndHide(<openblocks:empty_map>.withTag({Scale: 0 as byte}));
+mods.jei.JEI.removeAndHide(<openblocks:empty_map>.withTag({Scale: 1 as byte}));
+mods.jei.JEI.removeAndHide(<openblocks:empty_map>.withTag({Scale: 2 as byte}));
+mods.jei.JEI.removeAndHide(<openblocks:empty_map>.withTag({Scale: 3 as byte}));
+mods.jei.JEI.removeAndHide(<openblocks:cartographer>);
+mods.jei.JEI.removeAndHide(<openblocks:golden_eye>.withTag({}));
+mods.jei.JEI.removeAndHide(<openblocks:golden_eye:100>.withTag({}));
+mods.jei.JEI.removeAndHide(<openblocks:generic_unstackable:0>);
+mods.jei.JEI.removeAndHide(<openblocks:cursor>);
+mods.jei.JEI.removeAndHide(<openblocks:sponge_on_a_stick>);
+mods.jei.JEI.removeAndHide(<openblocks:pedometer>);
+mods.jei.JEI.removeAndHide(<openblocks:epic_eraser>);
+mods.jei.JEI.removeAndHide(<openblocks:wrench>);
+//============================================================================================================================================================================================
 mods.jei.JEI.removeAndHide(<openblocks:imaginary>.withTag({Uses: 10.0 as float, Mode: 0}));
 mods.jei.JEI.removeAndHide(<openblocks:imaginary:1>.withTag({Uses: 10.0 as float, Color: 1973019, Mode: 0}));
 mods.jei.JEI.removeAndHide(<openblocks:imaginary:1>.withTag({Uses: 10.0 as float, Color: 11743532, Mode: 0}));
@@ -460,39 +496,6 @@ mods.jei.JEI.removeAndHide(<openblocks:crayon_glasses>.withTag({Color: 15790320}
 mods.jei.JEI.removeAndHide(<openblocks:technicolor_glasses>);
 mods.jei.JEI.removeAndHide(<openblocks:serious_glasses>);
 mods.jei.JEI.removeAndHide(<openblocks:pencil_glasses>);
-mods.jei.JEI.removeAndHide(<openblocks:fan>);
-mods.jei.JEI.removeAndHide(<openblocks:block_breaker>);
-mods.jei.JEI.removeAndHide(<openblocks:block_placer>);
-mods.jei.JEI.removeAndHide(<openblocks:item_dropper>);
-mods.jei.JEI.removeAndHide(<openblocks:donation_station>);
-mods.jei.JEI.removeAndHide(<openblocks:projector>);
-mods.jei.JEI.removeAndHide(<openblocks:hang_glider>);
-mods.jei.JEI.removeAndHide(<openblocks:generic:0>);
-mods.jei.JEI.removeAndHide(<openblocks:generic:1>);
-mods.jei.JEI.removeAndHide(<openblocks:generic:2>);
-mods.jei.JEI.removeAndHide(<openblocks:generic:3>);
-mods.jei.JEI.removeAndHide(<openblocks:generic:4>);
-mods.jei.JEI.removeAndHide(<openblocks:generic:5>);
-mods.jei.JEI.removeAndHide(<openblocks:generic:6>);
-mods.jei.JEI.removeAndHide(<openblocks:generic:7>);
-mods.jei.JEI.removeAndHide(<openblocks:generic:9>);
-mods.jei.JEI.removeAndHide(<openblocks:luggage>);
-mods.jei.JEI.removeAndHide(<openblocks:crane_control>);
-mods.jei.JEI.removeAndHide(<openblocks:crane_backpack>);
-mods.jei.JEI.removeAndHide(<openblocks:sleeping_bag>);
-mods.jei.JEI.removeAndHide(<openblocks:empty_map>.withTag({Scale: 0 as byte}));
-mods.jei.JEI.removeAndHide(<openblocks:empty_map>.withTag({Scale: 1 as byte}));
-mods.jei.JEI.removeAndHide(<openblocks:empty_map>.withTag({Scale: 2 as byte}));
-mods.jei.JEI.removeAndHide(<openblocks:empty_map>.withTag({Scale: 3 as byte}));
-mods.jei.JEI.removeAndHide(<openblocks:cartographer>);
-mods.jei.JEI.removeAndHide(<openblocks:golden_eye>.withTag({}));
-mods.jei.JEI.removeAndHide(<openblocks:golden_eye:100>.withTag({}));
-mods.jei.JEI.removeAndHide(<openblocks:generic_unstackable:0>);
-mods.jei.JEI.removeAndHide(<openblocks:cursor>);
-mods.jei.JEI.removeAndHide(<openblocks:sponge_on_a_stick>);
-mods.jei.JEI.removeAndHide(<openblocks:pedometer>);
-mods.jei.JEI.removeAndHide(<openblocks:epic_eraser>);
-mods.jei.JEI.removeAndHide(<openblocks:wrench>);
 //============================================================================================================================================================================================
 mods.jei.JEI.removeAndHide(<openblocks:trophy>);
 mods.jei.JEI.removeAndHide(<openblocks:trophy>.withTag({entity_id: "minecraft:wolf"}));
@@ -547,7 +550,6 @@ mods.jei.JEI.removeAndHide(<openmodularturrets:addon_meta:5>);
 mods.jei.JEI.removeAndHide(<openmodularturrets:usable_meta:0>);
 mods.jei.JEI.removeAndHide(<openmodularturrets:usable_meta:1>);
 mods.jei.JEI.removeAndHide(<openmodularturrets:addon_meta:2>);
-
 //============================================================================================================================================================================================
 //QUARK
 mods.jei.JEI.removeAndHide(<quark:spruce_trapdoor>);
@@ -582,6 +584,5 @@ mods.jei.JEI.removeAndHide(<reccomplex:weighted_command_block>);
 //SPARTAN WEAPONRY
 mods.jei.JEI.removeAndHide(<spartanweaponry:club_wood>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:club_studded>);
-
 //============================================================================================================================================================================================
 //OCEANIC EXPANSE

@@ -13,6 +13,7 @@ recipes.addShaped("xp_drain", <openblocks:xp_drain>, [[<ore:paneIron>, <ore:pane
 recipes.addShaped("bear_trap", <openblocks:beartrap>, [[<ore:paneIron>, <ore:ingotIron>, <ore:paneIron>], [<ore:paneIron>, <ore:ingotIron>, <ore:paneIron>], [<ore:paneIron>, <ore:ingotIron>, <ore:paneIron>]]);
 recipes.addShaped("xp_bottler", <openblocks:xp_bottler>, [[<ore:ingotSteel>, <ore:ingotIron>, <ore:ingotSteel>], [<ore:ingotIron>, <sevendaystomine:emptyjar>, <ore:ingotIron>], [<ore:ingotSteel>, <ore:ingotIron>, <ore:ingotSteel>]]);
 recipes.addShapeless("dev_null", <openblocks:dev_null>, [<ore:stonesCobble>, <minecraft:apple>]);
+recipes.addShapeless("Jaded Ladder", <openblocks:ladder>, [<ore:ladder>, <ore:trapdoorWood>]);
 //============================================================================================================================================================================================
 recipes.addShaped("paintbrush0", <openblocks:paintbrush>, [[null, <minecraft:string>, <ore:woolWhite>], [null, <buildcraftcore:gear_wood>, <minecraft:string>], [<minecraft:stick>, null, null]]);
 recipes.addShapeless("paintbrush1", <openblocks:paintbrush>, [<buildcraftcore:paintbrush:0>]);
