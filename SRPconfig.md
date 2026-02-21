@@ -112,3 +112,9 @@ World:
 "maximum node number" = 2
 "node warning message" = "A strong sense of dread and impending doom overcomes you as you hear a new horrible noise emit from somewhere"
 "maximum colony number" = 2
+
+S:"Evolution Phases Dimension Starting Phase List" <
+        -1;-1;50
+        0;0;0
+        1;2;100
+        270;-1;300
