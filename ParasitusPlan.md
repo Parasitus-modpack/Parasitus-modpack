@@ -14,7 +14,7 @@
 - Make 7dtm bandist stop despawning
   - [X] complete
 
-- [ ] Make a parasite ender dragon spawn once the normal one dies "srparasites:sim_dragone"
+- [ ] Make a parasite ender dragon spawn once the normal one dies "srparasites:sim_dragone" and "srparasites:sim_dragonehead"
   - [ ] needs testing
   - [ ] complete
   
