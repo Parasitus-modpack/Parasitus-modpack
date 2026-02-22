@@ -47,6 +47,6 @@ Ahoh codes ender dragon to be replaced with parasite version
 Add 5 custom End structures, most partly consumed by parasites
 
 Add this mod
-https://www.curseforge.com/minecraft/mc-mods/stygian-end-biome-expansion [DONE]
+https://www.curseforge.com/minecraft/mc-mods/betterendforge-backport [DONE]
 [X] In Progress 
 [ ] Complete
