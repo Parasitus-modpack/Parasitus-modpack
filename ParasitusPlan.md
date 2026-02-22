@@ -32,6 +32,10 @@
   
 - Animated Doors
   - [X] complete
+
+  - Prevent techguns:zombiesoldier from spawning with armor
+  - [ ] needs testing
+  - [ ] complete
   
   - [ ] Startup text (Issued listed below)
 - [X] needs testing
