@@ -122,7 +122,7 @@ Here is the hoard type set up it should switch to. I think you will have to repl
             "srparasites:carrier_flying"
           ],
           "count": 4,
-          "count_max": 8,
+          "count_max": 10,
           "count_difficulty_multiplier": 2,
           "cmods": [
             {
@@ -175,8 +175,8 @@ Here is the hoard type set up it should switch to. I think you will have to repl
           "entities": [
             "srparasites:bomber_heavy"
           ],
-          "count": 3,
-          "count_max": 5,
+          "count": 1,
+          "count_max": 2,
           "count_difficulty_multiplier": 2,
           "cmods": [
             {
@@ -194,7 +194,7 @@ Here is the hoard type set up it should switch to. I think you will have to repl
             "srparasites:carrier_flying"
           ],
           "count": 3,
-          "count_max": 5,
+          "count_max": 10,
           "count_difficulty_multiplier": 2,
           "cmods": [
             {
