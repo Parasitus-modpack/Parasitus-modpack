@@ -34,8 +34,12 @@
   - [X] complete
 
   - Prevent techguns:zombiesoldier from spawning with armor
-  - [ ] needs testing
-  - [ ] complete
+- [ ] needs testing
+- [ ] complete
+  
+  - Increase the spawn weight for the Vanilla Zombie and Vanilla Husk mob by a decent bit, however have the amount decrease to the normal spawn weight amount once Scape And Run Parasites reaches Phase 4
+- [ ] needs testing
+- [ ] complete
   
   - [ ] Startup text (Issued listed below)
 - [X] needs testing
