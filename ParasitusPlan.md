@@ -30,17 +30,23 @@
   - [ ] needs testing
   - [ ] complete
   
-- [ ] Techgunc CE
-  - [ ] needs testing
-  - [ ] complete
-  
 - Animated Doors
   - [X] complete
+  
+  - [ ] Startup text (Issued listed below)
+- [X] needs testing
+- [ ] complete
 
 ### Priority 2
-- [ ] Startup text (Issued listed below)
-  - [X] needs testing
-  - [ ] complete
+- [ ]Doors are turning into other items again
+- [ ] needs testing
+- [ ] complete
+  
+  
+  - [ ] Techguns CE
+- [ ] needs testing
+- [ ] complete
+  
 
 ### Priority3
 - [ ] City Generation
