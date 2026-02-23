@@ -46,11 +46,10 @@
 - [ ] complete
 
 ### Priority 2
-- [ ]Doors are turning into other items again
+  - [ ]Doors are turning into other items again 
 - [ ] needs testing
 - [ ] complete
-  
-  
+
   - [ ] Techguns CE
 - [ ] needs testing
 - [ ] complete
@@ -71,21 +70,21 @@ the damage done by all 7dtm blocks and tools are too OP
 - [X] Flame turret
 - [X] Metal spikes - 
 - [X] Wooden spikes - 
-- [ ] Barbed wire - Make the config default barbedWireDamage=2.9
-- [ ] sevendaystomine:barbedclub - Change damage from 7 to 15
+- [X] Barbed wire - Make the config default barbedWireDamage=2.9
+- [X] sevendaystomine:barbedclub - Change damage from 7 to 15
 - [X] Auger
-- [ ] sevendaystomine:armyknife - Make it do 20 hearts of damage
-- [ ] sevendaystomine:kitchenknife - Make it do 20 hearts of damage
-- [ ] Make this the default for bleeding in the config "Total accumulated damage needed to trigger bleedingD:sumThreshold=7.0" and " I:damageIntervalTicks=40"
-- [ ] Make 7dtm bandage have a 1 sec cooldown between click use so you cant spam use them and accidentally use them all
+- [ ] sevendaystomine:armyknife - Make it do 20 hearts of damage - Config is not affecting this weapon
+- [ ] sevendaystomine:kitchenknife - Make it do 20 hearts of damage - Config is not affecting this weapon
+- [X] Make this the default for bleeding in the config "Total accumulated damage needed to trigger bleedingD:sumThreshold=7.0" and " I:damageIntervalTicks=40"
+- [X] Make 7dtm bandage have a 1 sec cooldown between click use so you cant spam use them and accidentally use them all
 
 
   **Ender Eyes goes to my structure with end portal**
-  (Do you want to code ender eyes to go to my structure or do I give you nbt to replace vanilla stronghold?)
+  You have the file!
   
 
 **Anti Skybase** 
-ISSUE: I could not get our air hoard to trigger, I also tested command /coroutil testProfile invasion_stage_air and /coroutil testSpawn invasion_stage_air, the mod could not find the template. You can configure hordes to happen everyday in hostileworld config folder
+ISSUE: I could not get our air hoard to trigger, I also tested command /coroutil testProfile invasion_stage_air and /coroutil testSpawn invasion_stage_air, the mod could not find the template. You can configure hordes to happen everyday in hostileworld config folder. I think the issue is, the mod does not care if there is no valid spawn it still TRIES THE HOARD. You may have to set it up so this hoard template replaces any hoard if player is higher then y 163 (if you cant get the normal way to work)
 
 -If player passes Y level 163 they get the message "Parasites become MORE dangerous if you build a home too far in the sky." (This message stops appearing after it shows up for the player 3 times)
 -If a player is higher then Y level 163 when a hoard night appears but no ground or water can be found for a valid spawn area, the hoard type will switch to "invasion_stage_air"
