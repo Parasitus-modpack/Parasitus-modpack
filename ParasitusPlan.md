@@ -244,8 +244,6 @@ Not done yet but Idea for new custom decoration props to be made into a mod for 
 
 - When adding new deco blocks, put some chests old chests
 
-- Write down and put lore book in new zombie lab structure and a lore book in existing military structure
-
 - Convert the broadcast structure from online to the pack and the 2 giant military ship replacement
 
 - Test hordes still work after srp updates as well
