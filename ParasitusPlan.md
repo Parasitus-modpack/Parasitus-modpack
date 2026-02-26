@@ -77,7 +77,7 @@ the damage done by all 7dtm blocks and tools are too OP
 - [ ] sevendaystomine:kitchenknife - Make it do 20 hearts of damage - Config is not affecting this weapon
 - [X] Make this the default for bleeding in the config "Total accumulated damage needed to trigger bleedingD:sumThreshold=7.0" and " I:damageIntervalTicks=40"
 - [X] Make 7dtm bandage have a 1 sec cooldown between click use so you cant spam use them and accidentally use them all
-
+- [ ]Make it so these 2 mobs cannot despawn: sevendaystomine:soldier and sevendaystomine:survivor
 
   **Ender Eyes goes to my structure with end portal**
   You have the file!
