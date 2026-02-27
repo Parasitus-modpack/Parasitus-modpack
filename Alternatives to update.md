@@ -4,10 +4,6 @@
 - [ ] Ore Processing
   - [ ] needs testing
   - [ ] complete
-- [ ] Animated Doors
-  - [ ] textures
-  - [ ] needs testing
-  - [ ] complete
 - [ ] Tiered pipes
   - [ ] needs testing
   - [ ] recipes
@@ -34,26 +30,7 @@ Make fluids for all the metals, for compatability towards BC Ore Processing
 - [x] Uranium
 - [x] Diamond Steel
 
-**Animated doors**
-make copies of the modded doors but with animation
- - [ ] 7dtm
-  - [ ] woodendooritem
-    - [ ] Texture
-    - [ ] Animation
-    - [ ] CT Recipe
-  - [ ] woodendoorreinforceditem
-    - [ ] Texture
-    - [ ] Animation
-    - [ ] CT Recipe
-  - [ ] wooden_door_iron_reinforced_item
-    - [ ] Texture
-    - [ ] Animation
-    - [ ] CT Recipe
-- [ ] oceanic expance
-  - [ ] palm_door
-    - [ ] Texture
-    - [ ] Animation
-    - [ ] CT Recipe
+
 **Tiered pipes**
 Use the rf pipes to make a 2. tier of pipes that has unlimited energy capacity
 use a config option to alter between these pipes and the version curently being used in the modpack
