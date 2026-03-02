@@ -42,6 +42,13 @@
 - [ ] complete
 
 ### Priority 2
+  - [ ]Fork Overlast https://www.curseforge.com/minecraft/mc-mods/parasites-addon-overlast to make a version of the mod that:
+  1. Has the daily morning broadcasts (Use my overlast jar, in there is a lang file with the broadcasts I wrote)
+  2. Has the visual bar that tells the current Parasite Phase
+  3. Connect the broadcast to https://www.curseforge.com/minecraft/mc-mods/serene-seasons (The broadcast normally talked about current seasons, I will set serene seasons to rotate each season every 10 days. Overlast says it already works with this mod but could not get it to work in my testing)
+- [ ] needs testing
+- [ ] complete
+  
   - [ ]Doors are turning into other items again 
 - [ ] needs testing
 - [ ] complete
