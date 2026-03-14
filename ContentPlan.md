@@ -53,5 +53,5 @@ Add 5 custom End structures, most partly consumed by parasites [DONE]
 Add this mod
 https://www.curseforge.com/minecraft/mc-mods/betterendforge-backport [DONE]
 
-[X] In Progress 
-[ ] Complete
+- [X] In Progress 
+- [ ] Complete
