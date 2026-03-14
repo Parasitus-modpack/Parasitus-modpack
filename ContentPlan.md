@@ -42,16 +42,16 @@
 **End Expansion**
 Make 1 government structure with nether and end portal lit, plus ruined and environmental detail showing parasites went into end dimension [DONE]
 
-Ahoh codes ender eyes to go to this lab
-
-I make parasite progression work in end [DONE]
+<u>Ahoh codes ender eyes to go to this lab</u>
 
 Ahoh codes ender dragon to be replaced with parasite version
 
-Add 5 custom End structures, most partly consumed by parasites [DONE]
+I make parasite progression work in end **[DONE]**
+
+Add 5 custom End structures, most partly consumed by parasites **[DONE]**
 
 Add this mod
-https://www.curseforge.com/minecraft/mc-mods/betterendforge-backport [DONE]
+https://www.curseforge.com/minecraft/mc-mods/betterendforge-backport **[DONE]**
 
 - [X] In Progress 
 - [ ] Complete
