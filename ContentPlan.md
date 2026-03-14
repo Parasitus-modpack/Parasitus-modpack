@@ -4,8 +4,8 @@
 [X] Always in progress
 
 **Update to latest Scape & Run Parasite version once a stable version releases**
-[ ] Testing 
-[ ] Complete 
+  - [ ] Testing 
+  - [ ] Complete 
 
 
 **Custom Animations**
