@@ -5,14 +5,6 @@
 **Prioritization marked by numbers**
 
 ### Priority 1
-- FIX Sevendaystomine zombies spawning in lit areas
-  - [X] complete
-
-- FIX Sevendaystomine zombies spawning in the End Dimension
-  - [X] complete
-  
-- Make 7dtm bandist stop despawning
-  - [X] complete
 
 - [ ] Make a parasite ender dragon spawn once the normal one dies "srparasites:sim_dragone" and "srparasites:sim_dragonehead"
   - [ ] needs testing
@@ -66,10 +58,6 @@ sevendaystomine:reanimated_corpse
 sevendaystomine:infected_survivor
 sevendaystomine:plagued_nurse
 
-
-- Animated Doors
-  - [X] complete
-
   - Increase the spawn weight for the Vanilla Zombie and Vanilla Husk mob by a decent bit, however have the amount decrease to the normal spawn weight amount once Scape And Run Parasites reaches Phase 4
 - [ ] needs testing
 - [ ] complete
@@ -106,20 +94,7 @@ sevendaystomine:plagued_nurse
 ## Detailed Explanation of the Above Points
 
 **Rebalance 7dtm**
-the damage done by all 7dtm blocks and tools are too OP
-- [X] Flame turret
-- [X] Metal spikes - 
-- [X] Wooden spikes - 
-- [X] Barbed wire - Make the config default barbedWireDamage=2.9
-- [X] sevendaystomine:barbedclub - Change damage from 7 to 15
-- [X] Auger
-- [X] sevendaystomine:armyknife - Make it do 20 hearts of damage - Config is not affecting this weapon
-- [X] sevendaystomine:kitchenknife - Make it do 20 hearts of damage - Config is not affecting this weapon
-- [X] sevendaystomine:sledgehammer - Make it do 20 damage
-- [X] sevendaystomine:machete - Make it do 20 damage
-- [X] Make this the default for bleeding in the config "Total accumulated damage needed to trigger bleedingD:sumThreshold=7.0" and " I:damageIntervalTicks=40"
-- [X] Make 7dtm bandage have a 1 sec cooldown between click use so you cant spam use them and accidentally use them all
-- [X]Make it so these 2 mobs cannot despawn: sevendaystomine:soldier and sevendaystomine:survivor
+- [X] Auger - Nerf damage AGAIN to 20 instead of 50
 
   **Ender Eyes goes to my structure with end portal**
   You have the file!
