@@ -9,6 +9,10 @@
 - [ ] Make a parasite ender dragon spawn once the normal one dies "srparasites:sim_dragone" and "srparasites:sim_dragonehead"
   - [ ] needs testing
   - [ ] complete
+
+- [ ] 7dtm Auger nerf
+  - [ ] needs testing
+  - [ ] complete
   
 - [ ] Anti Skybase
   - [X] needs testing (Issued listed below)
