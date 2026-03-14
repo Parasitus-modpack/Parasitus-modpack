@@ -1,71 +1,39 @@
-<details> <summary>Enemy Entity List</summary>
+<details>
+<summary>Enemy Entity List</summary>
 
-sevendaystomine:survivor
-
-sevendaystomine:soldier
-
-sevendaystomine:bandit
-
-minecraft:zombie
-
-techguns:armysoldier
-
-techguns:zombiesoldier
-
-techguns:zombie_policeman
-
-srparasites:rupter
-
-srparasites:sim_bigspider
-
-srparasites:heed
-
-srparasites:fer_bear
-
-srparasites:sim_bear
-
-srparasites:fer_human
-
-srparasites:sim_human
-
-srparasites:crux
-
-srparasites:sim_adventurer
-
-srparasites:ada_longarms
-
-srparasites:pri_longarms
-
-rparasites:ada_reeker
-
-srparasites:thrall
-
-srparasites:ada_reeker
-
-srparasites:ada_bolster
-
-srparasites:gnat
-
-srparasites:hi_skeleton
-
-srparasites:mangler
-
-srparasites:vigilante
-
-sevendaystomine:bloated_zombie
-
-sevendaystomine:blind_zombie
-
-sevendaystomine:zombie_crawler
-
-cyberware:cyberzombie
-
-techguns:commando
-
-sevendaystomine:reanimated_corpse
-
-sevendaystomine:infected_survivor
-
-sevendaystomine:plagued_nurse
+1. sevendaystomine:survivor
+2. sevendaystomine:soldier
+3. sevendaystomine:bandit
+4. minecraft:zombie
+5. techguns:armysoldier
+6. techguns:zombiesoldier
+7. techguns:zombie_policeman
+8. srparasites:rupter
+9. srparasites:sim_bigspider
+10. srparasites:heed
+11. srparasites:fer_bear
+12. srparasites:sim_bear
+13. srparasites:fer_human
+14. srparasites:sim_human
+15. srparasites:crux
+16. srparasites:sim_adventurer
+17. srparasites:ada_longarms
+18. srparasites:pri_longarms
+19. rparasites:ada_reeker
+20. srparasites:thrall
+21. srparasites:ada_reeker
+22. srparasites:ada_bolster
+23. srparasites:gnat
+24. srparasites:hi_skeleton
+25. srparasites:mangler
+26. srparasites:vigilante
+27. sevendaystomine:bloated_zombie
+28. sevendaystomine:blind_zombie
+29. sevendaystomine:zombie_crawler
+30. cyberware:cyberzombie
+31. techguns:commando
+32. sevendaystomine:reanimated_corpse
+33. sevendaystomine:infected_survivor
+34. sevendaystomine:plagued_nurse
 
 </details>
