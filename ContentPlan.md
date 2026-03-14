@@ -42,9 +42,9 @@
 **End Expansion**
 Make 1 government structure with nether and end portal lit, plus ruined and environmental detail showing parasites went into end dimension [DONE]
 
-<u>Ahoh codes ender eyes to go to this lab</u>
+***-Ahoh codes ender eyes to go to this lab-***
 
-Ahoh codes ender dragon to be replaced with parasite version
+***-Ahoh codes ender dragon to be replaced with parasite version-***
 
 I make parasite progression work in end **[DONE]**
 
