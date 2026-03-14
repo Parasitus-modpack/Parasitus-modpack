@@ -1,5 +1,5 @@
 <details>
-<summary>Enemy Entity List</summary>
+<summary>Entity ID list</summary>
 
 1. sevendaystomine:survivor
 2. sevendaystomine:soldier
