@@ -72,7 +72,7 @@ sevendaystomine:plagued_nurse
   - [ ] needs testing
   - [ ] complete
   
-- [ ]Doors are turning into other items again 
+- [ ] Doors are turning into other items again 
   - [ ] needs testing
   - [ ] complete
 
