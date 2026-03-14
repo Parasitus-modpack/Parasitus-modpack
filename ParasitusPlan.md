@@ -18,7 +18,7 @@
   - [ ] needs testing
   - [ ] complete
 
-- [ ]All mobs can open doors & go through currently in the code, bc in 1.12.2 normally thats not possible. Make it so only these mobs can go through (So chickens arent going through doors lol)
+- [ ] All mobs can open doors & go through currently in the code, bc in 1.12.2 normally thats not possible. Make it so only these mobs can go through (So chickens arent going through doors lol)
 sevendaystomine:survivor
 sevendaystomine:soldier
 sevendaystomine:bandit
@@ -54,11 +54,11 @@ sevendaystomine:reanimated_corpse
 sevendaystomine:infected_survivor
 sevendaystomine:plagued_nurse
 
-  - [ ] Increase the spawn weight for the Vanilla Zombie and Vanilla Husk mob by a decent bit, however have the amount decrease to the normal spawn weight amount once Scape And Run Parasites reaches Phase 4
+- [ ] Increase the spawn weight for the Vanilla Zombie and Vanilla Husk mob by a decent bit, however have the amount decrease to the normal spawn weight amount once Scape And Run Parasites reaches Phase 4
 - [ ] needs testing
 - [ ] complete
   
-  - [ ] Startup text (Issued listed below)
+- [ ] Startup text (Issued listed below)
 - [X] needs testing
 - [ ] complete
 
