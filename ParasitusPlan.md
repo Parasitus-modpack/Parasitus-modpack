@@ -10,10 +10,6 @@
   - [ ] needs testing
   - [ ] complete
   
-- [ ] Rebalance 7dtm (Issued listed below)
-  - [X] needs testing
-  - [ ] complete
-
 - [ ] Anti Skybase
   - [X] needs testing (Issued listed below)
   - [ ] complete
@@ -94,7 +90,7 @@ sevendaystomine:plagued_nurse
 ## Detailed Explanation of the Above Points
 
 **Rebalance 7dtm**
-- [X] Auger - Nerf damage AGAIN to 20 instead of 50
+- [ ] Auger - Nerf damage AGAIN to 20 instead of 50
 
   **Ender Eyes goes to my structure with end portal**
   You have the file!
