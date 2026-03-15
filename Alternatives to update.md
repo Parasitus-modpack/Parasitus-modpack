@@ -1,15 +1,15 @@
-## alternative items to fix
+# alternative items to fix
 **contains a list of settings that might enhance the modpack, but not required**
 
-- [ ] Ore Processing
+- [ ] **Ore Processing**
   - [ ] needs testing
   - [ ] complete
-- [ ] Tiered pipes
+- [ ] **Tiered pipes**
   - [ ] needs testing
   - [ ] recipes
   - [ ] complete
 
-** details about the a list
+## details about the a list
 
 **Ore Processing**
 Make fluids for all the metals, for compatability towards BC Ore Processing
