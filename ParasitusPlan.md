@@ -102,9 +102,6 @@
 ---
 ## Detailed Explanation of the Above Points
 
-**Rebalance 7dtm**
-- [ ] Auger - Nerf damage AGAIN to 20 instead of 50
-
   **Ender Eyes goes to my structure with end portal**
   You have the file!
   
