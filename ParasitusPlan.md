@@ -6,14 +6,16 @@
 
 ### Priority 1
 
+**TOP PRIORITY**
+
+- [ ] Increase the spawn weight for the Vanilla Zombie and Vanilla Husk mob by a decent bit, however have the amount decrease to the normal spawn weight amount once Scape And Run Parasites reaches Phase 4
+  - [ ] needs testing
+  - [ ] complete
+
 - [ ] Make a parasite ender dragon spawn once the normal one dies "srparasites:sim_dragone" and "srparasites:sim_dragonehead"
   - [ ] needs testing
   - [ ] complete
 
-- [ ] 7dtm Auger nerf
-  - [ ] needs testing
-  - [ ] complete
-  
 - [ ] Anti Skybase
   - [X] needs testing (Issued listed below)
   - [ ] complete
@@ -66,10 +68,6 @@
 - Status:
     - [ ] needs testing
     - [ ] complete
-
-- [ ] Increase the spawn weight for the Vanilla Zombie and Vanilla Husk mob by a decent bit, however have the amount decrease to the normal spawn weight amount once Scape And Run Parasites reaches Phase 4
-  - [ ] needs testing
-  - [ ] complete
   
 - [ ] Startup text (Issued listed below)
   - [X] needs testing
