@@ -8,8 +8,8 @@
 
 **TOP PRIORITY**
 
-- [ ] Increase the spawn weight for the Vanilla Zombie and Vanilla Husk mob by a decent bit, however have the amount decrease to the normal spawn weight amount once Scape And Run Parasites reaches Phase 4
-  - [ ] needs testing
+- [X] Increase the spawn weight for the Vanilla Zombie and Vanilla Husk mob by a decent bit, however have the amount decrease to the normal spawn weight amount once Scape And Run Parasites reaches Phase 4
+  - [ yeah it does ] needs testing
   - [ ] complete
 
 ---------------------------------------------------------------------------------------------------------------------------------
