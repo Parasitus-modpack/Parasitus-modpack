@@ -6,12 +6,6 @@
 
 ### Priority 1
 
-**TOP PRIORITY**
-
-Fix intro text
-
----------------------------------------------------------------------------------------------------------------------------------
-
 - [ ] Make a parasite ender dragon spawn once the normal one dies "srparasites:sim_dragone" and "srparasites:sim_dragonehead"
   - [ ] needs testing
   - [ ] complete
