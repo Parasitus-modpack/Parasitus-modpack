@@ -8,9 +8,7 @@
 
 **TOP PRIORITY**
 
-- [X] Increase the spawn weight for the Vanilla Zombie and Vanilla Husk mob by a decent bit, however have the amount decrease to the normal spawn weight amount once Scape And Run Parasites reaches Phase 4
-  - [ yeah it does ] needs testing
-  - [ ] complete
+Fix intro text
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
@@ -21,6 +19,19 @@
 - [ ] Anti Skybase
   - [X] needs testing (Issued listed below)
   - [ ] complete
+     
+ - [ ] techguns:zombiesoldier NERF THE SPAWNRATE OF THIS MOB PLEASE, dont let it tie with the other zombie mob spawn increase.
+  - [ ] needs testing
+  - [ ] complete
+  
+- [ ] The nerf to techgun army knife and sevendaystomine kitchen knife aren't working and the config isnt affecting the damage values for them
+  - [ ] needs testing
+  - [ ] complete
+ 
+
+The nerf to  techgun army knife and sevendaystomine kitchen knife aren't working and the config isnt affecting the damage values for them
+
+techguns:zombiesoldier NERF THE SPAWNRATE OF THIS MOB PLEASE, dont let it tie with the other zombie mob spawn increase.
 
 - [ ] Replace end stronghold (Do you want to code ender eyes to go to my structure or do I give you nbt to replace vanilla stronghold?)
   - [ ] needs testing
