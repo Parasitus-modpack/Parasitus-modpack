@@ -10,9 +10,6 @@
   - [ ] needs testing
   - [ ] complete
      
- - [ ] techguns:zombiesoldier NERF THE SPAWNRATE OF THIS MOB PLEASE, dont let it tie with the other zombie mob spawn increase. (Ahoh, I cant tell if its working in my tests)
-  - [ ] needs testing
-  - [ ] complete
 
 - [ ] Replace end stronghold (Do you want to code ender eyes to go to my structure or do I give you nbt to replace vanilla stronghold?)
   - [ ] needs testing
