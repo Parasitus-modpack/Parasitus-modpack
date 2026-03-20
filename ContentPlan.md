@@ -12,8 +12,8 @@
   - [ ] Complete
 
 **9 new structures, Ruined fish boat, Small Zombie Lab, Two FEMA evac sites, Restaurant ruin, Waffle House ruin, Church hold out ruin, Home hold out Ruin and a Farm Ruin.**
-  - [X] In Progress 
-  - [ ] Complete 
+  - [] In Progress 
+  - [X] Complete 
 
 **Replace Warship & Battleship with more scale accurate versions + new broadcast structure**
   - [ ] In Progress 
