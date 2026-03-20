@@ -251,7 +251,7 @@ Not done yet but Idea for new custom decoration props to be made into a mod for 
 ---
 **To Do List For the owner**
 
-- When making server file, remove ExtendPolyphonyLimit
+- When making server file, remove ExtendPolyphonyLimit and improved cleanroom launcher
 
 - When adding new deco blocks, put some chests old chests
 
