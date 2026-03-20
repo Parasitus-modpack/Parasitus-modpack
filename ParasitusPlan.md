@@ -9,29 +9,16 @@
 - [ ] Make a parasite ender dragon spawn once the normal one dies "srparasites:sim_dragone" and "srparasites:sim_dragonehead"
   - [ ] needs testing
   - [ ] complete
-
-- [ ] Anti Skybase
-  - [X] needs testing (Issued listed below)
-  - [ ] complete
      
- - [ ] techguns:zombiesoldier NERF THE SPAWNRATE OF THIS MOB PLEASE, dont let it tie with the other zombie mob spawn increase.
+ - [ ] techguns:zombiesoldier NERF THE SPAWNRATE OF THIS MOB PLEASE, dont let it tie with the other zombie mob spawn increase. (Ahoh, I cant tell if its working in my tests)
   - [ ] needs testing
   - [ ] complete
-  
-- [ ] The nerf to techgun army knife and sevendaystomine kitchen knife aren't working and the config isnt affecting the damage values for them
-  - [ ] needs testing
-  - [ ] complete
- 
-
-The nerf to  techgun army knife and sevendaystomine kitchen knife aren't working and the config isnt affecting the damage values for them
-
-techguns:zombiesoldier NERF THE SPAWNRATE OF THIS MOB PLEASE, dont let it tie with the other zombie mob spawn increase.
 
 - [ ] Replace end stronghold (Do you want to code ender eyes to go to my structure or do I give you nbt to replace vanilla stronghold?)
   - [ ] needs testing
   - [ ] complete
 
-- [ ] All mobs can open doors & go through currently in the code, bc in 1.12.2 normally thats not possible. Make it so only these mobs can go through (So chickens arent going through doors lol)
+- [ ] All mobs can open doors & go through currently in the code, bc in 1.12.2 normally thats not possible. Make it so only these mobs can go through (So chickens arent going through doors lol) AHOH YOUR CONFIG MOB ONLY LIST IS MISSING ALL THESE MOBS, also it didnt work and mobs like chickens can still open doors lol
 <details>
 <summary>Entity ID list</summary>
 
@@ -76,10 +63,6 @@ techguns:zombiesoldier NERF THE SPAWNRATE OF THIS MOB PLEASE, dont let it tie wi
     - [ ] needs testing
     - [ ] complete
   
-- [ ] Startup text (Issued listed below)
-  - [X] needs testing
-  - [ ] complete
-
 ### Priority 2
 - [ ] Fork Overlast https://www.curseforge.com/minecraft/mc-mods/parasites-addon-overlast to make a version of the mod that:
   1. Has the daily morning broadcasts (Use my overlast jar, in there is a lang file with the broadcasts I wrote)
