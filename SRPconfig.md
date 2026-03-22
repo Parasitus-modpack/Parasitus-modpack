@@ -66,6 +66,8 @@ Copy "Mobs with new target task" <
 "Rupter To Mangler"=80
 "Rupter Tunnel Cost"=100
 "Assimilated Enderman Enabled"=false (and Feral version)
+Mangler Damage Multiplier"=0.4
+Mangler Armor Multiplier"=0.5
 
 # Systems:
 I:"Phase Node Unlock"=5
