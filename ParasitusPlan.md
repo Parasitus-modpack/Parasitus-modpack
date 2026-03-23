@@ -18,7 +18,7 @@ D:armyKnifeDamage=18.0
 
 D:kitchenKnifeDamage=18.0
 
-I:zombieWeightBonus=8
+I:zombieWeightBonus=10
 
 I:zombieSoldierSpawnWeight=1
 
