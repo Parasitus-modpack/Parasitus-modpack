@@ -64,7 +64,6 @@
 - [ ] Fork Overlast https://www.curseforge.com/minecraft/mc-mods/parasites-addon-overlast to make a version of the mod that:
   1. Has the daily morning broadcasts (Use my overlast jar, in there is a lang file with the broadcasts I wrote)
   2. Has the visual bar that tells the current Parasite Phase
-  3. Connect the broadcast to https://www.curseforge.com/minecraft/mc-mods/serene-seasons (The broadcast normally talked about current seasons, I will set serene seasons to rotate each season every 10 days. Overlast says it already works with this mod but could not get it to work in my testing)
   - [ ] needs testing
   - [ ] complete
   
@@ -77,14 +76,6 @@
   - [ ] complete
   
 
-### Priority3
-- [ ] City Generation
-  - [ ] needs testing
-  - [ ] complete
-- [ ] More Props
-  - [ ] needs testing
-  - [ ] complete
----
 ## Detailed Explanation of the Above Points
 
   **Ender Eyes goes to my structure with end portal**
@@ -234,13 +225,6 @@ Here is the hoard type set up it should switch to. I think you will have to repl
       - **Reference:** [TheSlize/Techguns2-Completion-Update](https://github.com/TheSlize/Techguns2-Completion-Update)
   - [ ] Also take Techgun CE gun HUD ammo ui (each gun has its own art for this part too)
 
-
-**Startup Text**
--The text dont appear correctly in the intro, image sent in dev chat of the issue.
-
-
-**City Generation**
-[Temp city planning](https://docs.google.com/document/d/1MN9tBP-kuxxmehy2LasvCY8bGb-GgL3RtbK21mxV2Co/edit?usp=sharing)
 
 **More Props**
 Not done yet but Idea for new custom decoration props to be made into a mod for the modpack.
