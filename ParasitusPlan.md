@@ -6,6 +6,9 @@
 
 ### Priority 1
 
+Fix game crashing in nether when your in lava 
+Maybe its nuparu.sevendaystomine.events.LivingEventHandler.onEntityAttack
+
 - [ ] Make a parasite ender dragon spawn once the normal one dies "srparasites:sim_dragone" and "srparasites:sim_dragonehead"
   - [ ] needs testing
   - [ ] complete
