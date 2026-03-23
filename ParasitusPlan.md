@@ -12,7 +12,7 @@ Remove light aura and alfhriem mod for faster crashing)
 
 - Make sevendaystomine:soldier naturally attack parasites and zombies 
 
--Make these the default values in parasite fix config
+- Make these the default values in parasite fix config
 
 D:armyKnifeDamage=18.0
 
@@ -23,16 +23,18 @@ I:zombieWeightBonus=8
 I:zombieSoldierSpawnWeight=1
 
 
-- [ ] Make a parasite ender dragon spawn once the normal one dies "srparasites:sim_dragone" and "srparasites:sim_dragonehead"
+
+
+- Make a parasite ender dragon spawn once the normal one dies "srparasites:sim_dragone" and "srparasites:sim_dragonehead"
   - [ ] needs testing
   - [ ] complete
      
 
-- [ ] Replace end stronghold (Do you want to code ender eyes to go to my structure or do I give you nbt to replace vanilla stronghold?)
+- Replace end stronghold (Do you want to code ender eyes to go to my structure or do I give you nbt to replace vanilla stronghold?)
   - [ ] needs testing
   - [ ] complete
 
-- [ ] All mobs can open doors & go through currently in the code, bc in 1.12.2 normally thats not possible. Make it so only these mobs can go through (So chickens arent going through doors lol) AHOH YOUR CONFIG MOB ONLY LIST IS MISSING ALL THESE MOBS, also it didnt work and mobs like chickens can still open doors lol
+- All mobs can open doors & go through currently in the code, bc in 1.12.2 normally thats not possible. Make it so only these mobs can go through (So chickens arent going through doors lol) AHOH YOUR CONFIG MOB ONLY LIST IS MISSING ALL THESE MOBS, also it didnt work and mobs like chickens can still open doors lol
 <details>
 <summary>Entity ID list</summary>
 
