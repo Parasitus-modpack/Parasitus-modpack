@@ -8,10 +8,20 @@
 
 - Fix game crashing in nether when your in lava 
 Maybe its nuparu.sevendaystomine.events.LivingEventHandler.onEntityAttack
-(during testing, remove light aura and alfhriem mod for faster crashing)
-
+Remove light aura and alfhriem mod for faster crashing)
 
 - Make sevendaystomine:soldier naturally attack parasites and zombies 
+
+-Make these the default values in parasite fix config
+
+D:armyKnifeDamage=18.0
+
+D:kitchenKnifeDamage=18.0
+
+I:zombieWeightBonus=8
+
+I:zombieSoldierSpawnWeight=1
+
 
 - [ ] Make a parasite ender dragon spawn once the normal one dies "srparasites:sim_dragone" and "srparasites:sim_dragonehead"
   - [ ] needs testing
