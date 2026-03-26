@@ -6,7 +6,9 @@
 
 ### Priority 1
 
-- Make sevendaystomine:soldier naturally attack parasites and zombies 
+- Make sevendaystomine:soldier naturally attack parasites and zombies
+
+- Finish fixing floodgate crash
 
 - Make these the default values in parasite fix config
 
