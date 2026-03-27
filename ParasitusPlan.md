@@ -20,6 +20,8 @@ I:zombieWeightBonus=10
 
 I:zombieSoldierSpawnWeight=1
 
+Make sevendaystomine:machete damage 20, not 32
+
 
 
 
