@@ -25,6 +25,7 @@ Make sevendaystomine:machete damage 20, not 32
 Nerf damage of sevendaystomine STEEL tools
 
 
+- Can you make it so travaler backpack not breakable by mobs?
 
 
 - Make a parasite ender dragon spawn once the normal one dies "srparasites:sim_dragone" and "srparasites:sim_dragonehead"
