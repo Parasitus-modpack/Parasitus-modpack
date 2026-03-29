@@ -22,6 +22,8 @@ I:zombieSoldierSpawnWeight=1
 
 Make sevendaystomine:machete damage 20, not 32
 
+Nerf damage of sevendaystomine STEEL tools
+
 
 
 
