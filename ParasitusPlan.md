@@ -28,6 +28,9 @@ Nerf damage of sevendaystomine STEEL tools
 - Can you make it so travaler backpack not breakable by mobs?
 
 
+- Can you make superiorshields:vanilla_shield_obsidian have no durability aka infinite
+
+
 - Make a parasite ender dragon spawn once the normal one dies "srparasites:sim_dragone" and "srparasites:sim_dragonehead"
   - [ ] needs testing
   - [ ] complete
