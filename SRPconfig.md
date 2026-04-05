@@ -74,8 +74,10 @@ I:"Phase Node Unlock"=5
 Make Value Block Loss Rubble, Stain and Trunk to 0
 "phase assimilation stop hiding" = 4
 "phase beckon summoning cooldown" = 8
-Scent Added Lifespan With Death"=3
+B:Scent=false
+Scent Added Lifespan With Death"=0
 Scent Wave Maximum Distance"=30
+I:"Scent Cap"=1
 Scent Level X Points Required"=
 "phase fishing denied" = 5
 "phase loot denied" = 5
