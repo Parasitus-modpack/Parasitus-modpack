@@ -99,6 +99,10 @@ Nerf damage of sevendaystomine STEEL tools
 - [ ] Techguns CE
   - [ ] needs testing
   - [ ] complete
+
+  - [ ] Robotic Parts (Cyberware Mod but its called Robotic Parts on 1.12.2) - Make the enchanced low light vision chip cost more tolerence, around 10
+  - [ ] needs testing
+  - [ ] complete
   
 
 ## Detailed Explanation of the Above Points
