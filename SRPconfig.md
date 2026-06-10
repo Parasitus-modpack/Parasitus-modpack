@@ -2,7 +2,6 @@
 
 # Main srp.cfg
  B:"Mod LightningBolt"=false
-B:"Target Blocks"=false
 "Nexus Block Bonus"=1
 "Nexus Block Dispatcher"=1000
 "Nexus Block Start"=1000
