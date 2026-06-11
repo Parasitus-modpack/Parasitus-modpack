@@ -120,7 +120,7 @@ recipes.removeByRecipeName("nocubessrpsurvival:recipe_flesh_barbecue");
 //FURNACE
 //furnace.remove(<nocubessrpsurvival:cookedbuglinlarva>);
 //furnace.remove(<nocubessrpsurvival:cookedfleshbarbecue>);
-//furnace.remova(<nocubessrpsurvival:cookedflesh>);
+//furnace.remove(<nocubessrpsurvival:cookedflesh>);
 //furnace.remove(<nocubessrparmory:carbonsteel>);
 //============================================================================================================================================================================================
 //FROM MODS
