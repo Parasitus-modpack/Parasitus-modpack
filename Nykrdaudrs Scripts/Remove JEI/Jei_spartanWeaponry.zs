@@ -3,6 +3,8 @@
 //removing bloat from JEI
 //Spartan weaponry
 
+mods.jei.JEI.removeAndHide(<spartanweaponry:club_wood>);
+mods.jei.JEI.removeAndHide(<spartanweaponry:club_studded>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:battleaxe_invar>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:battleaxe_electrum>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:battleaxe_silver>);

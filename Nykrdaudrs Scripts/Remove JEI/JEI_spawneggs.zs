@@ -46,11 +46,15 @@ mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minec
 mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:zombie_horse"}}));
 mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:zombie_pigman"}}));
 mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:zombie_villager"}}));
+//============================================================================================================================================================================================
 mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "quark:foxhound"}}));
 mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "quark:dweller"}}));
 mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "quark:ashen"}}));
 mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "quark:frog"}}));
 mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "quark:crab"}}));
+//============================================================================================================================================================================================
+mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "cyberware:cyberzombie"}}));
+//============================================================================================================================================================================================
 mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "oe:glow_squid"}}));
 mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "oe:cod"}}));
 mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "oe:salmon"}}));
@@ -65,6 +69,7 @@ mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "oe:ba
 mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "oe:drowned"}}));
 mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "oe:tropical_slime"}}));
 mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "oe:pickled"}}));
+//============================================================================================================================================================================================
 mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "pvj:pvj_snail"}}));
 mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "pvj:pvj_fly"}}));
 mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "pvj:pvj_firefly"}}));
@@ -81,6 +86,7 @@ mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "pvj:p
 mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "pvj:pvj_skeletal_knight"}}));
 mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "pvj:pvj_goon"}}));
 mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "pvj:pvj_watcher"}}));
+//============================================================================================================================================================================================
 mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "techguns:zombiesoldier"}}));
 mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "techguns:zombiefarmer"}}));
 mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "techguns:zombieminer"}}));
@@ -101,6 +107,7 @@ mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "techg
 mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "techguns:alienbug"}}));
 mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "techguns:ghastling"}}));
 mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "techguns:zombiepoliceman"}}));
+//============================================================================================================================================================================================
 mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "netherex:pigtificate_leader"}}));
 mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "netherex:pigtificate"}}));
 mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "netherex:gold_golem"}}));
@@ -117,6 +124,7 @@ mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "nethe
 mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "netherex:brute"}}));
 mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "netherex:frost"}}));
 mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "netherex:ghast_queen"}}));
+//============================================================================================================================================================================================
 mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "koopascritters:yelloweyedpenguin"}}));
 mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "koopascritters:northernrockhopperpenguin"}}));
 mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "koopascritters:impala"}}));
@@ -146,6 +154,7 @@ mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "koopa
 mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "koopascritters:tricolorhognose"}}));
 mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "koopascritters:chinesecavegecko"}}));
 mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "koopascritters:spoonbill_kc"}}));
+//============================================================================================================================================================================================
 mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "sevendaystomine:reanimated_corpse"}}));
 mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "sevendaystomine:burnt_zombie"}}));
 mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "sevendaystomine:frigid_hunter"}}));
@@ -166,14 +175,18 @@ mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "seven
 mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "sevendaystomine:soldier"}}));
 mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "sevendaystomine:zombie_miner"}}));
 mods.jei.JEI.removeAndHide(<minecraft:spawn_egg>.withTag({EntityTag: {id: "sevendaystomine:feral_zombie"}}));
+//============================================================================================================================================================================================
 mods.jei.JEI.hide(<quark:parrot_egg>);
 mods.jei.JEI.hide(<quark:parrot_egg:1>);
 mods.jei.JEI.hide(<quark:parrot_egg:2>);
 mods.jei.JEI.hide(<quark:parrot_egg:3>);
 mods.jei.JEI.hide(<quark:parrot_egg:4>);
+//============================================================================================================================================================================================
 mods.jei.JEI.hide(<koopascritters:guineafowlegg>);
 mods.jei.JEI.hide(<koopascritters:californiaquailegg>);
+//============================================================================================================================================================================================
 mods.jei.JEI.hide(<openblocks:golden_egg>);
+//============================================================================================================================================================================================
 mods.jei.JEI.hide(<oe:turtle_egg>);
 mods.jei.JEI.hide(<oe:spawn_bucket>.withTag({EntityTag: {id: "oe:cod"}}));
 mods.jei.JEI.hide(<oe:spawn_bucket>.withTag({EntityTag: {id: "oe:salmon"}}));
@@ -183,3 +196,97 @@ mods.jei.JEI.hide(<oe:spawn_bucket>.withTag({EntityTag: {id: "oe:crab"}}));
 mods.jei.JEI.hide(<oe:spawn_bucket>.withTag({EntityTag: {id: "oe:lobster"}}));
 mods.jei.JEI.hide(<oe:spawn_bucket>.withTag({EntityTag: {id: "oe:baby_squid"}}));
 mods.jei.JEI.hide(<oe:spawn_bucket>.withTag({EntityTag: {id: "oe:baby_glow_squid"}}));
+//============================================================================================================================================================================================
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_alafha>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_anged>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_ata>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_bano>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_banoadapted>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_buthol>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_canra>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_canraadapted>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_cruxa>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_dod>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_dodsii>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_dodsiii>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_dodsiv>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_dorpa>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_elvia>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_emana>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_emanaadapted>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_esor>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_ferbear>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_fercow>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_ferenderman>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_ferhorse>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_ferhuman>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_ferpig>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_fersheep>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_fervillager>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_ferwolf>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_flog>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_ganro>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_gothol>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_heed>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_hiblaze>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_higolem>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_hiskeleton>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_host>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_hostii>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_hull>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_hulladapted>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_iki>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_infbear>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_infcow>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_infcowhead>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_infdragone>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_infdragonehead>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_infenderman>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_infendermanhead>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_infhorse>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_infhorsehead>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_infhuman>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_infhumanhead>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_infpig>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_infpighead>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_infplayer>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_infplayerhead>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_infsheep>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_infsheephead>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_infsquid>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_infvillager>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_infvillagerhead>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_infwolf>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_infwolfhead>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_inhoom>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_inhoos>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_jinjo>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_lencia>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_lesh>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_lodo>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_lum>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_mes>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_mudo>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_nak>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_nogla>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_noglaadapted>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_nuuh>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_omboo>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_orch>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_oronco>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_pheon>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_pod>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_ranrac>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_ranracadapted>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_rathol>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_shyco>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_shycoadapted>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_terla>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_tonro>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_unvo>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_venkrol>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_venkrolsii>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_venkrolsiii>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_venkrolsiv>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_vesta>);
+mods.jei.JEI.removeAndHide(<srparasites:itemmobspawner_wymo>);

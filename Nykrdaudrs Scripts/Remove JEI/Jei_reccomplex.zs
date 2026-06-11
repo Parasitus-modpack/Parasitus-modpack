@@ -3,6 +3,10 @@
 //removing bloat from JEI
 //reccomplex
 
+mods.jei.JEI.removeAndHide(<reccomplex:spawn_script>);
+mods.jei.JEI.removeAndHide(<reccomplex:structure_generator>);
+mods.jei.JEI.removeAndHide(<reccomplex:maze_generator>);
+mods.jei.JEI.removeAndHide(<reccomplex:weighted_command_block>);
 mods.jei.JEI.removeAndHide(<reccomplex:artifact_generation_tag>);
 mods.jei.JEI.removeAndHide(<reccomplex:block_selector>);
 mods.jei.JEI.removeAndHide(<reccomplex:block_selector_floating>);
