@@ -4,10 +4,10 @@
 - [ ] **Ore Processing**
   - [ ] needs testing
   - [ ] complete
-- [ ] **Tiered pipes**
-  - [ ] needs testing
-  - [ ] recipes
-  - [ ] complete
+- [x] **Tiered pipes**
+  - [x] needs testing
+  - [x] recipes
+  - [x] complete
 
 ## details about the a list
 
@@ -34,13 +34,13 @@ Make fluids for all the metals, for compatability towards BC Ore Processing
 **Tiered pipes**
 Use the rf pipes to make a 2. tier of pipes that has unlimited energy capacity
 use a config option to alter between these pipes and the version curently being used in the modpack
-- [ ] pipe_quartz_rf
-  - [ ] alternative recipe
-- [ ] pipe_iron_rf
-  - [ ] alternative recipe
-- [ ] pipe_gold_rf
-  - [ ] alternative recipe
-- [ ] pipe_sandstone_rf
-  - [ ] alternative recipe
-- [ ] pipe_diamond_rf
-  - [ ] alternative recipe
+- [x] pipe_quartz_rf
+  - [x] alternative recipe
+- [x] pipe_iron_rf
+  - [x] alternative recipe
+- [x] pipe_gold_rf
+  - [x] alternative recipe
+- [x] pipe_sandstone_rf
+  - [x] alternative recipe
+- [x] pipe_diamond_rf
+  - [x] alternative recipe
