@@ -101,3 +101,7 @@ mods.jei.JEI.removeAndHide(<buildcraftsilicon:plug_facade>.withTag({facade: {isH
 mods.jei.JEI.removeAndHide(<buildcraftsilicon:plug_facade>.withTag({facade: {isHollow: 1 as byte, states: [{state: {Name: "oe:yellow_coral_block"}}]}}));
 mods.jei.JEI.removeAndHide(<buildcraftsilicon:plug_facade>.withTag({facade: {isHollow: 0 as byte, states: [{state: {Name: "oe:yellow_coral_block_dead"}}]}}));
 mods.jei.JEI.removeAndHide(<buildcraftsilicon:plug_facade>.withTag({facade: {isHollow: 1 as byte, states: [{state: {Name: "oe:yellow_coral_block_dead"}}]}}));
+mods.jei.JEI.removeAndHide(<buildcraftsilicon:plug_facade>.withTag({facade: {isHollow: 0 as byte, states: [{state: {Properties: {unstable: "false"}, Name: "oe:underwater_tnt"}}]}}));
+mods.jei.JEI.removeAndHide(<buildcraftsilicon:plug_facade>.withTag({facade: {isHollow: 1 as byte, states: [{state: {Properties: {unstable: "false"}, Name: "oe:underwater_tnt"}}]}}));
+mods.jei.JEI.removeAndHide(<buildcraftsilicon:plug_facade>.withTag({facade: {isHollow: 0 as byte, states: [{state: {Properties: {unstable: "true"}, Name: "oe:underwater_tnt"}}]}}));
+mods.jei.JEI.removeAndHide(<buildcraftsilicon:plug_facade>.withTag({facade: {isHollow: 1 as byte, states: [{state: {Properties: {unstable: "true"}, Name: "oe:underwater_tnt"}}]}}));
