@@ -103,3 +103,12 @@ mods.jei.JEI.removeAndHide(<buildcraftsilicon:plug_facade>.withTag({facade: {isH
 mods.jei.JEI.removeAndHide(<buildcraftsilicon:plug_facade>.withTag({facade: {isHollow: 1 as byte, states: [{state: {Properties: {power: "14"}, Name: "weather2:tornado_sensor"}}]}}));
 mods.jei.JEI.removeAndHide(<buildcraftsilicon:plug_facade>.withTag({facade: {isHollow: 0 as byte, states: [{state: {Properties: {power: "15"}, Name: "weather2:tornado_sensor"}}]}}));
 mods.jei.JEI.removeAndHide(<buildcraftsilicon:plug_facade>.withTag({facade: {isHollow: 1 as byte, states: [{state: {Properties: {power: "15"}, Name: "weather2:tornado_sensor"}}]}}));
+
+//==========================================================================
+//air support
+mods.jei.JEI.removeAndHide(<buildcraftsilicon:plug_facade>.withTag({facade: {isHollow: 0 as byte, states: [{state: {Name: "air_support:livestock_crate"}}]}}));
+mods.jei.JEI.removeAndHide(<buildcraftsilicon:plug_facade>.withTag({facade: {isHollow: 1 as byte, states: [{state: {Name: "air_support:livestock_crate"}}]}}));
+mods.jei.JEI.removeAndHide(<buildcraftsilicon:plug_facade>.withTag({facade: {isHollow: 0 as byte, states: [{state: {Name: "air_support:medical_crate"}}]}}));
+mods.jei.JEI.removeAndHide(<buildcraftsilicon:plug_facade>.withTag({facade: {isHollow: 1 as byte, states: [{state: {Name: "air_support:medical_crate"}}]}}));
+mods.jei.JEI.removeAndHide(<buildcraftsilicon:plug_facade>.withTag({facade: {isHollow: 0 as byte, states: [{state: {Name: "air_support:utility_crate"}}]}}));
+mods.jei.JEI.removeAndHide(<buildcraftsilicon:plug_facade>.withTag({facade: {isHollow: 1 as byte, states: [{state: {Name: "air_support:utility_crate"}}]}}));
