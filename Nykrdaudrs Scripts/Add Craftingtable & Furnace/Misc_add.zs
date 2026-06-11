@@ -12,35 +12,48 @@ recipes.addShaped("wet_adobe", <pvj:wet_adobe> * 9, [[<minecraft:clay>, <ore:san
 recipes.addShapeless("slime_droplets", <pvj:slime_droplet> * 9, [<minecraft:slime_ball>]);
 recipes.addShaped("redwood_bark", <pvj:redwood_bark:0>, [[<pvj:log_redwood:0>, <pvj:log_redwood:0>, <pvj:log_redwood:0>], [<pvj:log_redwood:0>, <pvj:log_redwood:0>, <pvj:log_redwood:0>], [<pvj:log_redwood:0>, <pvj:log_redwood:0>, <pvj:log_redwood:0>]]);
 recipes.addShapeless("redwood_log_from_bark", <pvj:log_redwood:0> * 9, [<pvj:redwood_bark:0>]);
-recipes.addShaped("leaf_carpet_1", <pvj:fallen_leaves_oak> * 3, [[<minecraft:leaves:0>, <minecraft:leaves:0>, <minecraft:leaves:0>]]);
-recipes.addShaped("leaf_carpet_2", <pvj:fallen_leaves_birch> * 3, [[<minecraft:leaves:2>, <minecraft:leaves:2>, <minecraft:leaves:2>]]);
-recipes.addShaped("leaf_carpet_3", <pvj:fallen_leaves_spruce> * 3, [[<minecraft:leaves:1>, <minecraft:leaves:1>, <minecraft:leaves:1>]]);
-recipes.addShaped("leaf_carpet_4", <pvj:fallen_leaves_jungle> * 3, [[<minecraft:leaves:3>, <minecraft:leaves:3>, <minecraft:leaves:3>]]);
-recipes.addShaped("leaf_carpet_5", <pvj:fallen_leaves_darkoak> * 3, [[<minecraft:leaves2:1>, <minecraft:leaves2:1>, <minecraft:leaves2:1>]]);
-recipes.addShaped("leaf_carpet_6", <pvj:fallen_leaves_acacia> * 3, [[<minecraft:leaves2:0>, <minecraft:leaves2:0>, <minecraft:leaves2:0>]]);
-//recipes.addShaped("leaf_carpet_7", <pvj:fallen_leaves_dead> * 3, [[<pvj:leaves_]]);
-recipes.addShaped("leaf_carpet_8", <pvj:fallen_leaves_willow> * 3, [[<pvj:leaves_willow:0>]]);
-recipes.addShaped("leaf_carpet_9", <pvj:fallen_leaves_willow> * 3, [[<pvj:leaves_willow:0>]]);
-recipes.addShaped("leaf_carpet_10", <pvj:fallen_leaves_mangrove> * 3, [[<pvj:leaves_]]);
-recipes.addShaped("leaf_carpet_11", <pvj:fallen_leaves_palm> * 3, [[<pvj:leaves_]]);
-recipes.addShaped("leaf_carpet_12", <pvj:fallen_leaves_mangrove> * 3, [[<pvj:leaves_]]);
-recipes.addShaped("leaf_carpet_13", <pvj:fallen_leaves_redwood> * 3, [[<pvj:leaves_]]);
-recipes.addShaped("leaf_carpet_14", <pvj:fallen_leaves_fir> * 3, [[<pvj:leaves_]]);
-recipes.addShaped("leaf_carpet_15", <pvj:fallen_leaves_pine> * 3, [[<pvj:leaves_]]);
-recipes.addShaped("leaf_carpet_16", <pvj:fallen_leaves_aspen> * 3, [[<pvj:leaves_]]);
-recipes.addShaped("leaf_carpet_17", <pvj:fallen_leaves_red_maple> * 3, [[<pvj:leaves_]]);
-recipes.addShaped("leaf_carpet_18", <pvj:fallen_leaves_orange_mapple> * 3, [[<pvj:leaves_]]);
-recipes.addShaped("leaf_carpet_19", <pvj:fallen_leaves_baobab> * 3, [[<pvj:leaves_]]);
-recipes.addShaped("leaf_carpet_20", <pvj:fallen_leaves_cottonwood> * 3, [[<pvj:leaves_]]);
-recipes.addShaped("leaf_carpet_21", <pvj:fallen_leaves_juniper> * 3, [[<pvj:leaves_]]);
-recipes.addShaped("leaf_carpet_22", <pvj:fallen_leaves_juniper_berried> * 3, [[<pvj:leaves_]]);
-recipes.addShaped("leaf_carpet_23", <pvj:fallen_leaves_white_cherry_blossom> * 3, [[<pvj:leaves_]]);
-recipes.addShaped("leaf_carpet_24", <pvj:fallen_leaves_pink_cherry_blossom> * 3, [[<pvj:leaves_pink_cherry_blossom:0>]]);
-recipes.addShaped("leaf_carpet_25", <pvj:fallen_leaves_pink_cherry_blossom> * 3, [[<pvj:leaves_pink_cherry_blossom:3>]]);
-recipes.addShaped("leaf_carpet_26", <pvj:fallen_leaves_pink_cherry_blossom> * 3, [[<quark:variant_leaves:1>, <quark:variant_leaves:1>, <quark:variant_leaves:1>]]);
-recipes.addShaped("leaf_carpet_27", <pvj:fallen_leaves_jacaranda> * 3, [[<pvj:leaves_jacaranda:0>, <pvj:leaves_jacaranda:0>, <pvj:leaves_jacaranda:0>]]);
-recipes.addShaped("leaf_carpet_28", <pvj:fallen_leaves_jacaranda> * 3, [[<pvj:leaves_jacaranda:3>, <pvj:leaves_jacaranda:3>, <pvj:leaves_jacaranda:3>]]);
-recipes.addShaped("leaf_carpet_29", <pvj:fallen_leaves_oak> * 3, [[<quark:variant_leaves:0>, <quark:variant_leaves:0>, <quark:variant_leaves:0>]]);
+recipes.addShaped("leaf_carpet_0", <pvj:fallenleaves_oak> * 3, [[<minecraft:leaves:0>, <minecraft:leaves:0>, <minecraft:leaves:0>]]);
+recipes.addShaped("leaf_carpet_1", <pvj:fallenleaves_oak> * 3, [[<quark:variant_leaves:0>, <quark:variant_leaves:0>, <quark:variant_leaves:0>]]);
+recipes.addShaped("leaf_carpet_2", <pvj:fallenleaves_birch> * 3, [[<minecraft:leaves:1>, <minecraft:leaves:1>, <minecraft:leaves:1>]]);
+recipes.addShaped("leaf_carpet_3", <pvj:fallenleaves_spruce> * 3, [[<minecraft:leaves:2>, <minecraft:leaves:2>, <minecraft:leaves:2>]]);
+recipes.addShaped("leaf_carpet_4", <pvj:fallenleaves_jungle> * 3, [[<minecraft:leaves:3>, <minecraft:leaves:3>, <minecraft:leaves:3>]]);
+recipes.addShaped("leaf_carpet_5", <pvj:fallenleaves_darkoak> * 3, [[<minecraft:leaves2:0>, <minecraft:leaves2:0>, <minecraft:leaves2:0>]]);
+recipes.addShaped("leaf_carpet_6", <pvj:fallenleaves_acacia> * 3, [[<minecraft:leaves2:1>, <minecraft:leaves2:1>, <minecraft:leaves2:1>]]);
+recipes.addShaped("leaf_carpet_8", <pvj:fallenleaves_willow> * 3, [[<pvj:leaves_willow:*>, <pvj:leaves_willow:*>, <pvj:leaves_willow:*>]]);
+recipes.addShaped("leaf_carpet_9", <pvj:fallenleaves_mangrove> * 3, [[<pvj:leaves_mangrove:*>, <pvj:leaves_mangrove:*>, <pvj:leaves_mangrove:*>]]);
+recipes.addShaped("leaf_carpet_10", <pvj:fallenleaves_palm> * 3, [[<pvj:leaves_palm:*>, <pvj:leaves_palm:*>, <pvj:leaves_palm:*>]]);
+recipes.addShaped("leaf_carpet_13", <pvj:fallenleaves_redwood> * 3, [[<pvj:leaves_redwood:*>, <pvj:leaves_redwood:*>, <pvj:leaves_redwood:*>]]);
+recipes.addShaped("leaf_carpet_14", <pvj:fallenleaves_fir> * 3, [[<pvj:leaves_fir:*>, <pvj:leaves_fir:*>, <pvj:leaves_fir:*>]]);
+recipes.addShaped("leaf_carpet_15", <pvj:fallenleaves_pine> * 3, [[<pvj:leaves_pine:*>, <pvj:leaves_pine:*>, <pvj:leaves_pine:*>]]);
+recipes.addShaped("leaf_carpet_16", <pvj:fallenleaves_aspen> * 3, [[<pvj:leaves_aspen:*>, <pvj:leaves_aspen:*>, <pvj:leaves_aspen:*>]]);
+recipes.addShaped("leaf_carpet_17", <pvj:fallenleaves_red_maple> * 3, [[<pvj:leaves_red_maple:*>, <pvj:leaves_red_maple:*>, <pvj:leaves_red_maple:*>]]);
+recipes.addShaped("leaf_carpet_18", <pvj:fallenleaves_orange_maple> * 3, [[<pvj:leaves_orange_maple:*>, <pvj:leaves_orange_maple:*>, <pvj:leaves_orange_maple:*>]]);
+recipes.addShaped("leaf_carpet_19", <pvj:fallenleaves_baobab> * 3, [[<pvj:leaves_baobab:*>, <pvj:leaves_baobab:*>, <pvj:leaves_baobab:*>]]);
+recipes.addShaped("leaf_carpet_20", <pvj:fallenleaves_cottonwood> * 3, [[<pvj:leaves_cottonwood:*>, <pvj:leaves_cottonwood:*>, <pvj:leaves_cottonwood:*>]]);
+recipes.addShaped("leaf_carpet_21", <pvj:fallenleaves_juniper> * 3, [[<pvj:leaves_juniper:*>, <pvj:leaves_juniper:*>, <pvj:leaves_juniper:*>]]);
+recipes.addShaped("leaf_carpet_22", <pvj:fallenleaves_juniper_berried> * 3, [[<pvj:leaves_juniper_berried:*>, <pvj:leaves_juniper_berried:*>, <pvj:leaves_juniper_berried:*>]]);
+recipes.addShaped("leaf_carpet_23", <pvj:fallenleaves_white_cherry_blossom> * 3, [[<pvj:leaves_white_cherry_blossom:*>, <pvj:leaves_white_cherry_blossom:*>, <pvj:leaves_white_cherry_blossom:*>]]);
+recipes.addShaped("leaf_carpet_24", <pvj:fallenleaves_pink_cherry_blossom> * 3, [[<pvj:leaves_pink_cherry_blossom:*>, <pvj:leaves_pink_cherry_blossom:*>, <pvj:leaves_pink_cherry_blossom:*>]]);
+recipes.addShaped("leaf_carpet_25", <pvj:fallenleaves_pink_cherry_blossom> * 3, [[<quark:variant_leaves:1>, <quark:variant_leaves:1>, <quark:variant_leaves:1>]]);
+recipes.addShaped("leaf_carpet_26", <pvj:fallenleaves_jacaranda> * 3, [[<pvj:leaves_jacaranda:*>, <pvj:leaves_jacaranda:*>, <pvj:leaves_jacaranda:*>]]);
+recipes.addShaped("bone_pile", <pvj:bones> * 6, [[null, <minecraft:bone>, null], [<minecraft:bone>, <minecraft:bone>, <minecraft:bone>]]);
+
+recipes.addShaped("leaf_carpet_11", <pvj:fallenleaves_palm> * 3, [[<oe:palm_leaves>, <oe:palm_leaves>, <oe:palm_leaves>]]);
+recipes.addShaped("leaf_carpet_12", <pvj:fallenleaves_palm> * 3, [[<oe:palm_leaves_flowering>, <oe:palm_leaves_flowering>, <oe:palm_leaves_flowering>]]);
+recipes.addShaped("leaf_carpet_7", <pvj:fallenleaves_dead> * 3, [[<overlast:brown_leaves>, <overlast:brown_leaves>, <overlast:brown_leaves>]]);
+recipes.addShaped(<parasitusfix:door_maple> * 3, [[<pvj:planks_maple>, <pvj:planks_maple>, null],[<pvj:planks_maple>, <pvj:planks_maple>, null], [<pvj:planks_maple>, <pvj:planks_maple>, null]]);
+recipes.addShaped(<parasitusfix:door_juniper> * 3, [[<pvj:planks_juniper>, <pvj:planks_juniper>, null],[<pvj:planks_juniper>, <pvj:planks_juniper>, null], [<pvj:planks_juniper>, <pvj:planks_juniper>, null]]);
+recipes.addShaped(<parasitusfix:door_cherry_blossom> * 3, [[<pvj:planks_cherry_blossom>, <pvj:planks_cherry_blossom>, null],[<pvj:planks_cherry_blossom>, <pvj:planks_cherry_blossom>, null], [<pvj:planks_cherry_blossom>, <pvj:planks_cherry_blossom>, null]]);
+recipes.addShaped(<parasitusfix:door_aspen> * 3, [[<pvj:planks_aspen>, <pvj:planks_aspen>, null],[<pvj:planks_aspen>, <pvj:planks_aspen>, null], [<pvj:planks_aspen>, <pvj:planks_aspen>, null]]);
+recipes.addShaped(<parasitusfix:door_cottonwood> * 3, [[<pvj:planks_cottonwood>, <pvj:planks_cottonwood>, null],[<pvj:planks_cottonwood>, <pvj:planks_cottonwood>, null], [<pvj:planks_cottonwood>, <pvj:planks_cottonwood>, null]]);
+recipes.addShaped(<parasitusfix:door_baobab> * 3, [[<pvj:planks_baobab>, <pvj:planks_baobab>, null],[<pvj:planks_baobab>, <pvj:planks_baobab>, null], [<pvj:planks_baobab>, <pvj:planks_baobab>, null]]);
+recipes.addShaped(<parasitusfix:door_redwood> * 3, [[<pvj:planks_redwood>, <pvj:planks_redwood>, null],[<pvj:planks_redwood>, <pvj:planks_redwood>, null], [<pvj:planks_redwood>, <pvj:planks_redwood>, null]]);
+recipes.addShaped(<parasitusfix:door_mangrove> * 3, [[<pvj:planks_mangrove>, <pvj:planks_mangrove>, null],[<pvj:planks_mangrove>, <pvj:planks_mangrove>, null], [<pvj:planks_mangrove>, <pvj:planks_mangrove>, null]]);
+recipes.addShaped(<parasitusfix:door_willow> * 3, [[<pvj:planks_willow>, <pvj:planks_willow>, null],[<pvj:planks_willow>, <pvj:planks_willow>, null], [<pvj:planks_willow>, <pvj:planks_willow>, null]]);
+recipes.addShaped(<parasitusfix:door_palm> * 3, [[<pvj:planks_palm>, <pvj:planks_palm>, null],[<pvj:planks_palm>, <pvj:planks_palm>, null], [<pvj:planks_palm>, <pvj:planks_palm>, null]]);
+recipes.addShaped(<parasitusfix:door_pine> * 3, [[<pvj:planks_pine>, <pvj:planks_pine>, null],[<pvj:planks_pine>, <pvj:planks_pine>, null], [<pvj:planks_pine>, <pvj:planks_pine>, null]]);
+recipes.addShaped(<parasitusfix:door_fir> * 3, [[<pvj:planks_fir>, <pvj:planks_fir>, null],[<pvj:planks_fir>, <pvj:planks_fir>, null], [<pvj:planks_fir>, <pvj:planks_fir>, null]]);
+recipes.addShaped(<parasitusfix:door_jacaranda> * 3, [[<pvj:planks_jacaranda>, <pvj:planks_jacaranda>, null],[<pvj:planks_jacaranda>, <pvj:planks_jacaranda>, null], [<pvj:planks_jacaranda>, <pvj:planks_jacaranda>, null]]);
 //============================================================================================================================================================================================
 //CORALREEF
 recipes.addShapeless("coral_blocks", <coralreef:reef:0> * 5, [<oe:purple_coral_block>, <oe:blue_coral_block>, <oe:yellow_coral_block>, <oe:red_coral_block>, <oe:pink_coral_block>]);
@@ -60,7 +73,7 @@ recipes.addShaped("barrel_tier_4", <openmodularturrets:intermediate_tiered:13>, 
 recipes.addShaped("barrel_tier_5", <openmodularturrets:intermediate_tiered:14>, [[<quark:duskbound_block>, <quark:duskbound_block>, <quark:duskbound_block>], [<ore:dustGlowstone>, <openmodularturrets:intermediate_tiered:13>, <ore:dustGlowstone>], [<quark:duskbound_block>, <quark:duskbound_block>, <quark:duskbound_block>]]);
 recipes.addShaped("cammo_addon", <openmodularturrets:addon_meta:0>, [[null, <techguns:camonet_top:*>, null], [<techguns:camonet:*>, <openmodularturrets:intermediate_tiered:1>, <techguns:camonet:*>], [<buildcraftcore:gear_iron>, <openmodularturrets:intermediate_regular:0>, <buildcraftcore:gear_iron>]]);
 recipes.addShaped("damage_boost", <openmodularturrets:addon_meta:1>, [[<ore:ingotIron>, <techguns:itemshared:75>, <ore:ingotIron>], [<techguns:itemshared:75>, <spartanweaponry:material:2>, <techguns:itemshared:75>], [<ore:ingotIron>, <techguns:itemshared:75>, <ore:ingotIron>]]);
-recipes.addShaped("recycler", <openmodularturrets:addon_meta:3>, [[<ore:ingotSteel>, <openmodularturrets:intermediate_regular:0>, <ore:ingotSteel>], [<openmodularturrets:intermediate_regular:0>, <techguns:itemshared:94>, <openmodularturrets:intermediate_regular:0>], [<ore:ingotSteel>, <ore:chestWood, <ore:ingotSteel>]]);
+recipes.addShaped("recycler", <openmodularturrets:addon_meta:3>, [[<ore:ingotSteel>, <openmodularturrets:intermediate_regular:0>, <ore:ingotSteel>], [<openmodularturrets:intermediate_regular:0>, <techguns:itemshared:94>, <openmodularturrets:intermediate_regular:0>], [<ore:ingotSteel>, <ore:chestWood>, <ore:ingotSteel>]]);
 recipes.addShaped("redstone_reactor", <openmodularturrets:addon_meta:4>, [[<ore:nuggetGold>, <ore:blockRedstone>, <ore:nuggetGold>], [<techguns:itemshared:52>, <buildcraftcore:engine:0>, <techguns:itemshared:52>], [<techguns:itemshared:52>, <openmodularturrets:intermediate_regular:0>, <techguns:itemshared:52>]]);
 recipes.addShaped("solar_power", <openmodularturrets:addon_meta:6>, [[<ore:paneGlassColorless>, <ore:paneGlassColorless>, <ore:paneGlassColorless>], [<sevendaystomine:photo_cell>, <sevendaystomine:photo_cell>, <sevendaystomine:photo_cell>], [<ore:ingotIron>, <openmodularturrets:intermediate_regular:0>, <ore:ingotIron>]]);
 recipes.addShaped("loot_dropper", <openmodularturrets:addon_meta:7>, [[<quark:biotite_block>, <minecraft:hopper>, <quark:biotite_block>], [<minecraft:dropper>, <techguns:itemshared:70>, <techguns:itemshared:66>], [<quark:biotite_block>, <openmodularturrets:intermediate_regular:0>, <quark:biotite_block>]]);
@@ -86,6 +99,9 @@ recipes.addShaped("teleporter_turret", <openmodularturrets:teleporter_turret>, [
 recipes.addShaped("laser_turret", <openmodularturrets:laser_turret>, [[null, <openmodularturrets:intermediate_tiered:14>, null], [<quark:duskbound_block>, <openmodularturrets:intermediate_tiered:9>, <quark:duskbound_block>], [<openmodularturrets:intermediate_regular:0>, <quark:duskbound_block>, <openmodularturrets:intermediate_regular:0>]]);
 recipes.addShaped("rail_gun", <openmodularturrets:rail_gun_turret>, [[<quark:duskbound_block>, <openmodularturrets:intermediate_tiered:14>, <quark:duskbound_block>], [<quark:duskbound_block>, <openmodularturrets:intermediate_tiered:14>, <quark:duskbound_block>], [<openmodularturrets:intermediate_regular:0>, <openmodularturrets:intermediate_tiered:9>, <openmodularturrets:intermediate_regular:0>]]);
 recipes.addShapedMirrored("turret_crank", <openmodularturrets:lever_block>, [[<ore:stonesCobble>, <ore:stonesCobble>, <ore:stonesCobble>], [<ore:stonesCobble>, null, null], [<ore:stonesCobble>, null, null]]);
+
+recipes.addShapeless(<openmodularturrets:disposable_item_turret>, [<sevendaystomine:turret_base>]);
+recipes.addShapeless(<openmodularturrets:machine_gun_turret>, [<sevendaystomine:turret_advanced>]);																																																										 
 //============================================================================================================================================================================================
 //NETHEREX
 recipes.addShapeless("chunk_to_sliver", <netherex:bone_sliver>, [<netherex:bone_chunk>, <netherex:bone_chunk>]);
@@ -93,6 +109,31 @@ recipes.addShapeless("rime_steel", <netherex:rime_and_steel>, [<ore:ingotSteel>,
 recipes.addShaped("dull_mirror", <netherex:dull_mirror>, [[<netherex:ghast_queen_tear>, <ore:ingotGold>, <netherex:ghast_queen_tear>]]);
 recipes.addShapeless("hyphae", <netherex:hyphae>, [<minecraft:mycelium>, <netherex:spore>]);
 recipes.addShapeless("blazed_bones", <netherex:blazed_wither_bone> * 6, [<quark:blaze_lantern>]);
+recipes.addShaped("obsidian_boat", <netherex:obsidian_boat>, [[<techguns:itemshared:51>, null, <techguns:itemshared:51>], [<techguns:itemshared:84>, <ore:obsidianSteel>, <techguns:itemshared:84>]]);
 //============================================================================================================================================================================================
 //OCEANIC EXPANSE
 recipes.addShaped("heavy_boots", <oe:heavy_boots>, [[<techguns:itemshared:84>, null, <techguns:itemshared:84>], [<techguns:itemshared:84>, null, <techguns:itemshared:84>]]);
+//============================================================================================================================================================================================
+//CYBERWARE
+recipes.addShapeless("radio_beacon", <cyberware:beacon>, [<sevendaystomine:radio>]);
+recipes.addShaped("surgery_machine", <cyberware:surgery>, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], [<ore:ingotIron>, <ore:circuitBasic>, <ore:ingotIron>], [<spartanweaponry:throwing_knife_iron>, <ore:gearDiamond>, <spartanweaponry:throwing_knife_iron>]]);
+recipes.addShaped("charger", <cyberware:charger>, [[<ore:ingotIron>, <openblocks:xp_drain>, <ore:ingotIron>], [<ore:ingotIron>, <techguns:itemshared:65>, <ore:ingotIron>], [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>]]);
+recipes.addShapeless("rotting_bodyparts", <minecraft:rotten_flesh>, [<cyberware:body_part:*>]);
+//============================================================================================================================================================================================
+//AIR SUPPORT
+recipes.addShaped("livestock_remote_0", <air_support:crate_drop_remote>, [[<ore:dustRedstone>, <ore:dyeBlack>, <ore:dustRedstone>], [null, <techguns:itemshared:65>, null], [<ore:ingotIron>, <minecraft:stone_button>, <ore:ingotIron>]]);
+recipes.addShaped("livestock_remote_1", <air_support:crate_drop_remote>, [[<ore:dustRedstone>, <ore:dyeBlack>, <ore:dustRedstone>], [null, <cyberware:component:3>, null], [<ore:ingotIron>, <minecraft:stone_button>, <ore:ingotIron>]]);
+recipes.addShaped("medical_remote_0", <air_support:medical_crate_drop_remote>, [[<ore:dustRedstone>, <ore:dyeWhite>, <ore:dustRedstone>], [null, <techguns:itemshared:65>, null], [<ore:ingotIron>, <minecraft:stone_button>, <ore:ingotIron>]]);
+recipes.addShaped("medical_remote_1", <air_support:medical_crate_drop_remote>, [[<ore:dustRedstone>, <ore:dyeWhite>, <ore:dustRedstone>], [null, <cyberware:component:3>, null], [<ore:ingotIron>, <minecraft:stone_button>, <ore:ingotIron>]]);
+recipes.addShaped("utility_remote_0", <air_support:utility_crate_drop_remote>, [[<ore:dustRedstone>, <ore:dyeBlue>, <ore:dustRedstone>], [null, <techguns:itemshared:65>, null], [<ore:ingotIron>, <minecraft:stone_button>, <ore:ingotIron>]]);
+recipes.addShaped("utility_remote_1", <air_support:utility_crate_drop_remote>, [[<ore:dustRedstone>, <ore:dyeBlue>, <ore:dustRedstone>], [null, <cyberware:component:3>, null], [<ore:ingotIron>, <minecraft:stone_button>, <ore:ingotIron>]]);
+//============================================================================================================================================================================================
+//FTB QUEST
+recipes.addShapedMirrored("task_screen_5x5", <ftbquests:screen>.withTag({BlockEntityTag: {Size: 2 as byte, id: "ftbquests:screen_core"}, display: {Lore: ["(+NBT)"]}}), [[<ftbquests:screen>.withTag({BlockEntityTag: {Size: 1 as byte, id: "ftbquests:screen_core"}, display: {Lore: ["(+NBT)"]}}), <ftbquests:screen>, <ftbquests:screen>], [<ftbquests:screen>, <ftbquests:screen>.withTag({BlockEntityTag: {Size: 1 as byte, id: "ftbquests:screen_core"}, display: {Lore: ["(+NBT)"]}}), <ftbquests:screen>], [<ftbquests:screen>, <ftbquests:screen>, <ftbquests:screen>.withTag({BlockEntityTag: {Size: 1 as byte, id: "ftbquests:screen_core"}, display: {Lore: ["(+NBT)"]}})]]);
+recipes.addShapedMirrored("task_screen_7x7", <ftbquests:screen>.withTag({BlockEntityTag: {Size: 3 as byte, id: "ftbquests:screen_core"}, display: {Lore: ["(+NBT)"]}}), [[<ftbquests:screen>.withTag({BlockEntityTag: {Size: 2 as byte, id: "ftbquests:screen_core"}, display: {Lore: ["(+NBT)"]}}), <ftbquests:screen>, <ftbquests:screen>], [<ftbquests:screen>, <ftbquests:screen>.withTag({BlockEntityTag: {Size: 2 as byte, id: "ftbquests:screen_core"}, display: {Lore: ["(+NBT)"]}}), <ftbquests:screen>], [<ftbquests:screen>, <ftbquests:screen>, <ftbquests:screen>.withTag({BlockEntityTag: {Size: 2 as byte, id: "ftbquests:screen_core"}, display: {Lore: ["(+NBT)"]}})]]);
+recipes.addShapedMirrored("task_screen_9x9", <ftbquests:screen>.withTag({BlockEntityTag: {Size: 4 as byte, id: "ftbquests:screen_core"}, display: {Lore: ["(+NBT)"]}}), [[<ftbquests:screen>.withTag({BlockEntityTag: {Size: 3 as byte, id: "ftbquests:screen_core"}, display: {Lore: ["(+NBT)"]}}), <ftbquests:screen>, <ftbquests:screen>], [<ftbquests:screen>, <ftbquests:screen>.withTag({BlockEntityTag: {Size: 3 as byte, id: "ftbquests:screen_core"}, display: {Lore: ["(+NBT)"]}}), <ftbquests:screen>], [<ftbquests:screen>, <ftbquests:screen>, <ftbquests:screen>.withTag({BlockEntityTag: {Size: 3 as byte, id: "ftbquests:screen_core"}, display: {Lore: ["(+NBT)"]}})]]);
+recipes.addShapedMirrored("progress_screen_5x5", <ftbquests:progress_screen>.withTag({BlockEntityTag: {Height: 4 as byte, id: "ftbquests:progress_screen_core", Width: 2 as byte}, display: {Lore: ["(+NBT)"]}}), [[<ftbquests:progress_screen>.withTag({BlockEntityTag: {Height: 2 as byte, id: "ftbquests:progress_screen_core", Width: 1 as byte}, display: {Lore: ["(+NBT)"]}}), <ftbquests:progress_screen>, <ftbquests:progress_screen>], [<ftbquests:progress_screen>, <ftbquests:progress_screen>.withTag({BlockEntityTag: {Height: 2 as byte, id: "ftbquests:progress_screen_core", Width: 1 as byte}, display: {Lore: ["(+NBT)"]}}), <ftbquests:progress_screen>], [<ftbquests:progress_screen>, <ftbquests:progress_screen>, <ftbquests:progress_screen>.withTag({BlockEntityTag: {Height: 2 as byte, id: "ftbquests:progress_screen_core", Width: 1 as byte}, display: {Lore: ["(+NBT)"]}})]]);
+recipes.addShapedMirrored("progress_screen_7x7", <ftbquests:progress_screen>.withTag({BlockEntityTag: {Height: 6 as byte, id: "ftbquests:progress_screen_core", Width: 3 as byte}, display: {Lore: ["(+NBT)"]}}), [[<ftbquests:progress_screen>.withTag({BlockEntityTag: {Height: 4 as byte, id: "ftbquests:progress_screen_core", Width: 2 as byte}, display: {Lore: ["(+NBT)"]}}), <ftbquests:progress_screen>, <ftbquests:progress_screen>], [<ftbquests:progress_screen>, <ftbquests:progress_screen>.withTag({BlockEntityTag: {Height: 4 as byte, id: "ftbquests:progress_screen_core", Width: 2 as byte}, display: {Lore: ["(+NBT)"]}}), <ftbquests:progress_screen>], [<ftbquests:progress_screen>, <ftbquests:progress_screen>, <ftbquests:progress_screen>.withTag({BlockEntityTag: {Height: 4 as byte, id: "ftbquests:progress_screen_core", Width: 2 as byte}, display: {Lore: ["(+NBT)"]}})]]);
+recipes.addShapedMirrored("progress_screen_9x9", <ftbquests:progress_screen>.withTag({BlockEntityTag: {Height: 8 as byte, id: "ftbquests:progress_screen_core", Width: 4 as byte}, display: {Lore: ["(+NBT)"]}}), [[<ftbquests:progress_screen>.withTag({BlockEntityTag: {Height: 6 as byte, id: "ftbquests:progress_screen_core", Width: 3 as byte}, display: {Lore: ["(+NBT)"]}}), <ftbquests:progress_screen>, <ftbquests:progress_screen>], [<ftbquests:progress_screen>, <ftbquests:progress_screen>.withTag({BlockEntityTag: {Height: 6 as byte, id: "ftbquests:progress_screen_core", Width: 3 as byte}, display: {Lore: ["(+NBT)"]}}), <ftbquests:progress_screen>], [<ftbquests:progress_screen>, <ftbquests:progress_screen>, <ftbquests:progress_screen>.withTag({BlockEntityTag: {Height: 6 as byte, id: "ftbquests:progress_screen_core", Width: 3 as byte}, display: {Lore: ["(+NBT)"]}})]]);
+
+

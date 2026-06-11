@@ -233,7 +233,13 @@ oreDict.planksBirch.add(<minecraft:planks:2>, <chisel:planks-birch:*>);
 oreDict.planksJungle.add(<minecraft:planks:3>, <chisel:planks-jungle:*>);
 oreDict.planksAcacia.add(<minecraft:planks:4>, <chisel:planks-acacia:*>);
 oreDict.planksDarkOak.add(<minecraft:planks:5>, <chisel:planks-dark-oak:*>);
-oreDict.planksModded.add(<pvj:planks_willow>, <pvj:planks_mangrove>, <pvj:planks_palm>, <pvj:planks_redwood>, <pvj:planks_fir>, <pvj:planks_pine>, <pvj:planks_aspen>, <pvj:planks_maple>, <pvj:planks_baobab>, <pvj:planks_cottonwood>, <oe:palm_planks>, <quark:stained_planks:*>);
+oreDict.frameWood.add(<sevendaystomine:oakplanksframe>, <sevendaystomine:birchplanksframe>, <sevendaystomine:spruceplanksframe>, <sevendaystomine:jungleplanksframe>, <sevendaystomine:acaciaplanksframe>, <sevendaystomine:darkoakplanksframe>);
+oreDict.chairWood.add(<sevendaystomine:chair_oak>, <sevendaystomine:chair_birch>, <sevendaystomine:chair_spruce>, <sevendaystomine:chair_jungle>, <sevendaystomine:chair_acacia>, <sevendaystomine:chair_big_oak>);
+//============================================================================================================================================================================================
+oreDict.sticksAll.add(<minecraft:stick>, <pvj:oak_twigs>, <pvj:birch_twigs>, <pvj:spruce_twigs>, <pvj:jungle_twigs>, <pvj:acacia_twigs>, <pvj:dark_oak_twigs>, <pvj:willow_twigs>, <pvj:mangrove_twigs>, <pvj:palm_twigs>, <pvj:redwood_twigs>, <pvj:fir_twigs>, <pvj:pine_twigs>, <pvj:aspen_twigs>, <pvj:red_maple_twigs>, <pvj:orange_maple_twigs>, <pvj:baobab_twigs>, <pvj:cottonwood_twigs>, <pvj:juniper_twigs>, <pvj:juniper_berried_twigs>, <pvj:white_cherry_blossom_twigs>, <pvj:pink_cherry_blossom_twigs>, <pvj:jacaranda_twigs>);
+oreDict.sticksCherry.add(<pvj:pink_cherry_blossom_twigs>, <pvj:white_cherry_blossom_twigs>);
+oreDict.stickJuniper.add(<pvj:juniper_berried_twigs>, <pvj:juniper_twigs>);
+oreDict.stickMaple.add(<pvj:orange_maple_twigs>, <pvj:red_maple_twigs>);
 
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
@@ -260,6 +266,30 @@ oreDict.woolWhite.add(<chisel:wool_white:*>, <quark:quilted_wool:0>);
 
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
+//CONCRETE
+//============================================================================================================================================================================================
+//============================================================================================================================================================================================
+oreDict.blockConcrete.add(<minecraft:concrete:*>, <chisel:concrete_white:*>, <chisel:concrete_white1:*>, <chisel:concrete_white2:*>, <chisel:concrete_orange:*>, <chisel:concrete_orange1:*>, <chisel:concrete_orange2:*>, <chisel:concrete_magenta:*>, <chisel:concrete_magenta1:*>, <chisel:concrete_magenta2:*>, <chisel:concrete_lightblue:*>, <chisel:concrete_lightblue1:*>, <chisel:concrete_lightblue2:*>, <chisel:concrete_yellow:*>, <chisel:concrete_yellow1:*>, <chisel:concrete_yellow2:*>, <chisel:concrete_lime:*>, <chisel:concrete_lime1:*>, <chisel:concrete_lime2:*>, <chisel:concrete_pink:*>, <chisel:concrete_pink1:*>, <chisel:concrete_pink2:*>, <chisel:concrete_gray:*>, <chisel:concrete_gray1:*>, <chisel:concrete_gray2:*>, <chisel:concrete_lightgray:*>, <chisel:concrete_lightgray1:*>, <chisel:concrete_lightgray2:*>, <chisel:concrete_cyan:*>, <chisel:concrete_cyan1:*>, <chisel:concrete_cyan2:*>, <chisel:concrete_purple:*>, <chisel:concrete_purple1:*>, <chisel:concrete_purple2:*>, <chisel:concrete_blue:*>, <chisel:concrete_blue1:*>, <chisel:concrete_blue2:*>, <chisel:concrete_brown:*>, <chisel:concrete_brown1:*>, <chisel:concrete_brown2:*>, <chisel:concrete_green:*>, <chisel:concrete_green1:*>, <chisel:concrete_green2:*>, <chisel:concrete_red:*>, <chisel:concrete_red1:*>, <chisel:concrete_red2:*>, <chisel:concrete_black:*>, <chisel:concrete_black1:*>, <chisel:concrete_black2:*>);
+oreDict.blockConcreteWhite.add(<minecraft:concrete:0>);
+oreDict.blockConcreteOrange.add(<minecraft:concrete:1>);
+oreDict.blockConcreteMagenta.add(<minecraft:concrete:2>);
+oreDict.blockConcreteLightBlue.add(<minecraft:concrete:3>);
+oreDict.blockConcreteYellow.add(<minecraft:concrete:4>);
+oreDict.blockConcreteLime.add(<minecraft:concrete:5>);
+oreDict.blockConcretePink.add(<minecraft:concrete:6>);
+oreDict.blockConcreteGray.add(<minecraft:concrete:7>);
+oreDict.blockConcreteLightGray.add(<minecraft:concrete:8>);
+oreDict.blockConcreteCyan.add(<minecraft:concrete:9>);
+oreDict.blockConcretePurple.add(<minecraft:concrete:10>);
+oreDict.blockConcreteBlue.add(<minecraft:concrete:11>);
+oreDict.blockConcreteBrown.add(<minecraft:concrete:12>);
+oreDict.blockConcreteGreen.add(<minecraft:concrete:13>);
+oreDict.blockConcreteRed.add(<minecraft:concrete:14>);
+oreDict.blockConcreteBlack.add(<minecraft:concrete:15>);
+oreDict.concretePowder.add(<minecraft:concrete_powder:*>);
+
+//============================================================================================================================================================================================
+//============================================================================================================================================================================================
 //MISC BLOCKS
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
@@ -269,24 +299,22 @@ oreDict.blockCarbon.add(<minecraft:coal_block>, <chisel:block_charcoal:*>, <chis
 oreDict.icePacked.add(<minecraft:packed_ice>, <chisel:icepillar:0>, <chisel:icepillar:1>, <chisel:icepillar:2>, <chisel:icepillar:3>, <chisel:icepillar:4>, <chisel:icepillar:5>, <chisel:icepillar:6>);
 oreDict.iceSoft.add(<minecraft:ice>, <chisel:ice:0>, <chisel:ice:1>, <chisel:ice:2>, <chisel:ice:3>, <chisel:ice:4>, <chisel:ice:5>, <chisel:ice:6>, <chisel:ice:7>, <chisel:ice:8>, <chisel:ice:9>, <chisel:ice:10>, <chisel:ice:11>, <chisel:ice:12>, <chisel:ice:13>, <chisel:ice:14>, <chisel:ice:15>, <chisel:ice1:0>, <chisel:ice1:1>, <chisel:ice1:2>, <chisel:ice1:3>, <chisel:ice1:4>, <chisel:ice1:5>, <chisel:ice1:6>, <chisel:ice1:7>, <chisel:ice1:8>, <chisel:ice1:9>, <chisel:ice1:10>, <chisel:ice1:11>, <chisel:ice1:12>, <chisel:ice1:13>, <chisel:ice1:14>, <chisel:ice1:15>, <chisel:ice2:0>);
 oreDict.obsidian.add(<minecraft:obsidian>);
-oreDict.blockConcrete.add(<minecraft:concrete:*>, <chisel:concrete_white:*>, <chisel:concrete_white1:*>, <chisel:concrete_white2:*>, <chisel:concrete_orange:*>, <chisel:concrete_orange1:*>, <chisel:concrete_orange2:*>, <chisel:concrete_magenta:*>, <chisel:concrete_magenta1:*>, <chisel:concrete_magenta2:*>, <chisel:concrete_lightblue:*>, <chisel:concrete_lightblue1:*>, <chisel:concrete_lightblue2:*>, <chisel:concrete_yellow:*>, <chisel:concrete_yellow1:*>, <chisel:concrete_yellow2:*>, <chisel:concrete_lime:*>, <chisel:concrete_lime1:*>, <chisel:concrete_lime2:*>, <chisel:concrete_pink:*>, <chisel:concrete_pink1:*>, <chisel:concrete_pink2:*>, <chisel:concrete_gray:*>, <chisel:concrete_gray1:*>, <chisel:concrete_gray2:*>, <chisel:concrete_lightgray:*>, <chisel:concrete_lightgray1:*>, <chisel:concrete_lightgray2:*>, <chisel:concrete_cyan:*>, <chisel:concrete_cyan1:*>, <chisel:concrete_cyan2:*>, <chisel:concrete_purple:*>, <chisel:concrete_purple1:*>, <chisel:concrete_purple2:*>, <chisel:concrete_blue:*>, <chisel:concrete_blue1:*>, <chisel:concrete_blue2:*>, <chisel:concrete_brown:*>, <chisel:concrete_brown1:*>, <chisel:concrete_brown2:*>, <chisel:concrete_green:*>, <chisel:concrete_green1:*>, <chisel:concrete_green2:*>, <chisel:concrete_red:*>, <chisel:concrete_red1:*>, <chisel:concrete_red2:*>, <chisel:concrete_black:*>, <chisel:concrete_black1:*>, <chisel:concrete_black2:*>);
-oreDict.concretePowder.add(<minecraft:concrete_powder:*>);
 oreDict.blockTemple.add(<chisel:temple:*>);
 oreDict.runed_voidstone.add(<chisel:voidstone:4>, <chisel:voidstonerunic:0>, <chisel:voidstonerunic:1>, <chisel:voidstonerunic:2>, <chisel:voidstonerunic:3>, <chisel:voidstonerunic:4>, <chisel:voidstonerunic:5>, <chisel:voidstonerunic:6>, <chisel:voidstonerunic:7>, <chisel:voidstonerunic:8>, <chisel:voidstonerunic:9>, <chisel:voidstonerunic:10>, <chisel:voidstonerunic:11>, <chisel:voidstonerunic:12>, <chisel:voidstonerunic:13>, <chisel:voidstonerunic:14>);
 oreDict.elevator.add(<openblocks:elevator:*>);
 oreDict.elevatorRotating.add(<openblocks:elevator_rotating:*>);
 oreDict.dirts.add(<minecraft:dirt:0>, <minecraft:dirt:1>, <chisel:dirt:*>);
-oreDict.blockObsidianSteel.add(<chisel:obsidian:*>);
 oreDict.blockCopper.add(<sevendaystomine:copper_block>);
 oreDict.sleepingBag.add(<sevendaystomine:sleepingbagitem:*>);
-oreDict.chestWood.add(<minecraft:trapped_chest>, <sevendaystomine:chest_old>, <quark:custom_chest_trap:*>);
+oreDict.chestWood.add(<sevendaystomine:chest_old>, <minecraft:trapped_chest>, <sevendaystomine:chest_old>, <quark:custom_chest_trap:*>);
 oreDict.shulker.add(<minecraft:white_shulker_box>, <minecraft:orange_shulker_box>, <minecraft:magenta_shulker_box>, <minecraft:light_blue_shulker_box>, <minecraft:yellow_shulker_box>, <minecraft:lime_shulker_box>, <minecraft:pink_shulker_box>, <minecraft:gray_shulker_box>, <minecraft:silver_shulker_box>, <minecraft:cyan_shulker_box>, <minecraft:purple_shulker_box>, <minecraft:blue_shulker_box>, <minecraft:brown_shulker_box>, <minecraft:green_shulker_box>, <minecraft:red_shulker_box>, <minecraft:black_shulker_box>);
 oreDict.bed.add(<minecraft:bed:*>);
 oreDict.curtainDoors.add(<malisisdoors:curtain_white>, <malisisdoors:curtain_orange>, <malisisdoors:curtain_magenta>, <malisisdoors:curtain_light_blue>, <malisisdoors:curtain_yellow>, <malisisdoors:curtain_lime>, <malisisdoors:curtain_pink>, <malisisdoors:curtain_gray>, <malisisdoors:curtain_silver>, <malisisdoors:curtain_cyan>, <malisisdoors:curtain_purple>, <malisisdoors:curtain_blue>, <malisisdoors:curtain_brown>, <malisisdoors:curtain_green>, <malisisdoors:curtain_red>, <malisisdoors:curtain_black>);
 oreDict.sofa.add(<sevendaystomine:sofa_white>, <sevendaystomine:sofa_orange>, <sevendaystomine:sofa_magenta>, <sevendaystomine:sofa_light_blue>, <sevendaystomine:sofa_yellow>, <sevendaystomine:sofa_lime>, <sevendaystomine:sofa_pink>, <sevendaystomine:sofa_gray>, <sevendaystomine:sofa_silver>, <sevendaystomine:sofa_cyan>, <sevendaystomine:sofa_purple>, <sevendaystomine:sofa_blue>, <sevendaystomine:sofa_brown>, <sevendaystomine:sofa_green>, <sevendaystomine:sofa_red>, <sevendaystomine:sofa_black>);
 oreDict.armchair.add(<sevendaystomine:armchairwhite>, <sevendaystomine:armchair_orange>, <sevendaystomine:armchair_magenta>, <sevendaystomine:armchair_light_blue>, <sevendaystomine:armchairyellow>, <sevendaystomine:armchair_lime>, <sevendaystomine:armchairpink>, <sevendaystomine:armchair_gray>, <sevendaystomine:armchair_silver>, <sevendaystomine:armchair_cyan>, <sevendaystomine:armchair_purple>, <sevendaystomine:armchairblue>, <sevendaystomine:armchairbrown>, <sevendaystomine:armchairgreen>, <sevendaystomine:armchairred>, <sevendaystomine:armchairblack>);
-oreDict.bookshelfOak.add(<sevendaystomine:bookshelf>, <minecraft:bookshelf>);
+oreDict.bookshelf.add(<sevendaystomine:bookshelf_spruce>, <sevendaystomine:bookshelf_birch>, <sevendaystomine:bookshelf_jungle>, <sevendaystomine:bookshelf_acacia>, <sevendaystomine:bookshelf_dark_oak>, <sevendaystomine:bookshelf>, <minecraft:bookshelf>);
 oreDict.paneIron.add(<minecraft:iron_bars>, <chisel:ironpane:*>);
+oreDict.pressurePlateStone.add(<minecraft:stone_pressure_plate>, <quark:obsidian_pressure_plate>);
 //============================================================================================================================================================================================
 oreDict.carpet.add(<minecraft:carpet:*>, <chisel:carpet_white:*>, <chisel:carpet_orange:*>, <chisel:carpet_magenta:*>, <chisel:carpet_lightblue:*>, <chisel:carpet_yellow:*>, <chisel:carpet_lime:*>, <chisel:carpet_pink:*>, <chisel:carpet_gray:*>, <chisel:carpet_lightgray:*>, <chisel:carpet_cyan:*>, <chisel:carpet_purple:*>, <chisel:carpet_blue:*>, <chisel:carpet_brown:*>, <chisel:carpet_green:*>, <chisel:carpet_red:*>, <chisel:carpet_black:*>);
 oreDict.carpetWhite.add(<minecraft:carpet:0>, <chisel:carpet_white:*>);
@@ -305,7 +333,6 @@ oreDict.carpetBrown.add(<minecraft:carpet:12>, <chisel:carpet_brown:*>);
 oreDict.carpetGreen.add(<minecraft:carpet:13>, <chisel:carpet_green:*>);
 oreDict.carpetRed.add(<minecraft:carpet:14>, <chisel:carpet_red:*>);
 oreDict.carpetBlack.add(<minecraft:carpet:15>, <chisel:carpet_black:*>);
-oreDict.chestWood.add(<sevendaystomine:chest_old>);
 
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
@@ -321,10 +348,6 @@ oreDict.shroomAll.add(<pvj:waxcap>, <pvj:orange_mushroom>, <pvj:deathcap>, <pvj:
 oreDict.book.add(<quark:ancient_tome:*>, <minecraft:book>, <minecraft:enchanted_book:*>, <minecraft:writable_book>, <minecraft:written_book>, <sevendaystomine:book_forging>, <sevendaystomine:book_computers>, <sevendaystomine:book_concrete>, <sevendaystomine:book_electricity>, <sevendaystomine:book_metalworking>);
 oreDict.wire.add(<buildcrafttransport:wire:0>, <buildcrafttransport:wire:1>, <buildcrafttransport:wire:2>, <buildcrafttransport:wire:3>, <buildcrafttransport:wire:4>, <buildcrafttransport:wire:5>, <buildcrafttransport:wire:6>, <buildcrafttransport:wire:7>, <buildcrafttransport:wire:8>, <buildcrafttransport:wire:9>, <buildcrafttransport:wire:10>, <buildcrafttransport:wire:11>, <buildcrafttransport:wire:12>, <buildcrafttransport:wire:13>, <buildcrafttransport:wire:14>, <buildcrafttransport:wire:15>);
 oreDict.brush.add(<buildcraftcore:paintbrush:*>);
-oreDict.sticksAll.add(<minecraft:stick>, <pvj:oak_twigs>, <pvj:birch_twigs>, <pvj:spruce_twigs>, <pvj:jungle_twigs>, <pvj:acacia_twigs>, <pvj:dark_oak_twigs>, <pvj:willow_twigs>, <pvj:mangrove_twigs>, <pvj:palm_twigs>, <pvj:redwood_twigs>, <pvj:fir_twigs>, <pvj:pine_twigs>, <pvj:aspen_twigs>, <pvj:red_maple_twigs>, <pvj:orange_maple_twigs>, <pvj:baobab_twigs>, <pvj:cottonwood_twigs>, <pvj:juniper_twigs>, <pvj:juniper_berried_twigs>, <pvj:white_cherry_blossom_twigs>, <pvj:pink_cherry_blossom_twigs>, <pvj:jacaranda_twigs>);
-oreDict.sticksCherry.add(<pvj:pink_cherry_blossom_twigs>, <pvj:white_cherry_blossom_twigs>);
-oreDict.stickJuniper.add(<pvj:juniper_berried_twigs>, <pvj:juniper_twigs>);
-oreDict.stickMaple.add(<pvj:orange_maple_twigs>, <pvj:red_maple_twigs>);
 oreDict.tallGrass.add(<minecraft:double_plant:2>, <minecraft:double_plant:3>);
 oreDict.flowerpot.add(<minecraft:flower_pot>, <quark:colored_flowerpot_white>, <quark:colored_flowerpot_orange>, <quark:colored_flowerpot_magenta>, <quark:colored_flowerpot_light_blue>, <quark:colored_flowerpot_yellow>, <quark:colored_flowerpot_lime>, <quark:colored_flowerpot_pink>, <quark:colored_flowerpot_gray>, <quark:colored_flowerpot_silver>, <quark:colored_flowerpot_cyan>, <quark:colored_flowerpot_purple>, <quark:colored_flowerpot_brown>, <quark:colored_flowerpot_green>, <quark:colored_flowerpot_red>, <quark:colored_flowerpot_black>);
 oreDict.itemFrame.add(<minecraft:item_frame>, <quark:colored_item_frame:*>, <quark:glass_item_frame>);
@@ -334,6 +357,9 @@ oreDict.ink.add(<minecraft:dye:0>, <oe:glow_ink_sac>);
 oreDict.leather.add(<techguns:itemshared:77>);
 oreDict.trapdoorWood. add(<malisisdoors:trapdoor_acacia>, <malisisdoors:trapdoor_birch>, <malisisdoors:trapdoor_dark_oak>, <malisisdoors:trapdoor_jungle>, <malisisdoors:trapdoor_spruce>, <pvj:willow_trapdoor>, <pvj:mangrove_trapdoor>, <pvj:palm_trapdoor>, <pvj:redwood_trapdoor>, <pvj:fir_trapdoor>, <pvj:pine_trapdoor>, <pvj:aspen_trapdoor>, <pvj:maple_trapdoor>, <pvj:baobab_trapdoor>, <pvj:cottonwood_trapdoor>, <pvj:juniper_trapdoor>, <pvj:cherry_blossom_trapdoor>, <pvj:jacaranda_trapdoor>);
 oreDict.ladder.add(<minecraft:ladder>, <sevendaystomine:metal_ladder>, <malisisdoors:rustyladder>, <openblocks:rope_ladder>, <techguns:ladder0:*>, <techguns:slimyladder>);
+oreDict.egg.add(<minecraft:egg>, <minecraft:dragon_egg>, <koopascritters:guineafowlegg>, <koopascritters:californiaquailegg>, <oe:turtle_egg>, <openblocks: golden_egg>, <quark:parrot_egg:*>);
+oreDict.arrow.add(<minecraft:arrow>, <minecraft:spectral_arrow>, <minecraft:tipped_arrow:*>, <quark:arrow_ender>, <quark:arrow_explosive>, <quark:arrow_torch>, <spartanweaponry:arrow_wood>, <spartanweaponry:arrow_iron>, <spartanweaponry:arrow_diamond>, <spartanweaponry:arrow_explosive>, <spartanweaponry:arrow_wood_tipped:*>, <spartanweaponry:arrow_iron_tipped>, <spartanweaponry:arrow_diamond_tipped>);
+
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
 //ADD CHISEL GROUPS

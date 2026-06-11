@@ -16,6 +16,7 @@ mods.jei.JEI.hideCategory("fluid_processor");
 mods.jei.JEI.hideCategory("Electrolytic Cell");
 mods.jei.JEI.hideCategory("buildcraft-compat:silicon.assembly");
 mods.jei.JEI.hideCategory("Chemistry Station");
+mods.jei.JEI.hideCategory("techguns.camobench");
 
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
@@ -52,7 +53,25 @@ mods.jei.JEI.hide(<oe:red_coral_dead>);
 mods.jei.JEI.hide(<oe:yellow_coral_dead>);
 mods.jei.JEI.hide(<oe:seastar>);
 mods.jei.JEI.hide(<quark:glowshroom_block>);
-
+mods.jei.JEI.hide(<baubles:ring>);
+mods.jei.JEI.hide(<pvj:willow_door_item>);
+mods.jei.JEI.hide(<pvj:mangrove_door_item>);
+mods.jei.JEI.hide(<pvj:palm_door_item>);
+mods.jei.JEI.hide(<pvj:redwood_door_item>);
+mods.jei.JEI.hide(<pvj:fir_door_item>);
+mods.jei.JEI.hide(<pvj:pine_door_item>);
+mods.jei.JEI.hide(<pvj:aspen_door_item>);
+mods.jei.JEI.hide(<pvj:maple_door_item>);
+mods.jei.JEI.hide(<pvj:baobab_door_item>);
+mods.jei.JEI.hide(<pvj:cottonwood_door_item>);
+mods.jei.JEI.hide(<pvj:juniper_door_item>);
+mods.jei.JEI.hide(<pvj:cherry_blossom_door_item>);
+mods.jei.JEI.hide(<pvj:jacaranda_door_item>);
+mods.jei.JEI.hide(<techguns:item_bunkerdoor>);
+mods.jei.JEI.hide(<sevendaystomine:woodendoorreinforceditem>);
+mods.jei.JEI.hide(<sevendaystomine:locked_door_item>);
+mods.jei.JEI.hide(<sevendaystomine:wooden_door_iron_reinforced_item>);
+mods.jei.JEI.hide(<malisisdoors:customdooritem>);
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
 //REMOVING BLOAT
@@ -75,17 +94,6 @@ mods.jei.JEI.removeAndHide(<minecraft:bed:12>);
 mods.jei.JEI.removeAndHide(<minecraft:bed:13>);
 mods.jei.JEI.removeAndHide(<minecraft:bed:14>);
 mods.jei.JEI.removeAndHide(<minecraft:bed:15>);
-mods.jei.JEI.removeAndHide(<minecraft:wooden_door>);
-mods.jei.JEI.removeAndHide(<minecraft:spruce_door>);
-mods.jei.JEI.removeAndHide(<minecraft:birch_door>);
-mods.jei.JEI.removeAndHide(<minecraft:jungle_door>);
-mods.jei.JEI.removeAndHide(<minecraft:acacia_door>);
-mods.jei.JEI.removeAndHide(<minecraft:dark_oak_door>);
-mods.jei.JEI.removeAndHide(<minecraft:spruce_boat>);
-mods.jei.JEI.removeAndHide(<minecraft:birch_boat>);
-mods.jei.JEI.removeAndHide(<minecraft:jungle_boat>);
-mods.jei.JEI.removeAndHide(<minecraft:acacia_boat>);
-mods.jei.JEI.removeAndHide(<minecraft:dark_oak_boat>);
 mods.jei.JEI.removeAndHide(<minecraft:iron_shovel>, false);
 mods.jei.JEI.removeAndHide(<minecraft:iron_pickaxe>, false);
 mods.jei.JEI.removeAndHide(<minecraft:iron_axe>, false);
@@ -346,18 +354,16 @@ mods.jei.JEI.removeAndHide(<buildcraftlib:guide_note>);
 mods.jei.JEI.removeAndHide(<techguns:basicmachine:3>);
 mods.jei.JEI.removeAndHide(<techguns:bioblob>);
 mods.jei.JEI.removeAndHide(<techguns:tg_spawner>);
+mods.jei.JEI.removeAndHide(<techguns:tg_spawner:1>);
 mods.jei.JEI.removeAndHide(<techguns:slimy>);
 mods.jei.JEI.removeAndHide(<techguns:itemshared:25>);
 mods.jei.JEI.removeAndHide(<techguns:itemshared:26>);
 mods.jei.JEI.removeAndHide(<techguns:itemshared:41>);
 mods.jei.JEI.removeAndHide(<techguns:itemshared:71>);
 mods.jei.JEI.removeAndHide(<techguns:itemshared:73>);
-mods.jei.JEI.removeAndHide(<techguns:itemshared:74>);
 mods.jei.JEI.removeAndHide(<techguns:itemshared:99>);
 mods.jei.JEI.removeAndHide(<techguns:itemshared:100>);
 mods.jei.JEI.removeAndHide(<techguns:itemshared:101>);
-mods.jei.JEI.removeAndHide(<techguns:itemshared:127>);
-mods.jei.JEI.removeAndHide(<techguns:itemshared:128>);
 mods.jei.JEI.removeAndHide(<techguns:itemshared:133>);
 mods.jei.JEI.removeAndHide(<techguns:radaway>);
 mods.jei.JEI.removeAndHide(<techguns:radpills>);
@@ -366,18 +372,14 @@ mods.jei.JEI.removeAndHide(<techguns:hazmat_chestplate>, false);
 mods.jei.JEI.removeAndHide(<techguns:hazmat_leggings>, false);
 mods.jei.JEI.removeAndHide(<techguns:hazmat_boots>, false);
 mods.jei.JEI.removeAndHide(<techguns:biogun>, false);
-mods.jei.JEI.removeAndHide(<techguns:teslagun>, false);
 mods.jei.JEI.removeAndHide(<techguns:lasergun>, false);
 mods.jei.JEI.removeAndHide(<techguns:blasterrifle>, false);
 mods.jei.JEI.removeAndHide(<techguns:scatterbeamrifle>, false);
-mods.jei.JEI.removeAndHide(<techguns:sonicshotgun>, false);
-mods.jei.JEI.removeAndHide(<techguns:pulserifle>, false);
 mods.jei.JEI.removeAndHide(<techguns:mibgun>, false);
 mods.jei.JEI.removeAndHide(<techguns:alienblaster>, false);
 mods.jei.JEI.removeAndHide(<techguns:nucleardeathray>, false);
-mods.jei.JEI.removeAndHide(<techguns:gaussrifle>, false);
 mods.jei.JEI.removeAndHide(<techguns:laserpistol>, false);
-mods.jei.JEI.removeAndHide(<techguns:simplemachine:8>);
+//mods.jei.JEI.removeAndHide(<techguns:simplemachine:8>);
 //============================================================================================================================================================================================
 //PROJECT VIBRANT JOURNEY
 mods.jei.JEI.removeAndHide(<pvj:mystical_porkchop>);
@@ -575,14 +577,24 @@ mods.jei.JEI.removeAndHide(<quark:cooked_crab_leg>);
 mods.jei.JEI.removeAndHide(<quark:monster_box>);
 mods.jei.JEI.removeAndHide(<quark:chute>);
 //============================================================================================================================================================================================
-//RECURRENT COMPLEX
-mods.jei.JEI.removeAndHide(<reccomplex:spawn_script>);
-mods.jei.JEI.removeAndHide(<reccomplex:structure_generator>);
-mods.jei.JEI.removeAndHide(<reccomplex:maze_generator>);
-mods.jei.JEI.removeAndHide(<reccomplex:weighted_command_block>);
+//WEATHER2
+mods.jei.JEI.removeAndHide(<weather2:motor>);
 //============================================================================================================================================================================================
-//SPARTAN WEAPONRY
-mods.jei.JEI.removeAndHide(<spartanweaponry:club_wood>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:club_studded>);
-//============================================================================================================================================================================================
-//OCEANIC EXPANSE
+//PARASITES
+mods.jei.JEI.removeAndHide(<overlast:beef_pickaxe>);
+mods.jei.JEI.removeAndHide(<overlast:wooden_sword_plus>);
+mods.jei.JEI.removeAndHide(<overlast:baseball_pole>);
+mods.jei.JEI.removeAndHide(<overlast:ice_spear>);
+mods.jei.JEI.removeAndHide(<overlast:drinking_potion:0>);
+mods.jei.JEI.removeAndHide(<overlast:drinking_potion:1>);
+mods.jei.JEI.removeAndHide(<overlast:drinking_potion:2>);
+mods.jei.JEI.removeAndHide(<overlast:drinking_potion:3>);
+mods.jei.JEI.removeAndHide(<overlast:injected_potion>);
+mods.jei.JEI.removeAndHide(<overlast:boss_chip>);
+mods.jei.JEI.removeAndHide(<overlast:blockpurifier>);
+mods.jei.JEI.removeAndHide(<overlast:winter_core>);
+mods.jei.JEI.removeAndHide(<overlast:summer_core>);
+mods.jei.JEI.removeAndHide(<overlast:specimen_farm>);
+mods.jei.JEI.removeAndHide(<overlast:specimen_cell>);
+mods.jei.JEI.removeAndHide(<overlast:specimen_infect>);
+mods.jei.JEI.removeAndHide(<overlast:final_specimen>);

@@ -62,6 +62,24 @@ recipes.addShaped("carpet_dyed_to_brown", <minecraft:carpet:12> * 3, [[null, <or
 recipes.addShaped("carpet_dyed_to_green", <minecraft:carpet:13> * 3, [[null, <ore:dyeGreen>, null], [<ore:carpet>, <ore:carpet>, <ore:carpet>]]);
 recipes.addShaped("carpet_dyed_to_red", <minecraft:carpet:14> * 3, [[null, <ore:dyeRed>, null], [<ore:carpet>, <ore:carpet>, <ore:carpet>]]);
 recipes.addShaped("carpet_dyed_to_black", <minecraft:carpet:15> * 3, [[null, <ore:dyeBlack>, null], [<ore:carpet>, <ore:carpet>, <ore:carpet>]]);
+//============================================================================================================================================================================================
+//BEDS
+recipes.addShapeless("bed_dyed_to_white", <minecraft:bed:0>, [<ore:bed>, <ore:dyeWhite>]);
+recipes.addShapeless("bed_dyed_to_orange", <minecraft:bed:1>, [<ore:bed>, <ore:dyeOrange>]);
+recipes.addShapeless("bed_dyed_to_magenta", <minecraft:bed:2>, [<ore:bed>, <ore:dyeMagenta>]);
+recipes.addShapeless("bed_dyed_to_light_blue", <minecraft:bed:3>, [<ore:bed>, <ore:dyeLightBlue>]);
+recipes.addShapeless("bed_dyed_to_yellow", <minecraft:bed:4>, [<ore:bed>, <ore:dyeYellow>]);
+recipes.addShapeless("bed_dyed_to_lime", <minecraft:bed:5>, [<ore:bed>, <ore:dyeLime>]);
+recipes.addShapeless("bed_dyed_to_pink", <minecraft:bed:6>, [<ore:bed>, <ore:dyePink>]);
+recipes.addShapeless("bed_dyed_to_gray", <minecraft:bed:7>, [<ore:bed>, <ore:dyeGray>]);
+recipes.addShapeless("bed_dyed_to_light_gray", <minecraft:bed:8>, [<ore:bed>, <ore:dyeLightGray>]);
+recipes.addShapeless("bed_dyed_to_cyan", <minecraft:bed:9>, [<ore:bed>, <ore:dyeCyan>]);
+recipes.addShapeless("bed_dyed_to_purple", <minecraft:bed:10>, [<ore:bed>, <ore:dyePurple>]);
+recipes.addShapeless("bed_dyed_to_blue", <minecraft:bed:11>, [<ore:bed>, <ore:dyeBlue>]);
+recipes.addShapeless("bed_dyed_to_brown", <minecraft:bed:12>, [<ore:bed>, <ore:dyeBrown>]);
+recipes.addShapeless("bed_dyed_to_green", <minecraft:bed:13>, [<ore:bed>, <ore:dyeGreen>]);
+recipes.addShapeless("bed_dyed_to_red", <minecraft:bed:14>, [<ore:bed>, <ore:dyeRed>]);
+recipes.addShapeless("bed_dyed_to_black", <minecraft:bed:15>, [<ore:bed>, <ore:dyeBlack>]);
 
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
@@ -91,7 +109,6 @@ recipes.addShaped("tnt", <minecraft:tnt> * 3, [[<minecraft:paper>, <spartanweapo
 recipes.addShaped("golden_apple_1", <minecraft:golden_apple:1>, [[<ore:blockAluminium>, <ore:blockAluminium>, <ore:blockAluminium>], [<ore:blockAluminium>, <minecraft:golden_apple:0>, <ore:blockAluminium>], [<ore:blockAluminium>, <ore:blockAluminium>, <ore:blockAluminium>]]);
 recipes.addShaped("daylight_sensor", <minecraft:daylight_detector>, [[<ore:blockGlassColorless>, <ore:blockGlassColorless>, <ore:blockGlassColorless>], [<ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>], [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]]);
 recipes.addShaped("redstone_lamp", <minecraft:redstone_lamp>, [[null, <ore:dustGlowstone>, null], [<ore:dustGlowstone>, <sevendaystomine:redstone_lamp_broken>, <ore:dustGlowstone>], [null, <ore:dustGlowstone>, null]]);
-recipes.addShaped("end_crystal", <minecraft:end_crystal>, [[<ore:blockGlassColorless>, <ore:blockGlassColorless>, <ore:blockGlassColorless>], [<ore:blockGlassColorless>, <minecraft:ender_eye>, <ore:blockGlassColorless>], [<ore:blockGlassColorless>, <netherex:ghast_queen_tear>, <ore:blockGlassColorless>]]);
 recipes.addShaped("minecart_furnace_0", <minecraft:furnace_minecart>, [[<sevendaystomine:forge>], [<minecraft:minecart>]]);
 recipes.addShaped("minecart_furnace_1", <minecraft:furnace_minecart>, [[<techguns:simplemachine:11>], [<minecraft:minecart>]]);
 recipes.addShapeless("trapped_chest", <minecraft:trapped_chest>, [<ore:chestWood>, <minecraft:tripwire_hook>]);
@@ -110,8 +127,10 @@ recipes.addShapedMirrored("lead_0", <minecraft:lead> * 2, [[<minecraft:string>, 
 recipes.addShapedMirrored("lead_1", <minecraft:lead> * 2, [[<sevendaystomine:plantfiber>, <sevendaystomine:plantfiber>, null], [<sevendaystomine:plantfiber>, <minecraft:slime_ball>, null], [null, null, <sevendaystomine:plantfiber>]]);
 recipes.addShapedMirrored("fishing_rod", <minecraft:fishing_rod>, [[null, null, <minecraft:stick>], [null, <minecraft:stick>, <sevendaystomine:plantfiber>], [<minecraft:stick>, null, <sevendaystomine:plantfiber>]]);
 recipes.addShaped("sticks", <minecraft:stick> * 4, [[<sevendaystomine:woodplank>], [<sevendaystomine:woodplank>]]);
+recipes.addShaped("end_crystal", <minecraft:end_crystal>, [[<quark:framed_glass>, <netherex:amethyst_crystal>, <quark:framed_glass>], [<netherex:amethyst_crystal>, <minecraft:nether_star>, <netherex:amethyst_crystal>], [<quark:framed_glass>, <minecraft:ghast_tear>, <quark:framed_glass>]]);
 //============================================================================================================================================================================================
 //OREREG
+recipes.addShaped("cake", <minecraft:cake>, [[<minecraft:milk_bucket>, <minecraft:milk_bucket>, <minecraft:milk_bucket>], [<minecraft:sugar>, <ore:egg>, <minecraft:sugar>], [<minecraft:wheat>, <minecraft:wheat>, <minecraft:wheat>]]);
 recipes.addShaped("bookshelf", <minecraft:bookshelf>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:book>, <ore:book>, <ore:book>], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);
 recipes.addShaped("dispenser", <minecraft:dispenser>, [[<ore:stonesCobble>, <ore:stonesCobble>, <ore:stonesCobble>], [<ore:stonesCobble>, <ore:bows>, <ore:stonesCobble>], [<ore:stonesCobble>, <ore:dustRedstone>, <ore:stonesCobble>]]);
 recipes.addShaped("repeater", <minecraft:repeater>, [[<minecraft:redstone_torch>, <ore:dustRedstone>, <minecraft:redstone_torch>], [<ore:stones>, <ore:stones>, <ore:stones>]]);
@@ -131,3 +150,13 @@ recipes.addShaped("brewing_stand", <minecraft:brewing_stand>, [[null, <minecraft
 recipes.addShaped("furnace", <minecraft:furnace>, [[<ore:stonesCobble>, <ore:stonesCobble>, <ore:stonesCobble>], [<ore:stonesCobble>, null, <ore:stonesCobble>], [<ore:stonesCobble>, <ore:stonesCobble>, <ore:stonesCobble>]]);
 recipes.addShaped("hopper", <minecraft:hopper>, [[<ore:ingotIron>, null, <ore:ingotIron>], [<ore:ingotIron>, <ore:chestWood>, <ore:ingotIron>], [null, <ore:ingotIron>, null]]);
 recipes.addShaped("minecart_with_chest", <minecraft:chest_minecart>, [[<ore:chestWood>], [<minecraft:minecart>]]);
+recipes.addShaped("detector_rails", <minecraft:detector_rail> * 6, [[<ore:ingotIron>, null, <ore:ingotIron>], [<ore:ingotIron>, <ore:pressurePlateStone>, <ore:ingotIron>], [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>]]);
+//============================================================================================================================================================================================
+//TEMP RECIPES			  
+recipes.addShaped(<minecraft:emerald> * 2, [[<techguns:itemshared:61>, null, <techguns:itemshared:61>], [null, <techguns:itemshared:71>, null], [<techguns:itemshared:61>, <ore:gemDiamond>, <techguns:itemshared:61>]]);
+recipes.addShaped(<minecraft:string> * 4, [[<ore:wool>]]);
+recipes.addShaped(<minecraft:clay_ball> * 4, [[<minecraft:clay>]]);
+recipes.addShaped(<minecraft:ender_pearl>, [[<ore:ingotObsidianSteel>, <ore:dustGlowstone>, <ore:ingotObsidianSteel>], [<ore:dustGlowstone>, <cyberware:cybereyes>.withTag({cyberwareQuality: "cyberware.quality.scavenged"}), <ore:dustGlowstone>], [<ore:ingotObsidianSteel>, <ore:dustGlowstone>, <ore:ingotObsidianSteel>]]);
+recipes.addShaped(<minecraft:ender_pearl>, [[<ore:ingotObsidianSteel>, <ore:dustGlowstone>, <ore:ingotObsidianSteel>], [<ore:dustGlowstone>, <cyberware:cybereyes>, <ore:dustGlowstone>], [<ore:ingotObsidianSteel>, <ore:dustGlowstone>, <ore:ingotObsidianSteel>]]);
+recipes.addShapeless(<minecraft:blaze_rod>, [<netherex:frost_rod>, <minecraft:blaze_powder>]);
+recipes.addShapeless(<minecraft:bone>, [<srparasites:ada_arachnida_drop>]);																																																						 

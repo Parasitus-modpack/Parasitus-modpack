@@ -4,6 +4,11 @@
 //SPARTAN WEAPONRY
 
 
+//============================================================================================================================================================================================
+//============================================================================================================================================================================================
+//WEAPONRY
+//============================================================================================================================================================================================
+//============================================================================================================================================================================================
 
 recipes.addShapedMirrored("pole_1", <spartanweaponry:material:1> * 4, [[<minecraft:stick>, <minecraft:stick>, <minecraft:stick>], [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>], [<minecraft:stick>, <minecraft:stick>, <ore:wool>]]);
 recipes.addShapedMirrored("pole_2", <spartanweaponry:material:1>, [[<minecraft:stick>, null, null], [<minecraft:stick>, <sevendaystomine:plantfiber>, null], [<minecraft:stick>, null, null]]);
@@ -124,7 +129,7 @@ recipes.addShapedMirrored("stone_glaive", <spartanweaponry:glaive_stone>, [[null
 recipes.addShapedMirrored("stone_quarterstaff", <spartanweaponry:staff_stone>, [[null, null, <ore:stonesCobble>], [null, <spartanweaponry:material:1>, null], [<ore:stonesCobble>, null, null]]);
 //============================================================================================================================================================================================
 //ZINC
-recipes.addShaped("zinc_dagger", <spartanweaponry:dagger_nickel>, [[<sevendaystomine:zincingot>], [<spartanweaponry:material:9>]]);
+recipes.addShaped("zinc_dagger", <spartanweaponry:dagger_nickel>, [[<sevendaystomine:zincingot>], [<spartanweaponry:material:0>]]);
 recipes.addShapedMirrored("zinc_parrying_dagger", <spartanweaponry:parrying_dagger_nickel>, [[null, <sevendaystomine:zincingot>, null], [<sevendaystomine:zincingot>, <spartanweaponry:material:0>, null]]);
 recipes.addShaped("zinc_longsword", <spartanweaponry:longsword_nickel>, [[null, <sevendaystomine:zincingot>, null], [null, <sevendaystomine:zincingot>, null], [<sevendaystomine:zincingot>, <spartanweaponry:material:0>, <sevendaystomine:zincingot>]]);
 recipes.addShapedMirrored("zinc_katana", <spartanweaponry:katana_nickel>, [[null, null, <sevendaystomine:zincingot>], [null, <sevendaystomine:zincingot>, null], [<spartanweaponry:material:0>, null, null]]);
@@ -147,7 +152,7 @@ recipes.addShapedMirrored("zinc_glaive", <spartanweaponry:glaive_nickel>, [[null
 recipes.addShapedMirrored("zinc_quarterstaff", <spartanweaponry:staff_nickel>, [[null, null, <sevendaystomine:zincingot>], [null, <spartanweaponry:material:1>, null], [<sevendaystomine:zincingot>, null, null]]);
 //============================================================================================================================================================================================
 //DIAMOND_STEEL
-recipes.addShaped("diamond_steel_dagger", <spartanweaponry:dagger_platinum>, [[<sevendaystomine:scraplead>], [<spartanweaponry:material:9>]]);
+recipes.addShaped("diamond_steel_dagger", <spartanweaponry:dagger_platinum>, [[<sevendaystomine:scraplead>], [<spartanweaponry:material:0>]]);
 recipes.addShapedMirrored("diamond_steel_parrying_dagger", <spartanweaponry:parrying_dagger_platinum>, [[null, <sevendaystomine:scraplead>, null], [<sevendaystomine:scraplead>, <spartanweaponry:material:0>, null]]);
 recipes.addShaped("diamond_steel_longsword", <spartanweaponry:longsword_platinum>, [[null, <sevendaystomine:scraplead>, null], [null, <sevendaystomine:scraplead>, null], [<sevendaystomine:scraplead>, <spartanweaponry:material:0>, <sevendaystomine:scraplead>]]);
 recipes.addShapedMirrored("diamond_steel_katana", <spartanweaponry:katana_platinum>, [[null, null, <sevendaystomine:scraplead>], [null, <sevendaystomine:scraplead>, null], [<spartanweaponry:material:0>, null, null]]);
@@ -168,6 +173,3 @@ recipes.addShaped("diamond_steel_battleaxe", <spartanweaponry:battleaxe_platinum
 recipes.addShapedMirrored("diamond_steel_mace", <spartanweaponry:mace_platinum>, [[null, <sevendaystomine:scraplead>, <sevendaystomine:scraplead>], [null, <minecraft:stick>, <sevendaystomine:scraplead>], [<spartanweaponry:material:0>]]);
 recipes.addShapedMirrored("diamond_steel_glaive", <spartanweaponry:glaive_platinum>, [[null, <sevendaystomine:scraplead>, null], [null, <sevendaystomine:scraplead>, null], [<sevendaystomine:scraplead>, <spartanweaponry:material:1>, null]]);
 recipes.addShapedMirrored("diamond_steel_quarterstaff", <spartanweaponry:staff_platinum>, [[null, null, <sevendaystomine:scraplead>], [null, <spartanweaponry:material:1>, null], [<sevendaystomine:scraplead>, null, null]]);
-
-
-
