@@ -25,7 +25,8 @@
 <sevendaystomine:gear>.displayName = "Steel Gear";
 <nocubessrpsurvival:cratelongarmsarmorfragment>.displayName = "Longarm Armor Fragment Crate";
 <nocubessrpsurvival:crateparasiticlump>.displayName = "Grotesque Lump Crate";
-<nocubessrpsurvival:crateassimilatedflesh>.displayName = "Dispatcher Membrane Crate";
+<nocubessrpsurvival:crateassimilatedflesh>.displayName = "Beckon Membrane Crate";
+<nocubessrpsurvival:cratediseasedheart>.displayName = "Dispatcher Membrane Crate";
 //<techguns:itemshared:78-displayName = "Titanium Dust";
 //============================================================================================================================================================================================
 //<openblocks:tank>.withTag({tank: {FluidName: "bcop-gaseous_lava-cool"}}).displayName = "Gaseous Lava  (§b Cool §r) Tank";

@@ -1,0 +1,277 @@
+// File created by Nykrdaudr
+
+
+//SEVEN DAYS TO MINE
+//import mods.sevendaystomine.item.ScrapDataManager;
+//
+//import mods.sevendaystomine.upgrade.UpgradeManager;
+//
+//Import mods.sevendaystomine.recipe.ForgeRecipeManager;
+//
+//Import mods.sevendaystomine.recipe.CampfireRecipeManager;
+//
+//Import mods.sevendaystomine.recipe.ChemistryRecipeManager;
+//
+//Import mods.sevendaystomine.recipe.MaterialStack;
+//==========================================================================
+
+//RepairManager.addRepair(IBlock,IItemStack,float);
+//block to repair, item to use for the repair, float
+//==========================================================================
+
+//ScrapDataManager.addScrap(IItemStack, MaterialStack, boolean, boolean);
+//New scrapable item, scrap type, scrap value?, scrap value?
+//ScrapDataManager.addScrap(IItemStack, String, int, boolean, boolean);
+//
+//ScrapDataManager.addScrap(IItemStack, String, double, boolean, boolean);
+//
+//ScrapDataManager.addScrap(IItemStack, String, String, boolean, boolean);
+//
+//==========================================================================
+//ScrapDataManager.addScrapResult(IItemStack, String, int);
+//
+//ScrapDataManager.addScrapResult(IItemStack, String, double);
+//
+//ScrapDataManager.addScrapResult(IItemStack, Materialstack);
+//new scrap material, scrap type
+//ScrapDataManager.addScrapResult(IItemStack, String, String);
+//
+//==========================================================================
+//ScrapDataManager.removeScrap(IItemStack);
+
+//==========================================================================
+
+//UpgradeManager.addUppgrade(IBlockState, IBlockState, IBlockState, String, IItemStack);
+//
+//==========================================================================
+
+//CampfireRecipeManager.addShapedRecipe(IItemStack, IItemStack, IItemStack, [], [], int);
+//
+//CampfireRecipeManager.addShapelessRecipe(IItemStack,IItemStack, IItemStack, [], int);
+//
+//==========================================================================
+
+//SeparatorRecipeManager.addRecipe(IItemStack, IItemStack, IItemStack, int);
+//
+//==========================================================================
+
+//MaterialStack.material()
+//MaterialStack.weight()
+//Valid Stacks: <materialstack:name>
+// NONE, CARBON, IRON, BRASS, LEAD, STEEL, COPPER, BRONZE, TIN, ZINC, GOLD,
+// WOLFRAM, URANIUM, WOOD, STONE, GLASS, CLOTH, PLANT_FIBER, PLASTIC, CLAY,
+// MERCURY, POTASSIUM, CONCRETE, LEATHER, GASOLINE, SAND, PAPER, STRING, BONE, NETHERITE
+//==========================================================================
+
+//ForgeRecipeManager.removeRecipe(String);
+//Recipe name
+//ForgeRecipeManager.addMaterialRecipe(String, IItemStack, IItemStack, float, int, MaterialStack[]);
+//recipe name, output, mold, xp, burntime, input
+//ForgeRecipeManager.addRecipe(IItemStack, int, IItemStack[])
+//
+//==========================================================================
+//ChemistryRecipeManager.addRecipe(IItemStack, int, IItemStack
+//
+//============================================================================================================================================================================================
+//============================================================================================================================================================================================
+//============================================================================================================================================================================================
+//BLAST FURNACE
+//mods.techguns.BlastFurnace
+//mods.techguns.BlastFurnace.removeRecipe(IItemStack)
+//mods.techguns.BlastFurnace.addRecipe(IItemStack,IItemStack,IItemStack,int,int)
+//BlastFurnace.addRecipe(itemInput1,itemInput2,itemOutput,time,power)
+//============================================================================================================================================================================================
+//mods.techguns.BlastFurnace.addRecipe(String,int,IItemStack,IItemStack,int,int)
+//mods.techguns.BlastFurnace.addRecipe(String,int,String,int,IItemStack,int,int)
+//mods.techguns.BlastFurnace.addRecipe(IItemStack,String,int,IItemStack,int,int)
+//============================================================================================================================================================================================
+//REACTION CHAMBER
+//mods.techguns.ReactionChamber
+//mods.techguns.ReactionChamber.removeRecipe(<iteminput>, <fluidOutput>;
+//mods.techguns.ReactionChamber.addRecipe(IItemStack,ILiquidStack,IItemStack,IItemStack,int,int,int,int,int,int,float,String,int)
+//ReactionChamber.addRecipe(<iteminput>, <fluidInput>, <itemOutput1>, <itemOutput2>, <itemOutput3>, <itemOutput4>, <focusItem>, ticks, required, intensityStart, intensityJump, liquidLvl, liquidConsumption, instability, risk, rf/tick
+// liquidLvl = 0-10
+// instability = 0.0-1.0
+// risk = "NONE", "BREAK_ITEM", "EXPLOSION_LOW", "EXPLOSION_MEDIUM", "EXPLOSION_HIGH"(may not work)
+//============================================================================================================================================================================================
+//mods.techguns.ReactionChamber.removeRecipe(IItemStack,ILiquidStack)
+//mods.techguns.ReactionChamber.removeRecipe(String,ILiquidStack)
+//mods.techguns.ReactionChamber.addRecipe(String,IItemStack,ILiquidStack,IItemStack[],IItemStack,int,int,int,int,int,int,float,String,int)
+//mods.techguns.ReactionChamber.addRecipe(String,String,ILiquidStack,IItemStack,IItemStack,int,int,int,int,int,int,float,String,int)
+//mods.techguns.ReactionChamber.addRecipe(String,String,ILiquidStack,IItemStack[],IItemStack,int,int,int,int,int,int,float,String,int)
+//============================================================================================================================================================================================
+//recipes.addShaped("t4_power_helmet", <techguns:t4_power_helmet>, [
+	[null, powerArmorPlateMk2, null],
+	[powerArmorPlateMk2, <techguns:t3_power_helmet>.anyDamage().marked("mark"), powerArmorPlateMk2],
+	[<ore:circuitUltimate>, <techguns:nightvisiongoggles:*>, <ore:circuitUltimate>]],
+
+	function(out, ins, cInfo) {
+		return <techguns:t4_power_helmet>.withDamage(ins.mark.damage);
+	}, null
+	);
+
+val nbtitems =[
+<minecraft:iron_ingot>
+] as IIngredient;
+
+function recipe.addShaped(input as IIngredient, output as IItemStack) {
+  for item in nbtitems {
+    if input.hasTag() {
+      recipe.addShaped(<minecraft:ender_pearl>.matchTagExact(), [<minecraft:iron_ingot>])
+      }
+    }
+};
+//============================================================================================================================================================================================
+//FLUIDS
+<liquid:potion>
+<liquid:water>
+<liquid:xpjuice>
+<liquid:deadblood>
+<liquid:gasoline>
+<liquid:ichor>
+<liquid:lava>
+<liquid:mercury>
+<liquid:milk>
+<liquid:oil>
+
+
+<liquid:bcop-gaseous_lava-cool>
+<liquid:bcop-gold-cool>
+<liquid:bcop-iron-cool>
+<liquid:creeper_acid>
+<liquid:fuel_dense>
+<liquid:fuel_gaseous>
+<liquid:fuel_light>
+<liquid:fuel_mixed_heavy>
+<liquid:fuel_mixed_light>
+<liquid:molten_brass.cool>
+<liquid:molten_bronze.cool>
+<liquid:molten_copper.cool>
+<liquid:molten_diamond_steel.cool>
+<liquid:molten_lead.cool>
+<liquid:molten_obsidian_steel.cool>
+<liquid:molten_steel.cool>
+<liquid:molten_tin.cool>
+<liquid:molten_titanium.cool>
+<liquid:molten_uranium.cool>
+<liquid:molten_zinc.cool>
+<liquid:oil_dense>
+<liquid:oil_heavy>
+<liquid:oil_distilled>
+<liquid:oil_residue>
+
+
+<liquid:bcop-gaseous_lava-hot>
+<liquid:bcop-gold-hot>
+<liquid:bcop-iron-hot>
+<liquid:fuel_dense_heat_1>
+<liquid:fuel_gaseous_heat_1>
+<liquid:fuel_light_heat_1>
+<liquid:fuel_mixed_heavy_heat_1>
+<liquid:fuel_mixed_light_heat_1>
+<liquid:molten_brass.hot>
+<liquid:molten_bronze.hot>
+<liquid:molten_copper.hot>
+<liquid:molten_diamond_steel.hot>
+<liquid:molten_lead.hot>
+<liquid:molten_obsidian_steel.hot>
+<liquid:molten_steel.hot>
+<liquid:molten_tin.hot>
+<liquid:molten_titanium.hot>
+<liquid:molten_uranium.hot>
+<liquid:molten_zinc.hot>
+<liquid:oil_dense_heat_1>
+<liquid:oil_heat_1>
+<liquid:oil_distilled_heat_1>
+<liquid:oil_heavy_heat_1>
+<liquid:oil_residue_heat_1>
+
+
+<liquid:bcop-gaseous_lava-searing>
+<liquid:bcop-gold-searing>
+<liquid:bcop-iron-searing>
+<liquid:fuel_dense_heat_2>
+<liquid:fuel_gaseous_heat_2>
+<liquid:fuel_light_heat_2>
+<liquid:fuel_mixed_heavy_heat_2>
+<liquid:fuel_mixed_light_heat_2>
+<liquid:molten_brass.searing>
+<liquid:molten_bronze.searing>
+<liquid:molten_copper.searing>
+<liquid:molten_diamond_steel.searing>
+<liquid:molten_lead.searing>
+<liquid:molten_obsidian_steel.searing>
+<liquid:molten_steel.searing>
+<liquid:molten_tin.searing>
+<liquid:molten_titanium.searing>
+<liquid:molten_uranium.searing>
+<liquid:molten_zinc.searing>
+<liquid:oil_dense_heat_2>
+<liquid:oil_distilled_heat_2>
+<liquid:oil_heat_2>
+<liquid:oil_heavy_heat_2>
+<liquid:oil_residue_heat_2>
+
+
+//AVAILABLE CAMMOS (with techguns CE)
+//Steam armor
+//<techguns:steam_helmet>.withTag({power: 0, camo: [0-6] as byte})
+//<techguns:steam_chestplate>.withTag({power: 0, camo: [0-6] as byte})
+//<techguns:steam_leggings>.withTag({power: 0, camo: [0-6] as byte})
+//<techguns:steam_boots>.withTag({power: 0, camo: [0-6] as byte})
+//======================================================================
+//bandit
+//<techguns:t1_scout_helmet>.withTag({camo: [0-3] as byte})
+//<techguns:t1_scout_chestplate>.withTag({camo: [0-3] as byte})
+//<techguns:t1_scout_leggings>.withTag({camo: [0-3] as byte})
+//<techguns:t1_scout_boots>.withTag({camo: [0-3] as byte})
+//======================================================================
+//miner
+//<techguns:t1_miner_helmet>.withTag({camo: [0-3] as byte})
+//<techguns:t1_miner_chestplate>.withTag({camo: [0-3] as byte})
+//<techguns:t1_miner_leggings>.withTag({camo: [0-3] as byte})
+//<techguns:t1_miner_boots>.withTag({camo: [0-3] as byte})
+//======================================================================
+//hazmat
+//<techguns:hazmat_helmet>.withTag({camo: [0-3] as byte})
+//<techguns:hazmat_chestplate>.withTag({camo: [0-3] as byte})
+//<techguns:hazmat_leggings>.withTag({camo: [0-3] as byte})
+//<techguns:hazmat_boots>.withTag({camo: [0-3] as byte})
+//======================================================================
+//combat
+//<techguns:t2_combat_helmet>.withTag({camo: [0-5] as byte})
+//<techguns:t2_combat_chestplate>.withTag({camo: [0-5] as byte})
+//<techguns:t2_combat_leggings>.withTag({camo: [0-5] as byte})
+//<techguns:t2_combat_boots>.withTag({camo: [0-5] as byte})
+//======================================================================
+//advanced combat
+//<techguns:t3_combat_helmet>.withTag({camo: [0-2] as byte})
+//<techguns:t3_combat_chestplate>.withTag({camo: [0-2] as byte})
+//<techguns:t3_combat_leggings>.withTag({camo: [0-2] as byte})
+//<techguns:t3_combat_boots>.withTag({camo: [0-2] as byte})
+//======================================================================
+//power armor
+//<techguns:t3_power_helmet>.withTag({power: 0, camo: [0-3] as byte})
+//<techguns:t3_power_chestplate>.withTag({power: 0, camo: [0-3] as byte})
+//<techguns:t3_power_leggings>.withTag({power: 0, camo: [0-3] as byte})
+//<techguns:t3_power_boots>.withTag({power: 0, camo: [0-3] as byte})
+//======================================================================
+//hev
+//<techguns:t3_miner_helmet>.withTag({power: 0, camo: [0-2] as byte})
+//<techguns:t3_miner_chestplate>.withTag({power: 0, camo: [0-2] as byte})
+//<techguns:t3_miner_leggings>.withTag({power: 0, camo: [0-2] as byte})
+//<techguns:t3_miner_boots>.withTag({power: 0, camo: [0-2] as byte})
+//======================================================================
+//exo-suit
+//<techguns:t3_exo_helmet>.withTag({power: 0, camo: [0-2] as byte})
+//<techguns:t3_exo_chestplate>.withTag({power: 0, camo: [0-2] as byte})
+//<techguns:t3_exo_leggings>.withTag({power: 0, camo: [0-2] as byte})
+//<techguns:t3_exo_boots>.withTag({power: 0, camo: [0-2] as byte})
+//======================================================================
+//power mk2
+//<techguns:t4_power_helmet>.withTag({power: 0, camo: [0-4] as byte})
+//<techguns:t4_power_chestplate>.withTag({power: 0, camo: [0-4] as byte})
+//<techguns:t4_power_leggings>.withTag({power: 0, camo: [0-4] as byte})
+//<techguns:t4_power_boots>.withTag({power: 0, camo: [0-4] as byte})
+//======================================================================
+//<techguns:t2_beret>.withTag({camo: [0-2] as byte})

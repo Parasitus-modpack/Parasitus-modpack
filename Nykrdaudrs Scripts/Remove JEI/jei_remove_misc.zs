@@ -78,22 +78,6 @@ mods.jei.JEI.hide(<malisisdoors:customdooritem>);
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
 //VANILLA
-mods.jei.JEI.removeAndHide(<minecraft:bed:0>);
-mods.jei.JEI.removeAndHide(<minecraft:bed:1>);
-mods.jei.JEI.removeAndHide(<minecraft:bed:2>);
-mods.jei.JEI.removeAndHide(<minecraft:bed:3>);
-mods.jei.JEI.removeAndHide(<minecraft:bed:4>);
-mods.jei.JEI.removeAndHide(<minecraft:bed:5>);
-mods.jei.JEI.removeAndHide(<minecraft:bed:6>);
-mods.jei.JEI.removeAndHide(<minecraft:bed:7>);
-mods.jei.JEI.removeAndHide(<minecraft:bed:8>);
-mods.jei.JEI.removeAndHide(<minecraft:bed:9>);
-mods.jei.JEI.removeAndHide(<minecraft:bed:10>);
-mods.jei.JEI.removeAndHide(<minecraft:bed:11>);
-mods.jei.JEI.removeAndHide(<minecraft:bed:12>);
-mods.jei.JEI.removeAndHide(<minecraft:bed:13>);
-mods.jei.JEI.removeAndHide(<minecraft:bed:14>);
-mods.jei.JEI.removeAndHide(<minecraft:bed:15>);
 mods.jei.JEI.removeAndHide(<minecraft:iron_shovel>, false);
 mods.jei.JEI.removeAndHide(<minecraft:iron_pickaxe>, false);
 mods.jei.JEI.removeAndHide(<minecraft:iron_axe>, false);

@@ -118,7 +118,18 @@ recipes.addShaped("heavy_boots", <oe:heavy_boots>, [[<techguns:itemshared:84>, n
 recipes.addShapeless("radio_beacon", <cyberware:beacon>, [<sevendaystomine:radio>]);
 recipes.addShaped("surgery_machine", <cyberware:surgery>, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], [<ore:ingotIron>, <ore:circuitBasic>, <ore:ingotIron>], [<spartanweaponry:throwing_knife_iron>, <ore:gearDiamond>, <spartanweaponry:throwing_knife_iron>]]);
 recipes.addShaped("charger", <cyberware:charger>, [[<ore:ingotIron>, <openblocks:xp_drain>, <ore:ingotIron>], [<ore:ingotIron>, <techguns:itemshared:65>, <ore:ingotIron>], [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>]]);
-recipes.addShapeless("rotting_bodyparts", <minecraft:rotten_flesh>, [<cyberware:body_part:*>]);
+recipes.addShapeless("rotting_bodyparts0", <minecraft:rotten_flesh>, [<cyberware:body_part:0>]);
+recipes.addShapeless("rotting_bodyparts1", <minecraft:rotten_flesh>, [<cyberware:body_part:1>]);
+recipes.addShapeless("rotting_bodyparts2", <minecraft:rotten_flesh>, [<cyberware:body_part:2>]);
+recipes.addShapeless("rotting_bodyparts3", <minecraft:rotten_flesh>, [<cyberware:body_part:3>]);
+recipes.addShapeless("rotting_bodyparts4", <minecraft:rotten_flesh>, [<cyberware:body_part:4>]);
+recipes.addShapeless("rotting_bodyparts5", <minecraft:rotten_flesh>, [<cyberware:body_part:5>]);
+recipes.addShapeless("rotting_bodyparts6", <minecraft:rotten_flesh>, [<cyberware:body_part:6>]);
+recipes.addShapeless("rotting_bodyparts7", <minecraft:rotten_flesh>, [<cyberware:body_part:8>]);
+recipes.addShapeless("rotting_bodyparts8", <minecraft:rotten_flesh>, [<cyberware:body_part:9>]);
+recipes.addShapeless("rotting_bodyparts9", <minecraft:rotten_flesh>, [<cyberware:body_part:10>]);
+recipes.addShapeless("rotting_bodyparts10", <minecraft:rotten_flesh>, [<cyberware:body_part:11>]);
+recipes.addShapeless("ribs", <minecraft:bone>, [<cyberware:body_part:7>]);
 //============================================================================================================================================================================================
 //AIR SUPPORT
 recipes.addShaped("livestock_remote_0", <air_support:crate_drop_remote>, [[<ore:dustRedstone>, <ore:dyeBlack>, <ore:dustRedstone>], [null, <techguns:itemshared:65>, null], [<ore:ingotIron>, <minecraft:stone_button>, <ore:ingotIron>]]);

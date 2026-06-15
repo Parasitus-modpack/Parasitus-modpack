@@ -1,0 +1,548 @@
+// addRecipe(IItemStack,IItemStack)
+// addRecipe(IItemStack,IItemStack,double)
+
+
+mods.techguns.Grinder.addRecipe(<minecraft:stone:0>, [<sevendaystomine:smallstone> * 9]);
+mods.techguns.Grinder.addRecipe(<minecraft:stone:1>, [<sevendaystomine:smallstone> * 9]);
+mods.techguns.Grinder.addRecipe(<minecraft:stone:2>, [<sevendaystomine:smallstone> * 9]);
+mods.techguns.Grinder.addRecipe(<minecraft:stone:3>, [<sevendaystomine:smallstone> * 9]);
+mods.techguns.Grinder.addRecipe(<minecraft:stone:4>, [<sevendaystomine:smallstone> * 9]);
+mods.techguns.Grinder.addRecipe(<minecraft:stone:5>, [<sevendaystomine:smallstone> * 9]);
+mods.techguns.Grinder.addRecipe(<minecraft:stone:6>, [<sevendaystomine:smallstone> * 9]);
+mods.techguns.Grinder.addRecipe(<minecraft:cobblestone>, [<sevendaystomine:smallstone> * 9]);
+mods.techguns.Grinder.addRecipe(<minecraft:planks:0>, [<sevendaystomine:woodplank> * 4]);
+mods.techguns.Grinder.addRecipe(<minecraft:planks:1>, [<sevendaystomine:woodplank> * 4]);
+mods.techguns.Grinder.addRecipe(<minecraft:planks:2>, [<sevendaystomine:woodplank> * 4]);
+mods.techguns.Grinder.addRecipe(<minecraft:planks:3>, [<sevendaystomine:woodplank> * 4]);
+mods.techguns.Grinder.addRecipe(<minecraft:planks:4>, [<sevendaystomine:woodplank> * 4]);
+mods.techguns.Grinder.addRecipe(<minecraft:planks:5>, [<sevendaystomine:woodplank> * 4]);
+mods.techguns.Grinder.addRecipe(<minecraft:sand:0>, [<sevendaystomine:sand_dust> * 9]);
+mods.techguns.Grinder.addRecipe(<minecraft:sand:1>, [<sevendaystomine:sand_dust> * 9]);
+mods.techguns.Grinder.addRecipe(<minecraft:gravel>, [<sevendaystomine:smallstone> * 4, <sevendaystomine:sand_dust> * 5]);
+mods.techguns.Grinder.addRecipe(<minecraft:gold_ore>, [<sevendaystomine:smallstone> * 5, <minecraft:gold_nugget> * 4]);
+mods.techguns.Grinder.addRecipe(<minecraft:iron_ore>, [<sevendaystomine:smallstone> * 5, <minecraft:iron_nugget> * 4]);
+mods.techguns.Grinder.addRecipe(<minecraft:coal_ore>, [<sevendaystomine:smallstone> * 5, <minecraft:coal> * 4]);
+mods.techguns.Grinder.addRecipe(<minecraft:log:0>, [<sevendaystomine:woodplank> * 8]);
+mods.techguns.Grinder.addRecipe(<minecraft:log:1>, [<sevendaystomine:woodplank> * 8]);
+mods.techguns.Grinder.addRecipe(<minecraft:log:2>, [<sevendaystomine:woodplank> * 8]);
+mods.techguns.Grinder.addRecipe(<minecraft:log:3>, [<sevendaystomine:woodplank> * 8]);
+mods.techguns.Grinder.addRecipe(<minecraft:glass>, [<sevendaystomine:scrapglass> * 24]);
+mods.techguns.Grinder.addRecipe(<minecraft:lapis_ore>, [<sevendaystomine:smallstone> * 5, <minecraft:dye:4> * 4]);
+mods.techguns.Grinder.addRecipe(<minecraft:sandstone:0>, [<sevendaystomine:sand_dust> * 4, <sevendaystomine:smallstone> * 1]);
+mods.techguns.Grinder.addRecipe(<minecraft:sandstone:1>, [<sevendaystomine:sand_dust> * 4, <sevendaystomine:smallstone> * 1]);
+mods.techguns.Grinder.addRecipe(<minecraft:sandstone:2>, [<sevendaystomine:sand_dust> * 4, <sevendaystomine:smallstone> * 1]);
+mods.techguns.Grinder.addRecipe(<minecraft:wool:0>, [<minecraft:string> * 9]);
+mods.techguns.Grinder.addRecipe(<minecraft:wool:1>, [<minecraft:string> * 9]);
+mods.techguns.Grinder.addRecipe(<minecraft:wool:2>, [<minecraft:string> * 9]);
+mods.techguns.Grinder.addRecipe(<minecraft:wool:3>, [<minecraft:string> * 9]);
+mods.techguns.Grinder.addRecipe(<minecraft:wool:4>, [<minecraft:string> * 9]);
+mods.techguns.Grinder.addRecipe(<minecraft:wool:5>, [<minecraft:string> * 9]);
+mods.techguns.Grinder.addRecipe(<minecraft:wool:6>, [<minecraft:string> * 9]);
+mods.techguns.Grinder.addRecipe(<minecraft:wool:7>, [<minecraft:string> * 9]);
+mods.techguns.Grinder.addRecipe(<minecraft:wool:8>, [<minecraft:string> * 9]);
+mods.techguns.Grinder.addRecipe(<minecraft:wool:9>, [<minecraft:string> * 9]);
+mods.techguns.Grinder.addRecipe(<minecraft:wool:10>, [<minecraft:string> * 9]);
+mods.techguns.Grinder.addRecipe(<minecraft:wool:11>, [<minecraft:string> * 9]);
+mods.techguns.Grinder.addRecipe(<minecraft:wool:12>, [<minecraft:string> * 9]);
+mods.techguns.Grinder.addRecipe(<minecraft:wool:13>, [<minecraft:string> * 9]);
+mods.techguns.Grinder.addRecipe(<minecraft:wool:14>, [<minecraft:string> * 9]);
+mods.techguns.Grinder.addRecipe(<minecraft:wool:15>, [<minecraft:string> * 9]);
+mods.techguns.Grinder.addRecipe(<minecraft:brick_block>, [<minecraft:brick> * 3]);
+mods.techguns.Grinder.addRecipe(<minecraft:bookshelf>, [<sevendaystomine:woodplank> * 4, <minecraft:paper> * 2]);
+mods.techguns.Grinder.addRecipe(<minecraft:mossy_cobblestone>, [<sevendaystomine:smallstone> * 8, <minecraft:vine>]);
+mods.techguns.Grinder.addRecipe(<minecraft:diamond_ore>, [<sevendaystomine:smallstone> * 8, <minecraft:diamond>]);
+mods.techguns.Grinder.addRecipe(<minecraft:redstone_ore>, [<sevendaystomine:smallstone> * 8, <minecraft:redstone>]);
+mods.techguns.Grinder.addRecipe(<minecraft:glowstone>, [<minecraft:glowstone_dust> * 4]);
+mods.techguns.Grinder.addRecipe(<minecraft:stained_glass:0>, [<sevendaystomine:scrapglass> * 12]);
+mods.techguns.Grinder.addRecipe(<minecraft:stained_glass:1>, [<sevendaystomine:scrapglass> * 12]);
+mods.techguns.Grinder.addRecipe(<minecraft:stained_glass:2>, [<sevendaystomine:scrapglass> * 12]);
+mods.techguns.Grinder.addRecipe(<minecraft:stained_glass:3>, [<sevendaystomine:scrapglass> * 12]);
+mods.techguns.Grinder.addRecipe(<minecraft:stained_glass:4>, [<sevendaystomine:scrapglass> * 12]);
+mods.techguns.Grinder.addRecipe(<minecraft:stained_glass:5>, [<sevendaystomine:scrapglass> * 12]);
+mods.techguns.Grinder.addRecipe(<minecraft:stained_glass:6>, [<sevendaystomine:scrapglass> * 12]);
+mods.techguns.Grinder.addRecipe(<minecraft:stained_glass:7>, [<sevendaystomine:scrapglass> * 12]);
+mods.techguns.Grinder.addRecipe(<minecraft:stained_glass:8>, [<sevendaystomine:scrapglass> * 12]);
+mods.techguns.Grinder.addRecipe(<minecraft:stained_glass:9>, [<sevendaystomine:scrapglass> * 12]);
+mods.techguns.Grinder.addRecipe(<minecraft:stained_glass:10>, [<sevendaystomine:scrapglass> * 12]);
+mods.techguns.Grinder.addRecipe(<minecraft:stained_glass:11>, [<sevendaystomine:scrapglass> * 12]);
+mods.techguns.Grinder.addRecipe(<minecraft:stained_glass:12>, [<sevendaystomine:scrapglass> * 12]);
+mods.techguns.Grinder.addRecipe(<minecraft:stained_glass:13>, [<sevendaystomine:scrapglass> * 12]);
+mods.techguns.Grinder.addRecipe(<minecraft:stained_glass:14>, [<sevendaystomine:scrapglass> * 12]);
+mods.techguns.Grinder.addRecipe(<minecraft:stained_glass:15>, [<sevendaystomine:scrapglass> * 12]);
+mods.techguns.Grinder.addRecipe(<minecraft:stonebrick:0>, [<sevendaystomine:smallstone> * 6]);
+mods.techguns.Grinder.addRecipe(<minecraft:stonebrick:1>, [<sevendaystomine:smallstone> * 6]);
+mods.techguns.Grinder.addRecipe(<minecraft:stonebrick:2>, [<sevendaystomine:smallstone> * 6]);
+mods.techguns.Grinder.addRecipe(<minecraft:stonebrick:3>, [<sevendaystomine:smallstone> * 6]);
+mods.techguns.Grinder.addRecipe(<minecraft:mycelium>, [<minecraft:dirt>, <netherex:spore>]);
+mods.techguns.Grinder.addRecipe(<minecraft:nether_brick>, [<minecraft:netherbrick> * 4]);
+mods.techguns.Grinder.addRecipe(<minecraft:emerald_ore>, [<sevendaystomine:smallstone> * 8, <minecraft:emerald>]);
+mods.techguns.Grinder.addRecipe(<minecraft:quartz_ore>, [<minecraft:netherrack>, <minecraft:quartz>]);
+mods.techguns.Grinder.addRecipe(<minecraft:quartz_block:0>, [<minecraft:quartz> * 3]);
+mods.techguns.Grinder.addRecipe(<minecraft:quartz_block:1>, [<minecraft:quartz> * 3]);
+mods.techguns.Grinder.addRecipe(<minecraft:quartz_block:2>, [<minecraft:quartz> * 3]);
+mods.techguns.Grinder.addRecipe(<minecraft:stained_hardened_clay:0>, [<minecraft:clay_ball> * 3]);
+mods.techguns.Grinder.addRecipe(<minecraft:stained_hardened_clay:1>, [<minecraft:clay_ball> * 3]);
+mods.techguns.Grinder.addRecipe(<minecraft:stained_hardened_clay:2>, [<minecraft:clay_ball> * 3]);
+mods.techguns.Grinder.addRecipe(<minecraft:stained_hardened_clay:3>, [<minecraft:clay_ball> * 3]);
+mods.techguns.Grinder.addRecipe(<minecraft:stained_hardened_clay:4>, [<minecraft:clay_ball> * 3]);
+mods.techguns.Grinder.addRecipe(<minecraft:stained_hardened_clay:5>, [<minecraft:clay_ball> * 3]);
+mods.techguns.Grinder.addRecipe(<minecraft:stained_hardened_clay:6>, [<minecraft:clay_ball> * 3]);
+mods.techguns.Grinder.addRecipe(<minecraft:stained_hardened_clay:7>, [<minecraft:clay_ball> * 3]);
+mods.techguns.Grinder.addRecipe(<minecraft:stained_hardened_clay:8>, [<minecraft:clay_ball> * 3]);
+mods.techguns.Grinder.addRecipe(<minecraft:stained_hardened_clay:9>, [<minecraft:clay_ball> * 3]);
+mods.techguns.Grinder.addRecipe(<minecraft:stained_hardened_clay:10>, [<minecraft:clay_ball> * 3]);
+mods.techguns.Grinder.addRecipe(<minecraft:stained_hardened_clay:11>, [<minecraft:clay_ball> * 3]);
+mods.techguns.Grinder.addRecipe(<minecraft:stained_hardened_clay:12>, [<minecraft:clay_ball> * 3]);
+mods.techguns.Grinder.addRecipe(<minecraft:stained_hardened_clay:13>, [<minecraft:clay_ball> * 3]);
+mods.techguns.Grinder.addRecipe(<minecraft:stained_hardened_clay:14>, [<minecraft:clay_ball> * 3]);
+mods.techguns.Grinder.addRecipe(<minecraft:stained_hardened_clay:15>, [<minecraft:clay_ball> * 3]);
+mods.techguns.Grinder.addRecipe(<minecraft:log2:0>, [<sevendaystomine:woodplank> * 8]);
+mods.techguns.Grinder.addRecipe(<minecraft:log2:1>, [<sevendaystomine:woodplank> * 8]);
+mods.techguns.Grinder.addRecipe(<minecraft:prismarine:0>, [<minecraft:prismarine_shard> * 9]);
+mods.techguns.Grinder.addRecipe(<minecraft:prismarine:1>, [<minecraft:prismarine_shard> * 6]);
+mods.techguns.Grinder.addRecipe(<minecraft:prismarine:2>, [<minecraft:prismarine_shard> * 6]);
+mods.techguns.Grinder.addRecipe(<minecraft:sea_lantern>, [<minecraft:prismarine_shard> * 4, <minecraft:prismarine_crystals> * 4]);
+mods.techguns.Grinder.addRecipe(<minecraft:hardened_clay>, [<minecraft:clay_ball> * 3]);
+mods.techguns.Grinder.addRecipe(<minecraft:red_sandstone:0>, [<sevendaystomine:sand_dust> * 4, <sevendaystomine:smallstone> * 1]);
+mods.techguns.Grinder.addRecipe(<minecraft:red_sandstone:1>, [<sevendaystomine:sand_dust> * 4, <sevendaystomine:smallstone> * 1]);
+mods.techguns.Grinder.addRecipe(<minecraft:red_sandstone:2>, [<sevendaystomine:sand_dust> * 4, <sevendaystomine:smallstone> * 1]);
+mods.techguns.Grinder.addRecipe(<minecraft:purpur_block>, [<minecraft:chorus_fruit_popped> * 3]);
+mods.techguns.Grinder.addRecipe(<minecraft:purpur_pillar>, [<minecraft:chorus_fruit_popped> * 3]);
+mods.techguns.Grinder.addRecipe(<minecraft:end_stone>, [<sevendaystomine:smallstone> * 6]);
+mods.techguns.Grinder.addRecipe(<minecraft:end_bricks>, [<sevendaystomine:smallstone> * 6]);
+mods.techguns.Grinder.addRecipe(<minecraft:red_nether_brick>, [<minecraft:netherbrick> * 4]);
+mods.techguns.Grinder.addRecipe(<minecraft:concrete:0>, [<sevendaystomine:cement>]);
+mods.techguns.Grinder.addRecipe(<minecraft:concrete:1>, [<sevendaystomine:cement>]);
+mods.techguns.Grinder.addRecipe(<minecraft:concrete:2>, [<sevendaystomine:cement>]);
+mods.techguns.Grinder.addRecipe(<minecraft:concrete:3>, [<sevendaystomine:cement>]);
+mods.techguns.Grinder.addRecipe(<minecraft:concrete:4>, [<sevendaystomine:cement>]);
+mods.techguns.Grinder.addRecipe(<minecraft:concrete:5>, [<sevendaystomine:cement>]);
+mods.techguns.Grinder.addRecipe(<minecraft:concrete:6>, [<sevendaystomine:cement>]);
+mods.techguns.Grinder.addRecipe(<minecraft:concrete:7>, [<sevendaystomine:cement>]);
+mods.techguns.Grinder.addRecipe(<minecraft:concrete:8>, [<sevendaystomine:cement>]);
+mods.techguns.Grinder.addRecipe(<minecraft:concrete:9>, [<sevendaystomine:cement>]);
+mods.techguns.Grinder.addRecipe(<minecraft:concrete:10>, [<sevendaystomine:cement>]);
+mods.techguns.Grinder.addRecipe(<minecraft:concrete:11>, [<sevendaystomine:cement>]);
+mods.techguns.Grinder.addRecipe(<minecraft:concrete:12>, [<sevendaystomine:cement>]);
+mods.techguns.Grinder.addRecipe(<minecraft:concrete:13>, [<sevendaystomine:cement>]);
+mods.techguns.Grinder.addRecipe(<minecraft:concrete:14>, [<sevendaystomine:cement>]);
+mods.techguns.Grinder.addRecipe(<minecraft:concrete:15>, [<sevendaystomine:cement>]);
+mods.techguns.Grinder.addRecipe(<minecraft:concrete_powder:0>, [<sevendaystomine:cement>]);
+mods.techguns.Grinder.addRecipe(<minecraft:concrete_powder:1>, [<sevendaystomine:cement>]);
+mods.techguns.Grinder.addRecipe(<minecraft:concrete_powder:2>, [<sevendaystomine:cement>]);
+mods.techguns.Grinder.addRecipe(<minecraft:concrete_powder:3>, [<sevendaystomine:cement>]);
+mods.techguns.Grinder.addRecipe(<minecraft:concrete_powder:4>, [<sevendaystomine:cement>]);
+mods.techguns.Grinder.addRecipe(<minecraft:concrete_powder:5>, [<sevendaystomine:cement>]);
+mods.techguns.Grinder.addRecipe(<minecraft:concrete_powder:6>, [<sevendaystomine:cement>]);
+mods.techguns.Grinder.addRecipe(<minecraft:concrete_powder:7>, [<sevendaystomine:cement>]);
+mods.techguns.Grinder.addRecipe(<minecraft:concrete_powder:8>, [<sevendaystomine:cement>]);
+mods.techguns.Grinder.addRecipe(<minecraft:concrete_powder:9>, [<sevendaystomine:cement>]);
+mods.techguns.Grinder.addRecipe(<minecraft:concrete_powder:10>, [<sevendaystomine:cement>]);
+mods.techguns.Grinder.addRecipe(<minecraft:concrete_powder:11>, [<sevendaystomine:cement>]);
+mods.techguns.Grinder.addRecipe(<minecraft:concrete_powder:12>, [<sevendaystomine:cement>]);
+mods.techguns.Grinder.addRecipe(<minecraft:concrete_powder:13>, [<sevendaystomine:cement>]);
+mods.techguns.Grinder.addRecipe(<minecraft:concrete_powder:14>, [<sevendaystomine:cement>]);
+mods.techguns.Grinder.addRecipe(<minecraft:concrete_powder:15>, [<sevendaystomine:cement>]);
+mods.techguns.Grinder.addRecipe(<minecraft:sapling:0>,
+mods.techguns.Grinder.addRecipe(<minecraft:sapling:1>,
+mods.techguns.Grinder.addRecipe(<minecraft:sapling:2>,
+mods.techguns.Grinder.addRecipe(<minecraft:sapling:3>,
+mods.techguns.Grinder.addRecipe(<minecraft:sapling:4>,
+mods.techguns.Grinder.addRecipe(<minecraft:sapling:5>,
+mods.techguns.Grinder.addRecipe(<minecraft:leaves:0>,
+mods.techguns.Grinder.addRecipe(<minecraft:leaves:1>,
+mods.techguns.Grinder.addRecipe(<minecraft:leaves:2>,
+mods.techguns.Grinder.addRecipe(<minecraft:leaves:3>,
+mods.techguns.Grinder.addRecipe(<minecraft:web>,
+mods.techguns.Grinder.addRecipe(<minecraft:tallgrass:1>,
+mods.techguns.Grinder.addRecipe(<minecraft:tallgrass:2>,
+mods.techguns.Grinder.addRecipe(<minecraft:deadbush>,
+mods.techguns.Grinder.addRecipe(<minecraft:yellow_flower>,
+mods.techguns.Grinder.addRecipe(<minecraft:red_flower:0>,
+mods.techguns.Grinder.addRecipe(<minecraft:red_flower:1>,
+mods.techguns.Grinder.addRecipe(<minecraft:red_flower:2>,
+mods.techguns.Grinder.addRecipe(<minecraft:red_flower:3>,
+mods.techguns.Grinder.addRecipe(<minecraft:red_flower:4>,
+mods.techguns.Grinder.addRecipe(<minecraft:red_flower:5>,
+mods.techguns.Grinder.addRecipe(<minecraft:red_flower:6>,
+mods.techguns.Grinder.addRecipe(<minecraft:red_flower:7>,
+mods.techguns.Grinder.addRecipe(<minecraft:red_flower:8>,
+mods.techguns.Grinder.addRecipe(<minecraft:brown_mushroom>,
+mods.techguns.Grinder.addRecipe(<minecraft:red_mushroom>,
+mods.techguns.Grinder.addRecipe(<minecraft:chest>,
+mods.techguns.Grinder.addRecipe(<minecraft:crafting_table>,
+mods.techguns.Grinder.addRecipe(<minecraft:furnace>,
+mods.techguns.Grinder.addRecipe(<minecraft:ladder>,
+mods.techguns.Grinder.addRecipe(<minecraft:cactus>,
+mods.techguns.Grinder.addRecipe(<minecraft:jukebox>,
+mods.techguns.Grinder.addRecipe(<minecraft:fence>,
+mods.techguns.Grinder.addRecipe(<minecraft:iron_bars>,
+mods.techguns.Grinder.addRecipe(<minecraft:glass_pane>,
+mods.techguns.Grinder.addRecipe(<minecraft:vine>,
+mods.techguns.Grinder.addRecipe(<minecraft:waterlily>,
+mods.techguns.Grinder.addRecipe(<minecraft:nether_brick_fence>,
+mods.techguns.Grinder.addRecipe(<minecraft:enchanting_table>,
+mods.techguns.Grinder.addRecipe(<minecraft:ender_chest>,
+mods.techguns.Grinder.addRecipe(<minecraft:cobblestone_wall:0>,
+mods.techguns.Grinder.addRecipe(<minecraft:cobblestone_wall:1>,
+mods.techguns.Grinder.addRecipe(<minecraft:anvil:0>,
+mods.techguns.Grinder.addRecipe(<minecraft:anvil:1>,
+mods.techguns.Grinder.addRecipe(<minecraft:anvil:2>,
+mods.techguns.Grinder.addRecipe(<minecraft:stained_glass_pane:0>,
+mods.techguns.Grinder.addRecipe(<minecraft:stained_glass_pane:1>,
+mods.techguns.Grinder.addRecipe(<minecraft:stained_glass_pane:2>,
+mods.techguns.Grinder.addRecipe(<minecraft:stained_glass_pane:3>,
+mods.techguns.Grinder.addRecipe(<minecraft:stained_glass_pane:4>,
+mods.techguns.Grinder.addRecipe(<minecraft:stained_glass_pane:5>,
+mods.techguns.Grinder.addRecipe(<minecraft:stained_glass_pane:6>,
+mods.techguns.Grinder.addRecipe(<minecraft:stained_glass_pane:7>,
+mods.techguns.Grinder.addRecipe(<minecraft:stained_glass_pane:8>,
+mods.techguns.Grinder.addRecipe(<minecraft:stained_glass_pane:9>,
+mods.techguns.Grinder.addRecipe(<minecraft:stained_glass_pane:10>,
+mods.techguns.Grinder.addRecipe(<minecraft:stained_glass_pane:11>,
+mods.techguns.Grinder.addRecipe(<minecraft:stained_glass_pane:12>,
+mods.techguns.Grinder.addRecipe(<minecraft:stained_glass_pane:13>,
+mods.techguns.Grinder.addRecipe(<minecraft:stained_glass_pane:14>,
+mods.techguns.Grinder.addRecipe(<minecraft:stained_glass_pane:15>,
+mods.techguns.Grinder.addRecipe(<minecraft:leaves2:0>,
+mods.techguns.Grinder.addRecipe(<minecraft:leaves2:1>,
+mods.techguns.Grinder.addRecipe(<minecraft:carpet:0>,
+mods.techguns.Grinder.addRecipe(<minecraft:carpet:1>,
+mods.techguns.Grinder.addRecipe(<minecraft:carpet:2>,
+mods.techguns.Grinder.addRecipe(<minecraft:carpet:3>,
+mods.techguns.Grinder.addRecipe(<minecraft:carpet:4>,
+mods.techguns.Grinder.addRecipe(<minecraft:carpet:5>,
+mods.techguns.Grinder.addRecipe(<minecraft:carpet:6>,
+mods.techguns.Grinder.addRecipe(<minecraft:carpet:7>,
+mods.techguns.Grinder.addRecipe(<minecraft:carpet:8>,
+mods.techguns.Grinder.addRecipe(<minecraft:carpet:9>,
+mods.techguns.Grinder.addRecipe(<minecraft:carpet:10>,
+mods.techguns.Grinder.addRecipe(<minecraft:carpet:11>,
+mods.techguns.Grinder.addRecipe(<minecraft:carpet:12>,
+mods.techguns.Grinder.addRecipe(<minecraft:carpet:13>,
+mods.techguns.Grinder.addRecipe(<minecraft:carpet:14>,
+mods.techguns.Grinder.addRecipe(<minecraft:carpet:15>,
+mods.techguns.Grinder.addRecipe(<minecraft:double_plant:0>,
+mods.techguns.Grinder.addRecipe(<minecraft:double_plant:1>,
+mods.techguns.Grinder.addRecipe(<minecraft:double_plant:2>,
+mods.techguns.Grinder.addRecipe(<minecraft:double_plant:3>,
+mods.techguns.Grinder.addRecipe(<minecraft:double_plant:4>,
+mods.techguns.Grinder.addRecipe(<minecraft:double_plant:5>,
+mods.techguns.Grinder.addRecipe(<minecraft:spruce_fence>,
+mods.techguns.Grinder.addRecipe(<minecraft:birch_fence>,
+mods.techguns.Grinder.addRecipe(<minecraft:jungle_fence>,
+mods.techguns.Grinder.addRecipe(<minecraft:dark_oak_fence>,
+mods.techguns.Grinder.addRecipe(<minecraft:acacia_fence>,
+mods.techguns.Grinder.addRecipe(<minecraft:end_rod>,
+mods.techguns.Grinder.addRecipe(<minecraft:white_shulker_box>,
+mods.techguns.Grinder.addRecipe(<minecraft:orange_shulker_box>,
+mods.techguns.Grinder.addRecipe(<minecraft:magenta_shulker_box>,
+mods.techguns.Grinder.addRecipe(<minecraft:light_blue_shulker_box>,
+mods.techguns.Grinder.addRecipe(<minecraft:yellow_shulker_box>,
+mods.techguns.Grinder.addRecipe(<minecraft:lime_shulker_box>,
+mods.techguns.Grinder.addRecipe(<minecraft:pink_shulker_box>,
+mods.techguns.Grinder.addRecipe(<minecraft:gray_shulker_box>,
+mods.techguns.Grinder.addRecipe(<minecraft:silver_shulker_box>,
+mods.techguns.Grinder.addRecipe(<minecraft:cyan_shulker_box>,
+mods.techguns.Grinder.addRecipe(<minecraft:purple_shulker_box>,
+mods.techguns.Grinder.addRecipe(<minecraft:blue_shulker_box>,
+mods.techguns.Grinder.addRecipe(<minecraft:brown_shulker_box>,
+mods.techguns.Grinder.addRecipe(<minecraft:green_shulker_box>,
+mods.techguns.Grinder.addRecipe(<minecraft:red_shulker_box>,
+mods.techguns.Grinder.addRecipe(<minecraft:black_shulker_box>,
+mods.techguns.Grinder.addRecipe(<minecraft:white_glazed_terracotta>,
+mods.techguns.Grinder.addRecipe(<minecraft:orange_glazed_terracotta>,
+mods.techguns.Grinder.addRecipe(<minecraft:magenta_glazed_terracotta>,
+mods.techguns.Grinder.addRecipe(<minecraft:light_blue_glazed_terracotta>,
+mods.techguns.Grinder.addRecipe(<minecraft:yellow_glazed_terracotta>,
+mods.techguns.Grinder.addRecipe(<minecraft:lime_glazed_terracotta>,
+mods.techguns.Grinder.addRecipe(<minecraft:pink_glazed_terracotta>,
+mods.techguns.Grinder.addRecipe(<minecraft:gray_glazed_terracotta>,
+mods.techguns.Grinder.addRecipe(<minecraft:silver_glazed_terracotta>,
+mods.techguns.Grinder.addRecipe(<minecraft:cyan_glazed_terracotta>,
+mods.techguns.Grinder.addRecipe(<minecraft:purple_glazed_terracotta>,
+mods.techguns.Grinder.addRecipe(<minecraft:blue_glazed_terracotta>,
+mods.techguns.Grinder.addRecipe(<minecraft:brown_glazed_terracotta>,
+mods.techguns.Grinder.addRecipe(<minecraft:green_glazed_terracotta>,
+mods.techguns.Grinder.addRecipe(<minecraft:red_glazed_terracotta>,
+mods.techguns.Grinder.addRecipe(<minecraft:black_glazed_terracotta>,
+mods.techguns.Grinder.addRecipe(<minecraft:painting>,
+mods.techguns.Grinder.addRecipe(<minecraft:sign>,
+mods.techguns.Grinder.addRecipe(<minecraft:item_frame>,
+mods.techguns.Grinder.addRecipe(<minecraft:flower_pot>,
+mods.techguns.Grinder.addRecipe(<minecraft:armor_stand>,
+mods.techguns.Grinder.addRecipe(<minecraft:banner:*>,
+mods.techguns.Grinder.addRecipe(<minecraft:end_crystal>,
+mods.techguns.Grinder.addRecipe(<minecraft:dispenser>,
+mods.techguns.Grinder.addRecipe(<minecraft:noteblock>,
+mods.techguns.Grinder.addRecipe(<minecraft:sticky_piston>,
+mods.techguns.Grinder.addRecipe(<minecraft:piston>,
+mods.techguns.Grinder.addRecipe(<minecraft:tnt>,
+mods.techguns.Grinder.addRecipe(<minecraft:lever>,
+mods.techguns.Grinder.addRecipe(<minecraft:stone_pressure_plate>,
+mods.techguns.Grinder.addRecipe(<minecraft:wooden_pressure_plate>,
+mods.techguns.Grinder.addRecipe(<minecraft:redstone_torch>,
+mods.techguns.Grinder.addRecipe(<minecraft:stone_button>,
+mods.techguns.Grinder.addRecipe(<minecraft:trapdoor>,
+mods.techguns.Grinder.addRecipe(<minecraft:fence_gate>,
+mods.techguns.Grinder.addRecipe(<minecraft:redstone_lamp>,
+mods.techguns.Grinder.addRecipe(<minecraft:tripwire_hook>,
+mods.techguns.Grinder.addRecipe(<minecraft:wooden_button>,
+mods.techguns.Grinder.addRecipe(<minecraft:trapped_chest>,
+mods.techguns.Grinder.addRecipe(<minecraft:light_weighted_pressure_plate>,
+mods.techguns.Grinder.addRecipe(<minecraft:heavy_weighted_pressure_plate>,
+mods.techguns.Grinder.addRecipe(<minecraft:daylight_detector>,
+mods.techguns.Grinder.addRecipe(<minecraft:hopper>,
+mods.techguns.Grinder.addRecipe(<minecraft:dropper>,
+mods.techguns.Grinder.addRecipe(<minecraft:iron_trapdoor>,
+mods.techguns.Grinder.addRecipe(<minecraft:spruce_fence_gate>,
+mods.techguns.Grinder.addRecipe(<minecraft:birch_fence_gate>,
+mods.techguns.Grinder.addRecipe(<minecraft:jungle_fence_gate>,
+mods.techguns.Grinder.addRecipe(<minecraft:dark_oak_fence_gate>,
+mods.techguns.Grinder.addRecipe(<minecraft:acacia_fence_gate>,
+mods.techguns.Grinder.addRecipe(<minecraft:observer>,
+mods.techguns.Grinder.addRecipe(<minecraft:iron_door>,
+mods.techguns.Grinder.addRecipe(<minecraft:repeater>,
+mods.techguns.Grinder.addRecipe(<minecraft:comparator>,
+mods.techguns.Grinder.addRecipe(<minecraft:golden_rail>,
+mods.techguns.Grinder.addRecipe(<minecraft:detector_rail>,
+mods.techguns.Grinder.addRecipe(<minecraft:rail>,
+mods.techguns.Grinder.addRecipe(<minecraft:activator_rail>,
+mods.techguns.Grinder.addRecipe(<minecraft:minecart>,
+mods.techguns.Grinder.addRecipe(<minecraft:saddle>,
+mods.techguns.Grinder.addRecipe(<minecraft:boat>,
+mods.techguns.Grinder.addRecipe(<minecraft:chest_minecart>,
+mods.techguns.Grinder.addRecipe(<minecraft:furnace_minecart>,
+mods.techguns.Grinder.addRecipe(<minecraft:carrot_on_a_stick>,
+mods.techguns.Grinder.addRecipe(<minecraft:tnt_minecart>,
+mods.techguns.Grinder.addRecipe(<minecraft:hopper_minecart>,
+mods.techguns.Grinder.addRecipe(<minecraft:elytra>,
+mods.techguns.Grinder.addRecipe(<minecraft:beacon>,
+mods.techguns.Grinder.addRecipe(<minecraft:flint_and_steel>,
+mods.techguns.Grinder.addRecipe(<minecraft:bow>,
+mods.techguns.Grinder.addRecipe(<minecraft:arrow>,
+mods.techguns.Grinder.addRecipe(<minecraft:bowl>,
+mods.techguns.Grinder.addRecipe(<minecraft:iron_hoe>,
+mods.techguns.Grinder.addRecipe(<minecraft:diamond_hoe>,
+mods.techguns.Grinder.addRecipe(<minecraft:bucket>,
+mods.techguns.Grinder.addRecipe(<minecraft:book>,
+mods.techguns.Grinder.addRecipe(<minecraft:fishing_rod>,
+mods.techguns.Grinder.addRecipe(<minecraft:clock>,
+mods.techguns.Grinder.addRecipe(<minecraft:shears>,
+mods.techguns.Grinder.addRecipe(<minecraft:magma_cream>,
+mods.techguns.Grinder.addRecipe(<minecraft:brewing_stand>,
+mods.techguns.Grinder.addRecipe(<minecraft:cauldron>,
+mods.techguns.Grinder.addRecipe(<minecraft:fire_charge>,
+mods.techguns.Grinder.addRecipe(<minecraft:writable_book>,
+mods.techguns.Grinder.addRecipe(<minecraft:firework_charge>,
+mods.techguns.Grinder.addRecipe(<minecraft:iron_horse_armor>,
+mods.techguns.Grinder.addRecipe(<minecraft:golden_horse_armor>,
+mods.techguns.Grinder.addRecipe(<minecraft:diamond_horse_armor>,
+mods.techguns.Grinder.addRecipe(<minecraft:lead>,
+mods.techguns.Grinder.addRecipe(<minecraft:name_tag>,
+mods.techguns.Grinder.addRecipe(<minecraft:shield>,
+mods.techguns.Grinder.addRecipe(<minecraft:brown_mushroom_block>,
+mods.techguns.Grinder.addRecipe(<minecraft:red_mushroom_block>,
+mods.techguns.Grinder.addRecipe(<minecraft:dragon_egg>,
+mods.techguns.Grinder.addRecipe(<minecraft:written_book>,
+//============================================================================================================================================================================================
+mods.techguns.Grinder.addRecipe(<sevendaystomine:torchunlit>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:torchlit>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:metal_ladder>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:stoneaxe>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:stoneshovel>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:emptyjar>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:emptycan>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:bandage>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:advancedbandage>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:firstaidkit>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:blooddrawkit>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:boneshiv>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:crudeclub>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:woodenclub>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:ironreinforcedclub>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:barbedclub>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:clawhammer>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:wrench>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:kitchenknife>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:machete>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:sledgehammer>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:fridgeitem>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:sleepingbag:0>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:sleepingbag:1>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:sleepingbag:2>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:sleepingbag:3>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:sleepingbag:4>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:sleepingbag:5>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:sleepingbag:6>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:sleepingbag:7>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:sleepingbag:8>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:sleepingbag:9>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:sleepingbag:10>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:sleepingbag:11>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:sleepingbag:12>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:sleepingbag:13>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:sleepingbag:14>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:sleepingbag:15>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:woodendooritem>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:ingotmold>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:woodendoorreinforceditem>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:ram>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:cpu>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:hdd>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:gpu>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:motherboard>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:power_supply>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:locked_door_item>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:wire>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:street_sign>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:analog_camera>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:shorts>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:car_battery>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:small_engine>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:skirt>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:jeans>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:shorts_long>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:jacket>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:jumper>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:shirt>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:short_sleeved_shirt>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:t_shirt_0>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:t_shirt_1>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:coat>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:fiber_hat>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:fiber_chestplate>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:fiber_leggings>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:fiber_boots>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:cent>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:scrap_pickaxe>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:scrap_axe>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:iron_shovel>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:iron_axe>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:iron_pickaxe>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:steel_shovel>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:steel_pickaxe>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:steel_axe>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:book_forging>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:iron_pipe>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:circuit>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:link_tool>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:survival_guide>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:scrap_helmet>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:scrap_chestplate>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:scrap_leggings>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:scrap_boots>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:bellows>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:bullet_tip_mold>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:bullet_casing_mold>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:book_computers>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:book_concrete>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:cement_mold>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:book_electricity>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:book_chemistry>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:book_metalworking>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:scrap_hoe>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:iron_hoe>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:steel_hoe>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:empty_jar_mold>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:crude_bow>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:compound_bow>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:stethoscope>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:wooden_door_iron_reinforced_item>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:screwdriver>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:mp3player>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:empty_can_mold>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:glass_pane_mold>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:oakplanksframe>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:birchplanksframe>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:spruceplanksframe>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:jungleplanksframe>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:acaciaplanksframe>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:darkoakplanksframe>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:orecopper>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:cookingpot>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:beaker>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:oretin>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:orezinc>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:orelead>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:orepotassium>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:rebarframe>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:reinforcedconcrete>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:cardboardbox>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:cupboard>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:armchairblack>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:armchairblue>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:armchairbrown>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:armchairgreen>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:armchairpink>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:armchairred>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:armchairwhite>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:armchairyellow>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:bookshelf>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:writingtable:8>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:birdnest>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:trashcan>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:trafficlight>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:trafficlightpedestrian>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:deadmossystone>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:deadmossybrick>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:basalt>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:marble>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:rhyolite>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:basaltcobblestone>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:marblecobblestone>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:rhyolitecobblestone>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:basaltbricks>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:marblebricks>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:rhyolitebricks>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:basaltpolished>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:marblepolished>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:rhyolitepolished>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:andesitebricks>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:dioritebricks>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:granitebricks>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:catwalk>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:catwalk_stairs>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:stonebrick_wall:0>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:stonebrick_wall:1>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:stonebrick_wall:2>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:stonebrick_wall:3>,
+mods.techguns.Grinder.addRecipe(<sevendaystomine:
+mods.techguns.Grinder.addRecipe(<sevendaystomine:
+mods.techguns.Grinder.addRecipe(<sevendaystomine:
+mods.techguns.Grinder.addRecipe(<sevendaystomine:
+mods.techguns.Grinder.addRecipe(<sevendaystomine:
+mods.techguns.Grinder.addRecipe(<sevendaystomine:
+mods.techguns.Grinder.addRecipe(<sevendaystomine:
+mods.techguns.Grinder.addRecipe(<sevendaystomine:
+mods.techguns.Grinder.addRecipe(<sevendaystomine:
+mods.techguns.Grinder.addRecipe(<sevendaystomine:
+mods.techguns.Grinder.addRecipe(<sevendaystomine:
+mods.techguns.Grinder.addRecipe(<sevendaystomine:
+mods.techguns.Grinder.addRecipe(<sevendaystomine:
+mods.techguns.Grinder.addRecipe(<sevendaystomine:
+mods.techguns.Grinder.addRecipe(<sevendaystomine:
+mods.techguns.Grinder.addRecipe(<sevendaystomine:
+mods.techguns.Grinder.addRecipe(<sevendaystomine:
+mods.techguns.Grinder.addRecipe(<sevendaystomine:
+mods.techguns.Grinder.addRecipe(<sevendaystomine:
+mods.techguns.Grinder.addRecipe(<sevendaystomine:
+mods.techguns.Grinder.addRecipe(<sevendaystomine:
+mods.techguns.Grinder.addRecipe(<sevendaystomine:
+mods.techguns.Grinder.addRecipe(<sevendaystomine:
+mods.techguns.Grinder.addRecipe(<sevendaystomine:
+mods.techguns.Grinder.addRecipe(<sevendaystomine:
+mods.techguns.Grinder.addRecipe(<sevendaystomine:
+mods.techguns.Grinder.addRecipe(<sevendaystomine:
+mods.techguns.Grinder.addRecipe(<sevendaystomine:
+mods.techguns.Grinder.addRecipe(<sevendaystomine:
+mods.techguns.Grinder.addRecipe(<sevendaystomine:
+mods.techguns.Grinder.addRecipe(<sevendaystomine:
+mods.techguns.Grinder.addRecipe(<sevendaystomine:
+mods.techguns.Grinder.addRecipe(<sevendaystomine:
+mods.techguns.Grinder.addRecipe(<sevendaystomine:
+mods.techguns.Grinder.addRecipe(<sevendaystomine:
+mods.techguns.Grinder.addRecipe(<sevendaystomine:
+mods.techguns.Grinder.addRecipe(<sevendaystomine:
+mods.techguns.Grinder.addRecipe(<sevendaystomine:
+

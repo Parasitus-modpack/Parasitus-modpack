@@ -293,8 +293,8 @@ oreDict.concretePowder.add(<minecraft:concrete_powder:*>);
 //MISC BLOCKS
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
-oreDict.diamondSteel.add(<chisel:blockcobalt:*>);
-oreDict.obsidianSteel.add(<chisel:obsidian:*>);
+oreDict.blockDiamondSteel.add(<chisel:blockcobalt:*>);
+oreDict.blockObsidianSteel.add(<chisel:obsidian:*>);
 oreDict.blockCarbon.add(<minecraft:coal_block>, <chisel:block_charcoal:*>, <chisel:block_charcoal1:*>, <chisel:block_charcoal2:*>, <chisel:block_coal:*>, <chisel:block_coal1:*>, <chisel:block_coal2:*>);
 oreDict.icePacked.add(<minecraft:packed_ice>, <chisel:icepillar:0>, <chisel:icepillar:1>, <chisel:icepillar:2>, <chisel:icepillar:3>, <chisel:icepillar:4>, <chisel:icepillar:5>, <chisel:icepillar:6>);
 oreDict.iceSoft.add(<minecraft:ice>, <chisel:ice:0>, <chisel:ice:1>, <chisel:ice:2>, <chisel:ice:3>, <chisel:ice:4>, <chisel:ice:5>, <chisel:ice:6>, <chisel:ice:7>, <chisel:ice:8>, <chisel:ice:9>, <chisel:ice:10>, <chisel:ice:11>, <chisel:ice:12>, <chisel:ice:13>, <chisel:ice:14>, <chisel:ice:15>, <chisel:ice1:0>, <chisel:ice1:1>, <chisel:ice1:2>, <chisel:ice1:3>, <chisel:ice1:4>, <chisel:ice1:5>, <chisel:ice1:6>, <chisel:ice1:7>, <chisel:ice1:8>, <chisel:ice1:9>, <chisel:ice1:10>, <chisel:ice1:11>, <chisel:ice1:12>, <chisel:ice1:13>, <chisel:ice1:14>, <chisel:ice1:15>, <chisel:ice2:0>);
@@ -306,7 +306,7 @@ oreDict.elevatorRotating.add(<openblocks:elevator_rotating:*>);
 oreDict.dirts.add(<minecraft:dirt:0>, <minecraft:dirt:1>, <chisel:dirt:*>);
 oreDict.blockCopper.add(<sevendaystomine:copper_block>);
 oreDict.sleepingBag.add(<sevendaystomine:sleepingbagitem:*>);
-oreDict.chestWood.add(<sevendaystomine:chest_old>, <minecraft:trapped_chest>, <sevendaystomine:chest_old>, <quark:custom_chest_trap:*>);
+oreDict.chestWood.add(<sevendaystomine:chest_old>, <minecraft:trapped_chest>, <quark:custom_chest_trap:*>);
 oreDict.shulker.add(<minecraft:white_shulker_box>, <minecraft:orange_shulker_box>, <minecraft:magenta_shulker_box>, <minecraft:light_blue_shulker_box>, <minecraft:yellow_shulker_box>, <minecraft:lime_shulker_box>, <minecraft:pink_shulker_box>, <minecraft:gray_shulker_box>, <minecraft:silver_shulker_box>, <minecraft:cyan_shulker_box>, <minecraft:purple_shulker_box>, <minecraft:blue_shulker_box>, <minecraft:brown_shulker_box>, <minecraft:green_shulker_box>, <minecraft:red_shulker_box>, <minecraft:black_shulker_box>);
 oreDict.bed.add(<minecraft:bed:*>);
 oreDict.curtainDoors.add(<malisisdoors:curtain_white>, <malisisdoors:curtain_orange>, <malisisdoors:curtain_magenta>, <malisisdoors:curtain_light_blue>, <malisisdoors:curtain_yellow>, <malisisdoors:curtain_lime>, <malisisdoors:curtain_pink>, <malisisdoors:curtain_gray>, <malisisdoors:curtain_silver>, <malisisdoors:curtain_cyan>, <malisisdoors:curtain_purple>, <malisisdoors:curtain_blue>, <malisisdoors:curtain_brown>, <malisisdoors:curtain_green>, <malisisdoors:curtain_red>, <malisisdoors:curtain_black>);
@@ -359,6 +359,17 @@ oreDict.trapdoorWood. add(<malisisdoors:trapdoor_acacia>, <malisisdoors:trapdoor
 oreDict.ladder.add(<minecraft:ladder>, <sevendaystomine:metal_ladder>, <malisisdoors:rustyladder>, <openblocks:rope_ladder>, <techguns:ladder0:*>, <techguns:slimyladder>);
 oreDict.egg.add(<minecraft:egg>, <minecraft:dragon_egg>, <koopascritters:guineafowlegg>, <koopascritters:californiaquailegg>, <oe:turtle_egg>, <openblocks: golden_egg>, <quark:parrot_egg:*>);
 oreDict.arrow.add(<minecraft:arrow>, <minecraft:spectral_arrow>, <minecraft:tipped_arrow:*>, <quark:arrow_ender>, <quark:arrow_explosive>, <quark:arrow_torch>, <spartanweaponry:arrow_wood>, <spartanweaponry:arrow_iron>, <spartanweaponry:arrow_diamond>, <spartanweaponry:arrow_explosive>, <spartanweaponry:arrow_wood_tipped:*>, <spartanweaponry:arrow_iron_tipped>, <spartanweaponry:arrow_diamond_tipped>);
+oreDict.plateDiamondSteel.add(<sevendaystomine:scraplead>);
+oreDict.nuggetGold.add(<sevendaystomine:scrap_gold>);
+oreDict.nuggetIron.add(<sevendaystomine:scrapiron>);
+oreDict.nuggetCopper.add(<sevendaystomine:scrap_copper>);
+oreDict.nuggetLead.add(<sevendaystomine:leadingot>);
+oreDict.nuggetSteel.add(<sevendaystomine:scrap_steel>);
+oreDict.nuggetBrass.add(<sevendaystomine:scrapbrass>);
+oreDict.nuggetBronze.add(<sevendaystomine:scrap_bronze>);
+oreDict.nuggetZinc.add(<sevendaystomine:scrap_zinc>);
+oreDict.nuggetTin.add(<sevendaystomine:scrap_tin>);
+
 
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================

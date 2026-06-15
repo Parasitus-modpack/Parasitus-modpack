@@ -1,0 +1,135 @@
+
+//============================================================================================================================================================================================
+KEEPING NBT
+
+recipes.addShapeless(<minecraft:stone_pickaxe>, [<minecraft:stone_pickaxe>.anyDamage().marked("pick"), <minecraft:cobblestone>], function(output, inputs, crafting) {
+
+  return output.withTag(input.pick.tag);
+});
+===================================
+val apple = <minecraft:apple>;
+val bucket = <minecraft:bucket>;
+val grass = <minecraft.grass>>;
+val oreDictEnt = <ore:ingotIron>;
+
+apple.diplayname = "tomato"
+apple.maxStackSize = 32;
+apple.maxStackSize = bucket.maxStackSize:;
+grass.hardness = 10.0;
+oreDictEnt.add(<minecraft:grass>)
+
+
+===================================
+
+--- JEI Categories ---
+minecraft.crafting
+minecraft.fuel
+minecraft.smelting
+minecraft.brewing
+minecraft.anvil
+chisel.chiseling
+ore_processor
+fluid_processor
+Forge
+Campfire
+Chemistry Station
+Electrolytic Cell
+Workbench
+techguns.ammopress
+techguns.metalpress
+techguns.chemlab
+techguns.fabricator
+techguns.camobench
+techguns.chargingstation
+techguns.reactionchamber
+techguns.oredrill
+techguns.blastfurnace
+techguns.grinder
+techguns.upgradebench
+buildcraft:category_heatable
+buildcraft:category_distiller
+buildcraft:category_coolable
+buildcraft-compat:engine.combustion
+buildcraft-compat:silicon.assembly
+jei.information
+
+mods.techguns.AmmoPress
+AmmoPress.addPowder(<GunpowderAlternative>);
+Ammopress.removepowder(<GunpowderAlternative>);
+AmmoPress.addMetal1(<MetalSlot1>);
+AmmoPress.removeMetall1(<MetalSlot1>);
+AmmoPress.addMetal2(<MetalSlot2>);
+AmmoPress.removeMetall2(<MetalSlot2>);
+
+mods.techguns.ChargingStation
+ChargingStation.addRecipe(<Output>,<Input>,rf);
+ChargingStation.removeRecipe("name")
+
+mods.techguns.MetalPress
+MetalPress.addRecipe(<input>, <input>, <output>, swaping boolean);
+MetalPress.removeRecipe(<output>);
+
+mods.techguns.Fabricator
+Fabricator.addRecipe(<input1>, amount, <input2>, amount, <input3>, amount, <input4>, amount, <output>*amount);
+Fabricator.removeRecipe(<output>)
+
+mods.techguns.ChemLab
+ChemLab.addRecipe(<input1>, amount, <input2>, amount, <fluidInput>*amount 1/1000, false, <fluidOutput>*amount 1/1000, rf/tick);
+ChemLab.removeRecipe(<itemOutput>,<fluidOutput>
+
+mods.techguns.ReactionChamber
+ReactionChamber.addRecipe(<iteminput>, <fluidInput>, <itemOutput1>, <itemOutput2>, <itemOutput3>, <itemOutput4>, <focusItem>, ticks, required, intensityStart, intensityJump, liquidLvl, liquidConsumption, instability, risk, rf/tick
+instability = 0.0-1.0		risk = "NONE", "BREAK_ITEM", "EXPLOSION_LOW", "EXPLOSION_MEDIUM", "EXPLOSION_HIGH"(may not work)
+ReactionChamber.removeRecipe(<iteminput>, <fluidinput>;
+
+mods.techguns.BlastFurnace
+BlastFurnace.addRecipe(<input1>, amount, <input2>, amount, <output>*amount, rf/tick, tick);
+BlastFurnace.removeRecipe(<output>); 
+
+mods.techguns.Grinder
+Grinder.addRecipe(<input>, <output1>, <output2>, <output3>, <output4>, <output5>, <output6>, <output7>, <output8>, <output9>);
+Grinder.removeRecipe(<output>);
+
+mods.buildcraft.AssemblyTable;
+AssemblyTable.addRecipe(<output>, power, [<inputs>]);
+Assemblytable.removeByName("recipename");
+
+mods.buildcraft.CombustionEngine
+Combustionengine.addCleanFuel(<liquid>, rf/tick, time pr bucket);
+Combustionengine.addDirtyFuel(<liquid>, rf/tick, time pr bucket, <liquid>*1/1000);
+
+mods.buildcraft.Destiller?
+Refinery.addRecipe(<fluidOutput1>, <fluidOutput2> rf/mB, tick/mB <inputfluid>);
+
+
+mods.jei,JEI.hide(<item>);
+mods.jei.JEI.hide(<liquid/fluid>);
+mods.jei.JEI.removeAndHide (<item>, optional NBT boolean-match);
+mods.jei.JEI.hideCategory(category);
+mods.jei.JEI.addItem(<item>.WithTag({display:{Name:"itemname", Lore:["description"]}}));
+mods.jei.JEI.addDescription(<item/fluid>, "description", "description2");
+
+mods.chisel.Carving,addGroup("groupname");
+mods.chisel.Carving.addVariation("groupname",<item>);
+mods.chisel.Carving.removeGroup("groupname");
+mods.chisel.Carving.removeVariation("groupname", <item>);
+
+brewing.addBrew(<inputBottle>, <input1>, <input2>, <output>);
+brewing.removeRecipe(<inputpotion>.withTag({Potion:"name"}), <input1>, <input2>);
+furnace.remove(<output>);
+furnace.addRecipe(<input>, <Output>, xp);
+furnace.setFuel(<item>, value);
+
+cobble	>	melt	>	stone
+stone	>	craft	>	brick
+brick	>	melt	>	cracked
+stone	>	craft	>	slab
+stone	>	craft	>	stair
+(brick	>	craft	>	pillar)
+slab	>	craft	>	pillar
+(slab	>	craft	>	chiseled)
+brick	>	craft	>	chiseled
+stone	>	melt	>	smooth
+
+https://en.wikipedia.org/wiki/Zinc
+https://en.wikipedia.org/wiki/Mercury_(element)

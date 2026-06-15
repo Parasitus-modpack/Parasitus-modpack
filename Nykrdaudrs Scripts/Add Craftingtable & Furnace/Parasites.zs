@@ -56,9 +56,9 @@ recipes.addShaped("living_core_crate1", <nocubessrpsurvival:cratelivingcore>, [[
 //============================================================================================================================================================================================
 //COMPRESSING
 recipes.addShapeless("flesh_to_chunk", <srparasites:parasitestain:2>, [<nocubessrpsurvival:redflesh>, <nocubessrpsurvival:redflesh>, <nocubessrpsurvival:redflesh>, <nocubessrpsurvival:redflesh>, <nocubessrpsurvival:redflesh>, <nocubessrpsurvival:redflesh>, <nocubessrpsurvival:redflesh>, <nocubessrpsurvival:redflesh>, <nocubessrpsurvival:redflesh>]);
-recipes.addShapeless("crate_dispatcher_membrane", <nocubessrpsurvival:crateassimilatedflesh>, [<srparasites:assimilated_flesh>, <srparasites:assimilated_flesh>, <srparasites:assimilated_flesh>, <srparasites:assimilated_flesh>, <srparasites:assimilated_flesh>, <srparasites:assimilated_flesh>, <srparasites:assimilated_flesh>, <srparasites:assimilated_flesh>, <srparasites:assimilated_flesh>]);
+recipes.addShapeless("crate_beckon_membrane", <nocubessrpsurvival:crateassimilatedflesh>, [<srparasites:beckon_drop>, <srparasites:beckon_drop>, <srparasites:beckon_drop>, <srparasites:beckon_drop>, <srparasites:beckon_drop>, <srparasites:beckon_drop>, <srparasites:beckon_drop>, <srparasites:beckon_drop>, <srparasites:beckon_drop>]);
 recipes.addShapeless("crate_rupter_viscera", <nocubessrpsurvival:craterupterviscera>, [<srparasites:lurecomponent1>, <srparasites:lurecomponent1>, <srparasites:lurecomponent1>, <srparasites:lurecomponent1>, <srparasites:lurecomponent1>, <srparasites:lurecomponent1>, <srparasites:lurecomponent1>, <srparasites:lurecomponent1>, <srparasites:lurecomponent1>]);
-recipes.addShapeless("crate_diseased_heart", <nocubessrpsurvival:cratediseasedheart>, [<srparasites:lurecomponent2>, <srparasites:lurecomponent2>, <srparasites:lurecomponent2>, <srparasites:lurecomponent2>, <srparasites:lurecomponent2>, <srparasites:lurecomponent2>, <srparasites:lurecomponent2>, <srparasites:lurecomponent2>, <srparasites:lurecomponent2>]);
+recipes.addShapeless("crate_dispatcher_membrane", <nocubessrpsurvival:cratediseasedheart>, [<srparasites:dispatcher_drop>, <srparasites:dispatcher_drop>, <srparasites:dispatcher_drop>, <srparasites:dispatcher_drop>, <srparasites:dispatcher_drop>, <srparasites:dispatcher_drop>, <srparasites:dispatcher_drop>, <srparasites:dispatcher_drop>, <srparasites:dispatcher_drop>]);
 recipes.addShapeless("crate_altered_tendons", <nocubessrpsurvival:cratealteredtendons>, [<srparasites:lurecomponent3>, <srparasites:lurecomponent3>, <srparasites:lurecomponent3>, <srparasites:lurecomponent3>, <srparasites:lurecomponent3>, <srparasites:lurecomponent3>, <srparasites:lurecomponent3>, <srparasites:lurecomponent3>, <srparasites:lurecomponent3>]);
 recipes.addShapeless("crate_toxic_lung", <nocubessrpsurvival:cratetoxiclung>, [<srparasites:lurecomponent4>, <srparasites:lurecomponent4>, <srparasites:lurecomponent4>, <srparasites:lurecomponent4>, <srparasites:lurecomponent4>, <srparasites:lurecomponent4>, <srparasites:lurecomponent4>, <srparasites:lurecomponent4>, <srparasites:lurecomponent4>]);
 recipes.addShapeless("crate_noxious_brain", <nocubessrpsurvival:cratenoxiousbrain>, [<srparasites:lurecomponent5>, <srparasites:lurecomponent5>, <srparasites:lurecomponent5>, <srparasites:lurecomponent5>, <srparasites:lurecomponent5>, <srparasites:lurecomponent5>, <srparasites:lurecomponent5>, <srparasites:lurecomponent5>, <srparasites:lurecomponent5>]);
@@ -76,12 +76,16 @@ recipes.addShapeless("crate_vile_shell", <nocubessrpsurvival:cratevileshell>, [<
 recipes.addShapeless("crate_grotesque_lump", <nocubessrpsurvival:crateparasiticlump>, [<srparasites:parasitecanister:2>, <srparasites:parasitecanister:2>, <srparasites:parasitecanister:2>, <srparasites:parasitecanister:2>, <srparasites:parasitecanister:2>, <srparasites:parasitecanister:2>, <srparasites:parasitecanister:2>, <srparasites:parasitecanister:2>, <srparasites:parasitecanister:2>]);
 recipes.addShapeless("crate_strange_bone", <nocubessrpsurvival:cratestrangebone>, [<srparasites:bone>, <srparasites:bone>, <srparasites:bone>, <srparasites:bone>, <srparasites:bone>, <srparasites:bone>, <srparasites:bone>, <srparasites:bone>, <srparasites:bone>]);
 recipes.addShapeless("fortified_bone_block", <srparasites:parasiterubble:1>, [<nocubessrpsurvival:parasiticbonemeal>, <nocubessrpsurvival:parasiticbonemeal>, <nocubessrpsurvival:parasiticbonemeal>, <nocubessrpsurvival:parasiticbonemeal>, <nocubessrpsurvival:parasiticbonemeal>, <nocubessrpsurvival:parasiticbonemeal>, <nocubessrpsurvival:parasiticbonemeal>, <nocubessrpsurvival:parasiticbonemeal>, <nocubessrpsurvival:parasiticbonemeal>]);
+recipes.addShapeless("hardened_flesh_block", <nocubessrpsurvival:hardenedfleshblock>, [<nocubessrpsurvival:hardenedflesh>, <nocubessrpsurvival:hardenedflesh>, <nocubessrpsurvival:hardenedflesh>, <nocubessrpsurvival:hardenedflesh>, <nocubessrpsurvival:hardenedflesh>, <nocubessrpsurvival:hardenedflesh>, <nocubessrpsurvival:hardenedflesh>, <nocubessrpsurvival:hardenedflesh>, <nocubessrpsurvival:hardenedflesh>]);
+recipes.addShapeless("concentrated_flesh", <srparasites:parasiterubble:0>, [<srparasites:parasitestain:2>, <srparasites:parasitestain:2>, <srparasites:parasitestain:2>, <srparasites:parasitestain:2>, <srparasites:parasitestain:2>, <srparasites:parasitestain:2>, <srparasites:parasitestain:2>, <srparasites:parasitestain:2>, <srparasites:parasitestain:2>]);
+recipes.addShapeless("flesh_chunk_from_sac", <srparasites:parasitestain:2>, [<srparasites:parasitecanister:3>, <srparasites:parasitecanister:3>, <srparasites:parasitecanister:3>, <srparasites:parasitecanister:3>, <srparasites:parasitecanister:3>, <srparasites:parasitecanister:3>, <srparasites:parasitecanister:3>, <srparasites:parasitecanister:3>, <srparasites:parasitecanister:3>]);
+recipes.addShapeless("arteries_from_hearts", <srparasites:parasitestain:3>, [<srparasites:lurecomponent2>, <srparasites:lurecomponent2>, <srparasites:lurecomponent2>, <srparasites:lurecomponent2>, <srparasites:lurecomponent2>, <srparasites:lurecomponent2>, <srparasites:lurecomponent2>, <srparasites:lurecomponent2>, <srparasites:lurecomponent2>]);
 //============================================================================================================================================================================================
 //DECOMPRESSING
 recipes.addShapeless("flesh_from_chunk", <nocubessrpsurvival:redflesh> * 9,  [<srparasites:parasitestain:2>]);
-recipes.addShapeless("dispatcher_membrane_from_crate", <srparasites:dispatcher_drop> * 9, [<nocubessrpsurvival:crateassimilatedflesh>]);
+recipes.addShapeless("beckon_membrane_from_crate", <srparasites:beckon_drop> * 9, [<nocubessrpsurvival:crateassimilatedflesh>]);
 recipes.addShapeless("rupter_viscera_from_crate", <srparasites:lurecomponent1> * 9, [<nocubessrpsurvival:craterupterviscera>]);
-recipes.addShapeless("diseased_heart_from_crate", <srparasites:lurecomponent2> * 9, [<nocubessrpsurvival:cratediseasedheart>]);
+recipes.addShapeless("dispatcher_membrane_from_crate", <srparasites:dispatcher_drop> * 9, [<nocubessrpsurvival:cratediseasedheart>]);
 recipes.addShapeless("altered_tendons_from_crate", <srparasites:lurecomponent3> * 9, [<nocubessrpsurvival:cratealteredtendons>]);
 recipes.addShapeless("toxic_lung_from_crate", <srparasites:lurecomponent4> * 9, [<nocubessrpsurvival:cratetoxiclung>]);
 recipes.addShapeless("noxious_brain_from_crate", <srparasites:lurecomponent5> * 9, [<nocubessrpsurvival:cratenoxiousbrain>]);
@@ -99,28 +103,32 @@ recipes.addShapeless("vile_shell_from_crate", <srparasites:vile_shell> * 9, [<no
 recipes.addShapeless("grotesque_lump_from_crate", <srparasites:parasitecanister:2> * 9, [<nocubessrpsurvival:crateparasiticlump>]);
 recipes.addShapeless("strange_bone_from_crate", <srparasites:bone> * 9, [<nocubessrpsurvival:cratestrangebone>]);
 recipes.addShapeless("parasitic_bonemeal_from_block", <nocubessrpsurvival:parasiticbonemeal> * 9, [<srparasites:parasiterubble:1>]);
+recipes.addShapeless("hardened_flesh_from_block", <nocubessrpsurvival:hardenedflesh> * 9, [<nocubessrpsurvival:hardenedfleshblock>]);
+recipes.addShapeless("decompressed_flesh_chunk", <srparasites:parasitestain:2> * 9, [<srparasites:parasiterubble:0>]);
+recipes.addShapeless("flesh_sac_from_chunk", <srparasites:parasitecanister:3> * 9, [<srparasites:parasitestain:2>]);
+recipes.addShapeless("hearts_from_arteries", <srparasites:lurecomponent2> * 9, [<srparasites:parasitestain:3>]);
 //============================================================================================================================================================================================
 //FOODS
-recipes.removeByRecipeName("nocubessrpsurvival:recipe_buglin_salad");
-recipes.removeByRecipeName("nocubessrpsurvival:recipe_pest_bread");
-recipes.removeByRecipeName("nocubessrpsurvival:recipe_moldered_pie");
-recipes.removeByRecipeName("nocubessrpsurvival:recipe_reeking_ribs");
-recipes.removeByRecipeName("nocubessrpsurvival:recipe_flesh_stew");
-recipes.removeByRecipeName("nocubessrpsurvival:recipe_rupter_salad");
-recipes.removeByRecipeName("nocubessrpsurvival:recipe_assimilated_soup");
-recipes.removeByRecipeName("nocubessrpsurvival:recipe_cooked_tendons");
-recipes.removeByRecipeName("nocubessrpsurvival:recipe_vertebra_soup");
-recipes.removeByRecipeName("nocubessrpsurvival:recipe_toxic_stew");
-recipes.removeByRecipeName("nocubessrpsurvival:recipe_cooked_brain");
-recipes.removeByRecipeName("nocubessrpsurvival:recipe_bone_stock");
-recipes.removeByRecipeName("nocubessrpsurvival:recipe_roasted_lump");
-recipes.removeByRecipeName("nocubessrpsurvival:recipe_cooked_parasite_heart");
-recipes.removeByRecipeName("nocubessrpsurvival:recipe_flesh_barbecue");
+//recipes.removeByRecipeName("nocubessrpsurvival:recipe_buglin_salad");
+//recipes.removeByRecipeName("nocubessrpsurvival:recipe_pest_bread");
+//recipes.removeByRecipeName("nocubessrpsurvival:recipe_moldered_pie");
+//recipes.removeByRecipeName("nocubessrpsurvival:recipe_reeking_ribs");
+//recipes.removeByRecipeName("nocubessrpsurvival:recipe_flesh_stew");
+//recipes.removeByRecipeName("nocubessrpsurvival:recipe_rupter_salad");
+//recipes.removeByRecipeName("nocubessrpsurvival:recipe_assimilated_soup");
+//recipes.removeByRecipeName("nocubessrpsurvival:recipe_cooked_tendons");
+//recipes.removeByRecipeName("nocubessrpsurvival:recipe_vertebra_soup");
+//recipes.removeByRecipeName("nocubessrpsurvival:recipe_toxic_stew");
+//recipes.removeByRecipeName("nocubessrpsurvival:recipe_cooked_brain");
+//recipes.removeByRecipeName("nocubessrpsurvival:recipe_bone_stock");
+//recipes.removeByRecipeName("nocubessrpsurvival:recipe_roasted_lump");
+//recipes.removeByRecipeName("nocubessrpsurvival:recipe_cooked_parasite_heart");
+//recipes.removeByRecipeName("nocubessrpsurvival:recipe_flesh_barbecue");
 //============================================================================================================================================================================================
 //FURNACE
 //furnace.remove(<nocubessrpsurvival:cookedbuglinlarva>);
 //furnace.remove(<nocubessrpsurvival:cookedfleshbarbecue>);
-//furnace.remove(<nocubessrpsurvival:cookedflesh>);
+//furnace.remova(<nocubessrpsurvival:cookedflesh>);
 //furnace.remove(<nocubessrparmory:carbonsteel>);
 //============================================================================================================================================================================================
 //FROM MODS

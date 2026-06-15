@@ -742,11 +742,22 @@ recipes.addShapeless("concrete_powder_dyed_to_black", <minecraft:concrete_powder
 
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
+//PARASITIC STONES
+//============================================================================================================================================================================================
+//============================================================================================================================================================================================
+recipes.addShapeless("compressing_debris", <srparasites:parasiterubbledense>, [<srparasites:parasiterubble:3>, <srparasites:parasiterubble:3>, <srparasites:parasiterubble:3>, <srparasites:parasiterubble:3>, <srparasites:parasiterubble:3>, <srparasites:parasiterubble:3>, <srparasites:parasiterubble:3>, <srparasites:parasiterubble:3>, <srparasites:parasiterubble:3>]);
+furnace.addRecipe(<srparasites:parasiterubble:2>, <srparasites:parasiterubble:3>, 0.1);
+recipes.addShaped("hivestone_bricks", <srparasites:parasiterubble:5> * 4, [[<srparasites:parasiterubble:2>, <srparasites:parasiterubble:2>], [<srparasites:parasiterubble:2>, <srparasites:parasiterubble:2>]]);
+recipes.addShaped("hivesteel", <srparasites:parasiterubble:6> * 9, [[<srparasites:parasiterubble:2>, <nocubessrparmory:carbonsteel>, <srparasites:parasiterubble:2>], [<nocubessrparmory:carbonsteel>, <srparasites:parasiterubble:2>, <nocubessrparmory:carbonsteel>], [<srparasites:parasiterubble:2>, <nocubessrparmory:carbonsteel>, <srparasites:parasiterubble:2>]]);
+recipes.addShaped("reinforced_hivestone", <srparasites:parasiterubbledense:1> * 4, [[<srparasites:parasiterubbledense:0>, <srparasites:parasiterubbledense:0>], [<srparasites:parasiterubbledense:0>, <srparasites:parasiterubbledense:0>]]);
+
+//============================================================================================================================================================================================
+//============================================================================================================================================================================================
 //MISC
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
-recipes.addShaped("laboratory_block_from_marble", <chisel:laboratory:0> * 9, [[<minecraft:stone>, <minecraft:stone>, <minecraft:stone>], [<minecraft:stone>, <ore:marble_stone>, <minecraft:stone>], [<minecraft:stone>, <minecraft:stone>, <minecraft:stone>]]);
-recipes.addShaped("laboratory_block_from_quartz", <chisel:laboratory:0> * 9, [[<minecraft:stone>, <minecraft:stone>, <minecraft:stone>], [<minecraft:stone>, <ore:quartz>, <minecraft:stone>], [<minecraft:stone>, <minecraft:stone>, <minecraft:stone>]]);
+recipes.addShaped("laboratory_block_from_marble", <chisel:laboratory:0> * 9, [[<minecraft:stone>, <techguns:itemshared:55>, <minecraft:stone>], [<techguns:itemshared:55>, <ore:marble_stone>, <techguns:itemshared:55>], [<minecraft:stone>, <techguns:itemshared:55>, <minecraft:stone>]]);
+recipes.addShaped("laboratory_block_from_quartz", <chisel:laboratory:0> * 9, [[<minecraft:stone>, <techguns:itemshared:55>, <minecraft:stone>], [<techguns:itemshared:55>, <ore:quartz>, <techguns:itemshared:55>], [<minecraft:stone>, <techguns:itemshared:55>, <minecraft:stone>]]);
 recipes.addShaped("lavastone", <chisel:lavastone:0> * 8, [[<ore:stones>, <ore:stones>, <ore:stones>], [<ore:stones>, <minecraft:lava_bucket>, <ore:stones>], [<ore:stones>, <ore:stones>, <ore:stones>]]);
 recipes.addShaped("waterstone", <chisel:waterstone:0> * 8, [[<ore:stones>, <ore:stones>, <ore:stones>], [<ore:stones>, <minecraft:water_bucket>, <ore:stones>], [<ore:stones>, <ore:stones>, <ore:stones>]]);
 recipes.addShaped("tyrian", <chisel:tyrian:0> * 8, [[<ore:stones>, <ore:stones>, <ore:stones>], [<ore:stones>, <ore:ingotIron>, <ore:stones>], [<ore:stones>, <ore:stones>, <ore:stones>]]);

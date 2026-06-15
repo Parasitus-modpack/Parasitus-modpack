@@ -102,6 +102,8 @@ recipes.addShaped("dead_bush", <minecraft:deadbush>, [[<minecraft:stick>, null, 
 recipes.addShapeless("flint_steel", <minecraft:flint_and_steel>, [<ore:ingotSteel>, <minecraft:flint>]);
 //============================================================================================================================================================================================
 //FROM MODS
+recipes.addShaped("golden_carrot", <minecraft:golden_carrot>, [[<ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>], [<ore:nuggetGold>, <minecraft:carrot>, <ore:nuggetGold>], [<ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>]]);
+recipes.addShaped("glistening_melon", <minecraft:speckled_melon>, [[<ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>], [<ore:nuggetGold>, <minecraft:melon>, <ore:nuggetGold>], [<ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>]]);
 recipes.addShapeless("spectral_arrow", <minecraft:spectral_arrow>, [<ore:dustGlowstone>, <ore:spartanweaponry:arrows>]);
 recipes.addShaped("writable_book", <minecraft:writable_book>, [[<ore:book>, <minecraft:dye:0>], [<minecraft:feather>, null]]);
 recipes.addShapeless("hay", <minecraft:wheat> * 9, [<quark:thatch>]);

@@ -619,7 +619,7 @@ recipes.addShapeless("black_pipe_wire", <buildcrafttransport:wire:15> * 8, [<ore
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
 //REMAKES
-recipes.addShaped("auto_craftingtable", <buildcraftfactory:autoworkbench_item>, [[<buildcraftcore:gear_iron>, <ore:craftingTable>, <buildcraftcore:gear_iron>]]);
+recipes.addShaped("auto_craftingtable", <buildcraftfactory:autoworkbench_item>, [[<buildcraftcore:gear_iron>, <minecraft:crafting_table>, <buildcraftcore:gear_iron>]]);
 recipes.addShaped("gelifier", <buildcraftfactory:water_gel_spawn>, [[null, <ore:sand>, null], [<ore:sand>, <forge:bucketfilled>.withTag({FluidName: "oil_residue", Amount: 1000}), <ore:sand>], [null, <ore:sand>, null]]);
 recipes.addShapeless("chipset_0", <buildcraftsilicon:redstone_chipset:0>, [<ore:dustRedstone>]);
 recipes.addShapeless("chipset_1", <buildcraftsilicon:redstone_chipset:1>, [<buildcraftsilicon:redstone_chipset:0>, <ore:ingotIron>]);
