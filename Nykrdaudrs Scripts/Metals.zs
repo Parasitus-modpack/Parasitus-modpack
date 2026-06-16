@@ -273,6 +273,7 @@ mods.techguns.MetalPress.addRecipe(<chisel:blockaluminum:*>, <chisel:blockalumin
 recipes.addShapeless("scrap_from_ingot", <sevendaystomine:scrap_brass> * 9, [<sevendaystomine:brassingot>]);
 //====================================================================
 //ingots and blocks
+mods.techguns.BlastFurnace.addRecipe(<sevendaystomine:cent> * 3, <sevendaystomine:cent> * 3, <sevendaystomine:brassingot> * 2, 10, 100);
 mods.techguns.BlastFurnace.addRecipe(<sevendaystomine:copperingot> * 3, <sevendaystomine:zincingot>, <sevendaystomine:brassingot> * 4, 10, 800);
 mods.techguns.BlastFurnace.addRecipe(<techguns:itemshared:79> * 3, <sevendaystomine:zincingot>, <sevendaystomine:brassingot> * 4, 10, 800);
 mods.techguns.BlastFurnace.addRecipe(<chisel:blockcopper:*> * 3, <chisel:blocknickel:*>, <sevendaystomine:brass_block> * 4, 20, 1600);
@@ -287,6 +288,7 @@ mods.techguns.BlastFurnace.addRecipe(<sevendaystomine:scrap_copper> * 6, <sevend
 mods.techguns.BlastFurnace.addRecipe(<sevendaystomine:scrapbrass> * 5, <sevendaystomine:scrapbrass> * 4, <sevendaystomine:brassingot>, 10, 800);
 //====================================================================
 //pressing
+mods.techguns.MetalPress.addRecipe(<sevendaystomine:brassingot>, <sevendaystomine:brassingot>, <sevendaystomine:cent> * 6, true);
 
 
 //============================================================================================================================================================================================
@@ -300,13 +302,14 @@ mods.techguns.BlastFurnace.addRecipe(<sevendaystomine:scrapbrass> * 5, <sevenday
 // 6 scrap/nugget copper and 3 scrap tin makes 1 bronze ingot
 //====================================================================
 //crafting
-recipes.addShaped("bronze_block", <chisel:blockbronze:2>, [[<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>], [<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>], [<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>]]);
+recipes.addShapeless("bronze_block", <chisel:blockbronze:2>, [<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>]);
 //====================================================================
 //ingots and blocks
 mods.techguns.BlastFurnace.addRecipe(<chisel:blockcopper:*>, <chisel:blocktin:*>, <chisel:blockbronze:2>, 20, 1600);
 mods.techguns.BlastFurnace.addRecipe(<sevendaystomine:copper_block>, <chisel:blocktin:*>, <chisel:blockbronze:2>, 20, 1600);
 //====================================================================
 //melted ore
+mods.techguns.ReactionChamber.addRecipe("bronze_from_liquid_copper", <sevendaystomine:tiningot>, <liquid:molten_copper.cool>, [<sevendaystomine:bronzeingot> * 4], <techguns:itemshared:104>, 2, 1, 5, 0, 5, 2100, 0.0, "BREAK_ITEM", 25000);
 //====================================================================
 //scrap and nuggets
 mods.techguns.BlastFurnace.addRecipe(<techguns:itemshared:86> * 6, <sevendaystomine:scrap_tin> * 3, <techguns:itemshared:81>, 10, 800);
