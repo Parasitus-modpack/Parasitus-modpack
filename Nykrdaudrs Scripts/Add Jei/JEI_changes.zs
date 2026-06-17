@@ -27,7 +27,9 @@
 <nocubessrpsurvival:crateparasiticlump>.displayName = "Grotesque Lump Crate";
 <nocubessrpsurvival:crateassimilatedflesh>.displayName = "Beckon Membrane Crate";
 <nocubessrpsurvival:cratediseasedheart>.displayName = "Dispatcher Membrane Crate";
-//<techguns:itemshared:78-displayName = "Titanium Dust";
+<techguns:itemshared:78>.displayName = "Titanium Dust";
+<sevendaystomine:salt>.displayName = "Crushed Cinnabar";
+
 //============================================================================================================================================================================================
 //<openblocks:tank>.withTag({tank: {FluidName: "bcop-gaseous_lava-cool"}}).displayName = "Gaseous Lava  (§b Cool §r) Tank";
 //<openblocks:tank>.withTag({tank: {FluidName: "bcop-gold-cool"}}).displayName = "Molten Gold (§b Cool §r) Tank";
