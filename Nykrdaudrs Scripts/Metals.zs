@@ -488,7 +488,7 @@ mods.techguns.MetalPress.addRecipe(<techguns:itemshared:50>, <minecraft:diamond>
 //MERCURY
 //materialstack:mercury
 mods.techguns.ReactionChamber.addRecipe("mercury_from_cinnabar", <sevendaystomine:orecinnabar>, <liquid:creeper_acid>, [<sevendaystomine:salt> * 6, <sevendaystomine:smallstone> * 4], <techguns:itemshared:104>, 2, 1, 5, 0, 2, 100, 0.0, "BREAK_ITEM", 25000);
-ChemLab.addRecipe(<sevendaystomine:salt>, 3, null, 0, <liquid:lava> * 250, false, <liquid:mercury> * 300, 35);
+//ChemLab.addRecipe(<sevendaystomine:salt>, 3, null, 1, <liquid:lava> * 250, false, <liquid:mercury> * 300, 35);
 
 //====================================================================
 

@@ -133,3 +133,259 @@ stone	>	melt	>	smooth
 
 https://en.wikipedia.org/wiki/Zinc
 https://en.wikipedia.org/wiki/Mercury_(element)
+
+//============================================================================================================================================================================================
+
+	creativetabs: SymbolPackage: crafttweaker.creativetabs
+		ICreativeTab: SymbolType: ZenTypeNative: crafttweaker.creativetabs.ICreativeTab
+			Members: searchBarWidth
+			Getter: JavaMethod: public abstract int crafttweaker.api.creativetabs.ICreativeTab.getSearchBarWidth()
+			Members: setNoTitle
+				JavaMethod: public abstract void crafttweaker.api.creativetabs.ICreativeTab.setNoTitle()
+			Members: setNoScrollBar
+				JavaMethod: public abstract void crafttweaker.api.creativetabs.ICreativeTab.setNoScrollBar()
+			Members: setBackgroundImageName
+				JavaMethod: public abstract void crafttweaker.api.creativetabs.ICreativeTab.setBackgroundImageName(java.lang.String)
+			Members: tabLabel
+			Getter: JavaMethod: public abstract java.lang.String crafttweaker.api.creativetabs.ICreativeTab.getTabLabel()
+
+//============================================================================================================================================================================================
+
+RepairManager: SymbolType: ZenTypeNative: mods.sevendaystomine.repair.RepairManager
+	Static Members: addRepair
+		JavaMethod: public static void nuparu.sevendaystomine.integration.crafttweaker.repairs.CraftTweakerRepairManager.addRepair(crafttweaker.api.block.IBlock,crafttweaker.api.item.IItemStack,float)
+
+ScrapDataManager: SymbolType: ZenTypeNative: mods.sevendaystomine.item.ScrapDataManager
+	Static Members: addScrap
+		JavaMethod: public static void nuparu.sevendaystomine.integration.crafttweaker.scrap.CraftTweakerScrapDataManager.addScrap(crafttweaker.api.item.IItemStack,java.lang.String,java.lang.String,boolean,boolean)
+		JavaMethod: public static void nuparu.sevendaystomine.integration.crafttweaker.scrap.CraftTweakerScrapDataManager.addScrap(crafttweaker.api.item.IItemStack,java.lang.String,int,boolean,boolean)
+		JavaMethod: public static void nuparu.sevendaystomine.integration.crafttweaker.scrap.CraftTweakerScrapDataManager.addScrap(crafttweaker.api.item.IItemStack,java.lang.String,double,boolean,boolean)
+		JavaMethod: public static void nuparu.sevendaystomine.integration.crafttweaker.scrap.CraftTweakerScrapDataManager.addScrap(crafttweaker.api.item.IItemStack,nuparu.sevendaystomine.integration.crafttweaker.forge.CraftTweakerMaterialStack,boolean,boolean)
+	Static Members: addScrapResult
+		JavaMethod: public static void nuparu.sevendaystomine.integration.crafttweaker.scrap.CraftTweakerScrapDataManager.addScrapResult(crafttweaker.api.item.IItemStack,java.lang.String,double)
+		JavaMethod: public static void nuparu.sevendaystomine.integration.crafttweaker.scrap.CraftTweakerScrapDataManager.addScrapResult(crafttweaker.api.item.IItemStack,nuparu.sevendaystomine.integration.crafttweaker.forge.CraftTweakerMaterialStack)
+		JavaMethod: public static void nuparu.sevendaystomine.integration.crafttweaker.scrap.CraftTweakerScrapDataManager.addScrapResult(crafttweaker.api.item.IItemStack,java.lang.String,java.lang.String)
+		JavaMethod: public static void nuparu.sevendaystomine.integration.crafttweaker.scrap.CraftTweakerScrapDataManager.addScrapResult(crafttweaker.api.item.IItemStack,java.lang.String,int)
+	Static Members: removeScrap
+		JavaMethod: public static void nuparu.sevendaystomine.integration.crafttweaker.scrap.CraftTweakerScrapDataManager.removeScrap(crafttweaker.api.item.IItemStack)
+
+UpgradeManager: SymbolType: ZenTypeNative: mods.sevendaystomine.upgrade.UpgradeManager
+	Static Members: addUpgrade
+		JavaMethod: public static void nuparu.sevendaystomine.integration.crafttweaker.upgrades.CraftTweakerUpgradeManager.addUpgrade(crafttweaker.api.block.IBlockState,crafttweaker.api.block.IBlockState,crafttweaker.api.block.IBlockState,java.lang.String,crafttweaker.api.item.IItemStack[])
+
+CampfireRecipeManager: SymbolType: ZenTypeNative: mods.sevendaystomine.recipe.CampfireRecipeManager
+	Static Members: addShapedRecipe
+		JavaMethod: public static void nuparu.sevendaystomine.integration.crafttweaker.campfire.CraftTweakerCampfireRecipeManager.addShapedRecipe(crafttweaker.api.item.IItemStack,crafttweaker.api.item.IItemStack,crafttweaker.api.item.IItemStack[][],int)
+	Static Members: addShapelessRecipe
+		JavaMethod: public static void nuparu.sevendaystomine.integration.crafttweaker.campfire.CraftTweakerCampfireRecipeManager.addShapelessRecipe(crafttweaker.api.item.IItemStack,crafttweaker.api.item.IItemStack,crafttweaker.api.item.IItemStack[],int)
+
+SeparatorRecipeManager: SymbolType: ZenTypeNative: mods.sevendaystomine.recipe.SeparatorRecipeManager
+	Static Members: addRecipe
+		JavaMethod: public static void nuparu.sevendaystomine.integration.crafttweaker.electrolysis.CraftTweakerSeparatorRecipeManager.addRecipe(crafttweaker.api.item.IItemStack,crafttweaker.api.item.IItemStack,crafttweaker.api.item.IItemStack,int)
+
+MaterialStack: SymbolType: ZenTypeNative: mods.sevendaystomine.recipe.MaterialStack
+	Members: material
+	Getter: JavaMethod: public java.lang.String nuparu.sevendaystomine.integration.crafttweaker.forge.CraftTweakerMaterialStack.material()
+	Members: weight
+	Getter: JavaMethod: public java.lang.Number nuparu.sevendaystomine.integration.crafttweaker.forge.CraftTweakerMaterialStack.weight()
+
+ForgeRecipeManager: SymbolType: ZenTypeNative: mods.sevendaystomine.recipe.ForgeRecipeManager
+	Static Members: removeRecipe
+		JavaMethod: public static void nuparu.sevendaystomine.integration.crafttweaker.forge.CraftTweakerForgeRecipeManager.removeRecipe(java.lang.String)
+	Static Members: addMaterialRecipe
+		JavaMethod: public static void nuparu.sevendaystomine.integration.crafttweaker.forge.CraftTweakerForgeRecipeManager.addMaterialRecipe(java.lang.String,crafttweaker.api.item.IItemStack,crafttweaker.api.item.IItemStack,float,int,nuparu.sevendaystomine.integration.crafttweaker.forge.CraftTweakerMaterialStack[])
+
+ChemistryRecipeManager: SymbolType: ZenTypeNative: mods.sevendaystomine.recipe.ChemistryRecipeManager
+	Static Members: addRecipe
+		JavaMethod: public static void nuparu.sevendaystomine.integration.crafttweaker.chemistry.CraftTweakerChemistryRecipeManager.addRecipe(crafttweaker.api.item.IItemStack,int,crafttweaker.api.item.IItemStack[])
+
+//============================================================================================================================================================================================
+
+Carving: SymbolType: ZenTypeNative: mods.chisel.Carving
+  Static Members: removeVariation
+	  JavaMethod: public static void com.blamejared.compat.chisel.Carving.removeVariation(java.lang.String,crafttweaker.api.item.IItemStack)
+  Static Members: removeGroup
+		JavaMethod: public static void com.blamejared.compat.chisel.Carving.removeGroup(java.lang.String)
+	Static Members: addVariation
+		JavaMethod: public static void com.blamejared.compat.chisel.Carving.addVariation(java.lang.String,crafttweaker.api.item.IItemStack)
+	Static Members: addGroup
+		JavaMethod: public static void com.blamejared.compat.chisel.Carving.addGroup(java.lang.String)
+
+//============================================================================================================================================================================================
+
+Fabricator: SymbolType: ZenTypeNative: mods.techguns.Fabricator
+	Static Members: removeRecipe
+		JavaMethod: public static void techguns.plugins.crafttweaker.FabricatorTweaker.removeRecipe(crafttweaker.api.item.IItemStack)
+	Static Members: addRecipe
+		JavaMethod: public static void techguns.plugins.crafttweaker.FabricatorTweaker.addRecipe(java.lang.String,int,java.lang.String,int,crafttweaker.api.item.IItemStack,int,java.lang.String,int,crafttweaker.api.item.IItemStack)
+		JavaMethod: public static void techguns.plugins.crafttweaker.FabricatorTweaker.addRecipe(java.lang.String,int,java.lang.String,int,crafttweaker.api.item.IItemStack,int,crafttweaker.api.item.IItemStack,int,crafttweaker.api.item.IItemStack)
+		JavaMethod: public static void techguns.plugins.crafttweaker.FabricatorTweaker.addRecipe(java.lang.String,int,crafttweaker.api.item.IItemStack,int,java.lang.String,int,java.lang.String,int,crafttweaker.api.item.IItemStack)
+		JavaMethod: public static void techguns.plugins.crafttweaker.FabricatorTweaker.addRecipe(java.lang.String,int,java.lang.String,int,java.lang.String,int,crafttweaker.api.item.IItemStack,int,crafttweaker.api.item.IItemStack)
+		JavaMethod: public static void techguns.plugins.crafttweaker.FabricatorTweaker.addRecipe(java.lang.String,int,java.lang.String,int,java.lang.String,int,java.lang.String,int,crafttweaker.api.item.IItemStack)
+		JavaMethod: public static void techguns.plugins.crafttweaker.FabricatorTweaker.addRecipe(crafttweaker.api.item.IItemStack,int,java.lang.String,int,crafttweaker.api.item.IItemStack,int,java.lang.String,int,crafttweaker.api.item.IItemStack)
+		JavaMethod: public static void techguns.plugins.crafttweaker.FabricatorTweaker.addRecipe(crafttweaker.api.item.IItemStack,int,java.lang.String,int,crafttweaker.api.item.IItemStack,int,crafttweaker.api.item.IItemStack,int,crafttweaker.api.item.IItemStack)
+		JavaMethod: public static void techguns.plugins.crafttweaker.FabricatorTweaker.addRecipe(crafttweaker.api.item.IItemStack,int,crafttweaker.api.item.IItemStack,int,java.lang.String,int,java.lang.String,int,crafttweaker.api.item.IItemStack)
+		JavaMethod: public static void techguns.plugins.crafttweaker.FabricatorTweaker.addRecipe(crafttweaker.api.item.IItemStack,int,crafttweaker.api.item.IItemStack,int,java.lang.String,int,crafttweaker.api.item.IItemStack,int,crafttweaker.api.item.IItemStack)
+		JavaMethod: public static void techguns.plugins.crafttweaker.FabricatorTweaker.addRecipe(crafttweaker.api.item.IItemStack,int,crafttweaker.api.item.IItemStack,int,crafttweaker.api.item.IItemStack,int,java.lang.String,int,crafttweaker.api.item.IItemStack)
+		JavaMethod: public static void techguns.plugins.crafttweaker.FabricatorTweaker.addRecipe(crafttweaker.api.item.IItemStack,int,crafttweaker.api.item.IItemStack,int,crafttweaker.api.item.IItemStack,int,crafttweaker.api.item.IItemStack,int,crafttweaker.api.item.IItemStack)
+		JavaMethod: public static void techguns.plugins.crafttweaker.FabricatorTweaker.addRecipe(java.lang.String,int,crafttweaker.api.item.IItemStack,int,java.lang.String,int,crafttweaker.api.item.IItemStack,int,crafttweaker.api.item.IItemStack)
+		JavaMethod: public static void techguns.plugins.crafttweaker.FabricatorTweaker.addRecipe(java.lang.String,int,crafttweaker.api.item.IItemStack,int,crafttweaker.api.item.IItemStack,int,java.lang.String,int,crafttweaker.api.item.IItemStack)
+		JavaMethod: public static void techguns.plugins.crafttweaker.FabricatorTweaker.addRecipe(java.lang.String,int,crafttweaker.api.item.IItemStack,int,crafttweaker.api.item.IItemStack,int,crafttweaker.api.item.IItemStack,int,crafttweaker.api.item.IItemStack)
+		JavaMethod: public static void techguns.plugins.crafttweaker.FabricatorTweaker.addRecipe(crafttweaker.api.item.IItemStack,int,java.lang.String,int,java.lang.String,int,java.lang.String,int,crafttweaker.api.item.IItemStack)
+		JavaMethod: public static void techguns.plugins.crafttweaker.FabricatorTweaker.addRecipe(crafttweaker.api.item.IItemStack,int,java.lang.String,int,java.lang.String,int,crafttweaker.api.item.IItemStack,int,crafttweaker.api.item.IItemStack)
+
+ChargingStation: SymbolType: ZenTypeNative: mods.techguns.ChargingStation
+	Static Members: removeRecipe
+		JavaMethod: public static void techguns.plugins.crafttweaker.ChargingStationTweaker.removeRecipe(java.lang.String)
+		JavaMethod: public static void techguns.plugins.crafttweaker.ChargingStationTweaker.removeRecipe(crafttweaker.api.item.IItemStack)
+	Static Members: addRecipe
+		JavaMethod: public static void techguns.plugins.crafttweaker.ChargingStationTweaker.addRecipe(java.lang.String,crafttweaker.api.item.IItemStack,int)
+		JavaMethod: public static void techguns.plugins.crafttweaker.ChargingStationTweaker.addRecipe(crafttweaker.api.item.IItemStack,crafttweaker.api.item.IItemStack,int)
+
+ArmorStats: SymbolType: ZenTypeNative: mods.techguns.ArmorStats
+	Static Members: setArmorStat
+		JavaMethod: public static void techguns.plugins.crafttweaker.ArmorStatTweaker.setArmorStat(java.lang.String,java.lang.String,float,float)
+		JavaMethod: public static void techguns.plugins.crafttweaker.ArmorStatTweaker.setArmorStat(java.lang.String,java.lang.String,float)
+	Static Members: setMaterialArmorValue
+		JavaMethod: public static void techguns.plugins.crafttweaker.ArmorStatTweaker.setMaterialArmorValue(java.lang.String,java.lang.String,float)
+
+OreCluster: SymbolType: ZenTypeNative: mods.techguns.OreCluster
+	Static Members: removeOre
+		JavaMethod: public static void techguns.plugins.crafttweaker.OreClusterTweaker.removeOre(java.lang.String,crafttweaker.api.item.IItemStack)
+	Static Members: addOre
+		JavaMethod: public static void techguns.plugins.crafttweaker.OreClusterTweaker.addOre(java.lang.String,crafttweaker.api.item.IItemStack,int)
+	Static Members: addFluid
+		JavaMethod: public static void techguns.plugins.crafttweaker.OreClusterTweaker.addFluid(java.lang.String,crafttweaker.api.liquid.ILiquidStack,int)
+	Static Members: removeFluid
+		JavaMethod: public static void techguns.plugins.crafttweaker.OreClusterTweaker.removeFluid(java.lang.String,crafttweaker.api.liquid.ILiquidStack)
+
+GunStats: SymbolType: ZenTypeNative: mods.techguns.GunStats
+	Static Members: setWeaponStat
+		JavaMethod: public static void techguns.plugins.crafttweaker.GunStatTweaker.setWeaponStat(java.lang.String,java.lang.String,float)
+
+ReactionChamber: SymbolType: ZenTypeNative: mods.techguns.ReactionChamber
+	Static Members: removeRecipe
+		JavaMethod: public static void techguns.plugins.crafttweaker.ReactionChamberTweaker.removeRecipe(java.lang.String,crafttweaker.api.liquid.ILiquidStack)
+		JavaMethod: public static void techguns.plugins.crafttweaker.ReactionChamberTweaker.removeRecipe(crafttweaker.api.item.IItemStack,crafttweaker.api.liquid.ILiquidStack)
+	Static Members: addRecipe
+		JavaMethod: public static void techguns.plugins.crafttweaker.ReactionChamberTweaker.addRecipe(java.lang.String,crafttweaker.api.item.IItemStack,crafttweaker.api.liquid.ILiquidStack,crafttweaker.api.item.IItemStack,crafttweaker.api.item.IItemStack,int,int,int,int,int,int,float,java.lang.String,int)
+		JavaMethod: public static void techguns.plugins.crafttweaker.ReactionChamberTweaker.addRecipe(java.lang.String,java.lang.String,crafttweaker.api.liquid.ILiquidStack,crafttweaker.api.item.IItemStack,crafttweaker.api.item.IItemStack,int,int,int,int,int,int,float,java.lang.String,int)
+		JavaMethod: public static void techguns.plugins.crafttweaker.ReactionChamberTweaker.addRecipe(java.lang.String,java.lang.String,crafttweaker.api.liquid.ILiquidStack,crafttweaker.api.item.IItemStack[],crafttweaker.api.item.IItemStack,int,int,int,int,int,int,float,java.lang.String,int)
+		JavaMethod: public static void techguns.plugins.crafttweaker.ReactionChamberTweaker.addRecipe(java.lang.String,crafttweaker.api.item.IItemStack,crafttweaker.api.liquid.ILiquidStack,crafttweaker.api.item.IItemStack[],crafttweaker.api.item.IItemStack,int,int,int,int,int,int,float,java.lang.String,int)
+
+BlastFurnace: SymbolType: ZenTypeNative: mods.techguns.BlastFurnace
+	Static Members: removeRecipe
+		JavaMethod: public static void techguns.plugins.crafttweaker.BlastFurnaceTweaker.removeRecipe(crafttweaker.api.item.IItemStack)
+	Static Members: addRecipe
+		JavaMethod: public static void techguns.plugins.crafttweaker.BlastFurnaceTweaker.addRecipe(crafttweaker.api.item.IItemStack,crafttweaker.api.item.IItemStack,crafttweaker.api.item.IItemStack,int,int)
+		JavaMethod: public static void techguns.plugins.crafttweaker.BlastFurnaceTweaker.addRecipe(java.lang.String,int,crafttweaker.api.item.IItemStack,crafttweaker.api.item.IItemStack,int,int)
+		JavaMethod: public static void techguns.plugins.crafttweaker.BlastFurnaceTweaker.addRecipe(crafttweaker.api.item.IItemStack,java.lang.String,int,crafttweaker.api.item.IItemStack,int,int)
+		JavaMethod: public static void techguns.plugins.crafttweaker.BlastFurnaceTweaker.addRecipe(java.lang.String,int,java.lang.String,int,crafttweaker.api.item.IItemStack,int,int)
+
+AmmoPress: SymbolType: ZenTypeNative: mods.techguns.AmmoPress
+	Static Members: addPowder
+		JavaMethod: public static void techguns.plugins.crafttweaker.AmmoPressTweaker.addPowder(crafttweaker.api.item.IIngredient)
+	Static Members: addMetal2
+		JavaMethod: public static void techguns.plugins.crafttweaker.AmmoPressTweaker.addMetal2(crafttweaker.api.item.IIngredient)
+	Static Members: removePowder
+		JavaMethod: public static void techguns.plugins.crafttweaker.AmmoPressTweaker.removePowder(crafttweaker.api.item.IIngredient)
+	Static Members: addMetal1
+		JavaMethod: public static void techguns.plugins.crafttweaker.AmmoPressTweaker.addMetal1(crafttweaker.api.item.IIngredient)
+	Static Members: removeMetal1
+		JavaMethod: public static void techguns.plugins.crafttweaker.AmmoPressTweaker.removeMetal1(crafttweaker.api.item.IIngredient)
+	Static Members: removeMetal2
+		JavaMethod: public static void techguns.plugins.crafttweaker.AmmoPressTweaker.removeMetal2(crafttweaker.api.item.IIngredient)
+
+ChemLab: SymbolType: ZenTypeNative: mods.techguns.ChemLab
+	Static Members: removeRecipe
+		JavaMethod: public static void techguns.plugins.crafttweaker.ChemLabTweaker.removeRecipe(crafttweaker.api.item.IItemStack,crafttweaker.api.liquid.ILiquidStack)
+	Static Members: addRecipe
+		JavaMethod: public static void techguns.plugins.crafttweaker.ChemLabTweaker.addRecipe(crafttweaker.api.item.IItemStack,int,crafttweaker.api.item.IItemStack,int,crafttweaker.api.liquid.ILiquidStack,boolean,crafttweaker.api.item.IItemStack,crafttweaker.api.liquid.ILiquidStack,int)
+		JavaMethod: public static void techguns.plugins.crafttweaker.ChemLabTweaker.addRecipe(java.lang.String,int,crafttweaker.api.item.IItemStack,int,crafttweaker.api.liquid.ILiquidStack,boolean,crafttweaker.api.item.IItemStack,crafttweaker.api.liquid.ILiquidStack,int)
+		JavaMethod: public static void techguns.plugins.crafttweaker.ChemLabTweaker.addRecipe(crafttweaker.api.item.IItemStack,int,java.lang.String,int,crafttweaker.api.liquid.ILiquidStack,boolean,crafttweaker.api.item.IItemStack,crafttweaker.api.liquid.ILiquidStack,int)
+		JavaMethod: public static void techguns.plugins.crafttweaker.ChemLabTweaker.addRecipe(java.lang.String,int,java.lang.String,int,crafttweaker.api.liquid.ILiquidStack,boolean,crafttweaker.api.item.IItemStack,crafttweaker.api.liquid.ILiquidStack,int)
+
+MetalPress: SymbolType: ZenTypeNative: mods.techguns.MetalPress
+	Static Members: removeRecipe
+		JavaMethod: public static void techguns.plugins.crafttweaker.MetalPressTweaker.removeRecipe(crafttweaker.api.item.IItemStack,crafttweaker.api.item.IItemStack,crafttweaker.api.item.IItemStack)
+		JavaMethod: public static void techguns.plugins.crafttweaker.MetalPressTweaker.removeRecipe(java.lang.String,java.lang.String,crafttweaker.api.item.IItemStack)
+		JavaMethod: public static void techguns.plugins.crafttweaker.MetalPressTweaker.removeRecipe(crafttweaker.api.item.IItemStack,java.lang.String,crafttweaker.api.item.IItemStack)
+		JavaMethod: public static void techguns.plugins.crafttweaker.MetalPressTweaker.removeRecipe(java.lang.String,crafttweaker.api.item.IItemStack,crafttweaker.api.item.IItemStack)
+		JavaMethod: public static void techguns.plugins.crafttweaker.MetalPressTweaker.removeRecipe(crafttweaker.api.item.IItemStack)
+	Static Members: addRecipe
+		JavaMethod: public static void techguns.plugins.crafttweaker.MetalPressTweaker.addRecipe(crafttweaker.api.item.IItemStack,crafttweaker.api.item.IItemStack,crafttweaker.api.item.IItemStack,boolean)
+		JavaMethod: public static void techguns.plugins.crafttweaker.MetalPressTweaker.addRecipe(java.lang.String,crafttweaker.api.item.IItemStack,crafttweaker.api.item.IItemStack,boolean)
+		JavaMethod: public static void techguns.plugins.crafttweaker.MetalPressTweaker.addRecipe(crafttweaker.api.item.IItemStack,java.lang.String,crafttweaker.api.item.IItemStack,boolean)
+		JavaMethod: public static void techguns.plugins.crafttweaker.MetalPressTweaker.addRecipe(java.lang.String,java.lang.String,crafttweaker.api.item.IItemStack,boolean)
+
+Grinder: SymbolType: ZenTypeNative: mods.techguns.Grinder
+	Static Members: removeRecipe
+		JavaMethod: public static void techguns.plugins.crafttweaker.GrinderTweaker.removeRecipe(crafttweaker.api.item.IItemStack)
+	Static Members: addRecipe
+		JavaMethod: public static void techguns.plugins.crafttweaker.GrinderTweaker.addRecipe(crafttweaker.api.item.IItemStack,crafttweaker.api.item.IItemStack[],double[])
+		JavaMethod: public static void techguns.plugins.crafttweaker.GrinderTweaker.addRecipe(crafttweaker.api.item.IItemStack,crafttweaker.api.item.IItemStack[])
+
+//============================================================================================================================================================================================
+
+JEI: SymbolType: ZenTypeNative: mods.jei.JEI
+	Static Members: addDescription
+		JavaMethod: public static void crafttweaker.mods.jei.JEI.addDescription(crafttweaker.api.item.IIngredient,java.lang.String[])
+		JavaMethod: public static void crafttweaker.mods.jei.JEI.addDescription(crafttweaker.api.item.IIngredient[],java.lang.String[])
+	Static Members: addItem
+		JavaMethod: public static void crafttweaker.mods.jei.JEI.addItem(crafttweaker.api.item.IItemStack)
+	Static Members: hide
+		JavaMethod: public static void crafttweaker.mods.jei.JEI.hide(crafttweaker.api.liquid.ILiquidStack)
+		JavaMethod: public static void crafttweaker.mods.jei.JEI.hide(crafttweaker.api.item.IItemStack)
+	Static Members: removeAndHide
+		JavaMethod: public static void crafttweaker.mods.jei.JEI.removeAndHide(crafttweaker.api.item.IIngredient,boolean)
+	Static Members: hideCategory
+		JavaMethod: public static void crafttweaker.mods.jei.JEI.hideCategory(java.lang.String)
+
+//============================================================================================================================================================================================
+
+BadMobs: SymbolType: ZenTypeNative: mods.BadMobs
+	Static Members: blacklist
+		JavaMethod: public static void net.darkhax.badmobs.addons.crt.BadMobsTweaker.blacklist(int,java.lang.String)
+		JavaMethod: public static void net.darkhax.badmobs.addons.crt.BadMobsTweaker.blacklist(java.lang.String)
+
+//============================================================================================================================================================================================
+
+Refinery: SymbolType: ZenTypeNative: mods.buildcraft.Refinery
+	Static Members: addHeatable
+		JavaMethod: public static void buildcraft.compat.module.crafttweaker.Refinery.addHeatable(crafttweaker.api.liquid.ILiquidStack,crafttweaker.api.liquid.ILiquidStack,int,int)
+	Static Members: addCoolable
+		JavaMethod: public static void buildcraft.compat.module.crafttweaker.Refinery.addCoolable(crafttweaker.api.liquid.ILiquidStack,crafttweaker.api.liquid.ILiquidStack,int,int)
+
+CombustionEngine: SymbolType: ZenTypeNative: mods.buildcraft.CombustionEngine
+	Static Members: addCleanFuel
+		JavaMethod: public static void buildcraft.compat.module.crafttweaker.CombustionEngine.addCleanFuel(crafttweaker.api.liquid.ILiquidStack,double,int)
+	Static Members: addDirtyFuel
+		JavaMethod: public static void buildcraft.compat.module.crafttweaker.CombustionEngine.addDirtyFuel(crafttweaker.api.liquid.ILiquidStack,double,int,crafttweaker.api.liquid.ILiquidStack)
+
+AssemblyTable: SymbolType: ZenTypeNative: mods.buildcraft.AssemblyTable
+	Static Members: addRecipe
+		JavaMethod: public static void buildcraft.compat.module.crafttweaker.AssemblyTable.addRecipe(java.lang.String,crafttweaker.api.item.IItemStack,int,crafttweaker.api.item.IIngredient[])
+		JavaMethod: public static void buildcraft.compat.module.crafttweaker.AssemblyTable.addRecipe(crafttweaker.api.item.IItemStack,int,crafttweaker.api.item.IIngredient[])
+	Static Members: removeByName
+		JavaMethod: public static void buildcraft.compat.module.crafttweaker.AssemblyTable.removeByName(java.lang.String)
+
+//============================================================================================================================================================================================
+
+LootEntry: SymbolType: ZenTypeNative: vanilla.LootEntry
+	Members: minAmount
+	Getter: JavaMethod: public int crafttweaker.api.vanilla.LootEntry.getMinAmount()
+	Members: item
+	Getter: JavaMethod: public crafttweaker.api.item.WeightedItemStack crafttweaker.api.vanilla.LootEntry.getItem()
+	Members: maxAmount
+	Getter: JavaMethod: public int crafttweaker.api.vanilla.LootEntry.getMaxAmount()
+
+ILootRegistry: SymbolType: ZenTypeNative: vanilla.ILootRegistry
+	Members: removeChestLoot
+		JavaMethod: public abstract void crafttweaker.api.vanilla.ILootRegistry.removeChestLoot(java.lang.String,crafttweaker.api.item.IIngredient)
+	Members: addChestLoot
+		JavaMethod: public abstract void crafttweaker.api.vanilla.ILootRegistry.addChestLoot(java.lang.String,crafttweaker.api.item.WeightedItemStack)
+		JavaMethod: public abstract void crafttweaker.api.vanilla.ILootRegistry.addChestLoot(java.lang.String,crafttweaker.api.item.WeightedItemStack,int,int)
+	Members: getLoot
+		JavaMethod: public abstract java.util.List crafttweaker.api.vanilla.ILootRegistry.getLoot(java.lang.String)
+	Members: lootTypes
+	Getter: JavaMethod: public abstract java.util.List crafttweaker.api.vanilla.ILootRegistry.getLootTypes()
