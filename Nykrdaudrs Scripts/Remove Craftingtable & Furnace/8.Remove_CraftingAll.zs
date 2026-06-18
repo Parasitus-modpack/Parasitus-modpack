@@ -1411,6 +1411,7 @@ recipes.removeByRecipeName("buildcrafttransport:pipe_wood_rf_green");
 recipes.removeByRecipeName("buildcrafttransport:pipe_wood_rf_red");
 recipes.removeByRecipeName("buildcrafttransport:pipe_wood_rf_black");
 //============================================================================================================================================================================================
+recipes.removeByRecipeName("buildcrafttransport:pipe_wood_rf_undo");
 recipes.removeByRecipeName("buildcrafttransport:pipe_wood_rf_colorless_undo");
 recipes.removeByRecipeName("buildcrafttransport:pipe_wood_rf_white_undo");
 recipes.removeByRecipeName("buildcrafttransport:pipe_wood_rf_orange_undo");
@@ -1429,6 +1430,7 @@ recipes.removeByRecipeName("buildcrafttransport:pipe_wood_rf_green_undo");
 recipes.removeByRecipeName("buildcrafttransport:pipe_wood_rf_red_undo");
 recipes.removeByRecipeName("buildcrafttransport:pipe_wood_rf_black_undo");
 //============================================================================================================================================================================================
+recipes.removeByRecipeName("buildcrafttransport:pipe_cobble_rf_undo");
 recipes.removeByRecipeName("buildcrafttransport:pipe_cobble_rf_colorless_undo");
 recipes.removeByRecipeName("buildcrafttransport:pipe_cobble_rf_white_undo");
 recipes.removeByRecipeName("buildcrafttransport:pipe_cobble_rf_orange_undo");
@@ -1447,6 +1449,7 @@ recipes.removeByRecipeName("buildcrafttransport:pipe_cobble_rf_green_undo");
 recipes.removeByRecipeName("buildcrafttransport:pipe_cobble_rf_red_undo");
 recipes.removeByRecipeName("buildcrafttransport:pipe_cobble_rf_black_undo");
 //============================================================================================================================================================================================
+recipes.removeByRecipeName("buildcrafttransport:pipe_wood_rf_undo");
 recipes.removeByRecipeName("buildcrafttransport:pipe_stone_rf_colorless_undo");
 recipes.removeByRecipeName("buildcrafttransport:pipe_stone_rf_white_undo");
 recipes.removeByRecipeName("buildcrafttransport:pipe_stone_rf_orange_undo");
