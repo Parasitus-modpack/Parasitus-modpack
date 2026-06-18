@@ -6,7 +6,7 @@
 
 ### Priority 1
 
-- Make sevendaystomine:soldier naturally attacking parasites and zombies
+- Make sevendaystomine:soldier naturally attack parasites and zombies
 
 - Finish fixing floodgate crash
 
@@ -23,6 +23,8 @@ I:zombieSoldierSpawnWeight=1
 Make sevendaystomine:machete damage 20, not 32
 
 Nerf damage of sevendaystomine STEEL tools
+
+Turn up the hardness of the barbed wire to obsidian levels
 
 
 - Can you make it so travaler backpack not breakable by mobs?
