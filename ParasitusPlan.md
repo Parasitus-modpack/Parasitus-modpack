@@ -20,6 +20,8 @@ I:zombieWeightBonus=10
 
 I:zombieSoldierSpawnWeight=1
 
+Add techgun soldier to the deafault list of what mobs can open a door
+
 Make sevendaystomine:machete damage 20, not 32
 
 Nerf damage of sevendaystomine STEEL tools
