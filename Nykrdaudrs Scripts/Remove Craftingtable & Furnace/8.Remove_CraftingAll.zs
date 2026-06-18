@@ -1738,9 +1738,9 @@ recipes.removeByRecipeName("spartanweaponry:staff_stone");
 //WEATHER 2
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
-recipes.removeByRecipeName("weather2:sand_layer");
-recipes.removeByRecipeName("weather2:motor");
-recipes.removeByRecipeName("weather2:antenna_0");
+//recipes.removeByRecipeName("weather2:sand_layer");
+//recipes.removeByRecipeName("weather2:motor");
+//recipes.removeByRecipeName("weather2:antenna_0");
 
 
 //============================================================================================================================================================================================

@@ -562,7 +562,7 @@ mods.jei.JEI.removeAndHide(<quark:monster_box>);
 mods.jei.JEI.removeAndHide(<quark:chute>);
 //============================================================================================================================================================================================
 //WEATHER2
-mods.jei.JEI.removeAndHide(<weather2:motor>);
+//mods.jei.JEI.removeAndHide(<weather2:motor>);
 //============================================================================================================================================================================================
 //PARASITES
 mods.jei.JEI.removeAndHide(<overlast:beef_pickaxe>);
