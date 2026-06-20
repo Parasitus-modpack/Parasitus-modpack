@@ -28,22 +28,22 @@ recipes.addShapeless("shulker_box_dyed_to_red", <minecraft:red_shulker_box>, [<o
 recipes.addShapeless("shulker_box_dyed_to_black", <minecraft:black_shulker_box>, [<ore:shulker>, <ore:dyeBlack>]);
 //============================================================================================================================================================================================
 //BANNERS
-recipes.addShapeless("banner_dyed_to_white", <minecraft:banner:15>, [<ore:banner>, <ore:dyeWhite>]);
-recipes.addShapeless("banner_dyed_to_orange", <minecraft:banner:14>, [<ore:banner>, <ore:dyeOrange>]);
-recipes.addShapeless("banner_dyed_to_magenta", <minecraft:banner:13>, [<ore:banner>, <ore:dyeMagenta>]);
-recipes.addShapeless("banner_dyed_to_light_blue", <minecraft:banner:12>, [<ore:banner>, <ore:dyeLightBlue>]);
-recipes.addShapeless("banner_dyed_to_yellow", <minecraft:banner:11>, [<ore:banner>, <ore:dyeYellow>]);
-recipes.addShapeless("banner_dyed_to_lime", <minecraft:banner:10>, [<ore:banner>, <ore:dyeLime>]);
-recipes.addShapeless("banner_dyed_to_pink", <minecraft:banner:9>, [<ore:banner>, <ore:dyePink>]);
-recipes.addShapeless("banner_dyed_to_gray", <minecraft:banner:8>, [<ore:banner>, <ore:dyeGray>]);
-recipes.addShapeless("banner_dyed_to_light_gray", <minecraft:banner:7>, [<ore:banner>, <ore:dyeLightGray>]);
-recipes.addShapeless("banner_dyed_to_cyan", <minecraft:banner:6>, [<ore:banner>, <ore:dyeCyan>]);
-recipes.addShapeless("banner_dyed_to_purple", <minecraft:banner:5>, [<ore:banner>, <ore:dyePurple>]);
-recipes.addShapeless("banner_dyed_to_blue", <minecraft:banner:4>, [<ore:banner>, <ore:dyeBlue>]);
-recipes.addShapeless("banner_dyed_to_brown", <minecraft:banner:3>, [<ore:banner>, <ore:dyeBrown>]);
-recipes.addShapeless("banner_dyed_to_green", <minecraft:banner:2>, [<ore:banner>, <ore:dyeGreen>]);
-recipes.addShapeless("banner_dyed_to_red", <minecraft:banner:1>, [<ore:banner>, <ore:dyeRed>]);
-recipes.addShapeless("banner_dyed_to_black", <minecraft:banner:0>, [<ore:banner>, <ore:dyeBlack>]);
+recipes.addShapeless("banner_dyed_to_white", <minecraft:banner:15>, [<minecraft:banner:*>, <ore:dyeWhite>]);
+recipes.addShapeless("banner_dyed_to_orange", <minecraft:banner:14>, [<minecraft:banner:*>, <ore:dyeOrange>]);
+recipes.addShapeless("banner_dyed_to_magenta", <minecraft:banner:13>, [<minecraft:banner:*>, <ore:dyeMagenta>]);
+recipes.addShapeless("banner_dyed_to_light_blue", <minecraft:banner:12>, [<minecraft:banner:*>, <ore:dyeLightBlue>]);
+recipes.addShapeless("banner_dyed_to_yellow", <minecraft:banner:11>, [<minecraft:banner:*>, <ore:dyeYellow>]);
+recipes.addShapeless("banner_dyed_to_lime", <minecraft:banner:10>, [<minecraft:banner:*>, <ore:dyeLime>]);
+recipes.addShapeless("banner_dyed_to_pink", <minecraft:banner:9>, [<minecraft:banner:*>, <ore:dyePink>]);
+recipes.addShapeless("banner_dyed_to_gray", <minecraft:banner:8>, [<minecraft:banner:*>, <ore:dyeGray>]);
+recipes.addShapeless("banner_dyed_to_light_gray", <minecraft:banner:7>, [<minecraft:banner:*>, <ore:dyeLightGray>]);
+recipes.addShapeless("banner_dyed_to_cyan", <minecraft:banner:6>, [<minecraft:banner:*>, <ore:dyeCyan>]);
+recipes.addShapeless("banner_dyed_to_purple", <minecraft:banner:5>, [<minecraft:banner:*>, <ore:dyePurple>]);
+recipes.addShapeless("banner_dyed_to_blue", <minecraft:banner:4>, [<minecraft:banner:*>, <ore:dyeBlue>]);
+recipes.addShapeless("banner_dyed_to_brown", <minecraft:banner:3>, [<minecraft:banner:*>, <ore:dyeBrown>]);
+recipes.addShapeless("banner_dyed_to_green", <minecraft:banner:2>, [<minecraft:banner:*>, <ore:dyeGreen>]);
+recipes.addShapeless("banner_dyed_to_red", <minecraft:banner:1>, [<minecraft:banner:*>, <ore:dyeRed>]);
+recipes.addShapeless("banner_dyed_to_black", <minecraft:banner:0>, [<minecraft:banner:*>, <ore:dyeBlack>]);
 //============================================================================================================================================================================================
 //CARPETS
 recipes.addShaped("carpet_dyed_to_white", <minecraft:carpet:0> * 3, [[null, <ore:dyeWhite>, null], [<ore:carpet>, <ore:carpet>, <ore:carpet>]]);
@@ -64,22 +64,22 @@ recipes.addShaped("carpet_dyed_to_red", <minecraft:carpet:14> * 3, [[null, <ore:
 recipes.addShaped("carpet_dyed_to_black", <minecraft:carpet:15> * 3, [[null, <ore:dyeBlack>, null], [<ore:carpet>, <ore:carpet>, <ore:carpet>]]);
 //============================================================================================================================================================================================
 //BEDS
-recipes.addShapeless("bed_dyed_to_white", <minecraft:bed:0>, [<ore:bed>, <ore:dyeWhite>]);
-recipes.addShapeless("bed_dyed_to_orange", <minecraft:bed:1>, [<ore:bed>, <ore:dyeOrange>]);
-recipes.addShapeless("bed_dyed_to_magenta", <minecraft:bed:2>, [<ore:bed>, <ore:dyeMagenta>]);
-recipes.addShapeless("bed_dyed_to_light_blue", <minecraft:bed:3>, [<ore:bed>, <ore:dyeLightBlue>]);
-recipes.addShapeless("bed_dyed_to_yellow", <minecraft:bed:4>, [<ore:bed>, <ore:dyeYellow>]);
-recipes.addShapeless("bed_dyed_to_lime", <minecraft:bed:5>, [<ore:bed>, <ore:dyeLime>]);
-recipes.addShapeless("bed_dyed_to_pink", <minecraft:bed:6>, [<ore:bed>, <ore:dyePink>]);
-recipes.addShapeless("bed_dyed_to_gray", <minecraft:bed:7>, [<ore:bed>, <ore:dyeGray>]);
-recipes.addShapeless("bed_dyed_to_light_gray", <minecraft:bed:8>, [<ore:bed>, <ore:dyeLightGray>]);
-recipes.addShapeless("bed_dyed_to_cyan", <minecraft:bed:9>, [<ore:bed>, <ore:dyeCyan>]);
-recipes.addShapeless("bed_dyed_to_purple", <minecraft:bed:10>, [<ore:bed>, <ore:dyePurple>]);
-recipes.addShapeless("bed_dyed_to_blue", <minecraft:bed:11>, [<ore:bed>, <ore:dyeBlue>]);
-recipes.addShapeless("bed_dyed_to_brown", <minecraft:bed:12>, [<ore:bed>, <ore:dyeBrown>]);
-recipes.addShapeless("bed_dyed_to_green", <minecraft:bed:13>, [<ore:bed>, <ore:dyeGreen>]);
-recipes.addShapeless("bed_dyed_to_red", <minecraft:bed:14>, [<ore:bed>, <ore:dyeRed>]);
-recipes.addShapeless("bed_dyed_to_black", <minecraft:bed:15>, [<ore:bed>, <ore:dyeBlack>]);
+recipes.addShapeless("bed_dyed_to_white", <minecraft:bed:0>, [<minecraft:bed:*>, <ore:dyeWhite>]);
+recipes.addShapeless("bed_dyed_to_orange", <minecraft:bed:1>, [<minecraft:bed:*>, <ore:dyeOrange>]);
+recipes.addShapeless("bed_dyed_to_magenta", <minecraft:bed:2>, [<minecraft:bed:*>, <ore:dyeMagenta>]);
+recipes.addShapeless("bed_dyed_to_light_blue", <minecraft:bed:3>, [<minecraft:bed:*>, <ore:dyeLightBlue>]);
+recipes.addShapeless("bed_dyed_to_yellow", <minecraft:bed:4>, [<minecraft:bed:*>, <ore:dyeYellow>]);
+recipes.addShapeless("bed_dyed_to_lime", <minecraft:bed:5>, [<minecraft:bed:*>, <ore:dyeLime>]);
+recipes.addShapeless("bed_dyed_to_pink", <minecraft:bed:6>, [<minecraft:bed:*>, <ore:dyePink>]);
+recipes.addShapeless("bed_dyed_to_gray", <minecraft:bed:7>, [<minecraft:bed:*>, <ore:dyeGray>]);
+recipes.addShapeless("bed_dyed_to_light_gray", <minecraft:bed:8>, [<minecraft:bed:*>, <ore:dyeLightGray>]);
+recipes.addShapeless("bed_dyed_to_cyan", <minecraft:bed:9>, [<minecraft:bed:*>, <ore:dyeCyan>]);
+recipes.addShapeless("bed_dyed_to_purple", <minecraft:bed:10>, [<minecraft:bed:*>, <ore:dyePurple>]);
+recipes.addShapeless("bed_dyed_to_blue", <minecraft:bed:11>, [<minecraft:bed:*>, <ore:dyeBlue>]);
+recipes.addShapeless("bed_dyed_to_brown", <minecraft:bed:12>, [<minecraft:bed:*>, <ore:dyeBrown>]);
+recipes.addShapeless("bed_dyed_to_green", <minecraft:bed:13>, [<minecraft:bed:*>, <ore:dyeGreen>]);
+recipes.addShapeless("bed_dyed_to_red", <minecraft:bed:14>, [<minecraft:bed:*>, <ore:dyeRed>]);
+recipes.addShapeless("bed_dyed_to_black", <minecraft:bed:15>, [<minecraft:bed:*>, <ore:dyeBlack>]);
 
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
@@ -87,7 +87,6 @@ recipes.addShapeless("bed_dyed_to_black", <minecraft:bed:15>, [<ore:bed>, <ore:d
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
 recipes.addShaped("web", <minecraft:web>, [[<minecraft:string>, <minecraft:string>, <minecraft:string>], [<minecraft:string>, <minecraft:string>, <minecraft:string>], [<minecraft:string>, <minecraft:string>, <minecraft:string>]]);
-recipes.addShaped("saddle", <minecraft:saddle>, [[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>], [<minecraft:leather>, <minecraft:string>, <minecraft:leather>], [<minecraft:tripwire_hook>, null, <minecraft:tripwire_hook>]]);
 recipes.addShaped("iron_horse_armor", <minecraft:iron_horse_armor>, [[null, null, <ore:ingotIron>], [<ore:ingotIron>, <minecraft:saddle>, <ore:ingotIron>], [<ore:ingotIron>, null, <ore:ingotIron>]]);
 recipes.addShaped("golden_horse_armor", <minecraft:golden_horse_armor>, [[null, null, <ore:ingotGold>], [<ore:ingotGold>, <minecraft:saddle>, <ore:ingotGold>], [<ore:ingotGold>, null, <ore:ingotGold>]]);
 recipes.addShaped("diamond_horse_armor", <minecraft:diamond_horse_armor>, [[null, null, <ore:gemDiamond>], [<ore:gemDiamond>, <minecraft:saddle>, <ore:gemDiamond>], [<ore:gemDiamond>, null, <ore:gemDiamond>]]);
@@ -132,6 +131,7 @@ recipes.addShaped("sticks", <minecraft:stick> * 4, [[<sevendaystomine:woodplank>
 recipes.addShaped("end_crystal", <minecraft:end_crystal>, [[<quark:framed_glass>, <netherex:amethyst_crystal>, <quark:framed_glass>], [<netherex:amethyst_crystal>, <minecraft:nether_star>, <netherex:amethyst_crystal>], [<quark:framed_glass>, <minecraft:ghast_tear>, <quark:framed_glass>]]);
 //============================================================================================================================================================================================
 //OREREG
+recipes.addShaped("saddle", <minecraft:saddle>, [[<ore:leather>, <ore:leather>, <ore:leather>], [<ore:leather>, <minecraft:string>, <ore:leather>], [<minecraft:tripwire_hook>, null, <minecraft:tripwire_hook>]]);
 recipes.addShaped("cake", <minecraft:cake>, [[<minecraft:milk_bucket>, <minecraft:milk_bucket>, <minecraft:milk_bucket>], [<minecraft:sugar>, <ore:egg>, <minecraft:sugar>], [<minecraft:wheat>, <minecraft:wheat>, <minecraft:wheat>]]);
 recipes.addShaped("bookshelf", <minecraft:bookshelf>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:book>, <ore:book>, <ore:book>], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);
 recipes.addShaped("dispenser", <minecraft:dispenser>, [[<ore:stonesCobble>, <ore:stonesCobble>, <ore:stonesCobble>], [<ore:stonesCobble>, <ore:bows>, <ore:stonesCobble>], [<ore:stonesCobble>, <ore:dustRedstone>, <ore:stonesCobble>]]);

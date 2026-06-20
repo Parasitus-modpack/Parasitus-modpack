@@ -1324,7 +1324,7 @@ recipes.removeByRecipeName("buildcrafttransport:pipe_emzuli_item_colorless");
 recipes.removeByRecipeName("buildcrafttransport:pipe_emzuli_item_white");
 recipes.removeByRecipeName("buildcrafttransport:pipe_emzuli_item_orange");
 recipes.removeByRecipeName("buildcrafttransport:pipe_emzuli_item_magenta");
-recipes.removeByRecipeName("buildcrafttransport:pipe_emzuli_item_lightblue");
+recipes.removeByRecipeName("buildcrafttransport:pipe_emzuli_item_ligh_blue");
 recipes.removeByRecipeName("buildcrafttransport:pipe_emzuli_item_yellow");
 recipes.removeByRecipeName("buildcrafttransport:pipe_emzuli_item_lime");
 recipes.removeByRecipeName("buildcrafttransport:pipe_emzuli_item_pink");

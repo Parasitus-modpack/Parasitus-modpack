@@ -74,5 +74,5 @@ recipes.addShaped("blaze_lantern", <quark:blaze_lantern>, [[<netherex:blazed_wit
 recipes.addShapeless("torch_arrow", <quark:arrow_torch>, [<ore:spartanweaponry:arrows>, <minecraft:torch>]);
 recipes.addShaped("explosive_arrows", <quark:arrow_explosive> * 8, [[<ore:spartanweaponry:arrows>, <ore:spartanweaponry:arrows>, <ore:spartanweaponry:arrows>], [<ore:spartanweaponry:arrows>, <spartanweaponry:material:2>, <ore:spartanweaponry:arrows>], [<ore:spartanweaponry:arrows>, <ore:spartanweaponry:arrows>, <ore:spartanweaponry:arrows>]]);
 recipes.addShapeless("ender_arrow", <quark:arrow_ender>, [<ore:spartanweaponry:arrows>, <minecraft:ender_pearl>]);
-recipes.addShapeless("gold_button", <quark:gold_button>, [<minecraft:gold_nugget>]);
-recipes.addShapeless("iron_button", <quark:iron_button>, [<minecraft:iron_nugget>]);
+recipes.addShapeless("gold_button", <quark:gold_button>, [<ore:nuggetGold>]);
+recipes.addShapeless("iron_button", <quark:iron_button>, [<ore:nuggetIron>]);

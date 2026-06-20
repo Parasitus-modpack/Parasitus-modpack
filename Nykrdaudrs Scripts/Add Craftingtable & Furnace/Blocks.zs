@@ -399,7 +399,7 @@ recipes.addShaped("glass_pane_dyed_to_green", <minecraft:stained_glass_pane:13> 
 recipes.addShaped("glass_pane_dyed_to_red", <minecraft:stained_glass_pane:14> * 8, [[<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>], [<ore:paneGlass>, <ore:dyeRed>, <ore:paneGlass>], [<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>]]);
 recipes.addShaped("glass_pane_dyed_to_black", <minecraft:stained_glass_pane:15> * 8, [[<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>], [<ore:paneGlass>, <ore:dyeBlack>, <ore:paneGlass>], [<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>]]);
 //============================================================================================================================================================================================
-recipes.addShaped("framed_glass", <quark:framed_glass> * 5, [[<minecraft:glass>, <techguns:itemshared:46>, <minecraft:glass>], [<techguns:itemshared:46>, <minecraft:glass>, <techguns:itemshared:46>], [<minecraft:glass>, <techguns:itemshared:46>, <minecraft:glass>]]);
+recipes.addShaped("framed_glass", <quark:framed_glass> * 5, [[<minecraft:glass>, <ore:plateIron>, <minecraft:glass>], [<ore:plateIron>, <minecraft:glass>, <ore:plateIron>], [<minecraft:glass>, <ore:plateIron>, <minecraft:glass>]]);
 
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
@@ -756,8 +756,8 @@ recipes.addShaped("reinforced_hivestone", <srparasites:parasiterubbledense:1> * 
 //MISC
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
-recipes.addShaped("laboratory_block_from_marble", <chisel:laboratory:0> * 9, [[<minecraft:stone>, <techguns:itemshared:55>, <minecraft:stone>], [<techguns:itemshared:55>, <ore:marble_stone>, <techguns:itemshared:55>], [<minecraft:stone>, <techguns:itemshared:55>, <minecraft:stone>]]);
-recipes.addShaped("laboratory_block_from_quartz", <chisel:laboratory:0> * 9, [[<minecraft:stone>, <techguns:itemshared:55>, <minecraft:stone>], [<techguns:itemshared:55>, <ore:quartz>, <techguns:itemshared:55>], [<minecraft:stone>, <techguns:itemshared:55>, <minecraft:stone>]]);
+recipes.addShaped("laboratory_block_from_marble", <chisel:laboratory:0> * 9, [[<minecraft:stone>, <ore:sheetPlastic>, <minecraft:stone>], [<ore:sheetPlastic>, <ore:marble_stone>, <ore:sheetPlastic>], [<minecraft:stone>, <ore:sheetPlastic>, <minecraft:stone>]]);
+recipes.addShaped("laboratory_block_from_quartz", <chisel:laboratory:0> * 9, [[<minecraft:stone>, <ore:sheetPlastic>, <minecraft:stone>], [<ore:sheetPlastic>, <ore:quartz>, <ore:sheetPlastic>], [<minecraft:stone>, <ore:sheetPlastic>, <minecraft:stone>]]);
 recipes.addShaped("lavastone", <chisel:lavastone:0> * 8, [[<ore:stones>, <ore:stones>, <ore:stones>], [<ore:stones>, <minecraft:lava_bucket>, <ore:stones>], [<ore:stones>, <ore:stones>, <ore:stones>]]);
 recipes.addShaped("waterstone", <chisel:waterstone:0> * 8, [[<ore:stones>, <ore:stones>, <ore:stones>], [<ore:stones>, <minecraft:water_bucket>, <ore:stones>], [<ore:stones>, <ore:stones>, <ore:stones>]]);
 recipes.addShaped("tyrian", <chisel:tyrian:0> * 8, [[<ore:stones>, <ore:stones>, <ore:stones>], [<ore:stones>, <ore:ingotIron>, <ore:stones>], [<ore:stones>, <ore:stones>, <ore:stones>]]);
@@ -770,12 +770,12 @@ recipes.addShaped("paper_wall", <quark:paper_wall> * 6, [[<chisel:paper:0>, <chi
 recipes.addShaped("turf", <quark:turf>, [[<ore:tallGrass>, <ore:tallGrass>, <ore:tallGrass>], [<ore:tallGrass>, <ore:tallGrass>, <ore:tallGrass>], [<ore:tallGrass>, <ore:tallGrass>, <ore:tallGrass>]]);
 recipes.addShaped("midori_block", <quark:midori_block>, [[<minecraft:dye:2>, <minecraft:dye:2>, <minecraft:dye:2>], [<minecraft:dye:2>, <minecraft:dye:2>, <minecraft:dye:2>], [<minecraft:dye:2>, <minecraft:dye:2>, <minecraft:dye:2>]]);
 recipes.addShaped("duskbound_block", <quark:duskbound_block> * 9, [[<ore:purpur_brick>, <ore:purpur_brick>, <ore:purpur_brick>], [<ore:purpur_brick>, <minecraft:obsidian>, <ore:purpur_brick>], [<ore:purpur_brick>, <ore:purpur_brick>, <ore:purpur_brick>]]);
-recipes.addShaped("catwalk", <sevendaystomine:catwalk> * 3, [[<techguns:itemshared:46>, <techguns:itemshared:46>, <techguns:itemshared:46>]]);
-recipes.addShapedMirrored("catwalk_stairs", <sevendaystomine:catwalk_stairs> * 4, [[<techguns:itemshared:46>, null, null], [<techguns:itemshared:46>, <techguns:itemshared:46>, null], [<techguns:itemshared:46>, <techguns:itemshared:46>, <techguns:itemshared:46>]]);
+recipes.addShaped("catwalk", <sevendaystomine:catwalk> * 3, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
+recipes.addShapedMirrored("catwalk_stairs", <sevendaystomine:catwalk_stairs> * 4, [[<ore:plateIron>, null, null], [<ore:plateIron>, <ore:plateIron>, null], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
 recipes.addShapedMirrored("coarse_dirt", <minecraft:dirt:1> * 4, [[<minecraft:sand:*>, <ore:dirt>], [<ore:dirt>, <minecraft:sand:*>]]);
 recipes.addShapedMirrored("dry_ground", <sevendaystomine:dry_ground> * 2, [[<ore:dirt>, <minecraft:gravel>], [<minecraft:gravel>, <ore:dirt>]]);
-recipes.addShaped("container", <techguns:metalpanel:0> * 9, [[<ore:stones>, <ore:stones>, <ore:stones>], [<techguns:itemshared:48>, <ore:stones>, <techguns:itemshared:48>], [<ore:stones>, <ore:stones>, <ore:stones>]]);
-recipes.addShaped("steel_panel", <techguns:metalpanel:4> * 9, [[<ore:stones>, <ore:stones>, <ore:stones>], [<techguns:itemshared:50>, <ore:stones>, <techguns:itemshared:50>], [<ore:stones>, <ore:stones>, <ore:stones>]]);
+recipes.addShaped("container", <techguns:metalpanel:0> * 9, [[<ore:stones>, <ore:stones>, <ore:stones>], [<ore:plateTin>, <ore:stones>, <ore:plateTin>], [<ore:stones>, <ore:stones>, <ore:stones>]]);
+recipes.addShaped("steel_panel", <techguns:metalpanel:4> * 9, [[<ore:stones>, <ore:stones>, <ore:stones>], [<ore:plateSteel>, <ore:stones>, <ore:plateSteel>], [<ore:stones>, <ore:stones>, <ore:stones>]]);
 recipes.addShaped("nether_metal", <techguns:nethermetal:0> * 9, [[<ore:netherrack>, <ore:stones>, <ore:netherrack>], [<ore:stones>, <ore:ingotIron>, <ore:stones>], [<ore:netherrack>, <ore:stones>, <ore:netherrack>]]);
 recipes.addShapedMirrored("steel_panel_stairs", <techguns:stairs_metal:7> * 4, [[<techguns:metalpanel:4>, null, null], [<techguns:metalpanel:4>, <techguns:metalpanel:4>, null], [<techguns:metalpanel:4>, <techguns:metalpanel:4>, <techguns:metalpanel:4>]]);
 recipes.addShapedMirrored("carbon_panel_stairs", <techguns:stairs_metal:15> * 4, [[<techguns:metalpanel:6>, null, null], [<techguns:metalpanel:6>, <techguns:metalpanel:6>, null], [<techguns:metalpanel:6>, <techguns:metalpanel:6>, <techguns:metalpanel:6>]]);

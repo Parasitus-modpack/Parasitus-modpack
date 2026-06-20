@@ -11,12 +11,12 @@ recipes.addShaped("traffic_light", <sevendaystomine:trafficlight>, [[<ore:ingotI
 recipes.addShaped("pedestrian_light", <sevendaystomine:trafficlightpedestrian>, [[<ore:ingotIron>, <ore:paneGlassRed>, <ore:ingotIron>], [<ore:ingotIron>, <ore:paneGlassLime>, <ore:ingotIron>]]);
 recipes.addShaped("radiator", <sevendaystomine:radiator>, [[<sevendaystomine:iron_pipe>, <sevendaystomine:iron_pipe>, <sevendaystomine:iron_pipe>], [<sevendaystomine:iron_pipe>, <sevendaystomine:iron_pipe>, <sevendaystomine:iron_pipe>], [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
 recipes.addShaped("stand", <sevendaystomine:stand>, [[null, <ore:ingotIron>, null], [null, <sevendaystomine:iron_pipe>, null], [null, <sevendaystomine:iron_pipe>, null]]);
-recipes.addShaped("trash_can", <sevendaystomine:trashcan>, [[<techguns:itemshared:46>, <techguns:itemshared:46>, <techguns:itemshared:46>], [<ore:ingotIron>, null, <ore:ingotIron>], [null, <ore:ingotIron>, null]]);
-recipes.addShaped("trash_bin", <sevendaystomine:trash_bin>, [[<techguns:itemshared:46>, null, <techguns:itemshared:46>], [null, <techguns:itemshared:46>, null]]);
-recipes.addShaped("shower_head", <sevendaystomine:shower_head>, [[<ore:ingotIron>, <sevendaystomine:iron_pipe>, null], [null, <techguns:itemshared:46>, null]]);
+recipes.addShaped("trash_can", <sevendaystomine:trashcan>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<ore:ingotIron>, null, <ore:ingotIron>], [null, <ore:ingotIron>, null]]);
+recipes.addShaped("trash_bin", <sevendaystomine:trash_bin>, [[<ore:plateIron>, null, <ore:plateIron>], [null, <ore:plateIron>, null]]);
+recipes.addShaped("shower_head", <sevendaystomine:shower_head>, [[<ore:ingotIron>, <sevendaystomine:iron_pipe>, null], [null, <ore:plateIron>, null]]);
 recipes.addShaped("sink_faucet", <sevendaystomine:sink_faucet>, [[<ore:ingotIron>, <sevendaystomine:iron_pipe>, <ore:ingotIron>]]);
-recipes.addShaped("file_cabinet", <sevendaystomine:file_cabinet>, [[<techguns:itemshared:46>, <techguns:itemshared:46>, <techguns:itemshared:46>], [<ore:ingotIron>, null, <ore:ingotIron>], [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
-recipes.addShaped("refrigerator", <sevendaystomine:fridgeitem>, [[<techguns:itemshared:46>, <techguns:itemshared:46>, <techguns:itemshared:46>], [<techguns:itemshared:46>, null, <techguns:itemshared:46>], [<techguns:itemshared:46>, <techguns:itemshared:46>, <techguns:itemshared:46>]]);
+recipes.addShaped("file_cabinet", <sevendaystomine:file_cabinet>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<ore:ingotIron>, null, <ore:ingotIron>], [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
+recipes.addShaped("refrigerator", <sevendaystomine:fridgeitem>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<ore:plateIron>, null, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
 recipes.addShaped("throttle", <sevendaystomine:throttle>, [[null, <ore:woolRed>, null], [<ore:carpetRed>, <sevendaystomine:armchairblack>, <ore:carpetRed>], [null, <sevendaystomine:iron_pipe>, null]]);
 recipes.addShaped("boards", <sevendaystomine:boards> * 2, [[<sevendaystomine:woodplank>, null, <sevendaystomine:woodplank>], [null, <sevendaystomine:woodplank>, null], [<sevendaystomine:woodplank>, null, <sevendaystomine:woodplank>]]);
 recipes.addShaped("writing_table_1", <sevendaystomine:writingtable:8>, [[<minecraft:wooden_slab:0>, <minecraft:wooden_slab:0>, <minecraft:wooden_slab:0>], [<sevendaystomine:woodplank>, null, <sevendaystomine:woodplank>]]);
@@ -34,7 +34,7 @@ recipes.addShaped("acacia_chair", <sevendaystomine:chair_acacia>, [[<sevendaysto
 recipes.addShaped("dark_oak_chair", <sevendaystomine:chair_big_oak>, [[<sevendaystomine:woodplank>, null], [<minecraft:wooden_slab:5>, <minecraft:wooden_slab:5>], [<sevendaystomine:woodplank>, <sevendaystomine:woodplank>]]);
 recipes.addShaped("birdnest", <sevendaystomine:birdnest>, [[<minecraft:stick>, <minecraft:feather>, <minecraft:stick>], [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>]]);
 recipes.addShaped("big_sign", <sevendaystomine:big_sign>, [[<sevendaystomine:street_sign>, <sevendaystomine:street_sign>, <sevendaystomine:street_sign>], [<sevendaystomine:street_sign>, <sevendaystomine:street_sign>, <sevendaystomine:street_sign>]]);
-recipes.addShaped("microwave", <sevendaystomine:microwave>, [[<techguns:itemshared:55>, <techguns:itemshared:55>, <techguns:itemshared:55>], [<techguns:itemshared:52>, null, <ore:paneglass>], [<techguns:itemshared:55>, <techguns:itemshared:55>, <techguns:itemshared:55>]]);
+recipes.addShaped("microwave", <sevendaystomine:microwave>, [[<ore:sheetPlastic>, <ore:sheetPlastic>, <ore:sheetPlastic>], [<ore:plateLead>, null, <ore:paneglass>], [<ore:sheetPlastic>, <ore:sheetPlastic>, <ore:sheetPlastic>]]);
 recipes.addShaped("flag", <sevendaystomine:flag>, [[<sevendaystomine:iron_pipe>, <sevendaystomine:cloth>, <sevendaystomine:cloth>], [<sevendaystomine:iron_pipe>, <sevendaystomine:cloth>, <sevendaystomine:cloth>], [<sevendaystomine:iron_pipe>, null, null]]);
 //============================================================================================================================================================================================
 recipes.addShapedMirrored("sofa_white", <sevendaystomine:sofa_white> * 3, [[<ore:woolWhite>, null, null], [<ore:woolWhite>, null, null], [<ore:woolWhite>, <ore:woolWhite>, <ore:woolWhite>]]);
@@ -129,14 +129,14 @@ recipes.addShapeless("cement_mix", <sevendaystomine:concretemix>, [<ore:sand>, <
 //FROM MODS
 recipes.addShaped("gear", <sevendaystomine:gear>, [[null, <ore:ingotSteel>, null], [<ore:ingotSteel>, <buildcraftcore:gear_iron>, <ore:ingotSteel>], [null, <ore:ingotSteel>, null]]);
 recipes.addShaped("writing_table_2", <sevendaystomine:writingtable:0>, [[<minecraft:stone_slab:7>, <minecraft:stone_slab:7>, <minecraft:stone_slab:7>], [<techguns:itemshared:103>, null, <techguns:itemshared:103>]]);
-recipes.addShaped("wires", <sevendaystomine:wire> * 3, [[null, <sevendaystomine:woodplank>, null], [<techguns:itemshared:62>, <techguns:itemshared:62>, <techguns:itemshared:62>], [null, <sevendaystomine:woodplank>, null]]);
+recipes.addShaped("wires", <sevendaystomine:wire> * 3, [[null, <sevendaystomine:woodplank>, null], [<ore:wireCopper>, <ore:wireCopper>, <ore:wireCopper>], [null, <sevendaystomine:woodplank>, null]]);
 recipes.addShapeless("bc_stirling_to_7dtm_coal", <sevendaystomine:generator_combustion>, [<buildcraftcore:engine:1>]);
 recipes.addShapeless("bc_combustion_to_7dtm_gas", <sevendaystomine:generator_gas>, [<buildcraftcore:engine:2>]);
-recipes.addShaped("projector", <sevendaystomine:screen_projector>, [[<ore:ingotIron>, <techguns:itemshared:65>, <ore:ingotIron>], [<ore:ingotIron>, <minecraft:redstone_lamp>, <ore:ingotIron>], [<ore:ingotIron>, <minecraft:lever>, <ore:ingotIron>]]);
-recipes.addShaped("cctv", <sevendaystomine:camera> * 2, [[<ore:ingotIron>, <techguns:itemshared:65>, <ore:ingotIron>], [<ore:ingotIron>, <minecraft:observer>, <ore:ingotIron>], [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>]]);
-recipes.addShaped("lamp", <sevendaystomine:lamp> * 3, [[null, <minecraft:iron_nugget>, null], [<techguns:itemshared:46>, <ore:ingotIron>, <techguns:itemshared:46>], [<techguns:itemshared:46>, <minecraft:redstone_lamp>, <techguns:itemshared:46>]]);
+recipes.addShaped("projector", <sevendaystomine:screen_projector>, [[<ore:ingotIron>, <ore:circuitBasic>, <ore:ingotIron>], [<ore:ingotIron>, <minecraft:redstone_lamp>, <ore:ingotIron>], [<ore:ingotIron>, <minecraft:lever>, <ore:ingotIron>]]);
+recipes.addShaped("cctv", <sevendaystomine:camera> * 2, [[<ore:ingotIron>, <ore:circuitBasic>, <ore:ingotIron>], [<ore:ingotIron>, <minecraft:observer>, <ore:ingotIron>], [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>]]);
+recipes.addShaped("lamp", <sevendaystomine:lamp> * 3, [[null, <ore:nuggetIron>, null], [<ore:plateIron>, <ore:ingotIron>, <ore:plateIron>], [<ore:plateIron>, <minecraft:redstone_lamp>, <ore:plateIron>]]);
 recipes.addShapeless("asphalt", <sevendaystomine:asphalt>, [<forge:bucketfilled>.withTag({FluidName: "oil_residue_heat_1", Amount: 1000}), <minecraft:gravel>]);
-recipes.addShapeless("sign", <sevendaystomine:street_sign>, [<minecraft:sign>, <techguns:itemshared:46>]);
+recipes.addShapeless("sign", <sevendaystomine:street_sign>, [<minecraft:sign>, <ore:plateIron>]);
 recipes.addShapeless("burnt_fence", <sevendaystomine:burnt_planks_fence>, [<ore:fenceWood>, <ore:fenceWood>, <ore:fenceWood>, <minecraft:fire_charge>]);
 recipes.addShapeless("burnt_slab", <sevendaystomine:burnt_planks_slab>, [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>, <minecraft:fire_charge>]);
 recipes.addShapeless("burnt_stairs", <sevendaystomine:burnt_planks_stairs>, [<ore:stairWood>, <ore:stairWood>, <ore:stairWood>, <minecraft:fire_charge>]);

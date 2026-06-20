@@ -298,14 +298,9 @@ oreDict.iceSoft.add(<minecraft:ice>, <chisel:ice:0>, <chisel:ice:1>, <chisel:ice
 oreDict.obsidian.add(<minecraft:obsidian>);
 oreDict.blockTemple.add(<chisel:temple:*>);
 oreDict.runed_voidstone.add(<chisel:voidstone:4>, <chisel:voidstonerunic:0>, <chisel:voidstonerunic:1>, <chisel:voidstonerunic:2>, <chisel:voidstonerunic:3>, <chisel:voidstonerunic:4>, <chisel:voidstonerunic:5>, <chisel:voidstonerunic:6>, <chisel:voidstonerunic:7>, <chisel:voidstonerunic:8>, <chisel:voidstonerunic:9>, <chisel:voidstonerunic:10>, <chisel:voidstonerunic:11>, <chisel:voidstonerunic:12>, <chisel:voidstonerunic:13>, <chisel:voidstonerunic:14>);
-oreDict.elevator.add(<openblocks:elevator:*>);
-oreDict.elevatorRotating.add(<openblocks:elevator_rotating:*>);
 oreDict.dirts.add(<minecraft:dirt:0>, <minecraft:dirt:1>, <chisel:dirt:*>);
-oreDict.blockCopper.add(<sevendaystomine:copper_block>);
-oreDict.sleepingBag.add(<sevendaystomine:sleepingbagitem:*>);
 oreDict.chestWood.add(<sevendaystomine:chest_old>, <minecraft:trapped_chest>, <quark:custom_chest_trap:*>);
 oreDict.shulker.add(<minecraft:white_shulker_box>, <minecraft:orange_shulker_box>, <minecraft:magenta_shulker_box>, <minecraft:light_blue_shulker_box>, <minecraft:yellow_shulker_box>, <minecraft:lime_shulker_box>, <minecraft:pink_shulker_box>, <minecraft:gray_shulker_box>, <minecraft:silver_shulker_box>, <minecraft:cyan_shulker_box>, <minecraft:purple_shulker_box>, <minecraft:blue_shulker_box>, <minecraft:brown_shulker_box>, <minecraft:green_shulker_box>, <minecraft:red_shulker_box>, <minecraft:black_shulker_box>);
-oreDict.bed.add(<minecraft:bed:*>);
 oreDict.curtainDoors.add(<malisisdoors:curtain_white>, <malisisdoors:curtain_orange>, <malisisdoors:curtain_magenta>, <malisisdoors:curtain_light_blue>, <malisisdoors:curtain_yellow>, <malisisdoors:curtain_lime>, <malisisdoors:curtain_pink>, <malisisdoors:curtain_gray>, <malisisdoors:curtain_silver>, <malisisdoors:curtain_cyan>, <malisisdoors:curtain_purple>, <malisisdoors:curtain_blue>, <malisisdoors:curtain_brown>, <malisisdoors:curtain_green>, <malisisdoors:curtain_red>, <malisisdoors:curtain_black>);
 oreDict.sofa.add(<sevendaystomine:sofa_white>, <sevendaystomine:sofa_orange>, <sevendaystomine:sofa_magenta>, <sevendaystomine:sofa_light_blue>, <sevendaystomine:sofa_yellow>, <sevendaystomine:sofa_lime>, <sevendaystomine:sofa_pink>, <sevendaystomine:sofa_gray>, <sevendaystomine:sofa_silver>, <sevendaystomine:sofa_cyan>, <sevendaystomine:sofa_purple>, <sevendaystomine:sofa_blue>, <sevendaystomine:sofa_brown>, <sevendaystomine:sofa_green>, <sevendaystomine:sofa_red>, <sevendaystomine:sofa_black>);
 oreDict.armchair.add(<sevendaystomine:armchairwhite>, <sevendaystomine:armchair_orange>, <sevendaystomine:armchair_magenta>, <sevendaystomine:armchair_light_blue>, <sevendaystomine:armchairyellow>, <sevendaystomine:armchair_lime>, <sevendaystomine:armchairpink>, <sevendaystomine:armchair_gray>, <sevendaystomine:armchair_silver>, <sevendaystomine:armchair_cyan>, <sevendaystomine:armchair_purple>, <sevendaystomine:armchairblue>, <sevendaystomine:armchairbrown>, <sevendaystomine:armchairgreen>, <sevendaystomine:armchairred>, <sevendaystomine:armchairblack>);
@@ -336,14 +331,12 @@ oreDict.carpetBlack.add(<minecraft:carpet:15>, <chisel:carpet_black:*>);
 //MISC ITEMS
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
-oreDict.banner.add(<minecraft:banner:*>);
 oreDict.wire.add(<buildcrafttransport:wire:*>);
 oreDict.hide.add(<koopascritters:reptilehide>, <netherex:black_salamander_hide>, <netherex:orange_salamander_hide>, <minecraft:rabbit_hide>);
 oreDict.shroomRed.add(<minecraft:red_mushroom>, <netherex:red_elder_mushroom>, <pvj:orange_mushroom>);
 oreDict.shroomBrown.add(<minecraft:brown_mushroom>, <netherex:brown_elder_mushroom>, <pvj:deathcap>);
 oreDict.shroomAll.add(<pvj:waxcap>, <pvj:orange_mushroom>, <pvj:deathcap>, <pvj:glowcap>, <minecraft:red_mushroom>, <netherex:red_elder_mushroom>, <minecraft:brown_mushroom>, <netherex:brown_elder_mushroom>);
 oreDict.book.add(<quark:ancient_tome:*>, <minecraft:book>, <minecraft:enchanted_book:*>, <minecraft:writable_book>, <minecraft:written_book>, <sevendaystomine:book_forging>, <sevendaystomine:book_computers>, <sevendaystomine:book_concrete>, <sevendaystomine:book_electricity>, <sevendaystomine:book_metalworking>);
-oreDict.wire.add(<buildcrafttransport:wire:0>, <buildcrafttransport:wire:1>, <buildcrafttransport:wire:2>, <buildcrafttransport:wire:3>, <buildcrafttransport:wire:4>, <buildcrafttransport:wire:5>, <buildcrafttransport:wire:6>, <buildcrafttransport:wire:7>, <buildcrafttransport:wire:8>, <buildcrafttransport:wire:9>, <buildcrafttransport:wire:10>, <buildcrafttransport:wire:11>, <buildcrafttransport:wire:12>, <buildcrafttransport:wire:13>, <buildcrafttransport:wire:14>, <buildcrafttransport:wire:15>);
 oreDict.brush.add(<buildcraftcore:paintbrush:*>);
 oreDict.tallGrass.add(<minecraft:double_plant:2>, <minecraft:double_plant:3>);
 oreDict.flowerpot.add(<minecraft:flower_pot>, <quark:colored_flowerpot_white>, <quark:colored_flowerpot_orange>, <quark:colored_flowerpot_magenta>, <quark:colored_flowerpot_light_blue>, <quark:colored_flowerpot_yellow>, <quark:colored_flowerpot_lime>, <quark:colored_flowerpot_pink>, <quark:colored_flowerpot_gray>, <quark:colored_flowerpot_silver>, <quark:colored_flowerpot_cyan>, <quark:colored_flowerpot_purple>, <quark:colored_flowerpot_brown>, <quark:colored_flowerpot_green>, <quark:colored_flowerpot_red>, <quark:colored_flowerpot_black>);
@@ -374,13 +367,14 @@ oreDict.nuggetTin.add(<sevendaystomine:scrap_tin>);
 oreDict.blockScrapIron.add(<netherex:worn_iron>, <quark:iron_plate:1>);
 oreDict.blockTitanium.add(<chisel:blockaluminum:*>);
 oreDict.blockZinc.add(<chisel:blocknickel:*>);
-oreDict.dustCoal.add(<minecraft:coal:*>)
-oreDict.blockFuelCoal.add(<minecraft:coal_block>, <chisel:block:coal:*>, <chisel:block_coal1:*>, <chisel:block_coal2;*>, <chisel:block_charcoal:*>, <chisel:block_charcoal1:*>, <chisel:block_charcoal2:*>);
+oreDict.dustCoal.add(<minecraft:coal:*>);
+oreDict.blockFuelCoal.add(<minecraft:coal_block>, <chisel:block_coal:*>, <chisel:block_coal1:*>, <chisel:block_coal2:*>, <chisel:block_charcoal:*>, <chisel:block_charcoal1:*>, <chisel:block_charcoal2:*>);
 oreDict.blockDiamondSteel.add(<chisel:blockcobalt:*>);
 oreDict.blockObsidianSteel.add(<chisel:obsidian:*>);
 oreDict.dustMercury.add(<sevendaystomine:salt>);
 oreDict.dustPotassium.add(<sevendaystomine:potassium>);
 oreDict.oreBiotitie.add(<quark:biotite_ore>);
+oreDict.blockCopper.add(<sevendaystomine:copper_block>);
 
 
 //============================================================================================================================================================================================
