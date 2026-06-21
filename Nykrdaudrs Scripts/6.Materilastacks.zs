@@ -16,7 +16,9 @@
 //CARBON
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
-//scrapresult = <minecraft:coal:1>
+//scrapresult = <minecraft:coal>
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:diorite_rocks>, "stone", 0.5, true, false);
+
 
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
@@ -40,7 +42,7 @@ mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:iron_nugget>, "ir
 //LEAD
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
-mods.sevendaystomine.item.ScrapDataManager.addScrapResult(<techguns:itemshared:87>, "lead", 1);
+//mods.sevendaystomine.item.ScrapDataManager.addScrapResult(<techguns:itemshared:87>, "lead", 1);
 
 
 //============================================================================================================================================================================================
@@ -49,7 +51,7 @@ mods.sevendaystomine.item.ScrapDataManager.addScrapResult(<techguns:itemshared:8
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
 //ScrapResult = <sevendaystomine:scrap_steel>
-mods.sevendaystomine.item.ScrapDataManager.addScrap(<techguns:itemshared:88>, "steel", 1, false, true);
+//mods.sevendaystomine.item.ScrapDataManager.addScrap(<techguns:itemshared:88>, "steel", 1, false, true);
 
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
@@ -57,7 +59,7 @@ mods.sevendaystomine.item.ScrapDataManager.addScrap(<techguns:itemshared:88>, "s
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
 //ScrapResult = <sevendaystomine:scrap_copper>
-mods.sevendaystomine.item.ScrapDataManager.addScrap(<techguns:itemshared:86>, "copper", 1, false, true);
+//mods.sevendaystomine.item.ScrapDataManager.addScrap(<techguns:itemshared:86>, "copper", 1, false, true);
 
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
@@ -96,7 +98,7 @@ mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:gold_nugget>, "go
 //WOLFRAM (obsidian steel)
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
-mods.sevendaystomine.item.ScrapDataManager.addScrapResult(<techguns:itemshared:84>, "wolfram", 9);
+//mods.sevendaystomine.item.ScrapDataManager.addScrapResult(<techguns:itemshared:84>, "wolfram", 9);
 
 
 //============================================================================================================================================================================================
@@ -150,7 +152,7 @@ mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:diorite_rocks>, "stone"
 //PLASTIC
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
-mods.sevendaystomine.item.ScrapDataManager.addScrapResult(<techguns:itemshared:96>, "plastic", 1);
+//mods.sevendaystomine.item.ScrapDataManager.addScrapResult(<techguns:itemshared:96>, "plastic", 1);
 
 
 //============================================================================================================================================================================================
@@ -198,7 +200,7 @@ mods.sevendaystomine.item.ScrapDataManager.addScrapResult(<sevendaystomine:salt>
 //GASOLINE (rubber)
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
-mods.sevendaystomine.item.ScrapDataManager.addScrapResult(<techguns:itemshared:95>, "gasoline", 1);
+//mods.sevendaystomine.item.ScrapDataManager.addScrapResult(<techguns:itemshared:95>, "gasoline", 1);
 
 
 //============================================================================================================================================================================================
@@ -210,7 +212,38 @@ mods.sevendaystomine.item.ScrapDataManager.addScrapResult(<techguns:itemshared:9
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<weather2:pocket_sand>, "sand", 1, true, false);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:sandstone_rocks>, "sand", 0.25, true, false);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:red_sandstone_rocks>, "sand", 0.25, true, false);
-
+mods.sevendaystomine.item.ScrapDataManager.addScrap(minecraft:sand>, "sand", 9,
+mods.sevendaystomine.item.ScrapDataManager.addScrap(minecraft:sandstone>, "sand", 18
+mods.sevendaystomine.item.ScrapDataManager.addScrap(minecraft:red_sandstone>, "sand", 18
+mods.sevendaystomine.item.ScrapDataManager.addScrap(minecraft:red_sandstone_stairs>, "sand", 13.5
+mods.sevendaystomine.item.ScrapDataManager.addScrap(minecraft:sandstone_stairs>, "sand", 13.5
+mods.sevendaystomine.item.ScrapDataManager.addScrap(pvj:cracked_sand>, "sand", 18
+mods.sevendaystomine.item.ScrapDataManager.addScrap(pvj:red_cracked_sand>, "sand", 18
+mods.sevendaystomine.item.ScrapDataManager.addScrap(chisel:sandstoneyellow>, "sand", 18
+mods.sevendaystomine.item.ScrapDataManager.addScrap(chisel:sandstoneyellow1>, "sand", 18
+mods.sevendaystomine.item.ScrapDataManager.addScrap(chisel:sandstoneyellow2>, "sand", 18
+mods.sevendaystomine.item.ScrapDataManager.addScrap(chisel:sandstonered>, "sand", 18
+mods.sevendaystomine.item.ScrapDataManager.addScrap(chisel:sandstonered1>, "sand", 18
+mods.sevendaystomine.item.ScrapDataManager.addScrap(chisel:sandstonered2>, "sand", 18
+mods.sevendaystomine.item.ScrapDataManager.addScrap(chisel:sandstonered-scribbles>, "sand", 4.5
+mods.sevendaystomine.item.ScrapDataManager.addScrap(chisel:sandstone-scribbles>, "sand", 4.5
+mods.sevendaystomine.item.ScrapDataManager.addScrap(sevendaystomine:sand_layer>, "sand", 3
+mods.sevendaystomine.item.ScrapDataManager.addScrap(sevendaystomine:red_sand_layer>, "sand", 3
+mods.sevendaystomine.item.ScrapDataManager.addScrap(sevendaystomine:sandbags>, "sand",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(oe:pink_coral_dead>, "sand",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(oe:blue_coral_dead>, "sand",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(oe:yellow_coral_fan_dead>, "sand",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(oe:red_coral_fan_dead>, "sand",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(oe:purple_coral_fan_dead>, "sand",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(oe:pink_coral_fan_dead>, "sand",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(oe:blue_coral_fan_dead>, "sand",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(oe:yellow_coral_dead>, "sand",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(oe:red_coral_dead>, "sand",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(oe:purple_coral_dead>, "sand",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(oe:shell_sand>, "sand",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(techguns:sand_hard>, "sand",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(techguns:sandbags>, "sand", 36
+mods.sevendaystomine.item.ScrapDataManager.addScrap(weather2:sand_layer_placeable>, "sand",
 
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
@@ -233,7 +266,7 @@ mods.sevendaystomine.item.ScrapDataManager.addScrapResult(<minecraft:string>, "s
 //BONE
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
-mods.sevendaystomine.item.ScrapDataManager.addScrapResult(<minecraft:dye:15>, "bone", 1);
+mods.sevendaystomine.item.ScrapDataManager.addScrapResult(<minecraft:bone, "bone", 1);
 
 
 //============================================================================================================================================================================================
