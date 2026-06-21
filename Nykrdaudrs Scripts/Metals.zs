@@ -30,7 +30,7 @@
 //COPPER
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
-//materialstack-copper
+//materialstack-COPPER
 // 1 copper ore and 700 molten copper makes 20 copper scrap
 // 1 copper ore and 100 creeper acid makes 22 copper scrap
 // 9 scrap or nuggets makes 1 ingot
@@ -56,7 +56,7 @@ mods.techguns.MetalPress.addRecipe("blockcopper", "blockcopper", <techguns:items
 //TIN
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
-//materialstack-tin
+//materialstack-TIN
 // 1 tin ore and 700 molten tin makes 20 tin scrap
 // 1 tin ore and 100 creeper acid makes 22 tin chunks
 // 9 scrap makes 1 ingot
@@ -85,7 +85,7 @@ mods.techguns.MetalPress.addRecipe("blockTin", "blockTin", <techguns:itemshared:
 //LEAD
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
-//materialstack-lead
+//materialstack-LEAD
 // 1 lead ore and 700 molten lead makes 20 lead scrap
 // 1 lead ore and 100 creeper acid makes 22 lead chunks
 // 9 chunks or nugget makes 1 ingot
@@ -111,7 +111,7 @@ mods.techguns.MetalPress.addRecipe("blockLead","blockLead", <techguns:itemshared
 //ZINC
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
-//materialstack-zinc
+//materialstack-ZINC
 // 1 zinc ore and 700 molten zinc makes 20 zinc scrap
 // 1 zinc ore and 100 creeper acid makes 22 zinc scrap
 // 9 scrap makes 1 ingot
@@ -138,7 +138,7 @@ mods.techguns.BlastFurnace.addRecipe("nuggetZinc", 5, "nuggetZinc", 4, <sevenday
 //GOLD
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
-//materialstack-gold
+//materialstack-GOLD
 // 1 gold ore and 700 molten gold makes 20 gold scrap
 // 1 gold ore and 100 creeper acid makes 22 scrap gold
 // 9 scrap or nugget makes 1 ingot
@@ -165,7 +165,7 @@ mods.techguns.MetalPress.addRecipe("blockGold", "blockGold", <techguns:itemshare
 //IRON
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
-//materialstack-iron
+//materialstack-IRON
 // 1 iron ore and 700 molten iron makes 20 iron scrap
 // 1 iron ore and 100 creeper acid makes 22 iron scrap
 // 9 scrap or nugget makes 1 ingot
@@ -225,7 +225,7 @@ mods.techguns.MetalPress.addRecipe("blockTitanium", "blockTitanium", <techguns:i
 //BRASS
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
-//materialstack-brass
+//materialstack-BRASS
 // 3 copper ingot and 1 zinc ingots makes 4 brass
 // 9 scrap makes 1 ingot
 // 6 scrap/nugget copper and 3 scrap zinc makes 1 brass ingot
@@ -253,7 +253,7 @@ mods.techguns.MetalPress.addRecipe("ingotBrass", "ingotBrass", <sevendaystomine:
 //BRONZE
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
-//materialstack-bronze
+//materialstack-BRONZE
 // 3 copper ingots and 1 tin ingot makes 4 bronze ingots
 // 9 scrap makes 1 ingot
 // 6 scrap/nugget copper and 3 scrap tin makes 1 bronze ingot
@@ -280,7 +280,7 @@ mods.techguns.MetalPress.addRecipe("blockBronze", "blockBronze", <techguns:items
 //STEEL
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
-//materialstack-steel
+//materialstack-STEEL
 // 1 coal and 700 molten iron makes 1 steel ingot
 // 1 iron ingot and 1 coal makes 1 steel ingot
 // 9 steel scrap/nugget makes 1 ingot
@@ -310,7 +310,7 @@ mods.techguns.MetalPress.addRecipe("blocksteel", "blocksteel", <techguns:itemsha
 //OBSIDIAN STEEL
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
-//materialstack ?
+//materialstack-WOLFRAM
 // 1 obsidian and 700 molten steel makes 1 obsidian steel ingot
 // 1 steel ingot and 1 obsidian makes 1 obsidian steel ingot
 // 9 steel scrap/nugget and 1 obsidian makes 1 obsidian steel ingot
@@ -337,7 +337,7 @@ mods.techguns.MetalPress.addRecipe("blockObsidianSteel", "blockObsidianSteel", <
 //Coal and CHARCOAL
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
-//materialstack-carbon
+//materialstack-CARBON
 // 1 pestilent ore and 100 dead blood makes 2 coal
 //====================================================================
 //crafting
@@ -360,23 +360,22 @@ mods.techguns.ReactionChamber.addRecipe("coal_cleansing", <srparasites:infestedo
 //============================================================================================================================================================================================
 
 //URANIUM
-//materialstack-uranium
+//materialstack-URANIUM
 recipes.addShapeless("uranium_from_block", <techguns:itemshared:98> * 9, [<ore:blockUranium>]);
 recipes.addShapeless("uranium_block", <chisel:blockuranium:2>, [<ore:ingotUraniumEnriched>, <ore:ingotUraniumEnriched>, <ore:ingotUraniumEnriched>, <ore:ingotUraniumEnriched>, <ore:ingotUraniumEnriched>, <ore:ingotUraniumEnriched >, <ore:ingotUraniumEnriched>, <ore:ingotUraniumEnriched>, <ore:ingotUraniumEnriched>]);
 //====================================================================
 
 //DIAMOND STEEL
 // 1 steel plate and 1 diamond makes 1 diamond steel plate
-//materialstack-?
 recipes.addShapeless("plates_from_block", <sevendaystomine:scraplead> * 9, [<ore:blockDiamondSteel>]);
 recipes.addShapeless("diamond_steel_block", <chisel:blockcobalt:2>, [<ore:plateDiamondSteel>, <ore:plateDiamondSteel>, <ore:plateDiamondSteel>, <ore:plateDiamondSteel>, <ore:plateDiamondSteel>, <ore:plateDiamondSteel>, <ore:plateDiamondSteel>, <ore:plateDiamondSteel>, <ore:plateDiamondSteel>]);
 mods.techguns.MetalPress.addRecipe("plateIron", "gemDiamond", <sevendaystomine:scraplead>, true);
 //====================================================================
 
 //MERCURY
-//materialstack:mercury
+//materialstack-MERCURY
 mods.techguns.ReactionChamber.addRecipe("mercury_from_cinnabar", "oreMercury", <liquid:creeper_acid>, [<sevendaystomine:salt> * 6, <sevendaystomine:smallstone> * 4], <techguns:itemshared:104>, 2, 1, 5, 0, 2, 100, 0.0, "BREAK_ITEM", 25000);
-//ChemLab.addRecipe("dustMercury", 3, <minecraft:dirt, 0, <liquid:lava> * 250, false, <liquid:mercury> * 300, 35);
+mods.techguns.ChemLab.addRecipe("dustMercury", 5, <minecraft:dirt>, 0, <liquid:lava> * 400, false, null, <liquid:mercury> * 500, 35);
 //====================================================================
 
 //LAPIS
@@ -387,8 +386,9 @@ mods.techguns.ReactionChamber.addRecipe("lapis_cleansing", <srparasites:infested
 //====================================================================
 
 //POTASSIUM
+//materialstack-POTASSIUM
 mods.techguns.BlastFurnace.addRecipe("orePotassium", 1, "orePotassium", 1, <sevendaystomine:potassium> * 2, 10, 100);
-//ChemLab.addRecipe("dustPotassium", 2, "dustCoal" 1, <liquid:lava> * 150, false, <minecraft:gunpowder>, 35);
+mods.techguns.ChemLab.addRecipe("dustPotassium", 2, "dustCoal", 1, <liquid:lava> * 150, false, <minecraft:gunpowder>, <liquid:water>, 35);
 //====================================================================
 
 //DIAMOND

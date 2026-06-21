@@ -76,3 +76,4 @@ recipes.addShaped("explosive_arrows", <quark:arrow_explosive> * 8, [[<ore:sparta
 recipes.addShapeless("ender_arrow", <quark:arrow_ender>, [<ore:spartanweaponry:arrows>, <minecraft:ender_pearl>]);
 recipes.addShapeless("gold_button", <quark:gold_button>, [<ore:nuggetGold>]);
 recipes.addShapeless("iron_button", <quark:iron_button>, [<ore:nuggetIron>]);
+recipes.addShaped("redstone_inductor", <quark:redstone_inductor>, [[<ore:dustRedstone>, <ore:dustRedstone>, <minecraft:magma_cream>], [<ore:stones>, <ore:stones>, <ore:stones>]]);

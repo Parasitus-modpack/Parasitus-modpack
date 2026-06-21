@@ -248,7 +248,6 @@ mods.jei.JEI.removeAndHide(<sevendaystomine:sniper_rifle_trigger_mold>, false);
 mods.jei.JEI.removeAndHide(<sevendaystomine:shotgun_barrel_mold>, false);
 mods.jei.JEI.removeAndHide(<sevendaystomine:shotgun_receiver_mold>, false);
 mods.jei.JEI.removeAndHide(<sevendaystomine:shotgun_short_barrel_mold>, false);
-mods.jei.JEI.removeAndHide(<sevendaystomine:salt>);
 mods.jei.JEI.removeAndHide(<sevendaystomine:chlorine_tank>);
 mods.jei.JEI.removeAndHide(<sevendaystomine:natrium_tank>);
 mods.jei.JEI.removeAndHide(<sevendaystomine:chlorine_grenade>);

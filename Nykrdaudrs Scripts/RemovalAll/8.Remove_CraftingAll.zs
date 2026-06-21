@@ -793,6 +793,9 @@ recipes.removeByRecipeName("quark:diorite_speleothem");
 recipes.removeByRecipeName("quark:netherrack_speleothem");
 recipes.removeByRecipeName("quark:biome_cobblestone:2");
 recipes.removeByRecipeName("quark:biome_cobblestone");
+recipes.removeByRecipeName("quark:jasper");
+recipes.removeByRecipeName("quark:slate");
+recipes.removeByRecipeName("quark:biotite_block_1");
 //============================================================================================================================================================================================
 recipes.removeByRecipeName("quark:quilted_wool");
 recipes.removeByRecipeName("quark:quilted_wool_1");
@@ -909,6 +912,7 @@ recipes.removeByRecipeName("quark:lit_lamp");
 recipes.removeByRecipeName("quark:blaze_lantern");
 recipes.removeByRecipeName("quark:arrow_ender");
 recipes.removeByRecipeName("quark:arrow_torch");
+recipes.removeByRecipeName("quark:redstone_inductor");
 //============================================================================================================================================================================================
 furnace.remove(<quark:cooked_frog_leg>);
 furnace.remove(<quark:cooked_crab_leg>);

@@ -370,3 +370,6 @@ mods.sevendaystomine.item.ScrapDataManager.removeScrap(<sevendaystomine:motherbo
 mods.sevendaystomine.item.ScrapDataManager.removeScrap(<sevendaystomine:gpu>);
 mods.sevendaystomine.item.ScrapDataManager.removeScrap(<sevendaystomine:hdd>);
 mods.sevendaystomine.item.ScrapDataManager.removeScrap(<sevendaystomine:cpu>);
+mods.sevendaystomine.item.ScrapDataManager.removeScrap(<sevendaystomine:gas_canister>);
+mods.sevendaystomine.item.ScrapDataManager.removeScrap(<sevendaystomine:scraplead>);
+mods.sevendaystomine.item.ScrapDataManager.removeScrap(<minecraft:coal:0>);

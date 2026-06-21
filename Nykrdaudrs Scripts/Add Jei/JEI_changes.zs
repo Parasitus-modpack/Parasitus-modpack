@@ -29,7 +29,56 @@
 <nocubessrpsurvival:cratediseasedheart>.displayName = "Dispatcher Membrane Crate";
 <techguns:itemshared:78>.displayName = "Titanium Dust";
 <sevendaystomine:salt>.displayName = "Crushed Cinnabar";
-
+//============================================================================================================================================================================================
+<spartanweaponry:dagger_nickel>.displayName = "Zinc Dagger";
+<spartanweaponry:longsword_nickel>.displayName = "Zinc Longsword";
+<spartanweaponry:katana_nickel>.displayName = "Zinc Katana";
+<spartanweaponry:scythe_nickel>.displayName = "Zinc Scythe";
+<spartanweaponry:saber_nickel>.displayName = "Zinc Saber";
+<spartanweaponry:rapier_nickel>.displayName = "Zinc Rapier";
+<spartanweaponry:greatsword_nickel>.displayName = "Zinc Greatsword";
+<spartanweaponry:hammer_nickel>.displayName = "Zinc Hammer";
+<spartanweaponry:warhammer_nickel>.displayName = "Zinc Warhammer";
+<spartanweaponry:spear_nickel>.displayName = "Zinc Spear";
+<spartanweaponry:halberd_nickel>.displayName = "Zinc Halberd";
+<spartanweaponry:pike_nickel>.displayName = "Zinc Pike";
+<spartanweaponry:lance_nickel>.displayName = "Zinc Lance";
+<spartanweaponry:longbow_nickel>.displayName = "Zinc Longbow";
+<spartanweaponry:crossbow_nickel>.displayName = "Zinc Crossbow";
+<spartanweaponry:throwing_knife_nickel>.displayName = "Zinc Throwing Knife";
+<spartanweaponry:throwing_axe_nickel>.displayName = "Zinc Throwing Axe";
+<spartanweaponry:javelin_nickel>.displayName = "Zinc Javelin";
+<spartanweaponry:boomerang_nickel>.displayName = "Zinc Boomerang";
+<spartanweaponry:battleaxe_nickel>.displayName = "Zinc Battleaxe";
+<spartanweaponry:mace_nickel>.displayName = "Zinc Mace";
+<spartanweaponry:glaive_nickel>.displayName = "Zinc Glaive";
+<spartanweaponry:staff_nickel>.displayName = "Zinc Quarterstaff";
+<spartanweaponry:parrying_dagger_nickel>.displayName = "Zinc Parrying Dagger";
+//============================================================================================================================================================================================
+<spartanweaponry:dagger_platinum>.displayName = "Diamond Steel Dagger";
+<spartanweaponry:longsword_platinum>.displayName = "Diamond Steel Longsword";
+<spartanweaponry:katana_platinum>.displayName = "Diamond Steel Katana";
+<spartanweaponry:scythe_platinum>.displayName = "Diamond Steel Scythe";
+<spartanweaponry:saber_platinum>.displayName = "Diamond Steel Saber";
+<spartanweaponry:rapier_platinum>.displayName = "Diamond Steel Rapier";
+<spartanweaponry:greatsword_platinum>.displayName = "Diamond Steel Greatsword";
+<spartanweaponry:hammer_platinum>.displayName = "Diamond Steel Hammer";
+<spartanweaponry:warhammer_platinum>.displayName = "Diamond Steel Warhammer";
+<spartanweaponry:spear_platinum>.displayName = "Diamond Steel Spear";
+<spartanweaponry:halberd_platinum>.displayName = "Diamond Steel Halberd";
+<spartanweaponry:pike_platinum>.displayName = "Diamond Steel Pike";
+<spartanweaponry:lance_platinum>.displayName = "Diamond Steel Lance";
+<spartanweaponry:longbow_platinum>.displayName = "Diamond Steel Longbow";
+<spartanweaponry:crossbow_platinum>.displayName = "Diamond Steel Crossbow";
+<spartanweaponry:throwing_knife_platinum>.displayName = "Diamond Steel Throwing Knife";
+<spartanweaponry:throwing_axe_platinum>.displayName = "Diamond Steel Throwing Axe";
+<spartanweaponry:javelin_platinum>.displayName = "Diamond Steel Javelin";
+<spartanweaponry:boomerang_platinum>.displayName = "Diamond Steel Boomerang";
+<spartanweaponry:battleaxe_platinum>.displayName = "Diamond Steel Battleaxe";
+<spartanweaponry:mace_platinum>.displayName = "Diamond Steel Mace";
+<spartanweaponry:glaive_platinum>.displayName = "Diamond Steel Glaive";
+<spartanweaponry:staff_platinum>.displayName = "Diamond Steel Quarterstaff";
+<spartanweaponry:parrying_dagger_platinum>.displayName = "Diamond Steel Parrying Dagger";
 //============================================================================================================================================================================================
 //<openblocks:tank>.withTag({tank: {FluidName: "bcop-gaseous_lava-cool"}}).displayName = "Gaseous Lava  (§b Cool §r) Tank";
 //<openblocks:tank>.withTag({tank: {FluidName: "bcop-gold-cool"}}).displayName = "Molten Gold (§b Cool §r) Tank";

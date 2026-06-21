@@ -766,7 +766,7 @@ recipes.addShaped("valentines_block", <chisel:valentines:9> * 8, [[<ore:stones>,
 recipes.addShaped("futura_block", <chisel:futura:0> * 8, [[<ore:stones>, <ore:stones>, <ore:stones>], [<ore:stones>, <ore:dustRedstone>, <ore:stones>], [<ore:stones>, <ore:stones>, <ore:stones>]]);
 recipes.addShaped("factory_block", <chisel:factory:0> * 8, [[<ore:ingotIron>, <ore:stones>, <ore:ingotIron>], [<ore:stones>, null, <ore:stones>], [<ore:ingotIron>, <ore:stones>, <ore:ingotIron>]]);
 recipes.addShaped("paper_blocks", <chisel:paper:0>, [[<minecraft:paper>, <minecraft:paper>, <minecraft:paper>], [<minecraft:paper>, <minecraft:stick>, <minecraft:paper>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
-recipes.addShaped("paper_wall", <quark:paper_wall> * 6, [[<chisel:paper:0>, <chisel:paper:0>, <chisel:paper:0>], [<chisel:paper:0>, <chisel:paper:0>, <chisel:paper:0>]]);
+recipes.addShaped("paper_wall", <quark:paper_wall> * 6, [[<chisel:paper:*>, <chisel:paper:*>, <chisel:paper:*>], [<chisel:paper:*>, <chisel:paper:*>, <chisel:paper:*>]]);
 recipes.addShaped("turf", <quark:turf>, [[<ore:tallGrass>, <ore:tallGrass>, <ore:tallGrass>], [<ore:tallGrass>, <ore:tallGrass>, <ore:tallGrass>], [<ore:tallGrass>, <ore:tallGrass>, <ore:tallGrass>]]);
 recipes.addShaped("midori_block", <quark:midori_block>, [[<minecraft:dye:2>, <minecraft:dye:2>, <minecraft:dye:2>], [<minecraft:dye:2>, <minecraft:dye:2>, <minecraft:dye:2>], [<minecraft:dye:2>, <minecraft:dye:2>, <minecraft:dye:2>]]);
 recipes.addShaped("duskbound_block", <quark:duskbound_block> * 9, [[<ore:purpur_brick>, <ore:purpur_brick>, <ore:purpur_brick>], [<ore:purpur_brick>, <minecraft:obsidian>, <ore:purpur_brick>], [<ore:purpur_brick>, <ore:purpur_brick>, <ore:purpur_brick>]]);
@@ -781,5 +781,8 @@ recipes.addShapedMirrored("steel_panel_stairs", <techguns:stairs_metal:7> * 4, [
 recipes.addShapedMirrored("carbon_panel_stairs", <techguns:stairs_metal:15> * 4, [[<techguns:metalpanel:6>, null, null], [<techguns:metalpanel:6>, <techguns:metalpanel:6>, null], [<techguns:metalpanel:6>, <techguns:metalpanel:6>, <techguns:metalpanel:6>]]);
 recipes.addShapeless("brimstone", <quark:biome_cobblestone:0> * 2, [<ore:stonesCobble>, <ore:netherrack>]);
 recipes.addShaped("brownstone", <chisel:brownstone> * 4, [[null, <ore:yellow_sandstone>, null], [<ore:yellow_sandstone>, <minecraft:clay>, <ore:yellow_sandstone>], [null, <ore:yellow_sandstone>, null]]);
+recipes.addShaped("chiseled_biotite", <quark:biotite_block:1>, [[<quark:biotite_slab>], [<quark:biotite_slab>]]);
 //============================================================================================================================================================================================
 furnace.addRecipe(<sevendaystomine:rhyolitepolished>, <sevendaystomine:rhyolite>, 0.1);
+furnace.addRecipe(<quark:jasper:1>, <quark:jasper:0>, 0.1);
+furnace.addRecipe(<quark:slate:1>, <quark:slate:0>, 0.1);
