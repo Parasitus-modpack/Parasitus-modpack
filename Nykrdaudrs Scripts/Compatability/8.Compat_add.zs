@@ -134,7 +134,7 @@ oreDict.yellow_sandstone_brick.add(<chisel:sandstoneyellow:1>, <chisel:sandstone
 oreDict.yellow_sandstone_pillar.add(<chisel:sandstoneyellow2:4>);
 oreDict.smooth_yellow_sandstone_brick.add(<chisel:sandstoneyellow:15>, <chisel:sandstoneyellow2:6>, <chisel:sandstoneyellow1:1>, <chisel:sandstoneyellow1:5>, <chisel:sandstoneyellow1:4>, <chisel:sandstoneyellow1:9>, <chisel:sandstoneyellow2:5>, <minecraft:sandstone:2>, <chisel:sandstoneyellow1:2>, <chisel:sandstoneyellow:7>);
 oreDict.cracked_yellow_sandstone_brick.add(<chisel:sandstoneyellow:2>, <chisel:sandstoneyellow1:8>);
-oreDict.yellow_sandstone.add(<chisel:sandstoneyellow2:7>
+oreDict.yellow_sandstone.add(<chisel:sandstoneyellow2:7>);
 oreDict.yellow_sandstone_cobble.add(<chisel:sandstoneyellow:10>, <chisel:sandstoneyellow:0>, <minecraft:sandstone:0>, <pvj:cracked_sand:0>);
 
 //============================================================================================================================================================================================

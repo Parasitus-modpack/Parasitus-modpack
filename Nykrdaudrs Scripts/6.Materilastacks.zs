@@ -209,41 +209,41 @@ mods.sevendaystomine.item.ScrapDataManager.addScrapResult(<sevendaystomine:salt>
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
 //ScrapResult = <sevendaystomine:sand_dust>
-mods.sevendaystomine.item.ScrapDataManager.addScrap(<weather2:pocket_sand>, "sand", 1, true, false);
-mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:sandstone_rocks>, "sand", 0.25, true, false);
-mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:red_sandstone_rocks>, "sand", 0.25, true, false);
-mods.sevendaystomine.item.ScrapDataManager.addScrap(minecraft:sand>, "sand", 9,
-mods.sevendaystomine.item.ScrapDataManager.addScrap(minecraft:sandstone>, "sand", 18
-mods.sevendaystomine.item.ScrapDataManager.addScrap(minecraft:red_sandstone>, "sand", 18
-mods.sevendaystomine.item.ScrapDataManager.addScrap(minecraft:red_sandstone_stairs>, "sand", 13.5
-mods.sevendaystomine.item.ScrapDataManager.addScrap(minecraft:sandstone_stairs>, "sand", 13.5
-mods.sevendaystomine.item.ScrapDataManager.addScrap(pvj:cracked_sand>, "sand", 18
-mods.sevendaystomine.item.ScrapDataManager.addScrap(pvj:red_cracked_sand>, "sand", 18
-mods.sevendaystomine.item.ScrapDataManager.addScrap(chisel:sandstoneyellow>, "sand", 18
-mods.sevendaystomine.item.ScrapDataManager.addScrap(chisel:sandstoneyellow1>, "sand", 18
-mods.sevendaystomine.item.ScrapDataManager.addScrap(chisel:sandstoneyellow2>, "sand", 18
-mods.sevendaystomine.item.ScrapDataManager.addScrap(chisel:sandstonered>, "sand", 18
-mods.sevendaystomine.item.ScrapDataManager.addScrap(chisel:sandstonered1>, "sand", 18
-mods.sevendaystomine.item.ScrapDataManager.addScrap(chisel:sandstonered2>, "sand", 18
-mods.sevendaystomine.item.ScrapDataManager.addScrap(chisel:sandstonered-scribbles>, "sand", 4.5
-mods.sevendaystomine.item.ScrapDataManager.addScrap(chisel:sandstone-scribbles>, "sand", 4.5
-mods.sevendaystomine.item.ScrapDataManager.addScrap(sevendaystomine:sand_layer>, "sand", 3
-mods.sevendaystomine.item.ScrapDataManager.addScrap(sevendaystomine:red_sand_layer>, "sand", 3
-mods.sevendaystomine.item.ScrapDataManager.addScrap(sevendaystomine:sandbags>, "sand",
-mods.sevendaystomine.item.ScrapDataManager.addScrap(oe:pink_coral_dead>, "sand",
-mods.sevendaystomine.item.ScrapDataManager.addScrap(oe:blue_coral_dead>, "sand",
-mods.sevendaystomine.item.ScrapDataManager.addScrap(oe:yellow_coral_fan_dead>, "sand",
-mods.sevendaystomine.item.ScrapDataManager.addScrap(oe:red_coral_fan_dead>, "sand",
-mods.sevendaystomine.item.ScrapDataManager.addScrap(oe:purple_coral_fan_dead>, "sand",
-mods.sevendaystomine.item.ScrapDataManager.addScrap(oe:pink_coral_fan_dead>, "sand",
-mods.sevendaystomine.item.ScrapDataManager.addScrap(oe:blue_coral_fan_dead>, "sand",
-mods.sevendaystomine.item.ScrapDataManager.addScrap(oe:yellow_coral_dead>, "sand",
-mods.sevendaystomine.item.ScrapDataManager.addScrap(oe:red_coral_dead>, "sand",
-mods.sevendaystomine.item.ScrapDataManager.addScrap(oe:purple_coral_dead>, "sand",
-mods.sevendaystomine.item.ScrapDataManager.addScrap(oe:shell_sand>, "sand",
-mods.sevendaystomine.item.ScrapDataManager.addScrap(techguns:sand_hard>, "sand",
-mods.sevendaystomine.item.ScrapDataManager.addScrap(techguns:sandbags>, "sand", 36
-mods.sevendaystomine.item.ScrapDataManager.addScrap(weather2:sand_layer_placeable>, "sand",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<weather2:pocket_sand>, "sand", 1);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:sandstone_rocks>, "sand", 0.25);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:red_sandstone_rocks>, "sand", 0.25);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:sand>, "sand", 9);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:sandstone>, "sand", 18);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:red_sandstone>, "sand", 18);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:red_sandstone_stairs>, "sand", 13.5);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:sandstone_stairs>, "sand", 13.5);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:cracked_sand>, "sand", 18);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:red_cracked_sand>, "sand", 18);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:sandstoneyellow>, "sand", 18);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:sandstoneyellow1>, "sand", 18);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:sandstoneyellow2>, "sand", 18);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:sandstonered>, "sand", 18);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:sandstonered1>, "sand", 18);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:sandstonered2>, "sand", 18);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:sandstonered-scribbles>, "sand", 4.5);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:sandstone-scribbles>, "sand", 4.5);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:sand_layer>, "sand", 3);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:red_sand_layer>, "sand", 3);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:sandbags>, "sand", 17);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<oe:pink_coral_dead>, "sand", 5);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<oe:blue_coral_dead>, "sand", 5);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<oe:yellow_coral_fan_dead>, "sand", 5);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<oe:red_coral_fan_dead>, "sand", 5);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<oe:purple_coral_fan_dead>, "sand", 5);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<oe:pink_coral_fan_dead>, "sand", 5);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<oe:blue_coral_fan_dead>, "sand", 5);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<oe:yellow_coral_dead>, "sand", 5);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<oe:red_coral_dead>, "sand", 5);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<oe:purple_coral_dead>, "sand", 5);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<oe:shell_sand>, "sand", 9);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<techguns:sand_hard>, "sand", 17);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<techguns:sandbags>, "sand", 36);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<weather2:sand_layer_placeable>, "sand", 1);
 
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
@@ -266,7 +266,7 @@ mods.sevendaystomine.item.ScrapDataManager.addScrapResult(<minecraft:string>, "s
 //BONE
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
-mods.sevendaystomine.item.ScrapDataManager.addScrapResult(<minecraft:bone, "bone", 1);
+mods.sevendaystomine.item.ScrapDataManager.addScrapResult(<minecraft:bone>, "bone", 1);
 
 
 //============================================================================================================================================================================================

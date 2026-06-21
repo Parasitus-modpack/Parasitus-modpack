@@ -29,6 +29,7 @@
 <nocubessrpsurvival:cratediseasedheart>.displayName = "Dispatcher Membrane Crate";
 <techguns:itemshared:78>.displayName = "Titanium Dust";
 <sevendaystomine:salt>.displayName = "Crushed Cinnabar";
+<pvj:sapling_juniper_berried>.displayName = "Berried Juniper Sapling";
 //============================================================================================================================================================================================
 <spartanweaponry:dagger_nickel>.displayName = "Zinc Dagger";
 <spartanweaponry:longsword_nickel>.displayName = "Zinc Longsword";
