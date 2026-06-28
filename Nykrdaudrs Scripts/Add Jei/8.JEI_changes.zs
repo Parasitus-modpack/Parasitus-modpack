@@ -14,13 +14,6 @@
 <chisel:blockaluminum>.displayName = "Block of Titanium";
 <chisel:obsidian>.displayName = "Block of Obsidian Steel";
 <netherex:worn_iron>.displayName = "Block of Scrap Iron";
-<minecraft:diamond_shovel>.displayName = "Diamond Steel Shovel";
-<minecraft:diamond_pickaxe>.displayName = "Diamond Steel Pickaxe";
-<minecraft:diamond_axe>.displayName = "Diamond Steel Axe";
-<minecraft:diamond_hoe>.displayName = "Diamond Steel Hoe";
-<sevendaystomine:scraplead>.displayName = "Diamond Steel Plate";
-<chisel:blockcobalt>.displayName = "Block of Diamond Steel";
-<sevendaystomine:leadingot>.displayName = "Chunk of Lead";
 <chisel:blockplatinum>.displayName = "Tin Plates";
 <sevendaystomine:gear>.displayName = "Steel Gear";
 <nocubessrpsurvival:cratelongarmsarmorfragment>.displayName = "Longarm Armor Fragment Crate";
@@ -30,6 +23,8 @@
 <techguns:itemshared:78>.displayName = "Titanium Dust";
 <sevendaystomine:salt>.displayName = "Crushed Cinnabar";
 <pvj:sapling_juniper_berried>.displayName = "Berried Juniper Sapling";
+<nocubessrpsurvival:ruptersalad>.displayName ="Buglin Stew";
+<nocubessrpsurvival:larvasalad>.displayName = "Rupter Soup";
 //============================================================================================================================================================================================
 <spartanweaponry:dagger_nickel>.displayName = "Zinc Dagger";
 <spartanweaponry:longsword_nickel>.displayName = "Zinc Longsword";
@@ -55,31 +50,6 @@
 <spartanweaponry:glaive_nickel>.displayName = "Zinc Glaive";
 <spartanweaponry:staff_nickel>.displayName = "Zinc Quarterstaff";
 <spartanweaponry:parrying_dagger_nickel>.displayName = "Zinc Parrying Dagger";
-//============================================================================================================================================================================================
-<spartanweaponry:dagger_platinum>.displayName = "Diamond Steel Dagger";
-<spartanweaponry:longsword_platinum>.displayName = "Diamond Steel Longsword";
-<spartanweaponry:katana_platinum>.displayName = "Diamond Steel Katana";
-<spartanweaponry:scythe_platinum>.displayName = "Diamond Steel Scythe";
-<spartanweaponry:saber_platinum>.displayName = "Diamond Steel Saber";
-<spartanweaponry:rapier_platinum>.displayName = "Diamond Steel Rapier";
-<spartanweaponry:greatsword_platinum>.displayName = "Diamond Steel Greatsword";
-<spartanweaponry:hammer_platinum>.displayName = "Diamond Steel Hammer";
-<spartanweaponry:warhammer_platinum>.displayName = "Diamond Steel Warhammer";
-<spartanweaponry:spear_platinum>.displayName = "Diamond Steel Spear";
-<spartanweaponry:halberd_platinum>.displayName = "Diamond Steel Halberd";
-<spartanweaponry:pike_platinum>.displayName = "Diamond Steel Pike";
-<spartanweaponry:lance_platinum>.displayName = "Diamond Steel Lance";
-<spartanweaponry:longbow_platinum>.displayName = "Diamond Steel Longbow";
-<spartanweaponry:crossbow_platinum>.displayName = "Diamond Steel Crossbow";
-<spartanweaponry:throwing_knife_platinum>.displayName = "Diamond Steel Throwing Knife";
-<spartanweaponry:throwing_axe_platinum>.displayName = "Diamond Steel Throwing Axe";
-<spartanweaponry:javelin_platinum>.displayName = "Diamond Steel Javelin";
-<spartanweaponry:boomerang_platinum>.displayName = "Diamond Steel Boomerang";
-<spartanweaponry:battleaxe_platinum>.displayName = "Diamond Steel Battleaxe";
-<spartanweaponry:mace_platinum>.displayName = "Diamond Steel Mace";
-<spartanweaponry:glaive_platinum>.displayName = "Diamond Steel Glaive";
-<spartanweaponry:staff_platinum>.displayName = "Diamond Steel Quarterstaff";
-<spartanweaponry:parrying_dagger_platinum>.displayName = "Diamond Steel Parrying Dagger";
 //============================================================================================================================================================================================
 //<openblocks:tank>.withTag({tank: {FluidName: "bcop-gaseous_lava-cool"}}).displayName = "Gaseous Lava  (§b Cool §r) Tank";
 //<openblocks:tank>.withTag({tank: {FluidName: "bcop-gold-cool"}}).displayName = "Molten Gold (§b Cool §r) Tank";

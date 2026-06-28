@@ -136,7 +136,7 @@ recipes.addShaped("projector", <sevendaystomine:screen_projector>, [[<ore:ingotI
 recipes.addShaped("cctv", <sevendaystomine:camera> * 2, [[<ore:ingotIron>, <ore:circuitBasic>, <ore:ingotIron>], [<ore:ingotIron>, <minecraft:observer>, <ore:ingotIron>], [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>]]);
 recipes.addShaped("lamp", <sevendaystomine:lamp> * 3, [[null, <ore:nuggetIron>, null], [<ore:plateIron>, <ore:ingotIron>, <ore:plateIron>], [<ore:plateIron>, <minecraft:redstone_lamp>, <ore:plateIron>]]);
 recipes.addShapeless("asphalt", <sevendaystomine:asphalt>, [<forge:bucketfilled>.withTag({FluidName: "oil_residue_heat_1", Amount: 1000}), <minecraft:gravel>]);
-recipes.addShapeless("sign", <sevendaystomine:street_sign>, [<minecraft:sign>, <ore:plateIron>]);
+recipes.addShapeless("street_sign", <sevendaystomine:street_sign>, [<minecraft:sign>, <ore:plateIron>]);
 recipes.addShapeless("burnt_fence", <sevendaystomine:burnt_planks_fence>, [<ore:fenceWood>, <ore:fenceWood>, <ore:fenceWood>, <minecraft:fire_charge>]);
 recipes.addShapeless("burnt_slab", <sevendaystomine:burnt_planks_slab>, [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>, <minecraft:fire_charge>]);
 recipes.addShapeless("burnt_stairs", <sevendaystomine:burnt_planks_stairs>, [<ore:stairWood>, <ore:stairWood>, <ore:stairWood>, <minecraft:fire_charge>]);

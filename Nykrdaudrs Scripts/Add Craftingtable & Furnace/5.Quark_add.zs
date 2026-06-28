@@ -63,17 +63,21 @@ recipes.addShaped("candle_dyed_black", <quark:candle:15> * 8, [[<ore:candle>, <o
 //MISC
 recipes.addShaped("thatch", <quark:thatch> * 4, [[<minecraft:hay_block>, <minecraft:hay_block>], [<minecraft:hay_block>, <minecraft:hay_block>]]);
 recipes.addShaped("redstone_randomizer", <quark:redstone_randomizer>, [[null, <minecraft:redstone_torch>, null], [<minecraft:redstone_torch>, <quark:biotite>, <minecraft:redstone_torch>], [<ore:stones>, <ore:stones>, <ore:stones>]]);
-recipes.addShaped("horse_whistle", <quark:horse_whistle>, [[<sevendaystomine:woodplank>, <sevendaystomine:woodplank>, <sevendaystomine:woodplank>], [<ore:ingotIron>, <minecraft:stick>, <sevendaystomine:woodplank>]]);
 recipes.addShapeless("glowcelium_1", <quark:glowcelium>, [<minecraft:mycelium>, <quark:glowshroom>]); 
-recipes.addShapeless("glowcelium_2", <quark:glowcelium>, [<minecraft:mycelium>, <pvj:glowcap>]);
 recipes.addShaped("rainbow_rune", <quark:rune:16> * 8, [[<quark:rune:4>, <quark:rune:5>, <quark:rune:3>], [<quark:rune:1>, <ore:blockGlassColorless>, <quark:rune:11>], [<quark:rune:14>, <quark:rune:0>, <quark:rune:2>]]);
 recipes.addShaped("rain_detector", <quark:rain_detector>, [[<ore:blockGlassColorless>, <ore:blockGlassColorless>, <ore:blockGlassColorless>], [<quark:biotite>, <quark:biotite>, <quark:biotite>], [<minecraft:purpur_slab>, <minecraft:purpur_slab>, <minecraft:purpur_slab>]]);
 recipes.addShaped("grate", <quark:grate>, [[<ore:paneIron>, <ore:paneIron>], [<ore:paneIron>, <ore:paneIron>]]);
 recipes.addShaped("lit_lamp", <quark:lit_lamp>, [[<ore:dustGlowstone>, <ore:dustGlowstone>, <ore:dustGlowstone>], [<ore:dustGlowstone>, <minecraft:redstone_lamp>, <ore:dustGlowstone>], [<ore:dustGlowstone>, <ore:dustGlowstone>, <ore:dustGlowstone>]]);
-recipes.addShaped("blaze_lantern", <quark:blaze_lantern>, [[<netherex:blazed_wither_bone>, <netherex:blazed_wither_bone>, <netherex:blazed_wither_bone>], [<netherex:blazed_wither_bone>, <minecraft:blaze_powder>, <netherex:blazed_wither_bone>], [<netherex:blazed_wither_bone>, <netherex:blazed_wither_bone>, <netherex:blazed_wither_bone>]]);
-recipes.addShapeless("torch_arrow", <quark:arrow_torch>, [<ore:spartanweaponry:arrows>, <minecraft:torch>]);
-recipes.addShaped("explosive_arrows", <quark:arrow_explosive> * 8, [[<ore:spartanweaponry:arrows>, <ore:spartanweaponry:arrows>, <ore:spartanweaponry:arrows>], [<ore:spartanweaponry:arrows>, <spartanweaponry:material:2>, <ore:spartanweaponry:arrows>], [<ore:spartanweaponry:arrows>, <ore:spartanweaponry:arrows>, <ore:spartanweaponry:arrows>]]);
-recipes.addShapeless("ender_arrow", <quark:arrow_ender>, [<ore:spartanweaponry:arrows>, <minecraft:ender_pearl>]);
 recipes.addShapeless("gold_button", <quark:gold_button>, [<ore:nuggetGold>]);
 recipes.addShapeless("iron_button", <quark:iron_button>, [<ore:nuggetIron>]);
 recipes.addShaped("redstone_inductor", <quark:redstone_inductor>, [[<ore:dustRedstone>, <ore:dustRedstone>, <minecraft:magma_cream>], [<ore:stones>, <ore:stones>, <ore:stones>]]);
+//============================================================================================================================================================================================
+//FROM MODS
+recipes.addShaped("witch_hat", <quark:witch_hat>, [[null, <sevendaystomine:cloth>, null], [<sevendaystomine:cloth>, <sevendaystomine:cloth>, <sevendaystomine:cloth>]]);
+recipes.addShapeless("ender_arrow", <quark:arrow_ender>, [<ore:spartanweaponry:arrows>, <minecraft:ender_pearl>]);
+recipes.addShapeless("torch_arrow", <quark:arrow_torch>, [<ore:spartanweaponry:arrows>, <minecraft:torch>]);
+recipes.addShaped("explosive_arrows", <quark:arrow_explosive> * 8, [[<ore:spartanweaponry:arrows>, <ore:spartanweaponry:arrows>, <ore:spartanweaponry:arrows>], [<ore:spartanweaponry:arrows>, <spartanweaponry:material:2>, <ore:spartanweaponry:arrows>], [<ore:spartanweaponry:arrows>, <ore:spartanweaponry:arrows>, <ore:spartanweaponry:arrows>]]);
+recipes.addShaped("blaze_lantern", <quark:blaze_lantern>, [[<netherex:blazed_wither_bone>, <netherex:blazed_wither_bone>, <netherex:blazed_wither_bone>], [<netherex:blazed_wither_bone>, <minecraft:blaze_powder>, <netherex:blazed_wither_bone>], [<netherex:blazed_wither_bone>, <netherex:blazed_wither_bone>, <netherex:blazed_wither_bone>]]);
+recipes.addShaped("horse_whistle", <quark:horse_whistle>, [[<sevendaystomine:woodplank>, <sevendaystomine:woodplank>, <sevendaystomine:woodplank>], [<ore:ingotIron>, <minecraft:stick>, <sevendaystomine:woodplank>]]);
+recipes.addShapeless("glowcelium_2", <quark:glowcelium>, [<minecraft:mycelium>, <pvj:glowcap>]);
+

@@ -508,6 +508,7 @@ furnace.remove(<sevendaystomine:cannedwater>);
 //============================================================================================================================================================================================
 recipes.removeByRecipeName("travelersbackpack:sleeping_bag_bottom");
 recipes.removeByRecipeName("travelersbackpack:backpack_tank");
+recipes.removeByRecipeName("travelersbackpack:hose");
 recipes.removeByRecipeName("travelersbackpack:travelers_backpack_to_standard");
 recipes.removeByRecipeName("travelersbackpack:travelers_backpack_standard");
 recipes.removeByRecipeName("travelersbackpack:travelers_backpack_white");
@@ -692,6 +693,9 @@ recipes.removeByRecipeName("techguns:itemshared_82_ingotlead");
 recipes.removeByRecipeName("techguns:itemshared_83_ingotsteel");
 recipes.removeByRecipeName("techguns:itemshared_103_quartzrod");
 recipes.removeByRecipeName("techguns:itemshared_103_quartzrod_alt");
+recipes.removeByRecipeName("techguns:itemshared_86_nuggetcopper");
+recipes.removeByRecipeName("techguns:itemshared_87_nuggetlead");
+recipes.removeByRecipeName("techguns:itemshared_88_nuggetsteel");
 //============================================================================================================================================================================================
 //REMOVAL
 recipes.removeByRecipeName("techguns:itemshared_41_laserbarrel");
@@ -1528,6 +1532,11 @@ recipes.removeByRecipeName("chisel:bookshelf1");
 recipes.removeByRecipeName("chisel:bookshelf2");
 recipes.removeByRecipeName("chisel:bookshelf3");
 recipes.removeByRecipeName("chisel:bookshelf4");
+recipes.removeByRecipeName("chisel:uncraft_blocklead");
+recipes.removeByRecipeName("chisel:uncraft_blockcopper");
+recipes.removeByRecipeName("chisel:uncraft_blocktin");
+recipes.removeByRecipeName("chisel:uncraft_blockbronze");
+recipes.removeByRecipeName("chisel:uncraft_blocksteel");
 
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
@@ -1811,7 +1820,6 @@ recipes.removeByRecipeName("nocubessrpsurvival:recipe_wood_vanilla_boats");
 recipes.removeByRecipeName("nocubessrpsurvival:recipe_wood_fence_gate");
 //============================================================================================================================================================================================
 recipes.removeByRecipeName("nocubessrpsurvival:recipe_cooked_parasite_heart");
-recipes.removeByRecipeName("nocubessrpsurvival:recipe_flesh_barbecue");
 recipes.removeByRecipeName("nocubessrpsurvival:recipe_flesh_stew");
 recipes.removeByRecipeName("nocubessrpsurvival:recipe_rupter_salad");
 recipes.removeByRecipeName("nocubessrpsurvival:recipe_assimilated_soup");
@@ -1822,15 +1830,14 @@ recipes.removeByRecipeName("nocubessrpsurvival:recipe_cooked_brain");
 recipes.removeByRecipeName("nocubessrpsurvival:recipe_bone_stock");
 recipes.removeByRecipeName("nocubessrpsurvival:recipe_roasted_lump");
 recipes.removeByRecipeName("nocubessrpsurvival:recipe_cooked_parasite_heart");
-recipes.removeByRecipeName("nocubessrpsurvival:recipe_pest_bread");
 recipes.removeByRecipeName("nocubessrpsurvival:recipe_moldered_pie");
 recipes.removeByRecipeName("nocubessrpsurvival:recipe_reeking_ribs");
 recipes.removeByRecipeName("nocubessrpsurvival:recipe_buglin_salad");
 //============================================================================================================================================================================================
 //furnace.remove(<nocubessrpsurvival:cookedbuglinlarva>);
 //furnace.remove(<nocubessrpsurvival:cookedfleshbarbecue>);
-//furnace.remova(<nocubessrpsurvival:cookedflesh>);
-//furnace.remove(<nocubesarmory:carbonsteel>);
+//furnace.remove(<nocubessrpsurvival:cookedflesh>);
+//furnace.remove(<nocubessrparmory:carbonsteel>);
 //============================================================================================================================================================================================
 recipes.removeByRecipeName("nocubessrparmory:recipe_twisted_dagger");
 recipes.removeByRecipeName("nocubessrparmory:recipe_twisted_mallet");

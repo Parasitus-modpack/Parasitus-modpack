@@ -74,7 +74,6 @@ mods.chisel.Carving.removeVariation("temple", <chisel:templemossy:15>);
 //============================================================================================================================================================================================
 
 oreDict.obsidian.remove(<chisel:obsidian:*>);
-oreDict.ingotLead.remove(<sevendaystomine:leadingot>);
 oreDict.cobblestone.remove(<chisel:cobblestone:1>, <chisel:cobblestone:2>, <chisel:cobblestone:3>, <chisel:cobblestone:4>, <chisel:cobblestone:5>, <chisel:cobblestone:6>, <chisel:cobblestone:7>, <chisel:cobblestone:8>, <chisel:cobblestone:9>, <chisel:cobblestone:11>, <chisel:cobblestone:12>, <chisel:cobblestone:13>, <chisel:cobblestone:14>, <chisel:cobblestone:15>, <chisel:cobblestone1:*>, <chisel:cobblestone2:*>);
 oreDict.blockMossy.remove(<chisel:cobblestonemossy:*>, <chisel:cobblestonemossy1:*>, <chisel:cobblestonemossy2:*>);
 oreDict.brickStone.remove(<chisel:stonebrick:*>, <chisel:stonebrick1:*>, <chisel:stonebrick2:*>);
@@ -111,13 +110,6 @@ oreDict.blockGlass.remove(<netherex:soul_glass>);
 oreDict.paneGlass.remove(<netherex:soul_glass_pane>);
 oreDict.bricksStone.remove(<chisel:stonebrick:1>, <chisel:stonebrick:2>, <chisel:stonebrick:3>, <chisel:stonebrick:4>, <chisel:stonebrick:5>, <chisel:stonebrick:6>, <chisel:stonebrick:7>, <chisel:stonebrick:8>, <chisel:stonebrick:9>, <chisel:stonebrick:10>, <chisel:stonebrick:11>, <chisel:stonebrick:12>, <chisel:stonebrick:13>, <chisel:stonebrick:14>, <chisel:stonebrick:15>, <chisel:stonebrick1:1>, <chisel:stonebrick1:2>, <chisel:stonebrick1:3>, <chisel:stonebrick1:4>, <chisel:stonebrick1:5>, <chisel:stonebrick1:6>, <chisel:stonebrick1:7>, <chisel:stonebrick1:8>, <chisel:stonebrick1:9>, <chisel:stonebrick2:1>, <chisel:stonebrick2:2>, <chisel:stonebrick2:3>, <chisel:stonebrick2:4>, <chisel:stonebrick2:5>, <chisel:stonebrick2:6>, <chisel:stonebrick2:7>, <chisel:stonebrick2:8>, <chisel:stonebrick2:9>);
 oreDict.brickStone.remove(<chisel:stonebrick:1>, <chisel:stonebrick:2>, <chisel:stonebrick:3>, <chisel:stonebrick:4>, <chisel:stonebrick:5>, <chisel:stonebrick:6>, <chisel:stonebrick:7>, <chisel:stonebrick:8>, <chisel:stonebrick:9>, <chisel:stonebrick:10>, <chisel:stonebrick:11>, <chisel:stonebrick:12>, <chisel:stonebrick:13>, <chisel:stonebrick:14>, <chisel:stonebrick:15>, <chisel:stonebrick1:1>, <chisel:stonebrick1:2>, <chisel:stonebrick1:3>, <chisel:stonebrick1:4>, <chisel:stonebrick1:5>, <chisel:stonebrick1:6>, <chisel:stonebrick1:7>, <chisel:stonebrick1:8>, <chisel:stonebrick1:9>, <chisel:stonebrick2:1>, <chisel:stonebrick2:2>, <chisel:stonebrick2:3>, <chisel:stonebrick2:4>, <chisel:stonebrick2:5>, <chisel:stonebrick2:6>, <chisel:stonebrick2:7>, <chisel:stonebrick2:8>, <chisel:stonebrick2:9>);
-
-//============================================================================================================================================================================================
-//============================================================================================================================================================================================
-//REMOVE MODDED SPECIALS
-//============================================================================================================================================================================================
-//============================================================================================================================================================================================
-mods.techguns.BlastFurnace.removeRecipe(<techguns:itemshared:83>);
 
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
@@ -371,5 +363,3 @@ mods.sevendaystomine.item.ScrapDataManager.removeScrap(<sevendaystomine:gpu>);
 mods.sevendaystomine.item.ScrapDataManager.removeScrap(<sevendaystomine:hdd>);
 mods.sevendaystomine.item.ScrapDataManager.removeScrap(<sevendaystomine:cpu>);
 mods.sevendaystomine.item.ScrapDataManager.removeScrap(<sevendaystomine:gas_canister>);
-mods.sevendaystomine.item.ScrapDataManager.removeScrap(<sevendaystomine:scraplead>);
-mods.sevendaystomine.item.ScrapDataManager.removeScrap(<minecraft:coal:0>);

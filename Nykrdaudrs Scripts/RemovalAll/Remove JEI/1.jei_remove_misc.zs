@@ -409,7 +409,6 @@ mods.jei.JEI.removeAndHide(<openblocks:sprinkler>);
 mods.jei.JEI.removeAndHide(<openblocks:cannon>);
 mods.jei.JEI.removeAndHide(<openblocks:vacuum_hopper>);
 mods.jei.JEI.removeAndHide(<openblocks:sponge>);
-//============================================================================================================================================================================================
 mods.jei.JEI.removeAndHide(<openblocks:fan>);
 mods.jei.JEI.removeAndHide(<openblocks:block_breaker>);
 mods.jei.JEI.removeAndHide(<openblocks:block_placer>);
@@ -524,6 +523,13 @@ mods.jei.JEI.removeAndHide(<chisel:blocksilver:3>);
 mods.jei.JEI.removeAndHide(<chisel:blocksilver:4>);
 mods.jei.JEI.removeAndHide(<chisel:blocksilver:5>);
 mods.jei.JEI.removeAndHide(<chisel:blocksilver:6>);
+mods.jei.JEI.removeAndHide(<chisel:blockcobalt:0>);
+mods.jei.JEI.removeAndHide(<chisel:blockcobalt:1>);
+mods.jei.JEI.removeAndHide(<chisel:blockcobalt:2>);
+mods.jei.JEI.removeAndHide(<chisel:blockcobalt:3>);
+mods.jei.JEI.removeAndHide(<chisel:blockcobalt:4>);
+mods.jei.JEI.removeAndHide(<chisel:blockcobalt:5>);
+mods.jei.JEI.removeAndHide(<chisel:blockcobalt:6>);
 //============================================================================================================================================================================================
 //COROUTIL
 mods.jei.JEI.removeAndHide(<coroutil:item_repairing_gel>);
@@ -559,9 +565,6 @@ mods.jei.JEI.removeAndHide(<quark:crab_leg>);
 mods.jei.JEI.removeAndHide(<quark:cooked_crab_leg>);
 mods.jei.JEI.removeAndHide(<quark:monster_box>);
 mods.jei.JEI.removeAndHide(<quark:chute>);
-//============================================================================================================================================================================================
-//WEATHER2
-//mods.jei.JEI.removeAndHide(<weather2:motor>);
 //============================================================================================================================================================================================
 //PARASITES
 mods.jei.JEI.removeAndHide(<overlast:beef_pickaxe>);

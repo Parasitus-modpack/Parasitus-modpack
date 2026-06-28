@@ -354,11 +354,10 @@ oreDict.arrow.add(<minecraft:arrow>, <minecraft:spectral_arrow>, <minecraft:tipp
 //============================================================================================================================================================================================
 //Metals
 //============================================================================================================================================================================================
-oreDict.plateDiamondSteel.add(<sevendaystomine:scraplead>);
 oreDict.nuggetGold.add(<sevendaystomine:scrap_gold>);
 oreDict.nuggetIron.add(<sevendaystomine:scrapiron>);
 oreDict.nuggetCopper.add(<sevendaystomine:scrap_copper>);
-oreDict.nuggetLead.add(<sevendaystomine:leadingot>);
+oreDict.nuggetLead.add(<sevendaystomine:scraplead>);
 oreDict.nuggetSteel.add(<sevendaystomine:scrap_steel>);
 oreDict.nuggetBrass.add(<sevendaystomine:scrapbrass>);
 oreDict.nuggetBronze.add(<sevendaystomine:scrap_bronze>);
@@ -369,13 +368,12 @@ oreDict.blockTitanium.add(<chisel:blockaluminum:*>);
 oreDict.blockZinc.add(<chisel:blocknickel:*>);
 oreDict.dustCoal.add(<minecraft:coal:*>);
 oreDict.blockFuelCoal.add(<minecraft:coal_block>, <chisel:block_coal:*>, <chisel:block_coal1:*>, <chisel:block_coal2:*>, <chisel:block_charcoal:*>, <chisel:block_charcoal1:*>, <chisel:block_charcoal2:*>);
-oreDict.blockDiamondSteel.add(<chisel:blockcobalt:*>);
 oreDict.blockObsidianSteel.add(<chisel:obsidian:*>);
 oreDict.dustMercury.add(<sevendaystomine:salt>);
 oreDict.dustPotassium.add(<sevendaystomine:potassium>);
 oreDict.oreBiotitie.add(<quark:biotite_ore>);
 oreDict.blockCopper.add(<sevendaystomine:copper_block>);
-
+oreDict..add(<sevendaystomine:brass_block>);
 
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================

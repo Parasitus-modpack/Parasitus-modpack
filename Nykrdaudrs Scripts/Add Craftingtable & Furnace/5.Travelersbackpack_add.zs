@@ -6,7 +6,7 @@
 
 //============================================================================================================================================================================================
 recipes.addShaped("backpack_tank", <travelersbackpack:backpack_tank>, [[<ore:blockGlassColorless>, <ore:ingotIron>, <ore:blockGlassColorless>], [<ore:blockGlassColorless>, <ore:blockGlassColorless>, <ore:blockGlassColorless>], [<ore:blockGlassColorless>, <ore:ingotIron>, <ore:blockGlassColorless>]]);
-// recipes.addShaped("backpack_hose", <travelersbackpack:hose>, [[
+// recipes.addShaped("backpack_hose", <travelersbackpack:hose>, [[<travelersbackpack:hose_nozzle>, null, null], [<ore:itemRubber>, null, null], [<ore:itemRubber>, <ore:itemRubber>, <ore:itemRubber>]]);
 recipes.addShapeless("backpack_basic_0", <travelersbackpack:travelers_backpack:0>, [<travelersbackpack:travelers_backpack:*>]);
 recipes.addShaped("backpack_basic_1", <travelersbackpack:travelers_backpack:0>, [[<ore:leather>, <quark:gold_button>, <ore:leather>], [<travelersbackpack:backpack_tank>, <ore:chestWood>, <travelersbackpack:backpack_tank>], [<ore:leather>, <sevendaystomine:sleepingbagitem:*>, <ore:leather>]]);
 recipes.addShaped("backpack_white", <travelersbackpack:travelers_backpack:72>, [[<ore:woolWhite>, <ore:woolWhite>, <ore:woolWhite>], [<ore:woolWhite>, <travelersbackpack:travelers_backpack:*>, <ore:woolWhite>], [<ore:woolWhite>, <ore:woolWhite>, <ore:woolWhite>]]);
