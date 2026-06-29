@@ -373,7 +373,7 @@ oreDict.dustMercury.add(<sevendaystomine:salt>);
 oreDict.dustPotassium.add(<sevendaystomine:potassium>);
 oreDict.oreBiotitie.add(<quark:biotite_ore>);
 oreDict.blockCopper.add(<sevendaystomine:copper_block>);
-oreDict..add(<sevendaystomine:brass_block>);
+oreDict.blockBrass.add(<sevendaystomine:brass_block>);
 
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================

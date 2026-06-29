@@ -37,7 +37,6 @@ recipes.addShaped("leaf_carpet_24", <pvj:fallenleaves_pink_cherry_blossom> * 3, 
 recipes.addShaped("leaf_carpet_25", <pvj:fallenleaves_pink_cherry_blossom> * 3, [[<quark:variant_leaves:1>, <quark:variant_leaves:1>, <quark:variant_leaves:1>]]);
 recipes.addShaped("leaf_carpet_26", <pvj:fallenleaves_jacaranda> * 3, [[<pvj:leaves_jacaranda:*>, <pvj:leaves_jacaranda:*>, <pvj:leaves_jacaranda:*>]]);
 recipes.addShaped("bone_pile", <pvj:bones> * 6, [[null, <minecraft:bone>, null], [<minecraft:bone>, <minecraft:bone>, <minecraft:bone>]]);
-
 recipes.addShaped("leaf_carpet_11", <pvj:fallenleaves_palm> * 3, [[<oe:palm_leaves>, <oe:palm_leaves>, <oe:palm_leaves>]]);
 recipes.addShaped("leaf_carpet_12", <pvj:fallenleaves_palm> * 3, [[<oe:palm_leaves_flowering>, <oe:palm_leaves_flowering>, <oe:palm_leaves_flowering>]]);
 recipes.addShaped("leaf_carpet_7", <pvj:fallenleaves_dead> * 3, [[<overlast:brown_leaves>, <overlast:brown_leaves>, <overlast:brown_leaves>]]);
