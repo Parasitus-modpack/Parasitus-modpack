@@ -6,17 +6,11 @@
 
 //============================================================================================================================================================================================
 //BLOCKS
-recipes.addShaped("sandbags", <sevendaystomine:sandbags> * 3, [[<techguns:sand_hard>, <techguns:sand_hard>, <techguns:sand_hard>], [<techguns:sand_hard>, <techguns:sand_hard>, <techguns:sand_hard>]]);
 recipes.addShaped("traffic_light", <sevendaystomine:trafficlight>, [[<ore:ingotIron>, <ore:paneGlassRed>, <ore:ingotIron>], [<ore:ingotIron>, <ore:paneGlassYellow>, <ore:ingotIron>], [<ore:ingotIron>, <ore:paneGlassLime>, <ore:ingotIron>]]);
 recipes.addShaped("pedestrian_light", <sevendaystomine:trafficlightpedestrian>, [[<ore:ingotIron>, <ore:paneGlassRed>, <ore:ingotIron>], [<ore:ingotIron>, <ore:paneGlassLime>, <ore:ingotIron>]]);
 recipes.addShaped("radiator", <sevendaystomine:radiator>, [[<sevendaystomine:iron_pipe>, <sevendaystomine:iron_pipe>, <sevendaystomine:iron_pipe>], [<sevendaystomine:iron_pipe>, <sevendaystomine:iron_pipe>, <sevendaystomine:iron_pipe>], [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
 recipes.addShaped("stand", <sevendaystomine:stand>, [[null, <ore:ingotIron>, null], [null, <sevendaystomine:iron_pipe>, null], [null, <sevendaystomine:iron_pipe>, null]]);
-recipes.addShaped("trash_can", <sevendaystomine:trashcan>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<ore:ingotIron>, null, <ore:ingotIron>], [null, <ore:ingotIron>, null]]);
-recipes.addShaped("trash_bin", <sevendaystomine:trash_bin>, [[<ore:plateIron>, null, <ore:plateIron>], [null, <ore:plateIron>, null]]);
-recipes.addShaped("shower_head", <sevendaystomine:shower_head>, [[<ore:ingotIron>, <sevendaystomine:iron_pipe>, null], [null, <ore:plateIron>, null]]);
 recipes.addShaped("sink_faucet", <sevendaystomine:sink_faucet>, [[<ore:ingotIron>, <sevendaystomine:iron_pipe>, <ore:ingotIron>]]);
-recipes.addShaped("file_cabinet", <sevendaystomine:file_cabinet>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<ore:ingotIron>, null, <ore:ingotIron>], [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
-recipes.addShaped("refrigerator", <sevendaystomine:fridgeitem>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<ore:plateIron>, null, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
 recipes.addShaped("throttle", <sevendaystomine:throttle>, [[null, <ore:woolRed>, null], [<ore:carpetRed>, <sevendaystomine:armchairblack>, <ore:carpetRed>], [null, <sevendaystomine:iron_pipe>, null]]);
 recipes.addShaped("boards", <sevendaystomine:boards> * 2, [[<sevendaystomine:woodplank>, null, <sevendaystomine:woodplank>], [null, <sevendaystomine:woodplank>, null], [<sevendaystomine:woodplank>, null, <sevendaystomine:woodplank>]]);
 recipes.addShaped("writing_table_1", <sevendaystomine:writingtable:8>, [[<minecraft:wooden_slab:0>, <minecraft:wooden_slab:0>, <minecraft:wooden_slab:0>], [<sevendaystomine:woodplank>, null, <sevendaystomine:woodplank>]]);
@@ -34,7 +28,6 @@ recipes.addShaped("acacia_chair", <sevendaystomine:chair_acacia>, [[<sevendaysto
 recipes.addShaped("dark_oak_chair", <sevendaystomine:chair_big_oak>, [[<sevendaystomine:woodplank>, null], [<minecraft:wooden_slab:5>, <minecraft:wooden_slab:5>], [<sevendaystomine:woodplank>, <sevendaystomine:woodplank>]]);
 recipes.addShaped("birdnest", <sevendaystomine:birdnest>, [[<minecraft:stick>, <minecraft:feather>, <minecraft:stick>], [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>]]);
 recipes.addShaped("big_sign", <sevendaystomine:big_sign>, [[<sevendaystomine:street_sign>, <sevendaystomine:street_sign>, <sevendaystomine:street_sign>], [<sevendaystomine:street_sign>, <sevendaystomine:street_sign>, <sevendaystomine:street_sign>]]);
-recipes.addShaped("microwave", <sevendaystomine:microwave>, [[<ore:sheetPlastic>, <ore:sheetPlastic>, <ore:sheetPlastic>], [<ore:plateLead>, null, <ore:paneglass>], [<ore:sheetPlastic>, <ore:sheetPlastic>, <ore:sheetPlastic>]]);
 recipes.addShaped("flag", <sevendaystomine:flag>, [[<sevendaystomine:iron_pipe>, <sevendaystomine:cloth>, <sevendaystomine:cloth>], [<sevendaystomine:iron_pipe>, <sevendaystomine:cloth>, <sevendaystomine:cloth>], [<sevendaystomine:iron_pipe>, null, null]]);
 //============================================================================================================================================================================================
 recipes.addShapedMirrored("sofa_white", <sevendaystomine:sofa_white> * 3, [[<ore:woolWhite>, null, null], [<ore:woolWhite>, null, null], [<ore:woolWhite>, <ore:woolWhite>, <ore:woolWhite>]]);
@@ -144,3 +137,12 @@ recipes.addShapeless("burnt_planks", <sevendaystomine:burnt_planks>, [<ore:plank
 recipes.addShapeless("burnt_log", <sevendaystomine:burnt_log>, [<ore:logWood>, <ore:logWood>, <ore:logWood>, <minecraft:fire_charge>]);
 recipes.addShapeless("burnt_frame", <sevendaystomine:burnt_frame>, [<ore:frameWood>, <ore:frameWood>, <ore:frameWood>, <minecraft:fire_charge>]);
 recipes.addShapeless("burnt_chair", <sevendaystomine:burnt_chair>, [<ore:chairWood>, <ore:chairWood>, <ore:chairWood>, <minecraft:fire_charge>]);
+recipes.addShaped("blood_bag", <sevendaystomine:blooddrawkit>, [[<ore:sheetPlastic>, <ore:sheetPlastic>], [<ore:sheetPlastic>, <ore:sheetPlastic>]]);
+recipes.addShaped("microwave", <sevendaystomine:microwave>, [[<ore:sheetPlastic>, <ore:sheetPlastic>, <ore:sheetPlastic>], [<ore:plateLead>, null, <ore:paneGlass>], [<ore:sheetPlastic>, <ore:sheetPlastic>, <ore:sheetPlastic>]]);
+recipes.addShaped("sandbags", <sevendaystomine:sandbags> * 3, [[<techguns:sand_hard>, <techguns:sand_hard>, <techguns:sand_hard>], [<techguns:sand_hard>, <techguns:sand_hard>, <techguns:sand_hard>]]);
+recipes.addShaped("trash_can", <sevendaystomine:trashcan>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<ore:ingotIron>, null, <ore:ingotIron>], [null, <ore:ingotIron>, null]]);
+recipes.addShaped("trash_bin", <sevendaystomine:trash_bin>, [[<ore:plateIron>, null, <ore:plateIron>], [null, <ore:plateIron>, null]]);
+recipes.addShaped("shower_head", <sevendaystomine:shower_head>, [[<ore:ingotIron>, <sevendaystomine:iron_pipe>, null], [null, <ore:plateIron>, null]]);
+recipes.addShaped("file_cabinet", <sevendaystomine:file_cabinet>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<ore:ingotIron>, null, <ore:ingotIron>], [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
+recipes.addShaped("refrigerator", <sevendaystomine:fridgeitem>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<ore:plateIron>, null, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
+recipes.addShaped("iron_pipes", <sevendaystomine:iron_pipe> * 3, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [null, null, null], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);

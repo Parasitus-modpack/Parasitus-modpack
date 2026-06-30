@@ -27,7 +27,45 @@
 //============================================================================================================================================================================================
 //scrapresult = <sevendaystomine:scrapiron>
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:iron_nugget>, "iron", 1, false, true);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:iron_ore>, "iron", 9, false, false);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:iron_block>, "iron", 27);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:iron>, "iron", 27);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:blockiron>, "iron", 27);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:iron_plate>, "iron", 9);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:iron_bars>, "iron", 1.13);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:iron_ingot>, "iron", 9);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:ironpane>, "iron", 1.13);
+//mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:iron_plate_stairs>, "iron",
+//mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:iron_plate_slab>, "iron", 
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:grate>, "iron", 1.5);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:iron_button>, "iron", 0.33);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<
+//oredrill
 
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:parrying_dagger_iron>, "iron", 6); 
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:staff_iron>, "iron", 6);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:glaive_iron>, "iron", 9);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:mace_iron>, "iron", 9);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:battleaxe_iron>, "iron", 15);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:boomerang_iron>, "iron", 3);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:javelin_iron>, "iron", 3);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:throwing_axe_iron>, "iron", 6);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:throwing_knife_iron>, "iron", 3);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:crossbow_iron>, "iron", 8);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:rapier_iron>, "iron", 12);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:greatsword_iron>, "iron", 18);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:hammer_iron>, "iron", 18);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:warhammer_iron>, "iron", 9);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:spear_iron>, "iron", 3);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:halberd_iron>, "iron", 12);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:pike_iron>, "iron", 3);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:lance_iron>, "iron", 3);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:longbow_iron>, "iron", 6);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:saber_iron>, "iron", 9);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:scythe_iron>, "iron", 9);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:katana_iron>, "iron", 6);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:longsword_iron>, "iron", 12);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:dagger_iron>, "iron", 3);
 
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
@@ -39,28 +77,108 @@ mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:iron_nugget>, "ir
 
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
-//LEAD
+//LEAD 3,0
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
 //ScrapResult = <sevendaystomine:scraplead>
 //mods.sevendaystomine.item.ScrapDataManager.addScrapResult(<techguns:itemshared:87>, "lead", 1, false, true);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:leadingot>, "lead", 9);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:lead_block>, "lead", 27);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:orelead>, "lead", 9, false, false);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:blocklead>, "lead", 27);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:parrying_dagger_lead>, "lead", 6); 
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:staff_lead>, "lead", 6);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:glaive_lead>, "lead", 9);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:mace_lead>, "lead", 9);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:battleaxe_lead>, "lead", 15);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:boomerang_lead>, "lead", 3);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:javelin_lead>, "lead", 3);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:throwing_axe_lead>, "lead", 6);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:throwing_knife_lead>, "lead", 3);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:crossbow_lead>, "lead", 8);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:rapier_lead>, "lead", 12);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:greatsword_lead>, "lead", 18);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:hammer_lead>, "lead", 18);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:warhammer_lead>, "lead", 9);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:spear_lead>, "lead", 3);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:halberd_lead>, "lead", 12);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:pike_lead>, "lead", 3);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:lance_lead>, "lead", 3);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:longbow_lead>, "lead", 6);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:saber_lead>, "lead", 9);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:scythe_lead>, "lead", 9);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:katana_lead>, "lead", 6);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:longsword_lead>, "lead", 12);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:dagger_lead>, "bronze", 3);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:bullet_tip>, "lead", 1);
+
 
 
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
-//STEEL
+//STEEL 3,0
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
 //ScrapResult = <sevendaystomine:scrap_steel>
 //mods.sevendaystomine.item.ScrapDataManager.addScrap(<techguns:itemshared:88>, "steel", 1, false, true);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:parrying_dagger_steel>, "steel", 6); 
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:staff_steel>, "steel", 6);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:glaive_steel>, "steel", 9);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:mace_steel>, "steel", 9);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:battleaxe_steel>, "steel", 15);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:boomerang_steel>, "steel", 3);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:javelin_steel>, "steel", 3);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:throwing_axe_steel>, "steel", 6);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:throwing_knife_steel>, "steel", 3);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:crossbow_steel>, "steel", 8);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:rapier_steel>, "steel", 12);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:greatsword_steel>, "steel", 18);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:hammer_steel>, "steel", 18);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:warhammer_steel>, "steel", 9);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:spear_steel>, "steel", 3);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:halberd_steel>, "steel", 12);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:pike_steel>, "steel", 3);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:lance_steel>, "steel", 3);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:longbow_steel>, "steel", 6);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:saber_steel>, "steel", 9);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:scythe_steel>, "steel", 9);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:katana_steel>, "steel", 6);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:longsword_steel>, "steel", 12);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:dagger_steel>, "steel", 3);
+
 
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
-//COPPER
+//COPPER 3,0
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
 //ScrapResult = <sevendaystomine:scrap_copper>
 //mods.sevendaystomine.item.ScrapDataManager.addScrap(<techguns:itemshared:86>, "copper", 1, false, true);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:parrying_dagger_copper>, "copper", 6); 
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:staff_copper>, "copper", 6);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:glaive_copper>, "copper", 9);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:mace_copper>, "copper", 9);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:battleaxe_copper>, "copper", 15);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:boomerang_copper>, "copper", 3);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:javelin_copper>, "copper", 3);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:throwing_axe_copper>, "copper", 6);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:throwing_knife_copper>, "copper", 3);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:crossbow_copper>, "copper", 8);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:rapier_copper>, "copper", 12);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:greatsword_copper>, "copper", 18);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:hammer_copper>, "copper", 18);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:warhammer_copper>, "copper", 9);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:spear_copper>, "copper", 3);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:halberd_copper>, "copper", 12);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:pike_copper>, "copper", 3);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:lance_copper>, "copper", 3);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:longbow_copper>, "copper", 6);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:saber_copper>, "copper", 9);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:scythe_copper>, "copper", 9);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:katana_copper>, "copper", 6);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:longsword_copper>, "copper", 12);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:dagger_copper>, "copper", 3);
+
 
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
@@ -98,10 +216,35 @@ mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:dagger_bron
 
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
-//TIN
+//TIN 3,0
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
 //ScrapResult = <sevendaystomine:scrap_tin>
+
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:parrying_dagger_tin>, "tin", 6); 
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:staff_tin>, "tin", 6);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:glaive_tin>, "tin", 9);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:mace_tin>, "tin", 9);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:battleaxe_tin>, "tin", 15);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:boomerang_tin>, "tin", 3);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:javelin_tin>, "tin", 3);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:throwing_axe_tin>, "tin", 6);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:throwing_knife_tin>, "tin", 3);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:crossbow_tin>, "tin", 8);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:rapier_tin>, "tin", 12);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:greatsword_tin>, "tin", 18);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:hammer_tin>, "tin", 18);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:warhammer_tin>, "tin", 9);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:spear_tin>, "tin", 3);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:halberd_tin>, "tin", 12);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:pike_tin>, "tin", 3);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:lance_tin>, "tin", 3);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:longbow_tin>, "tin", 6);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:saber_tin>, "tin", 9);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:scythe_tin>, "tin", 9);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:katana_tin>, "tin", 6);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:longsword_tin>, "tin", 12);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:dagger_tin>, "tin", 3);
 
 
 //============================================================================================================================================================================================
@@ -111,7 +254,7 @@ mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:dagger_bron
 //============================================================================================================================================================================================
 //ScrapResult = <sevendaystomine:scrap_zinc>
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:zincingot>, "zinc", 9);
-mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:orezinc>, "zinc", 9);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:orezinc>, "zinc", 9, false, false);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:blocknickel>, "zinc", 27);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:dagger_nickel>, "zinc",  3);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:longsword_nickel>, "zinc", 12);
@@ -336,11 +479,20 @@ mods.sevendaystomine.item.ScrapDataManager.addScrap(<malisisdoors:curtain_black>
 
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
-//PLASTIC
+//PLASTIC 1,33
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
 //mods.sevendaystomine.item.ScrapDataManager.addScrapResult(<techguns:itemshared:96>, "plastic", 1);
-
+//mods.sevendaystomine.item.ScrapDataManager.addScrap(<techguns:itemshared:28>, "plastic", 0.57);
+//mods.sevendaystomine.item.ScrapDataManager.addScrap(<techguns:itemshared:93>, "plastic", 1.13);
+//mods.sevendaystomine.item.ScrapDataManager.addScrap(<techguns:itemshared:43>, "plastic", 2.26);
+//mods.sevendaystomine.item.ScrapDataManager.addScrap(<techguns:itemshared:55>, "plastic", 0.75);
+//mods.sevendaystomine.item.ScrapDataManager.addScrap(<techguns:itemshared:146>, "plastic", 0.56);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:laboratory>, "plastic", 0.25);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<malisisdoors:laboratory_door>, "plastic", 0.38);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:blooddrawkit>, "plastic", 0.56);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:gas_canister>, "plastic", 0.57);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:microwave>, "plastic", 4.51);
 
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
@@ -356,15 +508,27 @@ mods.sevendaystomine.item.ScrapDataManager.addScrap(<malisisdoors:curtain_black>
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
 mods.sevendaystomine.item.ScrapDataManager.addScrapResult(<sevendaystomine:salt>, "mercury", 1);
-mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:orecinnabar>, "mercury", 9);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:orecinnabar>, "mercury", 9, "false, false");
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:thermometer>, "mercury", 3);
 
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
-//POTASSIUM
+//POTASSIUM 1,33
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
 //ScrapResult = <sevendaystomine:potassum>
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:orepotassium>, "potassium", 9, false, false);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:arrow_explosive>, "potassium", 0.16);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<techguns:stielgranate>, "potassium", 0.07);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<techguns:explosive_charge>, "potassium", 1.20);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:fragmentation_grenade>, "potassium", 0.07);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:gunpowder>, "potassium", 1.5);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:firework_charge>, "potassium", 1.13); 
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:tnt>, "potassium", 1.6);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:dynamite>, "potassium", 1.28);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<oe:underwater_tnt>, "potassium", 1.21);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:arrow_explosive>, "potassium", 0.16);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:firework_charge>, "potassium", 0.38); 
 
 
 //============================================================================================================================================================================================
@@ -473,11 +637,14 @@ mods.sevendaystomine.item.ScrapDataManager.addScrap(<oe:blue_coral_block_dead>, 
 //ScrapResult = <minecraft:paper>
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:paper>, "paper", 6.01);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:paper_wall>, "paper", 4.52 );
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:ancient_tome>, "paper", 2.25);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<paper_lantern>, "paper", 4.51);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<malisisdoors:shoji_door>, "paper", 2.26 );
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:book>, "paper", 2.25);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:writable_book>, "paper", 2.25);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:written_book>, "paper", 2.25);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:enchanted_book>, "paper", 2.25);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:map>, "paper", 6.02);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:book_forging>, "paper", 2.25);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:book_computers>, "paper", 2.25);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:book_concrete>, "paper", 2.25);
@@ -496,19 +663,20 @@ mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:book_auger>
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:book_hunting_rifle>, "paper", 1.63);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:book_rocket>, "paper", 1.63);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:calendar>, "paper", 5.26);
-mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:ancient_tome>, "paper", 2.25);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:cardboardbox>, "paper", 6.02);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<ftbquests:book>, "paper", 1.69);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<patchouli:guide_book>, "paper", 1.69);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<buildcraftlib:guide>, "paper", 2.25);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<buildcraftlib:guide_note>, "paper", 1.63);
-mods.sevendaystomine.item.ScrapDataManager.addScrap(<ftbquests:book>, "paper", 1.69);
-mods.sevendaystomine.item.ScrapDataManager.addScrap(<openblocks:info_book>, "paper", 1.69);
-mods.sevendaystomine.item.ScrapDataManager.addScrap(<patchouli:guide_book>, "paper", 1.69);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<buildcraftbuilders:schematic_single>, "paper", 1.69);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<buildcraftcore:map_location>, "paper", 5.26);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<buildcraftcore:list>, "paper", 5.26);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<openblocks:info_book>, "paper", 1.69);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<openblocks:generic>, "paper", 3);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<openblocks:stencil>, "paper", 3);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<openblocks:glyph>, "paper", 3);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<openblocks:canvas>, "paper", 6);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<itemfilters:filter>, "paper", 6.02);
 
 
 
@@ -522,10 +690,12 @@ mods.sevendaystomine.item.ScrapDataManager.addScrapResult(<minecraft:string>, "s
 
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
-//BONE 0,33 (bonemeal)
+//BONE 1,33 (bonemeal)
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
 mods.sevendaystomine.item.ScrapDataManager.addScrapResult(<minecraft:bone>, "bone", 3);
+//mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:skull:0>, "bone", 9);
+//mods.sevendaystomine.item.ScrapDataManager.addScrapResult(<minecraft:dye:15>, "bone", 1);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<oe:heart_of_the_sea>, "bone", 1);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<oe:conduit>, "bone", 1);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<oe:pearl>, "bone", 3);
@@ -549,17 +719,17 @@ mods.sevendaystomine.item.ScrapDataManager.addScrap(<oe:shell_sand>, "bone", 1);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:crab_shell>, "bone", 0.25);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:bone_block>, "bone", 27);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:seashells>, "bone", 0.12);
-//mods.sevendaystomine.item.ScrapDataManager.addScrap(<coralreef:reef>, "bone",
-//mods.sevendaystomine.item.ScrapDataManager.addScrap(<koopascritters:impallahorn>, "bone",
-//mods.sevendaystomine.item.ScrapDataManager.addScrap(<koopascritters:muntjacantler>, "bone",
-//mods.sevendaystomine.item.ScrapDataManager.addScrap(<koopascritters:muntjacantlerknife>, "bone",
-//mods.sevendaystomine.item.ScrapDataManager.addScrap(<nocubessrparmory:headbomb>, "bone",
-//mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:bones>, "bone", 0.25);
-//mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:boneshiv>, "bone",
-//mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:skeleton_sitting>, "bone",
-//mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:skeleton>, "bone",
-//mods.sevendaystomine.item.ScrapDataManager.addScrap(<netherex:bone_sliver>, "bone",
-//mods.sevendaystomine.item.ScrapDataManager.addScrap(<netherex:bone_chunk>, "bone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<coralreef:reef>, "bone", 4.5);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<koopascritters:impallahorn>, "bone", 2);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<koopascritters:muntjacantler>, "bone", 2);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<koopascritters:muntjacantlerknife>, "bone", 4.5);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<nocubessrparmory:headbomb>, "bone", 2.26);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:bones>, "bone", 0.25);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:boneshiv>, "bone", 4.5);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:skeleton_sitting>, "bone", 29.32);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:skeleton>, "bone", 29.32);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<netherex:bone_sliver>, "bone", 4.5);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<netherex:bone_chunk>, "bone", 2.26);
 
 
 //============================================================================================================================================================================================

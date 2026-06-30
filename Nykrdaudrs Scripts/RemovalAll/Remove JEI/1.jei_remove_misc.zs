@@ -530,6 +530,13 @@ mods.jei.JEI.removeAndHide(<chisel:blockcobalt:3>);
 mods.jei.JEI.removeAndHide(<chisel:blockcobalt:4>);
 mods.jei.JEI.removeAndHide(<chisel:blockcobalt:5>);
 mods.jei.JEI.removeAndHide(<chisel:blockcobalt:6>);
+mods.jei.JEI.removeAndHide(<chisel:blockplatinum:0>);
+mods.jei.JEI.removeAndHide(<chisel:blockplatinum:1>);
+mods.jei.JEI.removeAndHide(<chisel:blockplatinum:2>);
+mods.jei.JEI.removeAndHide(<chisel:blockplatinum:3>);
+mods.jei.JEI.removeAndHide(<chisel:blockplatinum:4>);
+mods.jei.JEI.removeAndHide(<chisel:blockplatinum:5>);
+mods.jei.JEI.removeAndHide(<chisel:blockplatinum:6>);
 //============================================================================================================================================================================================
 //COROUTIL
 mods.jei.JEI.removeAndHide(<coroutil:item_repairing_gel>);

@@ -16,7 +16,7 @@
 //FABRICATOR
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
-//mods.techguns.Fabricator.removeRecipe(IItemStack)
+//mods.techguns.Fabricator.removeRecipe(IItemStack) - removeByOutput
 
 
 //============================================================================================================================================================================================
@@ -24,8 +24,7 @@
 //CHARGING STATION
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
-//mods.techguns.ChargingStation.removeRecipe(String)
-//mods.techguns.ChargingStation.removeRecipe(IItemStack)
+//mods.techguns.ChargingStation.removeRecipe(IItemStack) - can be oreReg String, removeByInput
 
 
 //============================================================================================================================================================================================
@@ -33,8 +32,9 @@
 //ORE CLUSTER
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
-//mods.techguns.OreCluster.removeOre(String,IItemStack)
-//mods.techguns.OreCluster.removeFluid(String,ILiquidStack)
+//Clustertypes: "COAL", "COMMON_METAL", "RARE_METAL", "SHINY_METAL", "URANIUM", "COMMON_GEM", "SHINY_GEM", "NETHER_CRYSTAL", "OIL"
+//mods.techguns.OreCluster.removeOre(String,IItemStack) - Clustertype as String
+//mods.techguns.OreCluster.removeFluid(String,ILiquidStack) - Clustertype as String
 
 
 //============================================================================================================================================================================================
@@ -42,8 +42,7 @@
 //REACTION CHAMBER
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
-//mods.techguns.ReactionChamber.removeRecipe(String,ILiquidStack)
-//mods.techguns.ReactionChamber.removeRecipe(IItemStack,ILiquidStack)
+//mods.techguns.ReactionChamber.removeRecipe(IItemStack,ILiquidStack) - can be oreReg String, removeByInput
 
 
 //============================================================================================================================================================================================
@@ -51,7 +50,7 @@
 //BLAST FURNACE
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
-//mods.techguns.BlastFurnace.removeRecipe(IItemStack)
+//mods.techguns.BlastFurnace.removeRecipe(IItemStack) - removeByOutput
 
 mods.techguns.BlastFurnace.removeRecipe(<techguns:itemshared:83>);
 
@@ -61,9 +60,9 @@ mods.techguns.BlastFurnace.removeRecipe(<techguns:itemshared:83>);
 //AMMO PRESS
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
-//mods.techguns.AmmoPress.removePowder(IIngredient)
-//mods.techguns.AmmoPress.removeMetal1(IIngredient)
-//mods.techguns.AmmoPress.removeMetal2(IIngredient)
+//mods.techguns.AmmoPress.removePowder(IIngredient) - can be oreReg String
+//mods.techguns.AmmoPress.removeMetal1(IIngredient) - can be oreReg String
+//mods.techguns.AmmoPress.removeMetal2(IIngredient) - can be oreReg String
 
 
 //============================================================================================================================================================================================
@@ -71,7 +70,7 @@ mods.techguns.BlastFurnace.removeRecipe(<techguns:itemshared:83>);
 //CHEMICAL LABORATORY
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
-//mods.techguns.ChemLab.removeRecipe(IItemStack,ILiquidStack)
+//mods.techguns.ChemLab.removeRecipe(IItemStack,ILiquidStack) - removeByOutput. use "null"
 
 
 //============================================================================================================================================================================================
@@ -79,11 +78,11 @@ mods.techguns.BlastFurnace.removeRecipe(<techguns:itemshared:83>);
 //METALL PRESS
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
-//mods.techguns.MetalPress.removeRecipe(IItemStack,IItemStack,IItemStack)
-//mods.techguns.MetalPress.removeRecipe(String,String,IItemStack)
-//mods.techguns.MetalPress.removeRecipe(IItemStack,String,IItemStack)
-//mods.techguns.MetalPress.removeRecipe(String,IItemStack,IItemStack)
-//mods.techguns.MetalPress.removeRecipe(IItemStack)
+//mods.techguns.MetalPress.removeRecipe(IItemStack,IItemStack,IItemStack) - specific recipe
+//mods.techguns.MetalPress.removeRecipe(String,String,IItemStack) - specific oreReg recipe
+//mods.techguns.MetalPress.removeRecipe(IItemStack,String,IItemStack) - specific oreReg recipe
+//mods.techguns.MetalPress.removeRecipe(String,IItemStack,IItemStack) - specific oreReg recipe
+//mods.techguns.MetalPress.removeRecipe(IItemStack) - removeByOutput
 
 
 //============================================================================================================================================================================================

@@ -696,6 +696,7 @@ recipes.removeByRecipeName("techguns:itemshared_103_quartzrod_alt");
 recipes.removeByRecipeName("techguns:itemshared_86_nuggetcopper");
 recipes.removeByRecipeName("techguns:itemshared_87_nuggetlead");
 recipes.removeByRecipeName("techguns:itemshared_88_nuggetsteel");
+recipes.removeByRecipeName("techguns:itemshared_146_infusionbag");
 //============================================================================================================================================================================================
 //REMOVAL
 recipes.removeByRecipeName("techguns:itemshared_41_laserbarrel");

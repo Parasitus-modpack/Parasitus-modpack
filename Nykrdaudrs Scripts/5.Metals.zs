@@ -17,6 +17,7 @@
 //mods.techguns.MetalPress
 //MetalPress.addRecipe(<input>, <input>, <output>, swaping boolean);
 //MetalPress.removeRecipe(<output>);
+//"swapping boolean" = can the 2 inputs be swapped?
 //============================================================================================================================================================================================
 //mods.techguns.ChemLab
 //ChemLab.addRecipe(<input1>, amount, <input2>, amount, <fluidInput>*amount 1/1000, false, <fluidOutput>*amount 1/1000, rf/tick);
@@ -181,8 +182,8 @@ recipes.addShapeless("iron_scrap_from_block", <sevendaystomine:scrapiron> * 9, [
 recipes.addShapeless("worn_iron_from_scrap", <netherex:worn_iron>, [<sevendaystomine:scrapiron>, <sevendaystomine:scrapiron>, <sevendaystomine:scrapiron>, <sevendaystomine:scrapiron>, <sevendaystomine:scrapiron>, <sevendaystomine:scrapiron>, <sevendaystomine:scrapiron>, <sevendaystomine:scrapiron>, <sevendaystomine:scrapiron>]);
 recipes.addShapeless("worn_block_to_rusted", <quark:iron_plate:1> * 2, [<netherex:worn_iron>, <netherex:worn_iron>]);
 recipes.addShapeless("rusted_block_to_worn", <netherex:worn_iron> * 2, [<quark:iron_plate:1>, <quark:iron_plate:1>]);
-recipes.addShapeless("iron_plates_from_block", <techguns:itemshared:46> * 8, [<quark:iron_plate:0>]);
-recipes.addShaped("iron_block_to_plates", <quark:iron_plate:0>, [[<techguns:itemshared:46>, <techguns:itemshared:46>, <techguns:itemshared:46>], [<techguns:itemshared:46>, null, <techguns:itemshared:46>], [<techguns:itemshared:46>, <techguns:itemshared:46>, <techguns:itemshared:46>]]);
+recipes.addShapeless("iron_plates_from_block", <techguns:itemshared:46> * 9, [<quark:iron_plate:0>]);
+recipes.addShapeless("iron_block_to_plates", <quark:iron_plate:0>, [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>, <ore:plateIron>, <ore:plateIron>, <ore:plateIron>, <ore:plateIron>, <ore:plateIron>, <ore:plateIron>]);
 //====================================================================
 //breaking down ores
 mods.techguns.ReactionChamber.addRecipe("iron_processing", "oreIron", <liquid:creeper_acid>, [<sevendaystomine:scrapiron> * 22, <sevendaystomine:smallstone> * 4], <techguns:itemshared:104>, 2, 1, 5, 0, 2, 100, 0.0, "BREAK_ITEM", 25000);

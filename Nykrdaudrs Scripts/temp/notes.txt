@@ -1,105 +1,3 @@
-// File created by Nykrdaudr
-
-
-//SEVEN DAYS TO MINE
-//import mods.sevendaystomine.item.ScrapDataManager;
-//
-//import mods.sevendaystomine.upgrade.UpgradeManager;
-//
-//Import mods.sevendaystomine.recipe.ForgeRecipeManager;
-//
-//Import mods.sevendaystomine.recipe.CampfireRecipeManager;
-//
-//Import mods.sevendaystomine.recipe.ChemistryRecipeManager;
-//
-//Import mods.sevendaystomine.recipe.MaterialStack;
-//==========================================================================
-
-//RepairManager.addRepair(IBlock,IItemStack,float);
-//block to repair, item to use for the repair, float
-//==========================================================================
-
-//ScrapDataManager.addScrap(IItemStack, MaterialStack, boolean, boolean);
-//New scrapable item, scrap type, scrap value?, scrap value?
-//ScrapDataManager.addScrap(IItemStack, String, int, boolean, boolean);
-//
-//ScrapDataManager.addScrap(IItemStack, String, double, boolean, boolean);
-//
-//ScrapDataManager.addScrap(IItemStack, String, String, boolean, boolean);
-//
-//==========================================================================
-//ScrapDataManager.addScrapResult(IItemStack, String, int);
-//
-//ScrapDataManager.addScrapResult(IItemStack, String, double);
-//
-//ScrapDataManager.addScrapResult(IItemStack, Materialstack);
-//new scrap material, scrap type
-//ScrapDataManager.addScrapResult(IItemStack, String, String);
-//
-//==========================================================================
-//ScrapDataManager.removeScrap(IItemStack);
-
-//==========================================================================
-
-//UpgradeManager.addUppgrade(IBlockState, IBlockState, IBlockState, String, IItemStack);
-//
-//==========================================================================
-
-//CampfireRecipeManager.addShapedRecipe(IItemStack, IItemStack, IItemStack, [], [], int);
-//
-//CampfireRecipeManager.addShapelessRecipe(IItemStack,IItemStack, IItemStack, [], int);
-//
-//==========================================================================
-
-//SeparatorRecipeManager.addRecipe(IItemStack, IItemStack, IItemStack, int);
-//
-//==========================================================================
-
-//MaterialStack.material()
-//MaterialStack.weight()
-//Valid Stacks: <materialstack:name>
-// NONE, CARBON, IRON, BRASS, LEAD, STEEL, COPPER, BRONZE, TIN, ZINC, GOLD,
-// WOLFRAM, URANIUM, WOOD, STONE, GLASS, CLOTH, PLANT_FIBER, PLASTIC, CLAY,
-// MERCURY, POTASSIUM, CONCRETE, LEATHER, GASOLINE, SAND, PAPER, STRING, BONE, NETHERITE
-//==========================================================================
-
-//ForgeRecipeManager.removeRecipe(String);
-//Recipe name
-//ForgeRecipeManager.addMaterialRecipe(String, IItemStack, IItemStack, float, int, MaterialStack[]);
-//recipe name, output, mold, xp, burntime, input
-//ForgeRecipeManager.addRecipe(IItemStack, int, IItemStack[])
-//
-//==========================================================================
-//ChemistryRecipeManager.addRecipe(IItemStack, int, IItemStack
-//
-//============================================================================================================================================================================================
-//============================================================================================================================================================================================
-//============================================================================================================================================================================================
-//BLAST FURNACE
-//mods.techguns.BlastFurnace
-//mods.techguns.BlastFurnace.removeRecipe(IItemStack)
-//mods.techguns.BlastFurnace.addRecipe(IItemStack,IItemStack,IItemStack,int,int)
-//BlastFurnace.addRecipe(itemInput1,itemInput2,itemOutput,time,power)
-//============================================================================================================================================================================================
-//mods.techguns.BlastFurnace.addRecipe(String,int,IItemStack,IItemStack,int,int)
-//mods.techguns.BlastFurnace.addRecipe(String,int,String,int,IItemStack,int,int)
-//mods.techguns.BlastFurnace.addRecipe(IItemStack,String,int,IItemStack,int,int)
-//============================================================================================================================================================================================
-//REACTION CHAMBER
-//mods.techguns.ReactionChamber
-//mods.techguns.ReactionChamber.removeRecipe(<iteminput>, <fluidOutput>;
-//mods.techguns.ReactionChamber.addRecipe(IItemStack,ILiquidStack,IItemStack,IItemStack,int,int,int,int,int,int,float,String,int)
-//ReactionChamber.addRecipe(<iteminput>, <fluidInput>, <itemOutput1>, <itemOutput2>, <itemOutput3>, <itemOutput4>, <focusItem>, ticks, required, intensityStart, intensityJump, liquidLvl, liquidConsumption, instability, risk, rf/tick
-// liquidLvl = 0-10
-// instability = 0.0-1.0
-// risk = "NONE", "BREAK_ITEM", "EXPLOSION_LOW", "EXPLOSION_MEDIUM", "EXPLOSION_HIGH"(may not work)
-//============================================================================================================================================================================================
-//mods.techguns.ReactionChamber.removeRecipe(IItemStack,ILiquidStack)
-//mods.techguns.ReactionChamber.removeRecipe(String,ILiquidStack)
-//mods.techguns.ReactionChamber.addRecipe(String,IItemStack,ILiquidStack,IItemStack[],IItemStack,int,int,int,int,int,int,float,String,int)
-//mods.techguns.ReactionChamber.addRecipe(String,String,ILiquidStack,IItemStack,IItemStack,int,int,int,int,int,int,float,String,int)
-//mods.techguns.ReactionChamber.addRecipe(String,String,ILiquidStack,IItemStack[],IItemStack,int,int,int,int,int,int,float,String,int)
-//============================================================================================================================================================================================
 //recipes.addShaped("t4_power_helmet", <techguns:t4_power_helmet>, [
 	[null, powerArmorPlateMk2, null],
 	[powerArmorPlateMk2, <techguns:t3_power_helmet>.anyDamage().marked("mark"), powerArmorPlateMk2],
@@ -133,8 +31,7 @@ function recipe.addShaped(input as IIngredient, output as IItemStack) {
 <liquid:mercury>
 <liquid:milk>
 <liquid:oil>
-
-
+//======================================================================
 <liquid:bcop-gaseous_lava-cool>
 <liquid:bcop-gold-cool>
 <liquid:bcop-iron-cool>
@@ -159,8 +56,7 @@ function recipe.addShaped(input as IIngredient, output as IItemStack) {
 <liquid:oil_heavy>
 <liquid:oil_distilled>
 <liquid:oil_residue>
-
-
+//======================================================================
 <liquid:bcop-gaseous_lava-hot>
 <liquid:bcop-gold-hot>
 <liquid:bcop-iron-hot>
@@ -185,8 +81,7 @@ function recipe.addShaped(input as IIngredient, output as IItemStack) {
 <liquid:oil_distilled_heat_1>
 <liquid:oil_heavy_heat_1>
 <liquid:oil_residue_heat_1>
-
-
+//======================================================================
 <liquid:bcop-gaseous_lava-searing>
 <liquid:bcop-gold-searing>
 <liquid:bcop-iron-searing>
@@ -212,7 +107,7 @@ function recipe.addShaped(input as IIngredient, output as IItemStack) {
 <liquid:oil_heavy_heat_2>
 <liquid:oil_residue_heat_2>
 
-
+//============================================================================================================================================================================================
 //AVAILABLE CAMMOS (with techguns CE)
 //Steam armor
 //<techguns:steam_helmet>.withTag({power: 0, camo: [0-6] as byte})
@@ -275,3 +170,123 @@ function recipe.addShaped(input as IIngredient, output as IItemStack) {
 //<techguns:t4_power_boots>.withTag({power: 0, camo: [0-4] as byte})
 //======================================================================
 //<techguns:t2_beret>.withTag({camo: [0-2] as byte})
+//============================================================================================================================================================================================
+Gun stats
+GunStats.setWeaponStat("handcannon","DAMAGE",1);
+//======================================================================
+Guns:
+ak47					AKM
+alienblaster			Alien Blaster
+as50					AS50 Sniper Rifle
+aug						AUG
+biogun					Biogun
+blasterrifle			Blaster Rifle
+boltaction				Bolt Action Rifle
+chainsaw				Chainsaw
+combatknife				Combat Knife
+combatshotgun			Combat Shotgun
+crowbar					Crowbar
+flamethrower			Flamethrower
+fraggrenade				Frag Grenade
+gaussrifle				Gauss Rifle
+goldenrevolver			Golden Revolver
+grenadelauncher			Grenade Launcher
+grimreaper				Grim Reaper
+guidedmissilelauncher	Guided Missile-Launcher
+handcannon				Hand Cannon
+lasergun				Laser Rifle
+laserpistol				Laser Pistol
+lmg						Light Machine Gun
+m4						M4 Assault Rifle
+m4_infiltrator			The Infiltrator
+mac10					Mac 10
+mibgun					De-Atomizer Pistol
+minigun					Minigun
+miningdrill				Mining Drill
+netherblaster			Nether Blaster
+nucleardeathray			Nuclear Death Ray
+pdw						PDW
+pistol					Pistol
+powerhammer				Power Hammer
+pulserifle				Pulse Rifle
+revolver				Revolver
+rocketlauncher			Rocket Launcher
+sawedoff				Doubble Barrel Shotgun
+scar					SCAR
+scatterbeamrifle		Blaster Shotgun
+sonicshotgun			Sonic Rifle
+stielgranate			Stick Grenade
+teslagun				Tesla Gun
+tfg						TFG 10K
+thompson				Thompson
+vector					Vector
+//======================================================================
+Gun Stats:
+DAMAGE				close range damage
+DAMAGE_MIN			long range damage
+DAMAGE_DROP_START	distance (in blocks) before damage starts dropping
+DAMAGE_DROP_END		max distance before "DAMAGE_MIN"
+BULLET_SPEED		how fast the projectile flies in blocks per tick
+BULLET_DISTANCE		how far the projectile can fly before it gets deleted
+GRAVITY				Gravity strength of the projectile
+MINING_SPEED		Mining speed, only has an effect on tools
+SPREAD				How much shots randomly divert
+//============================================================================================================================================================================================
+Armor Example:
+ArmorStats.setArmorStat("t1_combat_boots","SPEED",1.2);
+ArmorStats.setMaterialArmorValue("T1_COMBAT", "PHYSICAL", 24.0);
+//======================================================================
+Armor List
+Soldier's			t1_combat_Helmet, t1_combat_Chestplate, t1_combat_Leggings, t1_combat_Boots
+Bandit				t1_scout_Helmet, t1_scout_Chestplate, t1_scout_Leggings, t1_scout_Boots
+Miner's				t1_miner_Helmet, t1_miner_Chestplate, t1_miner_Leggings, t1_miner_Boots
+Steam				steam_Helmet, steam_Chestplate, steam_Leggings, steam_Boots
+Hazmat				hazmat_Helmet, hazmat_Chestplate, hazmat_Leggings, hazmat_Boots
+Combat				t2_combat_Helmet, t2_combat_Chestplate, t2_combat_Leggings, t2_combat_Boots
+Commando			t2_commando_Helmet, t2_commando_Chestplate,t2_commando_Leggings, t2_commando_Boots
+Ranger Veteran		t2_riot_Helmet, t2_riot_Chestplate, t2_riot_Leggings, t2_riot_Boots
+Advanced Combat		t3_combat_Helmet, t3_combat_Chestplate, t3_combat_Leggings, t3_combat_Boots
+Power Armor			t3_power_Helmet, t3_power_Chestplate, t3_power_Leggings, t3_power_Boots
+HEV Suit			t3_miner_Helmet, t3_miner_Chestplate, t3_miner_Leggings, t3_miner_Boots
+Exo Suit			t3_exo_Helmet, t3_exo_Chestplate, t3_exo_Leggings, t3_exo_Boots
+Nether Combat		t4_praetor_Helmet, t4_praetor_Chestplate, t4_praetor_Leggings, t4_praetor_Boots
+Power Armor Mk2		t4_power_Helmet, t4_power_Chestplate, t4_power_Leggings, t4_power_Boots
+Beret				t2_beret
+//======================================================================
+Armor Stats:
+SPEED					Movement speed bonus
+JUMP					jump height bonus
+FALL_DAMAGE				fall damage reduction
+FALL_HEIGHT				free fall height
+MINING_SPEED			mining speed bonus
+WATER_MINING_SPEED		underwater mining speed bonus
+GUN_ACCURACY			gun accuracy, less random spread
+EXTRA_HEARTS			extra hp points
+NIGHTVISION				When total >=1, player can use nightvision
+KNOCKBACK_RESITANCE		chance to not get knocked back
+STEP_ASSIST				allow steping over 1block height
+OXYGEN_GEAR				when total >=1, oxygen tanks work to give air
+WATER_ELECTROLYZER		provide oxygen from power
+COOLING_SYSTEM			extinguish player when burning with power cost
+WATER_SPEED				underwater speed
+RAD_RESISTANCE			rad resistance entity attribute
+
+//======================================================================
+Materials List
+T1_COMBAT, T1_SCOUT, T1_MINER, T1_STEAM
+T2_HAZMAT, T2_COMBAT, T2_COMMANDO, T2_RIOT, T2_BERET
+T3_COMBAT, T3_POWER, T3_MINER, T3_EXO
+T4_PRAETOR, T4_POWER
+//======================================================================
+Damage Types
+PHYSICAL		Melee hits
+PROJECTILE		Arrows, bullets,..
+FIRE			fire, flamethrower
+EXPLOSION		Explosions like TNT, Rockets
+ENERGY			Energy Weapons, Lasers, Magic
+POISON			gas, slimy stuff
+UNRESISTABLE	Things that should never get reduced with armor value: starve, falldmg, suffocate...
+ICE				anything cold related
+LIGHTNING		electricity, shock, lightning magic
+RADIATION
+DARK			dark energy, black holes, dark magic
