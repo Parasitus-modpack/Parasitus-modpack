@@ -290,3 +290,14 @@ ICE				anything cold related
 LIGHTNING		electricity, shock, lightning magic
 RADIATION
 DARK			dark energy, black holes, dark magic
+//============================================================================================================================================================================================
+oreclusters & weights
+COAL			oreCoal:99			oreDiamond:1
+COMMON_METAL	oreIron:45			oreCopper: 30			oreTin:25
+RARE_METAL		oreLead:50			oreOsmium:50			oreAluminium:50
+SHINY_METAL		oreTitanium:20		oreGold:40				oreSilver:40
+URANIUM			oreUranium:50
+COMMON_GEM		oreRedstone:40		oreLapis:20			oreCertusQuartz:40			oreChargedCertusQuartz:5
+SHINY_GEM		oreDiamond:40		oreEmerald:20
+NETHER_CRYSTAL	oreQuartz:50		glowstone:40			blaze_rod:10
+OIL				liquid:oil * 1000:10

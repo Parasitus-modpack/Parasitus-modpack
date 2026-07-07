@@ -362,6 +362,7 @@ mods.jei.JEI.removeAndHide(<techguns:mibgun>, false);
 mods.jei.JEI.removeAndHide(<techguns:alienblaster>, false);
 mods.jei.JEI.removeAndHide(<techguns:nucleardeathray>, false);
 mods.jei.JEI.removeAndHide(<techguns:laserpistol>, false);
+mods.jei.JEI.removeAndHide(<techguns:itemshared:71>);
 //mods.jei.JEI.removeAndHide(<techguns:simplemachine:8>);
 //============================================================================================================================================================================================
 //PROJECT VIBRANT JOURNEY

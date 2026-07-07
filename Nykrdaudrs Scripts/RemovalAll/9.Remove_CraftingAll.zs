@@ -1174,6 +1174,7 @@ recipes.removeByRecipeName("netherex:icy_nether_brick");
 recipes.removeByRecipeName("netherex:blazed_wither_bone");
 recipes.removeByRecipeName("netherex:soul_glass_pane");
 recipes.removeByRecipeName("netherex:obsidian_boat");
+recipes.removeByRecipeName("netherex:soul_glass");
 //============================================================================================================================================================================================
 //7DTM
 furnace.remove(<netherex:soul_glass>);
@@ -1538,6 +1539,7 @@ recipes.removeByRecipeName("chisel:uncraft_blockcopper");
 recipes.removeByRecipeName("chisel:uncraft_blocktin");
 recipes.removeByRecipeName("chisel:uncraft_blockbronze");
 recipes.removeByRecipeName("chisel:uncraft_blocksteel");
+recipes.removeByRecipeName("chisel:antiblock");
 
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
@@ -1586,7 +1588,6 @@ recipes.removeByRecipeName("malisisdoors:forcefield_item");
 //============================================================================================================================================================================================
 recipes.removeByRecipeName("oe:blue_slime_block");
 recipes.removeByRecipeName("oe:blue_slime_from_block");
-//============================================================================================================================================================================================
 furnace.remove(<oe:cooked_crab>);
 furnace.remove(<oe:cooked_lobster>);
 furnace.remove(<oe:dried_dulse>);
@@ -1671,10 +1672,10 @@ recipes.removeByRecipeName("openmodularturrets:lever_block_vanilla");
 //KOOPAS CRITTERS
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
-furnace.remove(<koopascritters:cookedwildbird>);
 recipes.removeByRecipeName("koopascritters:sticksndirtrecipe");
 recipes.removeByRecipeName("koopascritters:penguinsticknestrecipe");
 recipes.removeByRecipeName("koopascritters:reptilehiderecipe");
+furnace.remove(<koopascritters:cookedwildbird>);
 
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
@@ -1749,15 +1750,6 @@ recipes.removeByRecipeName("spartanweaponry:battleaxe_stone");
 recipes.removeByRecipeName("spartanweaponry:mace_stone");
 recipes.removeByRecipeName("spartanweaponry:glaive_stone");
 recipes.removeByRecipeName("spartanweaponry:staff_stone");
-
-//============================================================================================================================================================================================
-//============================================================================================================================================================================================
-//WEATHER 2
-//============================================================================================================================================================================================
-//============================================================================================================================================================================================
-//recipes.removeByRecipeName("weather2:sand_layer");
-//recipes.removeByRecipeName("weather2:motor");
-//recipes.removeByRecipeName("weather2:antenna_0");
 
 
 //============================================================================================================================================================================================
@@ -1835,10 +1827,10 @@ recipes.removeByRecipeName("nocubessrpsurvival:recipe_moldered_pie");
 recipes.removeByRecipeName("nocubessrpsurvival:recipe_reeking_ribs");
 recipes.removeByRecipeName("nocubessrpsurvival:recipe_buglin_salad");
 //============================================================================================================================================================================================
-//furnace.remove(<nocubessrpsurvival:cookedbuglinlarva>);
-//furnace.remove(<nocubessrpsurvival:cookedfleshbarbecue>);
-//furnace.remove(<nocubessrpsurvival:cookedflesh>);
-//furnace.remove(<nocubessrparmory:carbonsteel>);
+furnace.remove(<nocubessrpsurvival:cookedbuglinlarva>);
+furnace.remove(<nocubessrpsurvival:cookedfleshbarbecue>);
+furnace.remove(<nocubessrpsurvival:cookedflesh>);
+furnace.remove(<nocubessrparmory:carbonsteel>);
 //============================================================================================================================================================================================
 recipes.removeByRecipeName("nocubessrparmory:recipe_twisted_dagger");
 recipes.removeByRecipeName("nocubessrparmory:recipe_twisted_mallet");

@@ -118,6 +118,8 @@ recipes.addShapedMirrored("sleeping_bag_black", <sevendaystomine:sleepingbagitem
 //MISC
 recipes.addShapeless("photo_cells", <sevendaystomine:photo_cell> * 3, [<minecraft:daylight_detector>]);
 recipes.addShapeless("cement_mix", <sevendaystomine:concretemix>, [<ore:sand>, <sevendaystomine:cement>, <minecraft:water_bucket>]);
+recipes.addShaped("bullet_tip_mold", <sevendaystomine:bullet_tip_mold> * 3, [[<minecraft:clay_ball>, <ore:ingotLead>, <minecraft:clay_ball>], [<ore:ingotLead>, <minecraft:clay_ball>, <ore:ingotLead>],[<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>]]);
+recipes.addShaped("bullet_casing_mold", <sevendaystomine:bullet_casing_mold> * 3, [[<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>], [<ore:ingotBrass>, <minecraft:clay_ball>, <ore:ingotBrass>], [<minecraft:clay_ball>, <ore:ingotBrass>, <minecraft:clay_ball>]]);
 //============================================================================================================================================================================================
 //FROM MODS
 recipes.addShaped("gear", <sevendaystomine:gear>, [[null, <ore:ingotSteel>, null], [<ore:ingotSteel>, <buildcraftcore:gear_iron>, <ore:ingotSteel>], [null, <ore:ingotSteel>, null]]);

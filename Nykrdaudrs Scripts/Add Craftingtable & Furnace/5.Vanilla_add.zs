@@ -155,10 +155,6 @@ recipes.addShaped("minecart_with_chest", <minecraft:chest_minecart>, [[<ore:ches
 recipes.addShaped("detector_rails", <minecraft:detector_rail> * 6, [[<ore:ingotIron>, null, <ore:ingotIron>], [<ore:ingotIron>, <ore:pressurePlateStone>, <ore:ingotIron>], [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>]]);
 //============================================================================================================================================================================================
 //TEMP RECIPES			  
-recipes.addShaped(<minecraft:emerald> * 2, [[<techguns:itemshared:61>, null, <techguns:itemshared:61>], [null, <techguns:itemshared:71>, null], [<techguns:itemshared:61>, <ore:gemDiamond>, <techguns:itemshared:61>]]);
-recipes.addShaped(<minecraft:string> * 4, [[<ore:wool>]]);
-recipes.addShaped(<minecraft:clay_ball> * 4, [[<minecraft:clay>]]);
 recipes.addShaped(<minecraft:ender_pearl>, [[<ore:ingotObsidianSteel>, <ore:dustGlowstone>, <ore:ingotObsidianSteel>], [<ore:dustGlowstone>, <cyberware:cybereyes>.withTag({cyberwareQuality: "cyberware.quality.scavenged"}), <ore:dustGlowstone>], [<ore:ingotObsidianSteel>, <ore:dustGlowstone>, <ore:ingotObsidianSteel>]]);
 recipes.addShaped(<minecraft:ender_pearl>, [[<ore:ingotObsidianSteel>, <ore:dustGlowstone>, <ore:ingotObsidianSteel>], [<ore:dustGlowstone>, <cyberware:cybereyes>, <ore:dustGlowstone>], [<ore:ingotObsidianSteel>, <ore:dustGlowstone>, <ore:ingotObsidianSteel>]]);
 recipes.addShapeless(<minecraft:blaze_rod>, [<netherex:frost_rod>, <minecraft:blaze_powder>]);
-recipes.addShapeless(<minecraft:bone>, [<srparasites:ada_arachnida_drop>]);																																																						 

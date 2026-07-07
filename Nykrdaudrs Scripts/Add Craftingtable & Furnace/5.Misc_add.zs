@@ -98,7 +98,8 @@ recipes.addShaped("teleporter_turret", <openmodularturrets:teleporter_turret>, [
 recipes.addShaped("laser_turret", <openmodularturrets:laser_turret>, [[null, <openmodularturrets:intermediate_tiered:14>, null], [<quark:duskbound_block>, <openmodularturrets:intermediate_tiered:9>, <quark:duskbound_block>], [<openmodularturrets:intermediate_regular:0>, <quark:duskbound_block>, <openmodularturrets:intermediate_regular:0>]]);
 recipes.addShaped("rail_gun", <openmodularturrets:rail_gun_turret>, [[<quark:duskbound_block>, <openmodularturrets:intermediate_tiered:14>, <quark:duskbound_block>], [<quark:duskbound_block>, <openmodularturrets:intermediate_tiered:14>, <quark:duskbound_block>], [<openmodularturrets:intermediate_regular:0>, <openmodularturrets:intermediate_tiered:9>, <openmodularturrets:intermediate_regular:0>]]);
 recipes.addShapedMirrored("turret_crank", <openmodularturrets:lever_block>, [[<ore:stonesCobble>, <ore:stonesCobble>, <ore:stonesCobble>], [<ore:stonesCobble>, null, null], [<ore:stonesCobble>, null, null]]);
-
+recipes.addShapeless("grenades_from_frag", <openmodularturrets:ammo_meta:3>, [<techguns:fraggrenate>]);
+recipes.addShapeless("grenades_from_stiel", <openmodularturrets:ammo_meta:3>, [<techguns:stielgranate>]);
 recipes.addShapeless(<openmodularturrets:disposable_item_turret>, [<sevendaystomine:turret_base>]);
 recipes.addShapeless(<openmodularturrets:machine_gun_turret>, [<sevendaystomine:turret_advanced>]);																																																										 
 //============================================================================================================================================================================================
@@ -107,7 +108,7 @@ recipes.addShapeless("chunk_to_sliver", <netherex:bone_sliver>, [<netherex:bone_
 recipes.addShapeless("rime_steel", <netherex:rime_and_steel>, [<ore:ingotSteel>, <minecraft:flint>, <netherex:rime_crystal>]);
 recipes.addShaped("dull_mirror", <netherex:dull_mirror>, [[<netherex:ghast_queen_tear>, <ore:ingotGold>, <netherex:ghast_queen_tear>]]);
 recipes.addShapeless("hyphae", <netherex:hyphae>, [<minecraft:mycelium>, <netherex:spore>]);
-recipes.addShapeless("blazed_bones", <netherex:blazed_wither_bone> * 6, [<quark:blaze_lantern>]);
+recipes.addShapeless("blazed_bones_from_lantern", <netherex:blazed_wither_bone> * 6, [<quark:blaze_lantern>]);
 recipes.addShaped("obsidian_boat", <netherex:obsidian_boat>, [[<ore:plateObsidianSteel>, null, <ore:plateObsidianSteel>], [<ore:ingotObsidianSteel>, <ore:blockObsidianSteel>, <ore:ingotObsidianSteel>]]);
 //============================================================================================================================================================================================
 //OCEANIC EXPANSE

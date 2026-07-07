@@ -10,7 +10,6 @@ recipes.addShapeless("dispatcher_to_tendons", <srparasites:lurecomponent3>, [<sr
 recipes.addShapeless("parasitic_bonemeal_0", <nocubessrpsurvival:parasiticbonemeal> * 3, [<srparasites:ada_yelloweye_drop>]);
 recipes.addShapeless("parasitic_bonemeal_1", <nocubessrpsurvival:parasiticbonemeal> * 3, [<srparasites:bone>]);
 recipes.addShaped("reinforced_plating", <nocubessrpsurvival:reinforcedplating> * 4, [[<srparasites:parasiterubble:7>, <srparasites:ada_longarms_drop>, <srparasites:parasiterubble:7>], [<srparasites:ada_longarms_drop>, <minecraft:obsidian>, <srparasites:ada_longarms_drop>], [<srparasites:parasiterubble:7>, <srparasites:ada_longarms_drop>, <srparasites:parasiterubble:7>]]);
-recipes.addShaped("raw_organic_steel", <nocubessrparmory:rawcarbonsteel> * 2, [[null, <nocubessrparmory:pestilentpart>, null], [<nocubessrparmory:pestilentpart>, <ore:ingotSteel>, <nocubessrparmory:pestilentpart>], [null, <nocubessrparmory:pestilentpart>, null]]);
 recipes.addShaped("dead_blood", <forge:bucketfilled>.withTag({FluidName: "deadblood", Amount: 1000}), [[null, <srparasites:parasitecanister:0>, null], [<srparasites:parasitecanister:0>, <minecraft:bucket>, <srparasites:parasitecanister:0>], [null, <srparasites:parasitecanister:0>, null]]);
 recipes.addShaped("crop_box", <overlast:crops>, [[<minecraft:potato>, <minecraft:carrot>, <minecraft:beetroot>], [<minecraft:melon>, <minecraft:nether_wart>, <minecraft:reeds>], [<minecraft:wheat>, <ore:plankWood>, <minecraft:wheat_seeds>]]);
 recipes.addShaped("living_core0", <srparasites:living_core>, [[null, <srparasites:ada_summoner_drop>, null], [<srparasites:assimilated_flesh>, <srparasites:ada_manducater_drop>, <srparasites:assimilated_flesh>]]);
@@ -21,6 +20,10 @@ recipes.addShaped("blade_fragment", <srparasites:infectious_blade_fragment>, [[n
 recipes.addShaped("bone_handle", <srparasites:hardened_bone_handle>, [[<srparasites:assimilated_flesh>, <srparasites:ada_yelloweye_drop>], [<srparasites:assimilated_flesh>, <srparasites:ada_yelloweye_drop>], [<srparasites:assimilated_flesh>, <srparasites:ada_yelloweye_drop>]]);
 recipes.addShaped("rotten_eggs", <nocubessrpsurvival:rottenegg> * 8, [[<minecraft:egg>, <minecraft:egg>, <minecraft:egg>], [<minecraft:egg>, <srparasites:assimilated_flesh>, <minecraft:egg>], [<minecraft:egg>, <minecraft:egg>, <minecraft:egg>]]);
 recipes.addShapeless("flint_from_bolster", <minecraft:flint>, [<srparasites:ada_bolster_drop>]);
+recipes.addShapeless("pest_bread_from_bread", <nocubessrpsurvival:pestbread>, [<nocubessrpsurvival:parasiticbonemeal>, <minecraft:bread>]);
+recipes.addShapeless("pest_bread_from_moldy_bread", <nocubessrpsurvival:pestbread>, [<nocubessrpsurvival:parasiticbonemeal>, <sevendaystomine:moldy_bread>]);
+recipes.addShaped("blazed_bones_to_quench", <srparasites:itemthrow> * 3, [[null, <netherex:blazed_wither_bone>, null], [<netherex:blazed_wither_bone>, <minecraft:magma_cream>, <netherex:blazed_wither_bone>], [null, <netherex:blazed_wither_bone>, null]]);
+recipes.addShaped("hardened_scales", <nocubessrparmory:carapacepart>, [[<srparasites:ada_bolster_drop>, <srparasites:ada_bolster_drop>], [<srparasites:ada_bolster_drop>, <srparasites:ada_bolster_drop>]]);
 //============================================================================================================================================================================================
 recipes.addShapeless("cyst_to_flesh0", <srparasites:assimilated_flesh>, [<srparasites:canisteractive>]);
 recipes.addShapeless("cyst_to_flesh1", <srparasites:assimilated_flesh> * 2, [<srparasites:canisteractive>, <srparasites:canisteractive>]);

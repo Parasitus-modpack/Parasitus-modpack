@@ -12,6 +12,7 @@
 //============================================================================================================================================================================================
 //mods.techguns.BlastFurnace
 //BlastFurnace.addRecipe(<input1>, amount, <input2>, amount, <output>*amount, rf/tick, tick);
+//inputs as ("oreReg", amount) or (<item> * amount)
 //BlastFurnace.removeRecipe(<output>);
 //============================================================================================================================================================================================
 //mods.techguns.MetalPress
@@ -23,7 +24,10 @@
 //ChemLab.addRecipe(<input1>, amount, <input2>, amount, <fluidInput>*amount 1/1000, false, <fluidOutput>*amount 1/1000, rf/tick);
 //"<input>, 0" to leave empty. inputs can be oredict as String
 //ChemLab.removeRecipe(<itemOutput>,<fluidOutput>
-
+//============================================================================================================================================================================================
+//mods.techguns.Fabricator
+//Fabricator.addRecipe(<input1>, amount1, <input2>, amount2, <input3>, amount3, <input4>, amount4, <output>*amount);
+//Fabricator.removeRecipe(<output>)
 
 
 //============================================================================================================================================================================================
@@ -68,8 +72,8 @@ mods.techguns.MetalPress.addRecipe("blockCopper", "blockCopper", <techguns:items
 recipes.addShapeless("tin_scrap_from_ingot", <sevendaystomine:scrap_tin> * 9, [<ore:ingotTin>]);
 recipes.addShapeless("tin_ingots_from_block", <sevendaystomine:tiningot> * 9, [<ore:blockTin>]);
 recipes.addShapeless("tin_block_from_ingots", <chisel:blocktin:2>, [<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>]);
-recipes.addShapeless("tin_plates_from_block", <techguns:itemshared:48> * 8, [<chisel:blockplatinum:*>]);
-recipes.addShaped("tin_block_from_plates", <chisel:blockplatinum:2>, [[<techguns:itemshared:48>, <techguns:itemshared:48>, <techguns:itemshared:48>], [<techguns:itemshared:48>, null, <techguns:itemshared:48>], [<techguns:itemshared:48>, <techguns:itemshared:48>, <techguns:itemshared:48>]]);
+recipes.addShapeless("tin_plates_from_block", <techguns:itemshared:48> * 9, [<chisel:blockplatinum:*>]);
+recipes.addShapeless("tin_block_from_plates", <chisel:blockplatinum:2>, [<ore:plateTin>, <ore:plateTin>, <ore:plateTin>, <ore:plateTin>, <ore:plateTin>, <ore:plateTin>, <ore:plateTin>, <ore:plateTin>, <ore:plateTin>]);
 //====================================================================
 //breaking down ores
 mods.techguns.ReactionChamber.addRecipe("tin_processing", "oreTin", <liquid:creeper_acid>, [<sevendaystomine:scrap_tin> * 22, <sevendaystomine:smallstone> * 4], <techguns:itemshared:104>, 2, 1, 5, 0, 2, 100, 0.0, "BREAK_ITEM", 25000);
@@ -178,6 +182,7 @@ mods.techguns.MetalPress.addRecipe("blockGold", "blockGold", <techguns:itemshare
 // 1 pestilent ore and 100 dead blood makes 2 iron
 //====================================================================
 //crafting
+recipes.addShaped("iron_pipe", <sevendaystomine:iron_pipe> * 2, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [null, null, null], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
 recipes.addShapeless("iron_scrap_from_block", <sevendaystomine:scrapiron> * 9, [<ore:blockScrapIron>]);
 recipes.addShapeless("worn_iron_from_scrap", <netherex:worn_iron>, [<sevendaystomine:scrapiron>, <sevendaystomine:scrapiron>, <sevendaystomine:scrapiron>, <sevendaystomine:scrapiron>, <sevendaystomine:scrapiron>, <sevendaystomine:scrapiron>, <sevendaystomine:scrapiron>, <sevendaystomine:scrapiron>, <sevendaystomine:scrapiron>]);
 recipes.addShapeless("worn_block_to_rusted", <quark:iron_plate:1> * 2, [<netherex:worn_iron>, <netherex:worn_iron>]);
@@ -424,5 +429,12 @@ mods.techguns.BlastFurnace.addRecipe("oreBiotite", 1, "oreBiotite", 1, <quark:bi
 mods.techguns.BlastFurnace.addRecipe(<srparasites:infestedore:7>, <srparasites:infestedore:7>, <srparasites:lurecomponent6> * 4, 10, 100);
 furnace.addRecipe(<srparasites:lurecomponent6> * 2, <srparasites:infestedore:7>, 0.2);
 mods.techguns.ReactionChamber.addRecipe("pestilent_splitting", <srparasites:infestedore:7>, <liquid:deadblood>, [<srparasites:lurecomponent6> * 6, <srparasites:infestremain> * 4], <techguns:itemshared:104>, 2, 1, 5, 0, 2, 100, 0.0, "BREAK_ITEM", 25000);
+//====================================================================
 
+//STEAM PLATING
+mods.techguns.Fabricator.addRecipe("plateBronze", 2, "plateSteel", 2, <techguns:itemshared:60>, 1, <minecraft:dirt>, 0, <techguns:itemshared:45> * 2);
+//====================================================================
 
+//SEMI-ORGANIC STEEL
+recipes.addShaped("raw_organic_steel", <nocubessrparmory:rawcarbonsteel> * 2, [[null, <nocubessrparmory:pestilentpart>, null], [<nocubessrparmory:pestilentpart>, <ore:ingotSteel>, <nocubessrparmory:pestilentpart>], [null, <nocubessrparmory:pestilentpart>, null]]);
+mods.techguns.BlastFurnace.addRecipe(<nocubessrparmory:rawcarbonsteel> * 1, <nocubessrparmory:rawcarbonsteel> * 1, <nocubessrparmory:carbonsteel> * 2, 10, 100);
