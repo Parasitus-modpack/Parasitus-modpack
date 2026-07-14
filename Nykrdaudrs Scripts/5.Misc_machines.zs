@@ -84,7 +84,7 @@ mods.techguns.BlastFurnace.addRecipe(<minecraft:clay> * 2, "blockLead", 1, <seve
 mods.techguns.BlastFurnace.addRecipe("ingotBrass", 1, <minecraft:clay_ball> * 2, <sevendaystomine:bullet_casing>, 10, 100);
 mods.techguns.BlastFurnace.addRecipe("ingotSteel", 1, <minecraft:clay_ball> * 2, <sevendaystomine:bullet_casing>, 10, 100);
 mods.techguns.BlastFurnace.addRecipe("blockBrass", 1, <minecraft:clay> * 2, <sevendaystomine:bullet_casing> * 9, 10, 800);
-mods.techguns.BlastFurnace.addRecipe("blockBrass", 1, <minecraft:clay> * 2, <sevendaystomine:bullet_casing> * 9, 10, 800);
+mods.techguns.BlastFurnace.addRecipe("blockSteel", 1, <minecraft:clay> * 2, <sevendaystomine:bullet_casing> * 9, 10, 800);
 mods.techguns.BlastFurnace.addRecipe(<netherex:wither_bone> * 1, <minecraft:blaze_powder> * 2, <netherex:blazed_wither_bone> * 2, 10, 100);
 
 
@@ -122,7 +122,7 @@ mods.techguns.ChemLab.addRecipe(<nocubessrpsurvival:pestbread>, 2, <minecraft:di
 //"swapping boolean" = can the 2 inputs be swapped?
 
 mods.techguns.MetalPress.addRecipe(<quark:iron_plate:0>, <flintblock:flint_block>, <techguns:itemshared:57> * 9, true);
-mods.techguns.MetalPress.addRecipe(<srparasites:ada_bolster_drop>, "plateIron", <techguns:itemshared:57>, true);
+mods.techguns.MetalPress.addRecipe("plateIron", <srparasites:ada_bolster_drop>, <techguns:itemshared:57>, true);
 mods.techguns.MetalPress.addRecipe(<netherex:frost_rod>, "plateCarbon", <techguns:itemshared:59>, true);
 
 

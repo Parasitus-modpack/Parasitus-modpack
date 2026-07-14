@@ -129,6 +129,8 @@ recipes.addShapedMirrored("lead_1", <minecraft:lead> * 2, [[<sevendaystomine:pla
 recipes.addShapedMirrored("fishing_rod", <minecraft:fishing_rod>, [[null, null, <minecraft:stick>], [null, <minecraft:stick>, <sevendaystomine:plantfiber>], [<minecraft:stick>, null, <sevendaystomine:plantfiber>]]);
 recipes.addShaped("sticks", <minecraft:stick> * 4, [[<sevendaystomine:woodplank>], [<sevendaystomine:woodplank>]]);
 recipes.addShaped("end_crystal", <minecraft:end_crystal>, [[<quark:framed_glass>, <netherex:amethyst_crystal>, <quark:framed_glass>], [<netherex:amethyst_crystal>, <minecraft:nether_star>, <netherex:amethyst_crystal>], [<quark:framed_glass>, <minecraft:ghast_tear>, <quark:framed_glass>]]);
+recipes.addShaped("lit_pumpkin", <minecraft:lit_pumpkin>, [[<minecraft:pumpkin>], [<oe:underwater_torch>]]);
+recipes.addShapeless(<minecraft:blaze_rod>, [<netherex:frost_rod>, <minecraft:blaze_powder>]);
 //============================================================================================================================================================================================
 //OREREG
 recipes.addShaped("saddle", <minecraft:saddle>, [[<ore:leather>, <ore:leather>, <ore:leather>], [<ore:leather>, <minecraft:string>, <ore:leather>], [<minecraft:tripwire_hook>, null, <minecraft:tripwire_hook>]]);
@@ -154,7 +156,7 @@ recipes.addShaped("hopper", <minecraft:hopper>, [[<ore:ingotIron>, null, <ore:in
 recipes.addShaped("minecart_with_chest", <minecraft:chest_minecart>, [[<ore:chestWood>], [<minecraft:minecart>]]);
 recipes.addShaped("detector_rails", <minecraft:detector_rail> * 6, [[<ore:ingotIron>, null, <ore:ingotIron>], [<ore:ingotIron>, <ore:pressurePlateStone>, <ore:ingotIron>], [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>]]);
 //============================================================================================================================================================================================
-//TEMP RECIPES			  
+//PARASITUS CORE	  
 recipes.addShaped(<minecraft:ender_pearl>, [[<ore:ingotObsidianSteel>, <ore:dustGlowstone>, <ore:ingotObsidianSteel>], [<ore:dustGlowstone>, <cyberware:cybereyes>.withTag({cyberwareQuality: "cyberware.quality.scavenged"}), <ore:dustGlowstone>], [<ore:ingotObsidianSteel>, <ore:dustGlowstone>, <ore:ingotObsidianSteel>]]);
 recipes.addShaped(<minecraft:ender_pearl>, [[<ore:ingotObsidianSteel>, <ore:dustGlowstone>, <ore:ingotObsidianSteel>], [<ore:dustGlowstone>, <cyberware:cybereyes>, <ore:dustGlowstone>], [<ore:ingotObsidianSteel>, <ore:dustGlowstone>, <ore:ingotObsidianSteel>]]);
-recipes.addShapeless(<minecraft:blaze_rod>, [<netherex:frost_rod>, <minecraft:blaze_powder>]);
+

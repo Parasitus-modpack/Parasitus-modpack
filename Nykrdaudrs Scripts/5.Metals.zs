@@ -202,7 +202,7 @@ mods.techguns.BlastFurnace.addRecipe("nuggetIron", 5, "nuggetIron", 4, <minecraf
 mods.techguns.BlastFurnace.addRecipe("blockScrapIron", 1, "blockScrapIron", 1, <minecraft:iron_ingot> * 2, 20, 100);
 //====================================================================
 //pressing
-mods.techguns.MetalPress.addRecipe("blockIron", "blockIron", <techguns:itemshared:63> * 18, true);
+mods.techguns.MetalPress.addRecipe("blockIron", "blockIron", <techguns:itemshared:46> * 18, true);
 
 
 //============================================================================================================================================================================================
@@ -388,7 +388,7 @@ mods.techguns.ReactionChamber.addRecipe("lapis_cleansing", <srparasites:infested
 //POTASSIUM
 //materialstack-POTASSIUM
 mods.techguns.BlastFurnace.addRecipe("orePotassium", 1, "orePotassium", 1, <sevendaystomine:potassium> * 2, 10, 100);
-mods.techguns.ChemLab.addRecipe("dustPotassium", 2, "dustCoal", 1, <liquid:lava> * 150, false, <minecraft:gunpowder>, <liquid:water>, 35);
+mods.techguns.ChemLab.addRecipe("dustPotassium", 2, "dustCoal", 1, <liquid:lava> * 250, false, <minecraft:gunpowder>, <liquid:water> * 0, 35);
 //====================================================================
 
 //DIAMOND

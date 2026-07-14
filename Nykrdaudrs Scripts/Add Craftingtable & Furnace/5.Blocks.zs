@@ -21,7 +21,6 @@ furnace.addRecipe(<sevendaystomine:stonebrick_wall:0>, <pvj:cobblestone_brick_wa
 furnace.addRecipe(<minecraft:stone_slab:5>, <pvj:cobblestone_brick_slab>, 0.1);
 furnace.addRecipe(<minecraft:stone_brick_stairs>, <pvj:cobblestone_brick_stairs>, 0.1);
 furnace.addRecipe(<minecraft:stonebrick>, <pvj:cobblestone_brick>, 0.1);
-furnace.addRecipe(<minecraft:cobblestone>, <quark:biome_cobblestone:2>, 0.1);
 furnace.addRecipe(<minecraft:stone_stairs:0>, <quark:cobbed_stone_stairs>, 0.1);
 furnace.addRecipe(<minecraft:stone_slab:3>, <quark:cobbed_stone_slab>, 0.1);
 furnace.addRecipe(<minecraft:cobblestone_wall>, <quark:cobbed_stone_wall>, 0.1);
@@ -62,13 +61,14 @@ recipes.addShapeless("mossy_cobblestone", <minecraft:mossy_cobblestone>, [<ore:b
 recipes.addShapeless("mossy_stone_brick", <minecraft:stonebrick:1>, [<minecraft:vine>, <ore:stone_brick>]);
 recipes.addShapeless("cracked_mossy_stone_brick", <chisel:cobblestonemossy:2>, [<minecraft:vine>, <ore:cracked_stone_brick>]);
 recipes.addShapeless("smooth_mossy_stone", <chisel:cobblestonemossy1:2>, [<minecraft:vine>, <ore:smooth_stone_brick>]);
-recipes.addShapeless("mossy_stone_brick_pillar", <chisel:cobblestonemossy1:12>, [<minecraft:vine>, <ore:stone_brick_pillar>]);
+recipes.addShapeless("mossy_stone_brick_pillar1", <chisel:cobblestonemossy1:12>, [<minecraft:vine>, <ore:stone_brick_pillar>]);
+recipes.addShaped("mossy_stone_brick_pillar2", <chisel:cobblestonemossy1:12>, [[<minecraft:stonebrick:1>], [<minecraft:stonebrick:1>], [<minecraft:stonebrick:1>]]);
 recipes.addShapeless("chiseled_stone_brick_to_mossy", <chisel:cobblestonemossy1:6>, [<minecraft:vine>, <ore:chiseled_stone_brick>]);
 recipes.addShapeless("stone_brick_stairs_to_mossy", <sevendaystomine:stone_brick_stairs_mossy>, [<minecraft:vine>, <minecraft:stone_brick_stairs>]);
 recipes.addShapeless("stone_brick_wall_to_mossy", <sevendaystomine:stonebrick_wall:1>, [<minecraft:vine>, <sevendaystomine:stonebrick_wall:0>]);
 recipes.addShapeless("cobblewall_to_mossy", <minecraft:cobblestone_wall:1>, [<minecraft:cobblestone_wall:0>, <minecraft:vine>]);
 //============================================================================================================================================================================================
-//NISC
+//MISC
 recipes.addShaped("pebbles_from_rocks", <koopascritters:pebbles>, [[<pvj:cobblestone_rocks>, <pvj:cobblestone_rocks>, <pvj:cobblestone_rocks>], [<pvj:cobblestone_rocks>, <pvj:cobblestone_rocks>, <pvj:cobblestone_rocks>], [<pvj:cobblestone_rocks>, <pvj:cobblestone_rocks>, <pvj:cobblestone_rocks>]]);
 recipes.addShaped("pebbles_from_small_stone", <koopascritters:pebbles>, [[<sevendaystomine:smallstone>, <sevendaystomine:smallstone>, <sevendaystomine:smallstone>], [<sevendaystomine:smallstone>, <sevendaystomine:smallstone>, <sevendaystomine:smallstone>], [<sevendaystomine:smallstone>, <sevendaystomine:smallstone>, <sevendaystomine:smallstone>]]);
 recipes.addShaped("speleothemStone", <quark:stone_speleothem> * 6, [[<minecraft:stone:0>], [<minecraft:stone:0>], [<minecraft:stone:0>]]);
@@ -210,7 +210,7 @@ furnace.addRecipe(<chisel:sandstoneyellow:2>, <ore:yellow_sandstone_brick>, 0.1)
 //============================================================================================================================================================================================
 recipes.addShapeless("dust_from_sand", <sevendaystomine:sand_dust> * 9, [<ore:sand>]);
 //============================================================================================================================================================================================
-recipes.addShaped("sandstone_from_rocks", <minecraft:sandstone:0>, [[<pvj:sandstone_rocks>, <pvj:sandstone_rocks>, <pvj:sandstone_rocks>], [<pvj:sandstone_rocks>, <pvj:sandstone_rocks>, <pvj:sandstone_rocks>], [<pvj:sandstone_rocks>, <pvj:sandstone_rocks>, <pvj:sandstone_rocks>]]);
+recipes.addShaped("sandstone_from_rocks", <chisel:sandstoneyellow:10>, [[<pvj:sandstone_rocks>, <pvj:sandstone_rocks>, <pvj:sandstone_rocks>], [<pvj:sandstone_rocks>, <pvj:sandstone_rocks>, <pvj:sandstone_rocks>], [<pvj:sandstone_rocks>, <pvj:sandstone_rocks>, <pvj:sandstone_rocks>]]);
 recipes.addShaped("compressing_yellow_sand", <chisel:sandstoneyellow:10>, [[<minecraft:sand:0>, <minecraft:sand:0>], [<minecraft:sand:0>, <minecraft:sand:0>]]);
 recipes.addShaped("yellow_sandstone_pillar", <chisel:sandstoneyellow2:4>, [[<minecraft:stone_slab:1>], [<minecraft:stone_slab:1>], [<minecraft:stone_slab:1>]]);
 recipes.addShaped("yellow_sandstone_brick", <chisel:sandstoneyellow2:0> * 4, [[<ore:yellow_sandstone>, <ore:yellow_sandstone>], [<ore:yellow_sandstone>, <ore:yellow_sandstone>]]);
@@ -231,7 +231,7 @@ furnace.addRecipe(<chisel:sandstonered:2>, <ore:red_sandstone_brick>, 0.1);
 //============================================================================================================================================================================================
 recipes.addShapeless("red_sand", <minecraft:sand:1>, [<minecraft:sand:0>, <ore:dyeRed>]);
 //============================================================================================================================================================================================
-recipes.addShaped("red_sandstone_from_rocks", <minecraft:red_sandstone:0>, [[<pvj:red_sandstone_rocks>, <pvj:red_sandstone_rocks>, <pvj:red_sandstone_rocks>], [<pvj:red_sandstone_rocks>, <pvj:red_sandstone_rocks>, <pvj:red_sandstone_rocks>], [<pvj:red_sandstone_rocks>, <pvj:red_sandstone_rocks>, <pvj:red_sandstone_rocks>]]);
+recipes.addShaped("red_sandstone_from_rocks", <chisel:sandstonered:10>, [[<pvj:red_sandstone_rocks>, <pvj:red_sandstone_rocks>, <pvj:red_sandstone_rocks>], [<pvj:red_sandstone_rocks>, <pvj:red_sandstone_rocks>, <pvj:red_sandstone_rocks>], [<pvj:red_sandstone_rocks>, <pvj:red_sandstone_rocks>, <pvj:red_sandstone_rocks>]]);
 recipes.addShaped("compressing_red_sand", <chisel:sandstonered:10>, [[<minecraft:sand:1>, <minecraft:sand:1>], [<minecraft:sand:1>, <minecraft:sand:1>]]);
 recipes.addShaped("red_sandstone_pillar", <chisel:sandstonered2:4>, [[<minecraft:stone_slab2>], [<minecraft:stone_slab2>], [<minecraft:stone_slab2>]]);
 recipes.addShaped("red_sandstone_brick", <chisel:sandstonered2:0> * 4, [[<ore:red_sandstone>, <ore:red_sandstone>], [<ore:red_sandstone>, <ore:red_sandstone>]]);
@@ -274,7 +274,6 @@ recipes.addShapeless("dark_prismarine_from_cobble", <minecraft:prismarine:2>, [<
 recipes.addShapeless("dark_prismarine_from_stone", <minecraft:prismarine:2>, [<ore:dyeBlack>, <ore:prismarine_stone>]);
 //============================================================================================================================================================================================
 recipes.addShaped("prismarine_cobble", <minecraft:prismarine:0>, [[<minecraft:prismarine_shard>, <minecraft:prismarine_shard>, <minecraft:prismarine_shard>], [<minecraft:prismarine_shard>, <minecraft:prismarine_shard>, <minecraft:prismarine_shard>], [<minecraft:prismarine_shard>, <minecraft:prismarine_shard>, <minecraft:prismarine_shard>]]);
-recipes.addShaped("dark_prismarine", <minecraft:prismarine:2>, [[<minecraft:prismarine_shard>, <minecraft:prismarine_shard>, <minecraft:prismarine_shard>], [<minecraft:prismarine_shard>, <ore:dyeBlack>, <minecraft:prismarine_shard>], [<minecraft:prismarine_shard>, <minecraft:prismarine_shard>, <minecraft:prismarine_shard>]]);
 recipes.addShaped("prismarine_brick", <chisel:prismarine2:0> * 4, [[<ore:prismarine_stone>, <ore:prismarine_stone>], [<ore:prismarine_stone>, <ore:prismarine_stone>]]);
 recipes.addShaped("prismarine_pillar", <chisel:prismarine2:4> * 2, [[<ore:prismarine_brick>], [<ore:prismarine_brick>]]);
 recipes.addShaped("chiseled_prismarine_brick", <chisel:prismarine1:6> * 4, [[<ore:prismarine_brick>, <ore:prismarine_brick>], [<ore:prismarine_brick>, <ore:prismarine_brick>]]);
@@ -763,6 +762,7 @@ recipes.addShaped("waterstone", <chisel:waterstone:0> * 8, [[<ore:stones>, <ore:
 recipes.addShaped("tyrian", <chisel:tyrian:0> * 8, [[<ore:stones>, <ore:stones>, <ore:stones>], [<ore:stones>, <ore:ingotIron>, <ore:stones>], [<ore:stones>, <ore:stones>, <ore:stones>]]);
 recipes.addShaped("cloud", <chisel:cloud:0> * 8, [[<ore:wool>, <ore:wool>], [<ore:wool>, <ore:wool>]]);
 recipes.addShaped("valentines_block", <chisel:valentines:9> * 8, [[<ore:stones>, <ore:stones>, <ore:stones>], [<ore:stones>, <ore:dyePink>, <ore:stones>], [<ore:stones>, <ore:stones>, <ore:stones>]]);
+recipes.addShaped("companion_block", <chisel:valentines:9> * 16, [[<ore:stones>, <ore:stones>, <ore:stones>], [<ore:stones>, <minecraft:skull:*>, <ore:stones>], [<ore:stones>, <ore:stones>, <ore:stones>]]);
 recipes.addShaped("futura_block", <chisel:futura:0> * 8, [[<ore:stones>, <ore:stones>, <ore:stones>], [<ore:stones>, <ore:dustRedstone>, <ore:stones>], [<ore:stones>, <ore:stones>, <ore:stones>]]);
 recipes.addShaped("factory_block", <chisel:factory:0> * 8, [[<ore:ingotIron>, <ore:stones>, <ore:ingotIron>], [<ore:stones>, null, <ore:stones>], [<ore:ingotIron>, <ore:stones>, <ore:ingotIron>]]);
 recipes.addShaped("paper_blocks", <chisel:paper:0>, [[<minecraft:paper>, <minecraft:paper>, <minecraft:paper>], [<minecraft:paper>, <minecraft:stick>, <minecraft:paper>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);

@@ -54,6 +54,8 @@ mods.jei.JEI.hide(<oe:yellow_coral_dead>);
 mods.jei.JEI.hide(<oe:seastar>);
 mods.jei.JEI.hide(<quark:glowshroom_block>);
 mods.jei.JEI.hide(<baubles:ring>);
+/*
+ugly textures in "parasitus core"
 mods.jei.JEI.hide(<pvj:willow_door_item>);
 mods.jei.JEI.hide(<pvj:mangrove_door_item>);
 mods.jei.JEI.hide(<pvj:palm_door_item>);
@@ -68,9 +70,7 @@ mods.jei.JEI.hide(<pvj:juniper_door_item>);
 mods.jei.JEI.hide(<pvj:cherry_blossom_door_item>);
 mods.jei.JEI.hide(<pvj:jacaranda_door_item>);
 mods.jei.JEI.hide(<techguns:item_bunkerdoor>);
-mods.jei.JEI.hide(<sevendaystomine:woodendoorreinforceditem>);
-mods.jei.JEI.hide(<sevendaystomine:locked_door_item>);
-mods.jei.JEI.hide(<sevendaystomine:wooden_door_iron_reinforced_item>);
+*/
 mods.jei.JEI.hide(<malisisdoors:customdooritem>);
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
@@ -531,13 +531,6 @@ mods.jei.JEI.removeAndHide(<chisel:blockcobalt:3>);
 mods.jei.JEI.removeAndHide(<chisel:blockcobalt:4>);
 mods.jei.JEI.removeAndHide(<chisel:blockcobalt:5>);
 mods.jei.JEI.removeAndHide(<chisel:blockcobalt:6>);
-mods.jei.JEI.removeAndHide(<chisel:blockplatinum:0>);
-mods.jei.JEI.removeAndHide(<chisel:blockplatinum:1>);
-mods.jei.JEI.removeAndHide(<chisel:blockplatinum:2>);
-mods.jei.JEI.removeAndHide(<chisel:blockplatinum:3>);
-mods.jei.JEI.removeAndHide(<chisel:blockplatinum:4>);
-mods.jei.JEI.removeAndHide(<chisel:blockplatinum:5>);
-mods.jei.JEI.removeAndHide(<chisel:blockplatinum:6>);
 //============================================================================================================================================================================================
 //COROUTIL
 mods.jei.JEI.removeAndHide(<coroutil:item_repairing_gel>);
@@ -592,3 +585,22 @@ mods.jei.JEI.removeAndHide(<overlast:specimen_farm>);
 mods.jei.JEI.removeAndHide(<overlast:specimen_cell>);
 mods.jei.JEI.removeAndHide(<overlast:specimen_infect>);
 mods.jei.JEI.removeAndHide(<overlast:final_specimen>);
+//============================================================================================================================================================================================
+//TRAVELERS BACKPACK
+mods.jei.JEI.removeAndHide(<travelersbackpack:backpack_tank>);
+//============================================================================================================================================================================================
+//PARASITUS CORE
+mods.jei.JEI.hide(<parasitusfix:door_bunker>);
+mods.jei.JEI.hide(<parasitusfix:door_fir>);
+mods.jei.JEI.hide(<parasitusfix:door_pine>);
+mods.jei.JEI.hide(<parasitusfix:door_palm>);
+mods.jei.JEI.hide(<parasitusfix:door_willow>);
+mods.jei.JEI.hide(<parasitusfix:door_mangrove>);
+mods.jei.JEI.hide(<parasitusfix:door_redwood>);
+mods.jei.JEI.hide(<parasitusfix:door_baobab>);
+mods.jei.JEI.hide(<parasitusfix:door_cottonwood>);
+mods.jei.JEI.hide(<parasitusfix:door_aspen>);
+mods.jei.JEI.hide(<parasitusfix:door_maple>);
+mods.jei.JEI.hide(<parasitusfix:door_juniper>);
+mods.jei.JEI.hide(<parasitusfix:door_cherry_blossom>);
+mods.jei.JEI.hide(<parasitusfix:door_jacaranda>);

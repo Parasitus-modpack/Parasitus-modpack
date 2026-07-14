@@ -619,7 +619,9 @@ recipes.addShapeless("black_pipe_wire", <buildcrafttransport:wire:15> * 8, [<ore
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
 //REMAKES
+recipes.addShaped("pump", <buildcraftfactory:pump>, [[<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>], [<ore:ingotIron>, <buildcraftcore:gear_iron>, <ore:ingotIron>], [<ore:liquidTank>, <minecraft:bucket>, <ore:liquidTank>]]);
 recipes.addShaped("auto_craftingtable", <buildcraftfactory:autoworkbench_item>, [[<buildcraftcore:gear_iron>, <minecraft:crafting_table>, <buildcraftcore:gear_iron>]]);
+recipes.addShaped("flood_gate", <buildcraftfactory:flood_gate>, [[<ore:ingotIron>, <buildcraftcore:gear_iron>, <ore:ingotIron>], [<ore:paneIron>, <ore:liquidTank>, <ore:paneIron>], [<ore:ingotIron>, <ore:paneIron>, <ore:ingotIron>]]);
 recipes.addShaped("gelifier", <buildcraftfactory:water_gel_spawn>, [[null, <ore:sand>, null], [<ore:sand>, <forge:bucketfilled>.withTag({FluidName: "oil_residue", Amount: 1000}), <ore:sand>], [null, <ore:sand>, null]]);
 recipes.addShapeless("chipset_0", <buildcraftsilicon:redstone_chipset:0>, [<ore:dustRedstone>]);
 recipes.addShapeless("chipset_1", <buildcraftsilicon:redstone_chipset:1>, [<buildcraftsilicon:redstone_chipset:0>, <ore:ingotIron>]);
@@ -630,24 +632,18 @@ recipes.addShapeless("gate_copier_from_bc", <buildcraftsilicon:gate_copier>, [<b
 //============================================================================================================================================================================================
 //FROM MODS
 recipes.addShaped("list", <buildcraftcore:list>, [[<minecraft:paper>, <ore:dustRedstone>, <minecraft:paper>], [<minecraft:paper>, <ore:dyeGreen>, <minecraft:paper>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
-recipes.addShaped("pump", <buildcraftfactory:pump>, [[<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>], [<ore:ingotIron>, <buildcraftcore:gear_iron>, <ore:ingotIron>], [<openblocks:tank>, <minecraft:bucket>, <openblocks:tank>]]);
 recipes.addShaped("mining_well", <buildcraftfactory:mining_well>, [[<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>], [<ore:ingotIron>, <buildcraftcore:gear_iron>, <ore:ingotIron>], [<ore:ingotIron>, <sevendaystomine:iron_pickaxe>, <ore:ingotIron>]]);
-recipes.addShaped("quarry", <buildcraftbuilders:quarry>, [[<buildcraftcore:gear_iron>, <ore:dustRedstone>, <buildcraftcore:gear_iron>], [<sevendaystomine:gear>, <buildcraftcore:gear_iron>, <sevendaystomine:gear>], [<buildcraftcore:gear_diamond>, <minecraft:diamond_pickaxe>, <buildcraftcore:gear_diamond>]]);
-recipes.addShaped("combustion_engine", <buildcraftcore:engine:2>, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], [null, <ore:blockGlassColorless>, null], [<sevendaystomine:gear>, <minecraft:piston>, <sevendaystomine:gear>]]);
-recipes.addShaped("flood_gate_0", <buildcraftfactory:flood_gate>, [[<ore:ingotIron>, <buildcraftcore:gear_iron>, <ore:ingotIron>], [<ore:paneIron>, <buildcraftfactory:tank>, <ore:paneIron>], [<ore:ingotIron>, <ore:paneIron>, <ore:ingotIron>]]);
-recipes.addShaped("flood_gate_1", <buildcraftfactory:flood_gate>, [[<ore:ingotIron>, <buildcraftcore:gear_iron>, <ore:ingotIron>], [<ore:paneIron>, <openblocks:tank>, <ore:paneIron>], [<ore:ingotIron>, <ore:paneIron>, <ore:ingotIron>]]);
-recipes.addShaped("ore_processor_0", <bcoreprocessing:ore_processor>, [[null, <buildcraftfactory:tank>, null], [<sevendaystomine:gear>, <minecraft:furnace>, <sevendaystomine:gear>], [null, <buildcraftfactory:tank>, null]]);
-recipes.addShaped("ore_processor_1", <bcoreprocessing:ore_processor>, [[null, <buildcraftfactory:tank>, null], [<sevendaystomine:gear>, <techguns:simplemachine:11>, <sevendaystomine:gear>], [null, <buildcraftfactory:tank>, null]]);
-recipes.addShaped("ore_processor_2", <bcoreprocessing:ore_processor>, [[null, <openblocks:tank>, null], [<sevendaystomine:gear>, <minecraft:furnace>, <sevendaystomine:gear>], [null, <openblocks:tank>, null]]);
-recipes.addShaped("ore_processor_3", <bcoreprocessing:ore_processor>, [[null, <openblocks:tank>, null], [<sevendaystomine:gear>, <techguns:simplemachine:11>, <sevendaystomine:gear>], [null, <openblocks:tank>, null]]);
+recipes.addShaped("quarry", <buildcraftbuilders:quarry>, [[<buildcraftcore:gear_iron>, <ore:dustRedstone>, <buildcraftcore:gear_iron>], [<sevendaystomine:gear>, <buildcraftfactory:mining_well>, <sevendaystomine:gear>], [<buildcraftcore:gear_diamond>, <minecraft:diamond_pickaxe>, <buildcraftcore:gear_diamond>]]);
+recipes.addShaped("combustion_engine", <buildcraftcore:engine:2>, [[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>], [null, <ore:blockGlassColorless>, null], [<sevendaystomine:gear>, <minecraft:piston>, <sevendaystomine:gear>]]);
+recipes.addShaped("ore_processor_0", <bcoreprocessing:ore_processor>, [[null, <ore:liquidTank>, null], [<sevendaystomine:gear>, <minecraft:furnace>, <sevendaystomine:gear>], [null, <ore:liquidTank>, null]]);
+recipes.addShaped("ore_processor_1", <bcoreprocessing:ore_processor>, [[null, <ore:liquidTank>, null], [<sevendaystomine:gear>, <techguns:simplemachine:11>, <sevendaystomine:gear>], [null, <ore:liquidTank>, null]]);
 recipes.addShaped("filtered_buffer", <buildcrafttransport:filtered_buffer>, [[<ore:plankWood>, <buildcrafttransport:pipe_diamond_item:*>, <ore:plankWood>], [<ore:plankWood>, <ore:chestWood>, <ore:plankWood>], [<ore:plankWood>, <minecraft:piston>, <ore:plankWood>]]);
 recipes.addShaped("chute", <buildcraftfactory:chute>, [[<ore:plateIron>, <ore:chestWood>, <ore:plateIron>], [<ore:plateIron>, <buildcraftcore:gear_stone>, <ore:plateIron>], [null, <ore:plateIron>, null]]);
 recipes.addShapeless("gate_copier_from_7dtm", <buildcraftsilicon:gate_copier>, [<sevendaystomine:wrench>, <buildcraftsilicon:redstone_chipset:1>]);
 recipes.addShapeless("7dtm_to_bc_wrench", <buildcraftcore:wrench>, [<sevendaystomine:wrench>]);
 recipes.addShapeless("7dtm_coal_to_bc_stirling", <buildcraftcore:engine:1>, [<sevendaystomine:generator_combustion>]);
 recipes.addShapeless("7dtm_fuel_to_bc_combustion", <buildcraftcore:engine:2>, [<sevendaystomine:generator_gas>]);
-recipes.addShaped("distiller_0", <buildcraftfactory:distiller>, [[<minecraft:redstone_torch>, <openblocks:tank>, <minecraft:redstone_torch>], [<openblocks:tank>, <sevendaystomine:gear>, <openblocks:tank>]]);
-recipes.addShaped("distiller_1", <buildcraftfactory:distiller>, [[<minecraft:redstone_torch>, <buildcraftfactory:tank>, <minecraft:redstone_torch>], [<buildcraftfactory:tank>, <sevendaystomine:gear>, <buildcraftfactory:tank>]]);
+recipes.addShaped("distiller_0", <buildcraftfactory:distiller>, [[<minecraft:redstone_torch>, <ore:liquidTank>, <minecraft:redstone_torch>], [<ore:liquidTank>, <sevendaystomine:gear>, <ore:liquidTank>]]);
 recipes.addShaped("pulsar_from_7dtm", <buildcraftsilicon:plug_pulsar>, [[null, <ore:ingotIron>, null], [<ore:ingotIron>, <sevendaystomine:power_supply>, <ore:ingotIron>], [null, <ore:ingotIron>, null]]);
 recipes.addShaped("photo_cell_to_plug", <buildcraftsilicon:plug_light_sensor>, [[<sevendaystomine:photo_cell>], [<sevendaystomine:woodplank>]]);
 //============================================================================================================================================================================================
@@ -668,6 +664,23 @@ recipes.addShaped("iron_pipe13", <buildcrafttransport:pipe_iron_item:13> * 8, [[
 recipes.addShaped("iron_pipe14", <buildcrafttransport:pipe_iron_item:14> * 8, [[<ore:plateIron>, <ore:blockGlassGreen>, <ore:plateIron>]]);
 recipes.addShaped("iron_pipe15", <buildcrafttransport:pipe_iron_item:15> * 8, [[<ore:plateIron>, <ore:blockGlassRed>, <ore:plateIron>]]);
 recipes.addShaped("iron_pipe16", <buildcrafttransport:pipe_iron_item:16> * 8, [[<ore:plateIron>, <ore:blockGlassBlack>, <ore:plateIron>]]);
+recipes.addShaped("obsidian_pipe0", <buildcrafttransport:pipe_obsidian_item:0> * 8, [[<ore:blockObsidianSteel>, <ore:blockGlassColorless>, <ore:blockObsidianSteel>]]);
+recipes.addShaped("obsidian_pipe1", <buildcrafttransport:pipe_obsidian_item:1> * 8, [[<ore:blockObsidianSteel>, <ore:blockGlassWhite>, <ore:blockObsidianSteel>]]);
+recipes.addShaped("obsidian_pipe2", <buildcrafttransport:pipe_obsidian_item:2> * 8, [[<ore:blockObsidianSteel>, <ore:blockGlassOrange>, <ore:blockObsidianSteel>]]);
+recipes.addShaped("obsidian_pipe3", <buildcrafttransport:pipe_obsidian_item:3> * 8, [[<ore:blockObsidianSteel>, <ore:blockGlassMagenta>, <ore:blockObsidianSteel>]]);
+recipes.addShaped("obsidian_pipe4", <buildcrafttransport:pipe_obsidian_item:4> * 8, [[<ore:blockObsidianSteel>, <ore:blockGlassLightBlue>, <ore:blockObsidianSteel>]]);
+recipes.addShaped("obsidian_pipe5", <buildcrafttransport:pipe_obsidian_item:5> * 8, [[<ore:blockObsidianSteel>, <ore:blockGlassYellow>, <ore:blockObsidianSteel>]]);
+recipes.addShaped("obsidian_pipe6", <buildcrafttransport:pipe_obsidian_item:6> * 8, [[<ore:blockObsidianSteel>, <ore:blockGlassLime>, <ore:blockObsidianSteel>]]);
+recipes.addShaped("obsidian_pipe7", <buildcrafttransport:pipe_obsidian_item:7> * 8, [[<ore:blockObsidianSteel>, <ore:blockGlassPink>, <ore:blockObsidianSteel>]]);
+recipes.addShaped("obsidian_pipe8", <buildcrafttransport:pipe_obsidian_item:8> * 8, [[<ore:blockObsidianSteel>, <ore:blockGlassGray>, <ore:blockObsidianSteel>]]);
+recipes.addShaped("obsidian_pipe9", <buildcrafttransport:pipe_obsidian_item:9> * 8, [[<ore:blockObsidianSteel>, <ore:blockGlassLightGray>, <ore:blockObsidianSteel>]]);
+recipes.addShaped("obsidian_pipe10", <buildcrafttransport:pipe_obsidian_item:10> * 8, [[<ore:blockObsidianSteel>, <ore:blockGlassCyan>, <ore:blockObsidianSteel>]]);
+recipes.addShaped("obsidian_pipe11", <buildcrafttransport:pipe_obsidian_item:11> * 8, [[<ore:blockObsidianSteel>, <ore:blockGlassPurple>, <ore:blockObsidianSteel>]]);
+recipes.addShaped("obsidian_pipe12", <buildcrafttransport:pipe_obsidian_item:12> * 8, [[<ore:blockObsidianSteel>, <ore:blockGlassBlue>, <ore:blockObsidianSteel>]]);
+recipes.addShaped("obsidian_pipe13", <buildcrafttransport:pipe_obsidian_item:13> * 8, [[<ore:blockObsidianSteel>, <ore:blockGlassBrown>, <ore:blockObsidianSteel>]]);
+recipes.addShaped("obsidian_pipe14", <buildcrafttransport:pipe_obsidian_item:14> * 8, [[<ore:blockObsidianSteel>, <ore:blockGlassGreen>, <ore:blockObsidianSteel>]]);
+recipes.addShaped("obsidian_pipe15", <buildcrafttransport:pipe_obsidian_item:15> * 8, [[<ore:blockObsidianSteel>, <ore:blockGlassRed>, <ore:blockObsidianSteel>]]);
+recipes.addShaped("obsidian_pipe16", <buildcrafttransport:pipe_obsidian_item:16> * 8, [[<ore:blockObsidianSteel>, <ore:blockGlassBlack>, <ore:blockObsidianSteel>]]);
 //============================================================================================================================================================================================
 recipes.addShapeless("paintbrush_0", <buildcraftcore:paintbrush:0>, [<openblocks:paintbrush>]);
 recipes.addShapeless("paintbrush_1", <buildcraftcore:paintbrush:1>, [<openblocks:paintbrush>.withTag({color: 15790320})]);

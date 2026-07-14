@@ -159,6 +159,8 @@ recipes.removeByRecipeName("minecraft:chest");
 recipes.removeByRecipeName("minecraft:trapped_chest");
 recipes.removeByRecipeName("minecraft:cake");
 recipes.removeByRecipeName("minecraft:detector_rail");
+recipes.removeByRecipeName("minecraft:speckled_melon");
+recipes.removeByRecipeName("minecraft:golden_carrot");
 //============================================================================================================================================================================================
 recipes.removeByRecipeName("minecraft:lapis_lazuli");
 recipes.removeByRecipeName("minecraft:iron_bars");
@@ -610,7 +612,10 @@ recipes.removeByRecipeName("techguns:item_door3x3_1");
 recipes.removeByRecipeName("techguns:item_door3x3_1_alt");
 recipes.removeByRecipeName("techguns:item_door3x3_2");
 recipes.removeByRecipeName("techguns:item_door3x3_2_alt");
+/*
+ugly textures in "parasitus core"
 recipes.removeByRecipeName("techguns:item_bunkerdoor");
+*/
 recipes.removeByRecipeName("techguns:stairs_concrete_7");
 recipes.removeByRecipeName("techguns:stairs_concrete_15");
 recipes.removeByRecipeName("techguns:camonet_top_0");
@@ -1478,6 +1483,24 @@ recipes.removeByRecipeName("buildcrafttransport:pipe_stone_rf_green_undo");
 recipes.removeByRecipeName("buildcrafttransport:pipe_stone_rf_red_undo");
 recipes.removeByRecipeName("buildcrafttransport:pipe_stone_rf_black_undo");
 //============================================================================================================================================================================================
+recipes.removeByRecipeName("buildcrafttransport:pipe_obsidian_item_colorless");
+recipes.removeByRecipeName("buildcrafttransport:pipe_obsidian_item_white");
+recipes.removeByRecipeName("buildcrafttransport:pipe_obsidian_item_orange");
+recipes.removeByRecipeName("buildcrafttransport:pipe_obsidian_item_magenta");
+recipes.removeByRecipeName("buildcrafttransport:pipe_obsidian_item_light_blue");
+recipes.removeByRecipeName("buildcrafttransport:pipe_obsidian_item_yellow");
+recipes.removeByRecipeName("buildcrafttransport:pipe_obsidian_item_lime");
+recipes.removeByRecipeName("buildcrafttransport:pipe_obsidian_item_pink");
+recipes.removeByRecipeName("buildcrafttransport:pipe_obsidian_item_gray");
+recipes.removeByRecipeName("buildcrafttransport:pipe_obsidian_item_silver");
+recipes.removeByRecipeName("buildcrafttransport:pipe_obsidian_item_cyan");
+recipes.removeByRecipeName("buildcrafttransport:pipe_obsidian_item_purple");
+recipes.removeByRecipeName("buildcrafttransport:pipe_obsidian_item_blue");
+recipes.removeByRecipeName("buildcrafttransport:pipe_obsidian_item_brown");
+recipes.removeByRecipeName("buildcrafttransport:pipe_obsidian_item_green");
+recipes.removeByRecipeName("buildcrafttransport:pipe_obsidian_item_red");
+recipes.removeByRecipeName("buildcrafttransport:pipe_obsidian_item_black");
+//============================================================================================================================================================================================
 //REMOVAL
 recipes.removeByRecipeName("buildcraftcore:decorated");
 recipes.removeByRecipeName("buildcraftcore:marker_path");
@@ -1509,6 +1532,8 @@ recipes.removeByRecipeName("minecraft:coarse_dirt");
 recipes.removeByRecipeName("chisel:factory");
 recipes.removeByRecipeName("chisel:paper");
 recipes.removeByRecipeName("chisel:brownstone");
+recipes.removeByRecipeName("chisel:autochisel");
+recipes.removeByRecipeName("chisel:companion_cube");
 //============================================================================================================================================================================================
 //7DTM
 recipes.removeByRecipeName("chisel:glass/terrain-glassbubble");
@@ -1608,6 +1633,8 @@ recipes.removeByRecipeName("pvj:sandstone");
 recipes.removeByRecipeName("pvj:red_sandstone");
 recipes.removeByRecipeName("pvj:mystical_grill");
 recipes.removeByRecipeName("pvj:wet_adobe");
+/*
+ugly textures in "parasitus core"
 recipes.removeByRecipeName("pvj:willow_door");
 recipes.removeByRecipeName("pvj:mangrove_door");
 recipes.removeByRecipeName("pvj:palm_door");
@@ -1621,6 +1648,7 @@ recipes.removeByRecipeName("pvj:cottonwood_door");
 recipes.removeByRecipeName("pvj:juniper_door");
 recipes.removeByRecipeName("pvj:cherry_blossom_door");
 recipes.removeByRecipeName("pvj:jacaranda_door");
+*/
 furnace.remove(<pvj:cooked_duck>);
 furnace.remove(<pvj:steamed_clam_meat>);
 furnace.remove(<pvj:cooked_squid>);
@@ -1684,6 +1712,8 @@ furnace.remove(<koopascritters:cookedwildbird>);
 //============================================================================================================================================================================================
 recipes.removeByRecipeName("spartanweaponry:pole_wool");
 recipes.removeByRecipeName("spartanweaponry:handle_wool");
+recipes.removeByRecipeName("spartanweaponry:pole_string");
+recipes.removeByRecipeName("spartanweaponry:handle_string");
 recipes.removeByRecipeName("spartanweaponry:caestus");
 recipes.removeByRecipeName("spartanweaponry:arrow_wood");
 recipes.removeByRecipeName("spartanweaponry:dynamite");
@@ -1836,6 +1866,7 @@ recipes.removeByRecipeName("nocubessrparmory:recipe_twisted_dagger");
 recipes.removeByRecipeName("nocubessrparmory:recipe_twisted_mallet");
 recipes.removeByRecipeName("nocubessrparmory:recipe_gore_famine_axe");
 recipes.removeByRecipeName("nocubessrparmory:recipe_semi_organic_steel");
+recipes.removeByRecipeName("nocubessrparmory:recipe_plasma_torch_core");
 //============================================================================================================================================================================================
 recipes.removeByRecipeName("srparasites:lureblock");
 recipes.removeByRecipeName("srparasites:lureblock2");
@@ -1864,6 +1895,8 @@ recipes.removeByRecipeName("overlast:drinking_bottle");
 recipes.removeByRecipeName("overlast:evo_device");
 recipes.removeByRecipeName("overlast:beef_pickaxe");
 recipes.removeByRecipeName("overlast:crops_block");
+
+
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
 //AIR SUPPORT
@@ -1873,3 +1906,21 @@ recipes.removeByRecipeName("air_support:recipe_crate_remote");
 recipes.removeByRecipeName("air_support:recipe_medical_crate_remote");
 recipes.removeByRecipeName("air_support:recipe_utility_crate_remote");
 recipes.removeByRecipeName("air_support:recipe_circuit_board");
+
+
+//============================================================================================================================================================================================
+//============================================================================================================================================================================================
+//CYBERWARE
+//============================================================================================================================================================================================
+//============================================================================================================================================================================================
+recipes.removeByRecipeName("cyberware:surgery");
+recipes.removeByRecipeName("cyberware:charger");
+recipes.removeByRecipeName("cyberware:radio_post");
+
+
+//============================================================================================================================================================================================
+//============================================================================================================================================================================================
+//FTBQUESTS
+//============================================================================================================================================================================================
+//============================================================================================================================================================================================
+recipes.removeByRecipeName("ftbquests:book");

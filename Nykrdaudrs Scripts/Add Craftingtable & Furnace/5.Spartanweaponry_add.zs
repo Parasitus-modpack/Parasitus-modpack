@@ -10,10 +10,12 @@
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
 
-recipes.addShapedMirrored("pole_1", <spartanweaponry:material:1> * 4, [[<minecraft:stick>, <minecraft:stick>, <minecraft:stick>], [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>], [<minecraft:stick>, <minecraft:stick>, <ore:wool>]]);
-recipes.addShapedMirrored("pole_2", <spartanweaponry:material:1>, [[<minecraft:stick>, null, null], [<minecraft:stick>, <sevendaystomine:plantfiber>, null], [<minecraft:stick>, null, null]]);
-recipes.addShapedMirrored("handle_1", <spartanweaponry:material:0> * 4, [[<minecraft:stick>, <minecraft:stick>, <minecraft:stick>], [<minecraft:stick>, <ore:wool>, null]]);
-recipes.addShapeless("handle_2", <spartanweaponry:material:0>, [<minecraft:stick>, <sevendaystomine:plantfiber>]);
+recipes.addShapeless("pole_wool", <spartanweaponry:material:1> * 4, [[<minecraft:stick>, <minecraft:stick>, <minecraft:stick>], [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>], [<minecraft:stick>, <minecraft:stick>, <ore:wool>]]);
+recipes.addShapedMirrored("pole_fiber", <spartanweaponry:material:1>, [[<minecraft:stick>, null, null], [<minecraft:stick>, <sevendaystomine:plantfiber>, null], [<minecraft:stick>, null, null]]);
+recipes.addShapedMirrored("pole_string", <spartanweaponry:material:1>, [[<minecraft:stick>, null, null], [<minecraft:stick>, <minecraft:string>, null], [<minecraft:stick>, null, null]]);
+recipes.addShapeless("handle_wool", <spartanweaponry:material:0> * 4, [[<minecraft:stick>, <minecraft:stick>, <minecraft:stick>], [<minecraft:stick>, <ore:wool>, null]]);
+recipes.addShapeless("handle_fiber", <spartanweaponry:material:0>, [<minecraft:stick>, <sevendaystomine:plantfiber>]);
+recipes.addShapedMirrored("handle_string", <spartanweaponry:material:0>, [<minecraft:stick>, <minecraft:string>]);
 recipes.addShaped("caestus", <spartanweaponry:caestus>, [[<techguns:itemshared:60>, <ore:wool>]]);
 recipes.addShaped("arrow_quiver", <spartanweaponry:quiver_arrow>, [[<ore:leather>, <sevendaystomine:plantfiber>, <ore:leather>], [<ore:leather>, <ore:spartanweaponry:arrows>, <ore:leather>], [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
 recipes.addShapedMirrored("dynamite", <spartanweaponry:dynamite> * 2, [[null, <minecraft:paper>, <minecraft:string>], [<minecraft:paper>, <spartanweaponry:material:2>, <minecraft:paper>], [<spartanweaponry:material:2>, <minecraft:paper>, null]]);

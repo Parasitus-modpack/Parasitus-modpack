@@ -74,10 +74,11 @@ recipes.addShaped("redstone_inductor", <quark:redstone_inductor>, [[<ore:dustRed
 //============================================================================================================================================================================================
 //FROM MODS
 recipes.addShaped("witch_hat", <quark:witch_hat>, [[null, <sevendaystomine:cloth>, null], [<sevendaystomine:cloth>, <sevendaystomine:cloth>, <sevendaystomine:cloth>]]);
-recipes.addShapeless("ender_arrow", <quark:arrow_ender>, [<ore:spartanweaponry:arrows>, <minecraft:ender_pearl>]);
-recipes.addShapeless("torch_arrow", <quark:arrow_torch>, [<ore:spartanweaponry:arrows>, <minecraft:torch>]);
-recipes.addShaped("explosive_arrows", <quark:arrow_explosive> * 8, [[<ore:spartanweaponry:arrows>, <ore:spartanweaponry:arrows>, <ore:spartanweaponry:arrows>], [<ore:spartanweaponry:arrows>, <spartanweaponry:material:2>, <ore:spartanweaponry:arrows>], [<ore:spartanweaponry:arrows>, <ore:spartanweaponry:arrows>, <ore:spartanweaponry:arrows>]]);
+recipes.addShapeless("ender_arrow", <quark:arrow_ender>, [<ore:arrow>, <minecraft:ender_pearl>]);
+recipes.addShapeless("torch_arrow_0", <quark:arrow_torch>, [<ore:arrow>, <minecraft:torch>]);
+recipes.addShaped("explosive_arrows", <quark:arrow_explosive> * 8, [[<ore:arrow>, <ore:spartanweaponry:arrows>, <ore:spartanweaponry:arrows>], [<ore:spartanweaponry:arrows>, <spartanweaponry:material:2>, <ore:spartanweaponry:arrows>], [<ore:spartanweaponry:arrows>, <ore:spartanweaponry:arrows>, <ore:spartanweaponry:arrows>]]);
 recipes.addShaped("blaze_lantern", <quark:blaze_lantern>, [[<netherex:blazed_wither_bone>, <netherex:blazed_wither_bone>, <netherex:blazed_wither_bone>], [<netherex:blazed_wither_bone>, <minecraft:blaze_powder>, <netherex:blazed_wither_bone>], [<netherex:blazed_wither_bone>, <netherex:blazed_wither_bone>, <netherex:blazed_wither_bone>]]);
 recipes.addShaped("horse_whistle", <quark:horse_whistle>, [[<sevendaystomine:woodplank>, <sevendaystomine:woodplank>, <sevendaystomine:woodplank>], [<ore:ingotIron>, <minecraft:stick>, <sevendaystomine:woodplank>]]);
 recipes.addShapeless("glowcelium_2", <quark:glowcelium>, [<minecraft:mycelium>, <pvj:glowcap>]);
+recipes.addShapeless("torch_arrow_1", <quark:arrow_torch>, [<ore:arrow>, <oe:underwater_torch>]);
 

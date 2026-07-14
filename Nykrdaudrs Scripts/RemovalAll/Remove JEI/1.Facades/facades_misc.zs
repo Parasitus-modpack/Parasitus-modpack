@@ -112,3 +112,18 @@ mods.jei.JEI.removeAndHide(<buildcraftsilicon:plug_facade>.withTag({facade: {isH
 mods.jei.JEI.removeAndHide(<buildcraftsilicon:plug_facade>.withTag({facade: {isHollow: 1 as byte, states: [{state: {Name: "air_support:medical_crate"}}]}}));
 mods.jei.JEI.removeAndHide(<buildcraftsilicon:plug_facade>.withTag({facade: {isHollow: 0 as byte, states: [{state: {Name: "air_support:utility_crate"}}]}}));
 mods.jei.JEI.removeAndHide(<buildcraftsilicon:plug_facade>.withTag({facade: {isHollow: 1 as byte, states: [{state: {Name: "air_support:utility_crate"}}]}}));
+
+//==========================================================================
+//decire paths
+mods.jei.JEI.removeAndHide(<buildcraftsilicon:plug_facade>.withTag({facade: {isHollow: 1 as byte, states: [{state: {Name: "desirepaths:grass_worn_1"}}]}}));
+mods.jei.JEI.removeAndHide(<buildcraftsilicon:plug_facade>.withTag({facade: {isHollow: 0 as byte, states: [{state: {Name: "desirepaths:grass_worn_5"}}]}}));
+mods.jei.JEI.removeAndHide(<buildcraftsilicon:plug_facade>.withTag({facade: {isHollow: 1 as byte, states: [{state: {Name: "desirepaths:grass_worn_2"}}]}}));
+mods.jei.JEI.removeAndHide(<buildcraftsilicon:plug_facade>.withTag({facade: {isHollow: 1 as byte, states: [{state: {Name: "desirepaths:grass_worn_5"}}]}}));
+mods.jei.JEI.removeAndHide(<buildcraftsilicon:plug_facade>.withTag({facade: {isHollow: 1 as byte, states: [{state: {Name: "desirepaths:grass_worn_4"}}]}}));
+mods.jei.JEI.removeAndHide(<buildcraftsilicon:plug_facade>.withTag({facade: {isHollow: 1 as byte, states: [{state: {Name: "desirepaths:grass_worn_3"}}]}}));
+mods.jei.JEI.removeAndHide(<buildcraftsilicon:plug_facade>.withTag({facade: {isHollow: 0 as byte, states: [{state: {Name: "desirepaths:grass_worn_3"}}]}}));
+mods.jei.JEI.removeAndHide(<buildcraftsilicon:plug_facade>.withTag({facade: {isHollow: 0 as byte, states: [{state: {Name: "desirepaths:grass_worn_6"}}]}}));
+mods.jei.JEI.removeAndHide(<buildcraftsilicon:plug_facade>.withTag({facade: {isHollow: 0 as byte, states: [{state: {Name: "desirepaths:grass_worn_4"}}]}}));
+mods.jei.JEI.removeAndHide(<buildcraftsilicon:plug_facade>.withTag({facade: {isHollow: 1 as byte, states: [{state: {Name: "desirepaths:grass_worn_6"}}]}}));
+mods.jei.JEI.removeAndHide(<buildcraftsilicon:plug_facade>.withTag({facade: {isHollow: 0 as byte, states: [{state: {Name: "desirepaths:grass_worn_2"}}]}}));
+mods.jei.JEI.removeAndHide(<buildcraftsilicon:plug_facade>.withTag({facade: {isHollow: 0 as byte, states: [{state: {Name: "desirepaths:grass_worn_1"}}]}}));
