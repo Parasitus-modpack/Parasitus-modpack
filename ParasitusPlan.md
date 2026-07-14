@@ -8,8 +8,6 @@
 
 - Make sevendaystomine:soldier naturally attack parasites and zombies
 
-- Finish fixing floodgate crash
-
 - Make these the default values in parasite fix config
 
 D:armyKnifeDamage=18.0
@@ -260,7 +258,7 @@ Not done yet but Idea for new custom decoration props to be made into a mod for 
 
 
 ---
-**To Do List For the owner**
+**To Do List For the owner IGNORE**
 
 - When uploading file, delete relauncher config
 
