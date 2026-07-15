@@ -46,10 +46,10 @@ recipes.addShapeless("copper_ingots_from_block", <sevendaystomine:copperingot> *
 recipes.addShapeless("copper_block_from_ingots", <chisel:blockcopper:2>, [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>]);
 //====================================================================
 //breaking down ores
-mods.techguns.ReactionChamber.addRecipe("copper_processing", "oreCopper", <liquid:creeper_acid>, [<sevendaystomine:scrap_copper> * 22, <sevendaystomine:smallstone> * 4], <techguns:itemshared:104>, 2, 1, 5, 0, 2, 100, 0.0, "BREAK_ITEM", 25000);
+mods.techguns.ReactionChamber.addRecipe("copper_processing", "oreCopper", <liquid:creeper_acid>, [<sevendaystomine:scrap_copper> * 18, <sevendaystomine:smallstone> * 4], <techguns:itemshared:104>, 2, 1, 5, 0, 2, 100, 0.0, "BREAK_ITEM", 25000);
 //====================================================================
 //melted ore
-mods.techguns.ReactionChamber.addRecipe("molten_copper", "oreCopper", <liquid:molten_copper.cool>, [<sevendaystomine:scrap_copper> * 20, <sevendaystomine:smallstone> * 4], <techguns:itemshared:104>, 2, 1, 5, 0, 3, 700, 0.0, "BREAK_ITEM", 25000);
+mods.techguns.ReactionChamber.addRecipe("molten_copper", "oreCopper", <liquid:molten_copper.cool>, [<sevendaystomine:scrap_copper> * 24, <sevendaystomine:smallstone> * 4], <techguns:itemshared:104>, 2, 1, 5, 0, 3, 700, 0.0, "BREAK_ITEM", 25000);
 //====================================================================
 //scrap and nuggets
 mods.techguns.BlastFurnace.addRecipe("nuggetCopper", 5, "nuggetCopper", 4, <sevendaystomine:copperingot>, 10, 100);
@@ -76,10 +76,10 @@ recipes.addShapeless("tin_plates_from_block", <techguns:itemshared:48> * 9, [<ch
 recipes.addShapeless("tin_block_from_plates", <chisel:blockplatinum:2>, [<ore:plateTin>, <ore:plateTin>, <ore:plateTin>, <ore:plateTin>, <ore:plateTin>, <ore:plateTin>, <ore:plateTin>, <ore:plateTin>, <ore:plateTin>]);
 //====================================================================
 //breaking down ores
-mods.techguns.ReactionChamber.addRecipe("tin_processing", "oreTin", <liquid:creeper_acid>, [<sevendaystomine:scrap_tin> * 22, <sevendaystomine:smallstone> * 4], <techguns:itemshared:104>, 2, 1, 5, 0, 2, 100, 0.0, "BREAK_ITEM", 25000);
+mods.techguns.ReactionChamber.addRecipe("tin_processing", "oreTin", <liquid:creeper_acid>, [<sevendaystomine:scrap_tin> * 18, <sevendaystomine:smallstone> * 4], <techguns:itemshared:104>, 2, 1, 5, 0, 2, 100, 0.0, "BREAK_ITEM", 25000);
 //====================================================================
 //melted ore
-mods.techguns.ReactionChamber.addRecipe("molten_tin", "oreTin", <liquid:molten_tin.cool>, [<sevendaystomine:scrap_tin> * 20, <sevendaystomine:smallstone> * 4], <techguns:itemshared:104>, 2, 1, 5, 0, 3, 700, 0.0, "BREAK_ITEM", 25000);
+mods.techguns.ReactionChamber.addRecipe("molten_tin", "oreTin", <liquid:molten_tin.cool>, [<sevendaystomine:scrap_tin> * 24, <sevendaystomine:smallstone> * 4], <techguns:itemshared:104>, 2, 1, 5, 0, 3, 700, 0.0, "BREAK_ITEM", 25000);
 //====================================================================
 //scrap and nuggets
 mods.techguns.BlastFurnace.addRecipe("nuggetTin", 5, "nuggetTin", 4, <sevendaystomine:tiningot>, 10, 100);
@@ -104,10 +104,10 @@ recipes.addShapeless("lead_ingot_from_block", <sevendaystomine:leadingot> * 9, [
 recipes.addShapeless("lead_block", <chisel:blocklead:2>, [<ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>]);
 //====================================================================
 //breaking down ores
-mods.techguns.ReactionChamber.addRecipe("lead_processing", "oreLead", <liquid:creeper_acid>, [<sevendaystomine:scraplead> * 22, <sevendaystomine:smallstone> * 4], <techguns:itemshared:104>, 2, 1, 5, 0, 2, 100, 0.0, "BREAK_ITEM", 25000);
+mods.techguns.ReactionChamber.addRecipe("lead_processing", "oreLead", <liquid:creeper_acid>, [<sevendaystomine:scraplead> * 18, <sevendaystomine:smallstone> * 4], <techguns:itemshared:104>, 2, 1, 5, 0, 2, 100, 0.0, "BREAK_ITEM", 25000);
 //====================================================================
 //melted ore
-mods.techguns.ReactionChamber.addRecipe("molten_lead", "oreLead", <liquid:molten_lead.cool>, [<sevendaystomine:scraplead> * 20, <sevendaystomine:smallstone> * 4], <techguns:itemshared:104>, 2, 1, 5, 0, 3, 700, 0.0, "BREAK_ITEM", 25000);
+mods.techguns.ReactionChamber.addRecipe("molten_lead", "oreLead", <liquid:molten_lead.cool>, [<sevendaystomine:scraplead> * 24, <sevendaystomine:smallstone> * 4], <techguns:itemshared:104>, 2, 1, 5, 0, 3, 700, 0.0, "BREAK_ITEM", 25000);
 //====================================================================
 //scrap and nuggets
 mods.techguns.BlastFurnace.addRecipe("nuggetLead", 5, "nuggetLead", 4, <sevendaystomine:leadingot>, 10, 100);
@@ -132,10 +132,10 @@ recipes.addShapeless("zinc_ingots_from_block", <sevendaystomine:zincingot> * 9, 
 recipes.addShapeless("zinc_block_from_ingots", <chisel:blocknickel:2>, [<ore:ingotZinc>, <ore:ingotZinc>, <ore:ingotZinc>, <ore:ingotZinc>, <ore:ingotZinc>, <ore:ingotZinc>, <ore:ingotZinc>, <ore:ingotZinc>, <ore:ingotZinc>]);
 //====================================================================
 //breaking down ores
-mods.techguns.ReactionChamber.addRecipe("zinc_processing", "oreZinc", <liquid:creeper_acid>, [<sevendaystomine:scrap_zinc> * 22, <sevendaystomine:smallstone> * 4], <techguns:itemshared:104>, 2, 1, 5, 0, 2, 100, 0.0, "BREAK_ITEM", 25000);
+mods.techguns.ReactionChamber.addRecipe("zinc_processing", "oreZinc", <liquid:creeper_acid>, [<sevendaystomine:scrap_zinc> * 18, <sevendaystomine:smallstone> * 4], <techguns:itemshared:104>, 2, 1, 5, 0, 2, 100, 0.0, "BREAK_ITEM", 25000);
 //====================================================================
 //melted ore
-mods.techguns.ReactionChamber.addRecipe("molten_zinc", "oreZinc", <liquid:molten_zinc.cool>, [<sevendaystomine:scrap_zinc> * 20, <sevendaystomine:smallstone> * 4], <techguns:itemshared:104>, 2, 1, 5, 0, 3, 700, 0.0, "BREAK_ITEM", 25000);
+mods.techguns.ReactionChamber.addRecipe("molten_zinc", "oreZinc", <liquid:molten_zinc.cool>, [<sevendaystomine:scrap_zinc> * 24, <sevendaystomine:smallstone> * 4], <techguns:itemshared:104>, 2, 1, 5, 0, 3, 700, 0.0, "BREAK_ITEM", 25000);
 //====================================================================
 //scrap and nuggets
 mods.techguns.BlastFurnace.addRecipe("nuggetZinc", 5, "nuggetZinc", 4, <sevendaystomine:zincingot>, 10, 100);
@@ -157,11 +157,11 @@ mods.techguns.BlastFurnace.addRecipe("nuggetZinc", 5, "nuggetZinc", 4, <sevenday
 //crafting
 //====================================================================
 //breaking down ores
-mods.techguns.ReactionChamber.addRecipe("gold_processing", "oreGold", <liquid:creeper_acid>, [<sevendaystomine:scrap_gold> * 22, <sevendaystomine:smallstone> * 4], <techguns:itemshared:104>, 2, 1, 5, 0, 2, 100, 0.0, "BREAK_ITEM", 25000);
+mods.techguns.ReactionChamber.addRecipe("gold_processing", "oreGold", <liquid:creeper_acid>, [<sevendaystomine:scrap_gold> * 18, <sevendaystomine:smallstone> * 4], <techguns:itemshared:104>, 2, 1, 5, 0, 2, 100, 0.0, "BREAK_ITEM", 25000);
 mods.techguns.ReactionChamber.addRecipe("gold_cleansing", <srparasites:infestedore:3>, <liquid:deadblood>, [<minecraft:gold_ingot> * 2, <srparasites:infestremain> * 4], <techguns:itemshared:104>, 2, 1, 5, 0, 2, 100, 0.0, "BREAK_ITEM", 25000);
 //====================================================================
 //melted ore
-mods.techguns.ReactionChamber.addRecipe("molten_gold_processing", "oreGold", <liquid:bcop-gold-cool>, [<sevendaystomine:scrap_gold> * 20, <sevendaystomine:smallstone> * 4], <techguns:itemshared:104>, 2, 1, 5, 0, 3, 700, 0.0, "BREAK_ITEM", 25000);
+mods.techguns.ReactionChamber.addRecipe("molten_gold", "oreGold", <liquid:bcop-gold-cool>, [<sevendaystomine:scrap_gold> * 24, <sevendaystomine:smallstone> * 4], <techguns:itemshared:104>, 2, 1, 5, 0, 3, 700, 0.0, "BREAK_ITEM", 25000);
 //====================================================================
 //scrap and nuggets
 mods.techguns.BlastFurnace.addRecipe("nuggetGold", 5, "nuggetGold", 4, <minecraft:gold_ingot>, 10, 100);
@@ -191,11 +191,11 @@ recipes.addShapeless("iron_plates_from_block", <techguns:itemshared:46> * 9, [<q
 recipes.addShapeless("iron_block_to_plates", <quark:iron_plate:0>, [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>, <ore:plateIron>, <ore:plateIron>, <ore:plateIron>, <ore:plateIron>, <ore:plateIron>, <ore:plateIron>]);
 //====================================================================
 //breaking down ores
-mods.techguns.ReactionChamber.addRecipe("iron_processing", "oreIron", <liquid:creeper_acid>, [<sevendaystomine:scrapiron> * 22, <sevendaystomine:smallstone> * 4], <techguns:itemshared:104>, 2, 1, 5, 0, 2, 100, 0.0, "BREAK_ITEM", 25000);
+mods.techguns.ReactionChamber.addRecipe("iron_processing", "oreIron", <liquid:creeper_acid>, [<sevendaystomine:scrapiron> * 18, <sevendaystomine:smallstone> * 4], <techguns:itemshared:104>, 2, 1, 5, 0, 2, 100, 0.0, "BREAK_ITEM", 25000);
 mods.techguns.ReactionChamber.addRecipe("iron_cleansing", <srparasites:infestedore:4>, <liquid:deadblood>, [<minecraft:iron_ingot> * 2, <srparasites:infestremain> * 4], <techguns:itemshared:104>, 2, 1, 5, 0, 2, 100, 0.0, "BREAK_ITEM", 25000);
 //====================================================================
 //melted ore
-mods.techguns.ReactionChamber.addRecipe("iron_processing", "oreIron", <liquid:bcop-iron-cool>, [<sevendaystomine:scrapiron> * 20, <sevendaystomine:smallstone> * 4], <techguns:itemshared:104>, 2, 1, 5, 0, 3, 700, 0.0, "BREAK_ITEM", 25000);
+mods.techguns.ReactionChamber.addRecipe("molten_iron", "oreIron", <liquid:bcop-iron-cool>, [<sevendaystomine:scrapiron> * 24, <sevendaystomine:smallstone> * 4], <techguns:itemshared:104>, 2, 1, 5, 0, 3, 700, 0.0, "BREAK_ITEM", 25000);
 //====================================================================
 //scrap and nuggets
 mods.techguns.BlastFurnace.addRecipe("nuggetIron", 5, "nuggetIron", 4, <minecraft:iron_ingot>, 10, 100);
@@ -219,11 +219,11 @@ mods.techguns.MetalPress.addRecipe("blockIron", "blockIron", <techguns:itemshare
 recipes.addShapeless("titanium_ingots_from_block", <techguns:itemshared:85> *9, [<ore:blockTitanium>]);
 recipes.addShapeless("titanium_block_from_ingots", <chisel:blockaluminum:2>, [<ore:ingotTitanium>, <ore:ingotTitanium>, <ore:ingotTitanium>, <ore:ingotTitanium>, <ore:ingotTitanium>, <ore:ingotTitanium>, <ore:ingotTitanium>, <ore:ingotTitanium>, <ore:ingotTitanium>]);
 //====================================================================
-//ingots and blocks
-mods.techguns.BlastFurnace.addRecipe("oreTitanium", 5, <techguns:itemshared:78> * 4, <techguns:itemshared:85>, 10, 100);
-//====================================================================
 //melted ore
-mods.techguns.ReactionChamber.addRecipe("titanium_processing", "oreTitaniumIron", <liquid:molten_titanium.cool>, [<techguns:itemshared:78> * 5, <sevendaystomine:scrapiron> * 10, <sevendaystomine:smallstone> * 4], <techguns:itemshared:104>, 2, 1, 5, 0, 3, 700, 0.0, "BREAK_ITEM", 25000);
+mods.techguns.ReactionChamber.addRecipe("molten_titanium", "oreTitaniumIron", <liquid:molten_titanium.cool>, [<techguns:itemshared:78> * 4, <sevendaystomine:scrapiron> * 16, <sevendaystomine:smallstone> * 4], <techguns:itemshared:104>, 2, 1, 5, 0, 3, 700, 0.0, "BREAK_ITEM", 25000);
+//====================================================================
+//ingots and blocks
+mods.techguns.BlastFurnace.addRecipe("oreTitanium", 5, "oreTitanium" * 4, <techguns:itemshared:85>, 10, 100);
 //====================================================================
 //scrap and nuggets
 //====================================================================
@@ -381,7 +381,7 @@ mods.techguns.ChemLab.addRecipe("dustMercury", 5, <minecraft:dirt>, 0, <liquid:l
 //LAPIS
 // 1 pestilent ore and 100 dead blood makes 2 lapis
 recipes.addShapeless("lapis_from_block", <minecraft:dye:4> * 9, [<ore:blockLapis>]);
-mods.techguns.BlastFurnace.addRecipe("oreLapis", 1, "oreLapis", 1, <minecraft:dye:4> * 2, 10, 100);
+mods.techguns.BlastFurnace.addRecipe("oreLapis", 1, "oreLapis", 1, <minecraft:dye:4> * 6, 10, 100);
 mods.techguns.ReactionChamber.addRecipe("lapis_cleansing", <srparasites:infestedore:5>, <liquid:deadblood>, [<minecraft:dye:4> * 3, <srparasites:infestremain> * 4], <techguns:itemshared:104>, 2, 1, 5, 0, 2, 100, 0.0, "BREAK_ITEM", 25000);
 //====================================================================
 
@@ -392,20 +392,19 @@ mods.techguns.ChemLab.addRecipe("dustPotassium", 2, "dustCoal", 1, <liquid:lava>
 //====================================================================
 
 //DIAMOND
-// 1 pestilent ore and 100 dead blood makes 2 diamond
-mods.techguns.BlastFurnace.addRecipe("oreDiamond", 1, "oreDiamond", 1, <minecraft:diamond> * 2, 10, 100);
+// 1 pestilent ore and 100 dead blood makes 2 diamond3, 10, 100);
 mods.techguns.ReactionChamber.addRecipe("diamond_cleansing", <srparasites:infestedore:1>, <liquid:deadblood>, [<minecraft:diamond> * 3, <srparasites:infestremain> * 4], <techguns:itemshared:104>, 2, 1, 5, 0, 2, 100, 0.0, "BREAK_ITEM", 25000);
 //====================================================================
 
 //EMERALD
 // 1 pestilent ore and 100 dead blood makes 2 emerald
-mods.techguns.BlastFurnace.addRecipe("oreEmerald", 1, "oreEmerald", 1, <minecraft:emerald> * 2, 10, 100);
+mods.techguns.BlastFurnace.addRecipe("oreEmerald", 1, "oreEmerald", 1, <minecraft:emerald> * 3, 10, 100);
 mods.techguns.ReactionChamber.addRecipe("emerald_cleansing", <srparasites:infestedore:2>, <liquid:deadblood>, [<minecraft:emerald> * 3, <srparasites:infestremain> * 4], <techguns:itemshared:104>, 2, 1, 5, 0, 2, 100, 0.0, "BREAK_ITEM", 25000);
 //====================================================================
 
 //REDSTONE
 // 1 pestilent ore and 100 dead blood makes 2 redstone
-mods.techguns.BlastFurnace.addRecipe("oreRedstone", 1, "oreRedstone", 1, <minecraft:redstone> * 2, 10, 100);
+mods.techguns.BlastFurnace.addRecipe("oreRedstone", 1, "oreRedstone", 1, <minecraft:redstone> * 6, 10, 100);
 mods.techguns.ReactionChamber.addRecipe("redstone_cleansing", <srparasites:infestedore:6>, <liquid:deadblood>, [<minecraft:redstone> * 3, <srparasites:infestremain> * 4], <techguns:itemshared:104>, 2, 1, 5, 0, 2, 100, 0.0, "BREAK_ITEM", 25000);
 //====================================================================
 

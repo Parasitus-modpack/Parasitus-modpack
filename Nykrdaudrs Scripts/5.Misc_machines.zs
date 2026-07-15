@@ -64,8 +64,12 @@ mods.techguns.ChargingStation.addRecipe("blockRedstone", <minecraft:glowstone>, 
 //REACTION CHAMBER
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
-//mods.techguns.ReactionChamber.addRecipe(<iteminput>, <fluidInput>, <itemOutput1>, <itemOutput2>, <itemOutput3>, <itemOutput4>, <focusItem>, ticks, required, intensityStart, intensityJump, liquidLvl, liquidConsumption, instability, risk, rf/tick
+//mods.techguns.ReactionChamber.addRecipe(<iteminput>, <fluidInput>, [<itemOutput1>, <itemOutput2>, <itemOutput3>, <itemOutput4>], <focusItem>, ticks, required, intensityStart, intensityJump, liquidLvl, liquidConsumption, instability, risk, rf/tick
 //instability = 0.0-1.0		risk = "NONE", "BREAK_ITEM", "EXPLOSION_LOW", "EXPLOSION_MEDIUM", "EXPLOSION_HIGH"(may not work)
+
+mods.techguns.ReactionChamber.addRecipe(<minecraft:nether_star>, <liquid:bcop-gaseous_lava-cool>, [<techguns:itemshared:92>], <techguns:itemshared:104>, 10, 7, 8, 2, 4, 4000, 1.0, "EXPLOSION_MEDIUM", 500000);
+mods.techguns.ReactionChamber.addRecipe(<minecraft:nether_star>, <liquid:lava>, [<techguns:itemshared:92>], <techguns:itemshared:104>, 10, 7, 8, 2, 4, 4000, 1.0, "EXPLOSION_MEDIUM", 500000);
+mods.techguns.ReactionChamber.addRecipe(<techguns:itemshared:103>, <liquid:bcop-gaseous_lava-cool>, [<minecraft:blaze_rod>], <techguns:itemshared:104>, 5, 3, 7, 2, 4, 1000, 0.5, "BREAK_ITEM", 250000);
 
 
 //============================================================================================================================================================================================
@@ -112,6 +116,18 @@ mods.techguns.AmmoPress.addMetal2(<sevendaystomine:bullet_casing>);
 
 mods.techguns.ChemLab.addRecipe(<sevendaystomine:moldy_bread>, 2, <minecraft:dirt>, 0, <liquid:milk> * 700, false, <minecraft:bread>, <liquid:water> * 0, 5);
 mods.techguns.ChemLab.addRecipe(<nocubessrpsurvival:pestbread>, 2, <minecraft:dirt>, 0, <liquid:milk> * 700, false, <minecraft:bread>, <liquid:water> * 0, 5);
+mods.techguns.ChemLab.addRecipe(<minecraft:gunpowder>, 1, <minecraft:dye:4>, 1, <liquid:bcop-gaseous_lava-cool> * 500, false, <techguns:itemshared:75>, <liquid:water> * 0, 20);
+mods.techguns.ChemLab.addRecipe(<techguns:itemshared:28>, 1, <minecraft:dirt>, 0, <liquid:bcop-gaseous_lava-cool> * 500, false, <techguns:itemshared:27>, <liquid:water> * 0, 1);
+mods.techguns.ChemLab.addRecipe(<techguns:itemshared:7>, 1, <minecraft:dirt>, 0, <liquid:bcop-gaseous_lava-cool> * 250, false, <techguns:itemshared:145>, <liquid:water> * 0, 5);
+mods.techguns.ChemLab.addRecipe(<minecraft:diamond>, 1, <minecraft:blaze_powder>, 1, <liquid:bcop-gaseous_lava-cool> * 1000, false, <techguns:itemshared:64> * 2, <liquid:water> * 0, 25);
+mods.techguns.ChemLab.addRecipe("netherrack", 1, <minecraft:soul_sand>, 1, <liquid:bcop-gaseous_lava-cool> * 1000, false, <techguns:itemshared:76> * 4, <liquid:water> * 0, 20);
+mods.techguns.ChemLab.addRecipe("netherrack", 1, <minecraft:soul_sand>, 1, <liquid:lava> * 1000, false, <techguns:itemshared:76> * 4, <liquid:water> * 0, 20);
+mods.techguns.ChemLab.addRecipe(<techguns:itemshared:3>, 1, <minecraft:blaze_powder>, 1, <liquid:bcop-gaseous_lava-cool> * 250, false, <techguns:itemshared:110>, <liquid:water> * 0, 25);
+mods.techguns.ChemLab.addRecipe(<techguns:itemshared:1>, 2, <minecraft:blaze_powder>, 1, <liquid:bcop-gaseous_lava-cool> * 250, false, <techguns:itemshared:109>, <liquid:water> * 0, 25);
+mods.techguns.ChemLab.addRecipe(<techguns:itemshared:4>, 1, <minecraft:blaze_powder>, 1, <liquid:bcop-gaseous_lava-cool> * 250, false, <techguns:itemshared:108>, <liquid:water> * 0, 25);
+mods.techguns.ChemLab.addRecipe(<techguns:itemshared:2>, 8, <minecraft:blaze_powder>, 1, <liquid:bcop-gaseous_lava-cool> * 250, false, <techguns:itemshared:106>, <liquid:water> * 0, 25);
+mods.techguns.ChemLab.addRecipe(<sevendaystomine:salt>, 5, <minecraft:dirt>, 0, <liquid:bcop-gaseous_lava-cool> * 400, false, null, <liquid:mercury> * 500, 35);
+mods.techguns.ChemLab.addRecipe(<sevendaystomine:potassium>, 2, "dustCoal", 1, <liquid:bcop-gaseous_lava-cool> * 250, false, <minecraft:gunpowder>, <liquid:water> * 0, 35);
 
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
@@ -143,3 +159,20 @@ mods.techguns.MetalPress.addRecipe(<netherex:frost_rod>, "plateCarbon", <techgun
 //mods.sevendaystomine.recipe.CampfireRecipeManager.addShapedRecipe(IItemStack, IItemStack, IItemStack, [], [], int);
 //mods.sevendaystomine.recipe.CampfireRecipeManager.addShapelessRecipe(IItemStack,IItemStack, IItemStack, [], int);
 
+
+//============================================================================================================================================================================================
+//============================================================================================================================================================================================
+//FUELS
+//============================================================================================================================================================================================
+//============================================================================================================================================================================================
+//mods.buildcraft.CombustionEngine.addCleanFuel(<fuel liquid>, rf/t, total ticks (s*20);
+//mods.buildcraft.CombustionEngine.addDirtyFuel(<fuel liquid>, rf/t, total ticks (s*20), <residue liquid>);
+//furnace.setFuel(<item>, burntime int)
+
+CombustionEngine.addDirtyFuel(<liquid:deadblood>, 5.0, 15000, <liquid:oil_residue>);
+CombustionEngine.addDirtyFuel(<liquid:ichor>, 7.0, 25000, <liquid:oil_residue_heat_2>);
+CombustionEngine.addCleanFuel(<liquid:gasoline>, 6.0, 100000);
+
+furnace.setFuel(<minecraft:coal>, 1600);
+furnace.setFuel(<minecraft:coal:1>, 1600);
+furnace.setFuel(<minecraft:coal_block>, 16000);
