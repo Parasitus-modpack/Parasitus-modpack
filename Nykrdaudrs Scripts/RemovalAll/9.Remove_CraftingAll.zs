@@ -1784,6 +1784,7 @@ recipes.removeByRecipeName("spartanweaponry:battleaxe_stone");
 recipes.removeByRecipeName("spartanweaponry:mace_stone");
 recipes.removeByRecipeName("spartanweaponry:glaive_stone");
 recipes.removeByRecipeName("spartanweaponry:staff_stone");
+recipes.removeByRecipeName("spartanweaponry:quarterstaff_stone");
 
 
 //============================================================================================================================================================================================

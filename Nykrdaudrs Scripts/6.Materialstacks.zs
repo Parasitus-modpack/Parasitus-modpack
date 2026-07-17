@@ -32,7 +32,6 @@ mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:burnt_log>,
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:burnt_planks_slab>, "carbon", 2);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:burnt_planks_fence>, "carbon", 2);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:burnt_chair>, "carbon", 2);
-mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:campfire>, "carbon", 1);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:candle>, "carbon", 0.33);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:arrow_torch>, "carbon", 0.1);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:charred_nether_bricks>, "carbon", 4);
@@ -662,6 +661,7 @@ mods.sevendaystomine.item.ScrapDataManager.addScrap(<openmodularturrets:expander
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<techguns:itemshared:66>, "gold", 1); //elite circuit
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<techguns:itemshared:128>, "gold", 4.33); //gauss rifle barrel
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<techguns:itemshared:69>, "gold", 2); //cybernetic parts
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<openmodularturrets:expander:2>, "gold", 13); //base power expander T3
 */
 
 //============================================================================================================================================================================================
@@ -1153,7 +1153,7 @@ mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:bookshelf_jungle:*>,
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:bookshelf_acacia:*>, "wood", 1.98);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:bookshelf_darkoak:*>, "wood", 1.98);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<buildcraftcore:engine:0>, "wood", 1.43); //redstone engine
-mods.sevendaystomine.item.ScrapDataManager.addScrap(<openmodularturrets:intermediate_tiered:0>, "wood", 0.33) //sensor t1
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<openmodularturrets:intermediate_tiered:0>, "wood", 0.33) //sensor T1
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<buildcrafttransport:pipe_wood_item:*>, "wood", 0.08);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<buildcrafttransport:pipe_wood_fluid:*>, "wood", 0.08);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<buildcrafttransport:pipe_wood_rf:*>, "wood", 0.08);
@@ -1165,6 +1165,7 @@ mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:colored_item_frame:*>
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<techguns:itemshared:42>, "wood", 4); //wooden gun stock
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<techguns:military_crate:*>, "wood", 2.64);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:writingtable:8>, "wood", 0.83);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<openmodularturrets:turret_base:0>, "wood", 1.43); //turret base T1
 */
 
 //============================================================================================================================================================================================
@@ -1179,6 +1180,274 @@ mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:mossy_cobblestone_rocks
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:andesite_rocks>, "stone", 0.5, true, false);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:granite_rocks>, "stone", 0.5, true, false);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:diorite_rocks>, "stone", 0.5, true, false);
+/*
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:stone:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:cobblestone>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:gravel>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:stone_slab:0>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:stone_slab:3>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:stone_slab:5>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:mossy_cobblestone>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:stone_stairs>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:stonebrick:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:stone_brick_stairs>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:furnace>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:cobblestone_wall>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:dispenser>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:sticky_piston>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:piston>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:stone_pressure_plate>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:stone_button>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:dropper>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:observer>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:deadmossystone>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:deadmossybrick>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:basalt>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:marble>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:rhyolite>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:basaltcobblestone>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:marblecobblestone>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:rhyolitecobblestone>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:basaltbricks>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:marblebricks>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:rhyolitebricks>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:basaltpolished>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:marblepolished>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:rhyolitepolished>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:andesitebricks>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:dioritebricks>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:granitebricks>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:stonebrick_wall:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:basalt_bricks_cracked>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:marble_bricks_cracked>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:rhyolite_bricks_cracked>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:andesite_bricks_cracked>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:diorite_bricks_cracked>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:granite_bricks_cracked>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:basalt_bricks_mossy>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:marble_bricks_mossy>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:rhyolite_bricks_mossy>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:andesite_bricks_mossy>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:diorite_bricks_mossy>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:granite_bricks_mossy>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:stone_brick_stairs_mossy>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:stone_brick_stairs_cracked>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sbuildcraftcore:engine:1>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<buildcraftcore:gear_stone>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<buildcrafttransport:pipe_structure>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<buildcrafttransport:pipe_cobble_item:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<buildcrafttransport:pipe_cobble_fluid:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<buildcrafttransport:pipe_cobble_power:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<buildcrafttransport:pipe_cobble_rf:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<buildcrafttransport:pipe_stone_item:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<buildcrafttransport:pipe_stone_fluid:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<buildcrafttransport:pipe_stone_power:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<buildcrafttransport:pipe_stone_rf:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:andesite:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:andesite1:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:andesite2:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:basalt:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:basalt1:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:basalt2:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:cobblestone:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:cobblestone1:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:cobblestone2:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:block_coal_coke:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:block_coal_coke1:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:block_coal_coke2*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:cobblestonemossy>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:cobblestonemossy1:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:cobblestonemossy2:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:diorite:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:diorite1:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:diorite2:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:granite:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:granite1:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:granite2:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:lavastone:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:lavastone1:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:lavastone2:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:limestone:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:limestone1:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:limestone2:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:marble:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:marble1:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:marble2:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:stonebrick:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:stonebrick1:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:stonebrick2:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:temple:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:templemossy:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:tyrian:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:valentines:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:waterstone:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<koopascritters:pebbles>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<koopascritters:pebblesslab>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<openmodularturrets:intermediate_tiered:5>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<openmodularturrets:intermediate_tiered:10>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<openmodularturrets:expander:0>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<openmodularturrets:expander:5>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<openmodularturrets:disposable_item_turret>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<openmodularturrets:potato_cannon_turret>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<openmodularturrets:lever_block>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<openblocks:big_button>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<openblocks:path>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:cobblestone_brick>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:basalt>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:basalt_brick>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:limestone>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:marble>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:marble_brick>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:siltstone>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:cobblestone_brick_stairs>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:basalt_stairs>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:basalt_brick_stairs>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:limestone_stairs>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:marble_stairs>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:marble_brick_stairs>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:siltstone_stairs>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:cobblestone_brick_slab>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:basalt_slab>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:basalt_brick_slab>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:limestone_slab>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:marble_slab>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:marble_brick_slab>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:siltstone_slab>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:cobblestone_brick_wall:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:rock_formation>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:jasper:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:stone_jasper_slab>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:stone_jasper_stairs>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:slate:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:stone_slate_slab>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:stone_slate_stairs>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:biome_cobblestone:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:biome_brick:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:fire_stone_slab>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:fire_stone_stairs>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:fire_stone_brick_slab>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:fire_stone_brick_stairs>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:icy_stone_slab>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:icy_stone_stairs>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:icy_stone_brick_slab>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:icy_stone_brick_stairs>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:cobbed_stone_slab>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:cobbed_stone_stairs>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:world_stone_bricks:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:world_stone_carved:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:stone_granite_bricks_stairs>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:stone_granite_bricks_slab>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:stone_diorite_bricks_stairs>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:stone_diorite_bricks_slab>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:stone_andesite_bricks_stairs>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:stone_andesite_bricks_slab>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:stone_jasper_bricks_stairs>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:stone_jasper_bricks_slab>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:stone_slate_bricks_stairs>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:stone_slate_bricks_slab>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:world_stone_pavement:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:stone_speleothem>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:granite_speleothem>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:diorite_speleothem>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:andesite_speleothem>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:jasper_speleothem>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:slate_speleothem>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:jasper_wall>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:slate_wall>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:fire_stone_wall>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:icy_stone_wall>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:cobbed_stone_wall>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:fire_stone_brick_wall>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:icy_stone_brick_wall>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:stone_granite_bricks_wall>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:stone_diorite_bricks_wall>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:dtone_andesite_bricks_wall>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:stone_jasper_bricks_wall>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:stone_slate_bricks_wall>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<srparasites:infestedrubble>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<nocubessrpsurvival:infestedstonebrick>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<nocubessrpsurvival:infestedstonewall>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<nocubessrpsurvival:infestedstonebrickstairs>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<nocubessrpsurvival:infestedstonebrickslab>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<nocubessrpsurvival:infestedbrickmossy>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<nocubessrpsurvival:infestedstonebrickcracked>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<nocubessrpsurvival:infestedstonebrickchiseled>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<srparasites:parasiterubble:3>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<srparasites:parasiterubble:2>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<nocubessrpsurvival:parasiticstonewall>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<nocubessrpsurvival:parasiticstonestairs>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<nocubessrpsurvival:parasiticstoneslab>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<nocubessrpsurvival:redstonebrick>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<srparasites:parasiterubble:5>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<srparasites:parasiterubble:6>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<nocubessrpsurvival:mossyparasitebrick>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<nocubessrpsurvival:redstonebrickwall>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<nocubessrpsurvival:redstonebrickstairs>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<nocubessrpsurvival:redstonebrickslab>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<nocubessrpsurvival:crackedparasitebrick>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<nocubessrpsurvival:redstonebrickchiseled>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<srparasites:parasiterubbledense:0>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<srparasites:parasiterubbledense:1>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<techguns:itemshared:37>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<techguns:itemshared:0>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<techguns:metalpanel:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<techguns:stairs_metal:*>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<nocubessrpsurvival:buglinhive>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:brewing_stand>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<netherex:basalt>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<netherex:smooth_basalt>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<netherex:basalt_brick>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<netherex:basalt_pillar>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<netherex:basalt_slab>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<netherex:smooth_basalt_slab>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<netherex:basalt_brick_slab>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<netherex:basalt_pillar_slab>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<netherex:basalt_stairs>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<netherex:smooth_basalt_stairs>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<netherex:basalt_brick_stairs>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<netherex:basalt_pillar_stairs>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<netherex:basalt_wall>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<netherex:smooth_basalt_wall>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<netherex:basalt_brick_wall>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<netherex:basalt_pillar_wall>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<netherex:basalt_fence>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<netherex:smooth_basalt_fence>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<netherex:basalt_brick_fence>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<netherex:basalt_pillar_fence>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<netherex:basalt_fence_gate>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<netherex:smooth_basalt_fence_gate>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<netherex:basalt_brick_fence_gate>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<netherex:basalt_pillar_fence_gate>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:campfire>, "stone",
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:forge>, "stone",
+*/
+
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:dagger_stone>, "stone", 2.97);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:parrying_dagger_stone>, "stone", 5.94);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:longsword_stone>, "stone", 11.88);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:katana_stone>, "stone", 5.94);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:scythe_stone>, "stone", 8.91);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:saber_stone>, "stone", 8.91);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:rapier_stone>, "stone", 11.88);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:greatsword_stone>, "stone", 17.82);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:hammer_stone>, "stone", 17.82);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:warhammer_stone>, "stone", 8.91);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:spear_stone>, "stone", 2.97);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:halberd_stone>, "stone", 11.88);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:pike_stone>, "stone", 2.97);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:lance_stone>, "stone", 2.97);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:throwing_knife_stone>, "stone", 2.97);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:throwing_axe_stone>, "stone", 5.94);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:javelin_stone>, "stone", 2.97);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:boomerang_stone>, "stone", 2.97);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:battleaxe_stone>, "stone", 14.85);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:mace_stone>, "stone", 8.91);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:glaive_stone>, "stone", 8.91);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:staff_stone>, "stone", 5.94);
+
+/* materialstacks doesnt support metadata
+
+*/
 
 
 //============================================================================================================================================================================================
