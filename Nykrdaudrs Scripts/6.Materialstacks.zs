@@ -734,7 +734,7 @@ mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:bowl>, "wood", 0.
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<malisisdoors:saloon>, "wood", 2.31);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<malisisdoors:wood_sliding_door>, "wood", 2.31);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:horse_whistle>, "wood", 1.32);
-mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:board>, "wood", 0.83);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:boards>, "wood", 0.83);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<spartanweaponry:arrow_wood>, "wood", 0.5);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:tripwire_hook>, "wood", 0.25);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:stick>, "wood", 0.5);
@@ -744,9 +744,9 @@ mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:item_frame>, "woo
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:armor_stand>, "wood", 0.99);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<buildcraftcore:gear_wood>, "wood", 0.66);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<openblocks:scaffolding>, "wood", 0.17);
-mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:birdsnest>, "wood", 0.83);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:birdnest>, "wood", 0.83);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:painting>, "wood", 1.32);
-mods.sevendaystomine.item.ScrapDataManager.addScrap(<openblocks:ladder>, "wood", 0,06);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<openblocks:ladder>, "wood", 0.06);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<buildcraftfactory:autoworkbench_item>, "wood", 0.33);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<air_support:livestock_crate>, "wood", 2.64);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:workbench>, "wood", 1.32);

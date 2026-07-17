@@ -1614,7 +1614,7 @@ recipes.removeByRecipeName("malisisdoors:forcefield_item");
 recipes.removeByRecipeName("oe:blue_slime_block");
 recipes.removeByRecipeName("oe:blue_slime_from_block");
 recipes.removeByRecipeName("oe:palm_wood");
-recipes.removeByRecipeName("oe:palm_wood_stripped")
+recipes.removeByRecipeName("oe:palm_wood_stripped");
 furnace.remove(<oe:cooked_crab>);
 furnace.remove(<oe:cooked_lobster>);
 furnace.remove(<oe:dried_dulse>);

@@ -100,4 +100,4 @@ mods.jei.JEI.removeAndHide(<spartanweaponry:throwing_knife_platinum>.withTag({Am
 mods.jei.JEI.removeAndHide(<spartanweaponry:warhammer_invar>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:warhammer_electrum>);
 mods.jei.JEI.removeAndHide(<spartanweaponry:warhammer_silver>);
-mods.jei.JEI.removeAndHide(<spartanweaponry:warhammer_platinum>)
+mods.jei.JEI.removeAndHide(<spartanweaponry:warhammer_platinum>);
