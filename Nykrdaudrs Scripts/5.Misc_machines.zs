@@ -67,9 +67,9 @@ mods.techguns.ChargingStation.addRecipe("blockRedstone", <minecraft:glowstone>, 
 //mods.techguns.ReactionChamber.addRecipe(<iteminput>, <fluidInput>, [<itemOutput1>, <itemOutput2>, <itemOutput3>, <itemOutput4>], <focusItem>, ticks, required, intensityStart, intensityJump, liquidLvl, liquidConsumption, instability, risk, rf/tick
 //instability = 0.0-1.0		risk = "NONE", "BREAK_ITEM", "EXPLOSION_LOW", "EXPLOSION_MEDIUM", "EXPLOSION_HIGH"(may not work)
 
-mods.techguns.ReactionChamber.addRecipe(<minecraft:nether_star>, <liquid:bcop-gaseous_lava-cool>, [<techguns:itemshared:92>], <techguns:itemshared:104>, 10, 7, 8, 2, 4, 4000, 1.0, "EXPLOSION_MEDIUM", 500000);
-mods.techguns.ReactionChamber.addRecipe(<minecraft:nether_star>, <liquid:lava>, [<techguns:itemshared:92>], <techguns:itemshared:104>, 10, 7, 8, 2, 4, 4000, 1.0, "EXPLOSION_MEDIUM", 500000);
-mods.techguns.ReactionChamber.addRecipe(<techguns:itemshared:103>, <liquid:bcop-gaseous_lava-cool>, [<minecraft:blaze_rod>], <techguns:itemshared:104>, 5, 3, 7, 2, 4, 1000, 0.5, "BREAK_ITEM", 250000);
+mods.techguns.ReactionChamber.addRecipe("anti_grav_lava", <minecraft:nether_star>, <liquid:bcop-gaseous_lava-cool>, [<techguns:itemshared:92>], <techguns:itemshared:104>, 10, 7, 8, 2, 4, 4000, 1.0, "EXPLOSION_MEDIUM", 500000);
+mods.techguns.ReactionChamber.addRecipe("anti_grav_gas", <minecraft:nether_star>, <liquid:lava>, [<techguns:itemshared:92>], <techguns:itemshared:104>, 10, 7, 8, 2, 4, 4000, 1.0, "EXPLOSION_MEDIUM", 500000);
+mods.techguns.ReactionChamber.addRecipe("blazed_quartz", <techguns:itemshared:103>, <liquid:bcop-gaseous_lava-cool>, [<minecraft:blaze_rod>], <techguns:itemshared:104>, 5, 3, 7, 2, 4, 1000, 0.5, "BREAK_ITEM", 250000);
 
 
 //============================================================================================================================================================================================
@@ -169,9 +169,9 @@ mods.techguns.MetalPress.addRecipe(<netherex:frost_rod>, "plateCarbon", <techgun
 //mods.buildcraft.CombustionEngine.addDirtyFuel(<fuel liquid>, rf/t, total ticks (s*20), <residue liquid>);
 //furnace.setFuel(<item>, burntime int)
 
-CombustionEngine.addDirtyFuel(<liquid:deadblood>, 5.0, 15000, <liquid:oil_residue>);
-CombustionEngine.addDirtyFuel(<liquid:ichor>, 7.0, 25000, <liquid:oil_residue_heat_2>);
-CombustionEngine.addCleanFuel(<liquid:gasoline>, 6.0, 100000);
+mods.buildcraft.CombustionEngine.addDirtyFuel(<liquid:deadblood>, 5.0, 15000, <liquid:oil_residue>);
+mods.buildcraft.CombustionEngine.addDirtyFuel(<liquid:ichor>, 7.0, 25000, <liquid:oil_residue_heat_2>);
+mods.buildcraft.CombustionEngine.addCleanFuel(<liquid:gasoline>, 6.0, 100000);
 
 furnace.setFuel(<minecraft:coal>, 1600);
 furnace.setFuel(<minecraft:coal:1>, 1600);

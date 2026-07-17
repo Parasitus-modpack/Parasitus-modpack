@@ -79,6 +79,7 @@ recipes.addShapedMirrored("steel_boomerang", <spartanweaponry:boomerang_steel>, 
 recipes.addShapedMirrored("zinc_boomerang", <spartanweaponry:boomerang_nickel>, [[<sevendaystomine:zincingot>, <sevendaystomine:woodplank>, <sevendaystomine:woodplank>], [<sevendaystomine:woodplank>, null, null], [<sevendaystomine:woodplank>, null, null]]);
 //============================================================================================================================================================================================
 //WOOD
+recipes.addshaped("wooden_hammer", <spartanweaponry:hammer_wood>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [null, <spartanweaponry:material:0>, null]]);
 recipes.addShaped("wooden_dagger", <spartanweaponry:dagger_wood>, [[<sevendaystomine:woodplank>], [<spartanweaponry:material:0>]]);
 recipes.addShapedMirrored("wooden_parrying_dagger", <spartanweaponry:parrying_dagger_wood>, [[null, <sevendaystomine:woodplank>, null], [<sevendaystomine:woodplank>, <spartanweaponry:material:0>]]);
 recipes.addShaped("wooden_longsword", <spartanweaponry:longsword_wood>, [[null, <sevendaystomine:woodplank>, null], [null, <sevendaystomine:woodplank>, null], [<sevendaystomine:woodplank>, <spartanweaponry:material:0>, <sevendaystomine:woodplank>]]);

@@ -1613,6 +1613,8 @@ recipes.removeByRecipeName("malisisdoors:forcefield_item");
 //============================================================================================================================================================================================
 recipes.removeByRecipeName("oe:blue_slime_block");
 recipes.removeByRecipeName("oe:blue_slime_from_block");
+recipes.removeByRecipeName("oe:palm_wood");
+recipes.removeByRecipeName("oe:palm_wood_stripped")
 furnace.remove(<oe:cooked_crab>);
 furnace.remove(<oe:cooked_lobster>);
 furnace.remove(<oe:dried_dulse>);
@@ -1633,6 +1635,8 @@ recipes.removeByRecipeName("pvj:sandstone");
 recipes.removeByRecipeName("pvj:red_sandstone");
 recipes.removeByRecipeName("pvj:mystical_grill");
 recipes.removeByRecipeName("pvj:wet_adobe");
+recipes.removeByRecipeName("pvj:redwood_bark");
+recipes.removeByRecipeName("pvj:redwood_log_from_bark");
 /*
 ugly textures in "parasitus core"
 recipes.removeByRecipeName("pvj:willow_door");
@@ -1757,7 +1761,7 @@ recipes.removeByRecipeName("spartanweaponry:javelin_wood");
 recipes.removeByRecipeName("spartanweaponry:battleaxe_wood");
 recipes.removeByRecipeName("spartanweaponry:mace_wood");
 recipes.removeByRecipeName("spartanweaponry:glaive_wood");
-recipes.removeByRecipeName("spartanweaponry:staff");
+recipes.removeByRecipeName("spartanweaponry:quarterstaff_wood");
 //============================================================================================================================================================================================
 recipes.removeByRecipeName("spartanweaponry:dagger_stone");
 recipes.removeByRecipeName("spartanweaponry:parrying_dagger_stone");

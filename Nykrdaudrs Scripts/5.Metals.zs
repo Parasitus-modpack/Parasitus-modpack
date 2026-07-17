@@ -223,7 +223,7 @@ recipes.addShapeless("titanium_block_from_ingots", <chisel:blockaluminum:2>, [<o
 mods.techguns.ReactionChamber.addRecipe("molten_titanium", "oreTitaniumIron", <liquid:molten_titanium.cool>, [<techguns:itemshared:78> * 4, <sevendaystomine:scrapiron> * 16, <sevendaystomine:smallstone> * 4], <techguns:itemshared:104>, 2, 1, 5, 0, 3, 700, 0.0, "BREAK_ITEM", 25000);
 //====================================================================
 //ingots and blocks
-mods.techguns.BlastFurnace.addRecipe("oreTitanium", 5, "oreTitanium" * 4, <techguns:itemshared:85>, 10, 100);
+mods.techguns.BlastFurnace.addRecipe("oreTitanium", 5, "oreTitanium", 4, <techguns:itemshared:85>, 10, 100);
 //====================================================================
 //scrap and nuggets
 //====================================================================

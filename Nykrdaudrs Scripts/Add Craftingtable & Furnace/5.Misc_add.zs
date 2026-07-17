@@ -53,6 +53,8 @@ recipes.addShaped(<parasitusfix:door_palm> * 3, [[<pvj:planks_palm>, <pvj:planks
 recipes.addShaped(<parasitusfix:door_pine> * 3, [[<pvj:planks_pine>, <pvj:planks_pine>, null],[<pvj:planks_pine>, <pvj:planks_pine>, null], [<pvj:planks_pine>, <pvj:planks_pine>, null]]);
 recipes.addShaped(<parasitusfix:door_fir> * 3, [[<pvj:planks_fir>, <pvj:planks_fir>, null],[<pvj:planks_fir>, <pvj:planks_fir>, null], [<pvj:planks_fir>, <pvj:planks_fir>, null]]);
 recipes.addShaped(<parasitusfix:door_jacaranda> * 3, [[<pvj:planks_jacaranda>, <pvj:planks_jacaranda>, null],[<pvj:planks_jacaranda>, <pvj:planks_jacaranda>, null], [<pvj:planks_jacaranda>, <pvj:planks_jacaranda>, null]]);
+recipes.addShapeless("redwood_bark_from_log", <pvj:redwood_bark> * 9, [<pvj:redwood>, <pvj:redwood>, <pvj:redwood>, <pvj:redwood>, <pvj:redwood>, <pvj:redwood>, <pvj:redwood>, <pvj:redwood>, <pvj:redwood>]);
+recipes.addShapeless("redwood_log_from_bark", <pvj:redwood> * 9, [<pvj:redwood_bark>, <pvj:redwood_bark>, <pvj:redwood_bark>, <pvj:redwood_bark>, <pvj:redwood_bark>, <pvj:redwood_bark>, <pvj:redwood_bark>, <pvj:redwood_bark>, <pvj:redwood_bark>]);
 //============================================================================================================================================================================================
 //CORALREEF
 recipes.addShapeless("coral_blocks", <coralreef:reef:0> * 5, [<oe:purple_coral_block>, <oe:blue_coral_block>, <oe:yellow_coral_block>, <oe:red_coral_block>, <oe:pink_coral_block>]);
@@ -113,6 +115,10 @@ recipes.addShaped("obsidian_boat", <netherex:obsidian_boat>, [[<ore:plateObsidia
 //============================================================================================================================================================================================
 //OCEANIC EXPANSE
 recipes.addShaped("heavy_boots", <oe:heavy_boots>, [[<ore:ingotObsidianSteel>, null, <ore:ingotObsidianSteel>], [<ore:ingotObsidianSteel>, null, <ore:ingotObsidianSteel>]]);
+recipes.addShapeless("palm_bark_from_logs", <oe:palm_wood> * 9, [<oe:palm_log>, <oe:palm_log>, <oe:palm_log>, <oe:palm_log>, <oe:palm_log>, <oe:palm_log>, <oe:palm_log>, <oe:palm_log>, <oe:palm_log>]);
+recipes.addShapeless("palm_logs_from_bark", <oe:palm_log>, * 9, [<oe:palm_wood>, <oe:palm_wood>, <oe:palm_wood>, <oe:palm_wood>, <oe:palm_wood>, <oe:palm_wood>, <oe:palm_wood>, <oe:palm_wood>, <oe:palm_wood>]);
+recipes.addShapeless("stripped_wood_from_logs", <oe:palm_wood_stripped> * 9, [<oe:palm_log_stripped>, <oe:palm_log_stripped>, <oe:palm_log_stripped>, <oe:palm_log_stripped>, <oe:palm_log_stripped>, <oe:palm_log_stripped>, <oe:palm_log_stripped>, <oe:palm_log_stripped>, <oe:palm_log_stripped>]);
+recipes.addShapeless("stripped_logs_from_wood", <oe:palm_log_stripped> * 9, [<oe:palm_wood_stripped>, <oe:palm_wood_stripped>, <oe:palm_wood_stripped>, <oe:palm_wood_stripped>, <oe:palm_wood_stripped>, <oe:palm_wood_stripped>, <oe:palm_wood_stripped>, <oe:palm_wood_stripped>, <oe:palm_wood_stripped>]);
 //============================================================================================================================================================================================
 //CYBERWARE
 recipes.addShapeless("radio_beacon", <cyberware:beacon>, [<sevendaystomine:radio>]);

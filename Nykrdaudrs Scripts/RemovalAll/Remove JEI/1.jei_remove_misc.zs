@@ -72,6 +72,7 @@ mods.jei.JEI.hide(<pvj:juniper_door_item>);
 mods.jei.JEI.hide(<pvj:cherry_blossom_door_item>);
 mods.jei.JEI.hide(<pvj:jacaranda_door_item>);
 mods.jei.JEI.hide(<techguns:item_bunkerdoor>);
+*/
 mods.jei.JEI.hide(<forge:bucketfilled>.withTag({FluidName: "molten_brass.cool", Amount: 1000}));
 mods.jei.JEI.hide(<forge:bucketfilled>.withTag({FluidName: "molten_bronze.cool", Amount: 1000}));
 mods.jei.JEI.hide(<forge:bucketfilled>.withTag({FluidName: "molten_copper.cool", Amount: 1000}));
@@ -244,6 +245,71 @@ mods.jei.JEI.hide(<liquid:molten_diamond_steel.hot>);
 mods.jei.JEI.hide(<liquid:molten_titanium.cool>);
 mods.jei.JEI.hide(<liquid:molten_uranium.cool>);
 mods.jei.JEI.hide(<liquid:molten_diamond_steel.cool>);
+
+//============================================================================================================================================================================================
+//============================================================================================================================================================================================
+//REMOVING BLOAT
+//============================================================================================================================================================================================
+//============================================================================================================================================================================================
+//VANILLA
+mods.jei.JEI.removeAndHide(<minecraft:iron_shovel>, false);
+mods.jei.JEI.removeAndHide(<minecraft:iron_pickaxe>, false);
+mods.jei.JEI.removeAndHide(<minecraft:iron_axe>, false);
+mods.jei.JEI.removeAndHide(<minecraft:iron_sword>, false);
+mods.jei.JEI.removeAndHide(<minecraft:wooden_sword>, false);
+mods.jei.JEI.removeAndHide(<minecraft:wooden_shovel>, false);
+mods.jei.JEI.removeAndHide(<minecraft:wooden_pickaxe>, false);
+mods.jei.JEI.removeAndHide(<minecraft:wooden_axe>, false);
+mods.jei.JEI.removeAndHide(<minecraft:wooden_hoe>, false);
+mods.jei.JEI.removeAndHide(<minecraft:stone_sword>, false);
+mods.jei.JEI.removeAndHide(<minecraft:stone_shovel>, false);
+mods.jei.JEI.removeAndHide(<minecraft:stone_pickaxe>, false);
+mods.jei.JEI.removeAndHide(<minecraft:stone_axe>, false);
+mods.jei.JEI.removeAndHide(<minecraft:stone_hoe>, false);
+mods.jei.JEI.removeAndHide(<minecraft:diamond_sword>, false);
+mods.jei.JEI.removeAndHide(<minecraft:diamond_shovel>, false);
+mods.jei.JEI.removeAndHide(<minecraft:diamond_pickaxe>, false);
+mods.jei.JEI.removeAndHide(<minecraft:diamond_axe>, false);
+mods.jei.JEI.removeAndHide(<minecraft:golden_sword>, false);
+mods.jei.JEI.removeAndHide(<minecraft:golden_shovel>, false);
+mods.jei.JEI.removeAndHide(<minecraft:golden_pickaxe>, false);
+mods.jei.JEI.removeAndHide(<minecraft:golden_axe>, false);
+mods.jei.JEI.removeAndHide(<minecraft:golden_hoe>, false);
+mods.jei.JEI.removeAndHide(<minecraft:leather_helmet>, false);
+mods.jei.JEI.removeAndHide(<minecraft:leather_chestplate>, false);
+mods.jei.JEI.removeAndHide(<minecraft:leather_leggings>, false);
+mods.jei.JEI.removeAndHide(<minecraft:leather_boots>, false);
+mods.jei.JEI.removeAndHide(<minecraft:chainmail_helmet>, false);
+mods.jei.JEI.removeAndHide(<minecraft:chainmail_chestplate>, false);
+mods.jei.JEI.removeAndHide(<minecraft:chainmail_leggings>, false);
+mods.jei.JEI.removeAndHide(<minecraft:chainmail_boots>, false);
+mods.jei.JEI.removeAndHide(<minecraft:iron_helmet>, false);
+mods.jei.JEI.removeAndHide(<minecraft:iron_chestplate>, false);
+mods.jei.JEI.removeAndHide(<minecraft:iron_leggings>, false);
+mods.jei.JEI.removeAndHide(<minecraft:iron_boots>, false);
+mods.jei.JEI.removeAndHide(<minecraft:diamond_helmet>, false);
+mods.jei.JEI.removeAndHide(<minecraft:diamond_chestplate>, false);
+mods.jei.JEI.removeAndHide(<minecraft:diamond_leggings>, false);
+mods.jei.JEI.removeAndHide(<minecraft:diamond_boots>, false);
+mods.jei.JEI.removeAndHide(<minecraft:golden_helmet>, false);
+mods.jei.JEI.removeAndHide(<minecraft:golden_chestplate>, false);
+mods.jei.JEI.removeAndHide(<minecraft:golden_leggings>, false);
+mods.jei.JEI.removeAndHide(<minecraft:golden_boots>, false);
+mods.jei.JEI.removeAndHide(<minecraft:totem_of_undying>);
+mods.jei.JEI.removeAndHide(<minecraft:mob_spawner>);
+mods.jei.JEI.removeAndHide(<minecraft:farmland>);
+mods.jei.JEI.removeAndHide(<minecraft:command_block>);
+mods.jei.JEI.removeAndHide(<minecraft:barrier>);
+mods.jei.JEI.removeAndHide(<minecraft:grass_path>);
+mods.jei.JEI.removeAndHide(<minecraft:repeating_command_block>);
+mods.jei.JEI.removeAndHide(<minecraft:chain_command_block>);
+mods.jei.JEI.removeAndHide(<minecraft:structure_void>);
+mods.jei.JEI.removeAndHide(<minecraft:structure_block>);
+mods.jei.JEI.removeAndHide(<minecraft:knowledge_book>);
+mods.jei.JEI.removeAndHide(<minecraft:command_block_minecart>);
+mods.jei.JEI.removeAndHide(<minecraft:bedrock>);
+//============================================================================================================================================================================================
+//BOOKS
 mods.jei.JEI.hide(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 0 as short}]}));
 mods.jei.JEI.hide(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 0 as short}]}));
 mods.jei.JEI.hide(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 0 as short}]}));
@@ -355,69 +421,6 @@ mods.jei.JEI.hide(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl:
 mods.jei.JEI.hide(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 61 as short}]}));
 mods.jei.JEI.hide(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 62 as short}]}));
 mods.jei.JEI.hide(<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 62 as short}]}));
-
-//============================================================================================================================================================================================
-//============================================================================================================================================================================================
-//REMOVING BLOAT
-//============================================================================================================================================================================================
-//============================================================================================================================================================================================
-//VANILLA
-mods.jei.JEI.removeAndHide(<minecraft:iron_shovel>, false);
-mods.jei.JEI.removeAndHide(<minecraft:iron_pickaxe>, false);
-mods.jei.JEI.removeAndHide(<minecraft:iron_axe>, false);
-mods.jei.JEI.removeAndHide(<minecraft:iron_sword>, false);
-mods.jei.JEI.removeAndHide(<minecraft:wooden_sword>, false);
-mods.jei.JEI.removeAndHide(<minecraft:wooden_shovel>, false);
-mods.jei.JEI.removeAndHide(<minecraft:wooden_pickaxe>, false);
-mods.jei.JEI.removeAndHide(<minecraft:wooden_axe>, false);
-mods.jei.JEI.removeAndHide(<minecraft:wooden_hoe>, false);
-mods.jei.JEI.removeAndHide(<minecraft:stone_sword>, false);
-mods.jei.JEI.removeAndHide(<minecraft:stone_shovel>, false);
-mods.jei.JEI.removeAndHide(<minecraft:stone_pickaxe>, false);
-mods.jei.JEI.removeAndHide(<minecraft:stone_axe>, false);
-mods.jei.JEI.removeAndHide(<minecraft:stone_hoe>, false);
-mods.jei.JEI.removeAndHide(<minecraft:diamond_sword>, false);
-mods.jei.JEI.removeAndHide(<minecraft:diamond_shovel>, false);
-mods.jei.JEI.removeAndHide(<minecraft:diamond_pickaxe>, false);
-mods.jei.JEI.removeAndHide(<minecraft:diamond_axe>, false);
-mods.jei.JEI.removeAndHide(<minecraft:golden_sword>, false);
-mods.jei.JEI.removeAndHide(<minecraft:golden_shovel>, false);
-mods.jei.JEI.removeAndHide(<minecraft:golden_pickaxe>, false);
-mods.jei.JEI.removeAndHide(<minecraft:golden_axe>, false);
-mods.jei.JEI.removeAndHide(<minecraft:golden_hoe>, false);
-mods.jei.JEI.removeAndHide(<minecraft:leather_helmet>, false);
-mods.jei.JEI.removeAndHide(<minecraft:leather_chestplate>, false);
-mods.jei.JEI.removeAndHide(<minecraft:leather_leggings>, false);
-mods.jei.JEI.removeAndHide(<minecraft:leather_boots>, false);
-mods.jei.JEI.removeAndHide(<minecraft:chainmail_helmet>, false);
-mods.jei.JEI.removeAndHide(<minecraft:chainmail_chestplate>, false);
-mods.jei.JEI.removeAndHide(<minecraft:chainmail_leggings>, false);
-mods.jei.JEI.removeAndHide(<minecraft:chainmail_boots>, false);
-mods.jei.JEI.removeAndHide(<minecraft:iron_helmet>, false);
-mods.jei.JEI.removeAndHide(<minecraft:iron_chestplate>, false);
-mods.jei.JEI.removeAndHide(<minecraft:iron_leggings>, false);
-mods.jei.JEI.removeAndHide(<minecraft:iron_boots>, false);
-mods.jei.JEI.removeAndHide(<minecraft:diamond_helmet>, false);
-mods.jei.JEI.removeAndHide(<minecraft:diamond_chestplate>, false);
-mods.jei.JEI.removeAndHide(<minecraft:diamond_leggings>, false);
-mods.jei.JEI.removeAndHide(<minecraft:diamond_boots>, false);
-mods.jei.JEI.removeAndHide(<minecraft:golden_helmet>, false);
-mods.jei.JEI.removeAndHide(<minecraft:golden_chestplate>, false);
-mods.jei.JEI.removeAndHide(<minecraft:golden_leggings>, false);
-mods.jei.JEI.removeAndHide(<minecraft:golden_boots>, false);
-mods.jei.JEI.removeAndHide(<minecraft:totem_of_undying>);
-mods.jei.JEI.removeAndHide(<minecraft:mob_spawner>);
-mods.jei.JEI.removeAndHide(<minecraft:farmland>);
-mods.jei.JEI.removeAndHide(<minecraft:command_block>);
-mods.jei.JEI.removeAndHide(<minecraft:barrier>);
-mods.jei.JEI.removeAndHide(<minecraft:grass_path>);
-mods.jei.JEI.removeAndHide(<minecraft:repeating_command_block>);
-mods.jei.JEI.removeAndHide(<minecraft:chain_command_block>);
-mods.jei.JEI.removeAndHide(<minecraft:structure_void>);
-mods.jei.JEI.removeAndHide(<minecraft:structure_block>);
-mods.jei.JEI.removeAndHide(<minecraft:knowledge_book>);
-mods.jei.JEI.removeAndHide(<minecraft:command_block_minecart>);
-mods.jei.JEI.removeAndHide(<minecraft:bedrock>);
 //============================================================================================================================================================================================
 //7DTM
 mods.jei.JEI.removeAndHide(<sevendaystomine:separator>);
