@@ -56,8 +56,25 @@ mods.jei.JEI.hide(<quark:glowshroom_block>);
 mods.jei.JEI.hide(<baubles:ring>);
 mods.jei.JEI.hide(<openblocks:xp_bucket>);
 mods.jei.JEI.hide(<malisisdoors:customdooritem>);
-/*
-ugly textures in "parasitus core"
+mods.jei.JEI.hide(<mcjtylib_ng:multipart>);
+mods.jei.JEI.hide(<srparasites:itemtab>);
+
+//section should be removed when "parasitus fix" gets better textures
+mods.jei.JEI.hide(<parasitusfix:door_bunker>);
+mods.jei.JEI.hide(<parasitusfix:door_fir>);
+mods.jei.JEI.hide(<parasitusfix:door_pine>);
+mods.jei.JEI.hide(<parasitusfix:door_palm>);
+mods.jei.JEI.hide(<parasitusfix:door_willow>);
+mods.jei.JEI.hide(<parasitusfix:door_mangrove>);
+mods.jei.JEI.hide(<parasitusfix:door_redwood>);
+mods.jei.JEI.hide(<parasitusfix:door_baobab>);
+mods.jei.JEI.hide(<parasitusfix:door_cottonwood>);
+mods.jei.JEI.hide(<parasitusfix:door_aspen>);
+mods.jei.JEI.hide(<parasitusfix:door_maple>);
+mods.jei.JEI.hide(<parasitusfix:door_juniper>);
+mods.jei.JEI.hide(<parasitusfix:door_cherry_blossom>);
+mods.jei.JEI.hide(<parasitusfix:door_jacaranda>);
+/* when the textures are fixed, this section should be enabled
 mods.jei.JEI.hide(<pvj:willow_door_item>);
 mods.jei.JEI.hide(<pvj:mangrove_door_item>);
 mods.jei.JEI.hide(<pvj:palm_door_item>);
@@ -875,19 +892,3 @@ mods.jei.JEI.removeAndHide(<overlast:final_specimen>);
 //============================================================================================================================================================================================
 //TRAVELERS BACKPACK
 mods.jei.JEI.removeAndHide(<travelersbackpack:backpack_tank>);
-//============================================================================================================================================================================================
-//PARASITUS CORE
-mods.jei.JEI.hide(<parasitusfix:door_bunker>);
-mods.jei.JEI.hide(<parasitusfix:door_fir>);
-mods.jei.JEI.hide(<parasitusfix:door_pine>);
-mods.jei.JEI.hide(<parasitusfix:door_palm>);
-mods.jei.JEI.hide(<parasitusfix:door_willow>);
-mods.jei.JEI.hide(<parasitusfix:door_mangrove>);
-mods.jei.JEI.hide(<parasitusfix:door_redwood>);
-mods.jei.JEI.hide(<parasitusfix:door_baobab>);
-mods.jei.JEI.hide(<parasitusfix:door_cottonwood>);
-mods.jei.JEI.hide(<parasitusfix:door_aspen>);
-mods.jei.JEI.hide(<parasitusfix:door_maple>);
-mods.jei.JEI.hide(<parasitusfix:door_juniper>);
-mods.jei.JEI.hide(<parasitusfix:door_cherry_blossom>);
-mods.jei.JEI.hide(<parasitusfix:door_jacaranda>);

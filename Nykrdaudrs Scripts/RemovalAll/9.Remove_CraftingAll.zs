@@ -1615,6 +1615,7 @@ recipes.removeByRecipeName("oe:blue_slime_block");
 recipes.removeByRecipeName("oe:blue_slime_from_block");
 recipes.removeByRecipeName("oe:palm_wood");
 recipes.removeByRecipeName("oe:palm_wood_stripped");
+recipes.removeByRecipeName("oe:coconut_open_to_milk");
 furnace.remove(<oe:cooked_crab>);
 furnace.remove(<oe:cooked_lobster>);
 furnace.remove(<oe:dried_dulse>);
@@ -1637,8 +1638,10 @@ recipes.removeByRecipeName("pvj:mystical_grill");
 recipes.removeByRecipeName("pvj:wet_adobe");
 recipes.removeByRecipeName("pvj:redwood_bark");
 recipes.removeByRecipeName("pvj:redwood_log_from_bark");
-/*
-ugly textures in "parasitus core"
+recipes.removeByRecipeName("pvj:coconut_milk");
+recipes.removeByRecipeName("pvj:sugarcane_juice");
+
+/* when the textures are fixed, this section should be enabled
 recipes.removeByRecipeName("pvj:willow_door");
 recipes.removeByRecipeName("pvj:mangrove_door");
 recipes.removeByRecipeName("pvj:palm_door");
@@ -1653,6 +1656,7 @@ recipes.removeByRecipeName("pvj:juniper_door");
 recipes.removeByRecipeName("pvj:cherry_blossom_door");
 recipes.removeByRecipeName("pvj:jacaranda_door");
 */
+
 furnace.remove(<pvj:cooked_duck>);
 furnace.remove(<pvj:steamed_clam_meat>);
 furnace.remove(<pvj:cooked_squid>);

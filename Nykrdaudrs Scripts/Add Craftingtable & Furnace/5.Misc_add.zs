@@ -10,8 +10,6 @@ recipes.addShaped("mud_1", <pvj:mud> * 8, [[<minecraft:dirt:1>, <minecraft:dirt:
 recipes.addShaped("mud_2", <pvj:mud> * 8, [[<ore:dirt>, <ore:dirt>, <ore:dirt>], [<ore:dirt>, <minecraft:water_bucket>, <ore:dirt>], [<ore:dirt>, <ore:dirt>, <ore:dirt>]]);
 recipes.addShaped("wet_adobe", <pvj:wet_adobe> * 9, [[<minecraft:clay>, <ore:sand>, <minecraft:clay>], [<ore:sand>, <ore:dirt>, <ore:sand>], [<minecraft:clay>, <ore:sand>, <minecraft:clay>]]);
 recipes.addShapeless("slime_droplets", <pvj:slime_droplet> * 9, [<minecraft:slime_ball>]);
-recipes.addShaped("redwood_bark", <pvj:redwood_bark:0>, [[<pvj:log_redwood:0>, <pvj:log_redwood:0>, <pvj:log_redwood:0>], [<pvj:log_redwood:0>, <pvj:log_redwood:0>, <pvj:log_redwood:0>], [<pvj:log_redwood:0>, <pvj:log_redwood:0>, <pvj:log_redwood:0>]]);
-recipes.addShapeless("redwood_log_from_bark", <pvj:log_redwood:0> * 9, [<pvj:redwood_bark:0>]);
 recipes.addShaped("leaf_carpet_0", <pvj:fallenleaves_oak> * 3, [[<minecraft:leaves:0>, <minecraft:leaves:0>, <minecraft:leaves:0>]]);
 recipes.addShaped("leaf_carpet_1", <pvj:fallenleaves_oak> * 3, [[<quark:variant_leaves:0>, <quark:variant_leaves:0>, <quark:variant_leaves:0>]]);
 recipes.addShaped("leaf_carpet_2", <pvj:fallenleaves_birch> * 3, [[<minecraft:leaves:1>, <minecraft:leaves:1>, <minecraft:leaves:1>]]);
@@ -40,6 +38,13 @@ recipes.addShaped("bone_pile", <pvj:bones> * 6, [[null, <minecraft:bone>, null],
 recipes.addShaped("leaf_carpet_11", <pvj:fallenleaves_palm> * 3, [[<oe:palm_leaves>, <oe:palm_leaves>, <oe:palm_leaves>]]);
 recipes.addShaped("leaf_carpet_12", <pvj:fallenleaves_palm> * 3, [[<oe:palm_leaves_flowering>, <oe:palm_leaves_flowering>, <oe:palm_leaves_flowering>]]);
 recipes.addShaped("leaf_carpet_7", <pvj:fallenleaves_dead> * 3, [[<overlast:brown_leaves>, <overlast:brown_leaves>, <overlast:brown_leaves>]]);
+recipes.addShapeless("redwood_bark_from_log", <pvj:redwood_bark> * 9, [<pvj:log_redwood>, <pvj:log_redwood>, <pvj:log_redwood>, <pvj:log_redwood>, <pvj:log_redwood>, <pvj:log_redwood>, <pvj:log_redwood>, <pvj:log_redwood>, <pvj:log_redwood>]);
+recipes.addShapeless("redwood_log_from_bark", <pvj:log_redwood> * 9, [<pvj:redwood_bark>, <pvj:redwood_bark>, <pvj:redwood_bark>, <pvj:redwood_bark>, <pvj:redwood_bark>, <pvj:redwood_bark>, <pvj:redwood_bark>, <pvj:redwood_bark>, <pvj:redwood_bark>]);
+recipes.addShaped("sugarcane_juice", <pvj:sugarcane_juice>, [[<minecraft:reeds>, <minecraft:reeds>], [<sevendaystomine:emptyjar>, null]]);
+recipes.addShaped("coconut_milk1", <pvj:coconut_milk>, [[<pvj:cracked_coconut>, <pvj:cracked_coconut>], [<sevendaystomine:emptyjar>, null]]);
+recipes.addShaped("coconut_milk2", <pvj:coconut_milk>, [[<oe:coconut_open>, <oe:coconut_open>], [<sevendaystomine:emptyjar>, null]]);
+
+/* when the textures are fixed, this section should be enabled
 recipes.addShaped(<parasitusfix:door_maple> * 3, [[<pvj:planks_maple>, <pvj:planks_maple>, null],[<pvj:planks_maple>, <pvj:planks_maple>, null], [<pvj:planks_maple>, <pvj:planks_maple>, null]]);
 recipes.addShaped(<parasitusfix:door_juniper> * 3, [[<pvj:planks_juniper>, <pvj:planks_juniper>, null],[<pvj:planks_juniper>, <pvj:planks_juniper>, null], [<pvj:planks_juniper>, <pvj:planks_juniper>, null]]);
 recipes.addShaped(<parasitusfix:door_cherry_blossom> * 3, [[<pvj:planks_cherry_blossom>, <pvj:planks_cherry_blossom>, null],[<pvj:planks_cherry_blossom>, <pvj:planks_cherry_blossom>, null], [<pvj:planks_cherry_blossom>, <pvj:planks_cherry_blossom>, null]]);
@@ -53,8 +58,8 @@ recipes.addShaped(<parasitusfix:door_palm> * 3, [[<pvj:planks_palm>, <pvj:planks
 recipes.addShaped(<parasitusfix:door_pine> * 3, [[<pvj:planks_pine>, <pvj:planks_pine>, null],[<pvj:planks_pine>, <pvj:planks_pine>, null], [<pvj:planks_pine>, <pvj:planks_pine>, null]]);
 recipes.addShaped(<parasitusfix:door_fir> * 3, [[<pvj:planks_fir>, <pvj:planks_fir>, null],[<pvj:planks_fir>, <pvj:planks_fir>, null], [<pvj:planks_fir>, <pvj:planks_fir>, null]]);
 recipes.addShaped(<parasitusfix:door_jacaranda> * 3, [[<pvj:planks_jacaranda>, <pvj:planks_jacaranda>, null],[<pvj:planks_jacaranda>, <pvj:planks_jacaranda>, null], [<pvj:planks_jacaranda>, <pvj:planks_jacaranda>, null]]);
-recipes.addShapeless("redwood_bark_from_log", <pvj:redwood_bark> * 9, [<pvj:log_redwood>, <pvj:log_redwood>, <pvj:log_redwood>, <pvj:log_redwood>, <pvj:log_redwood>, <pvj:log_redwood>, <pvj:log_redwood>, <pvj:log_redwood>, <pvj:log_redwood>]);
-recipes.addShapeless("redwood_log_from_bark", <pvj:log_redwood> * 9, [<pvj:redwood_bark>, <pvj:redwood_bark>, <pvj:redwood_bark>, <pvj:redwood_bark>, <pvj:redwood_bark>, <pvj:redwood_bark>, <pvj:redwood_bark>, <pvj:redwood_bark>, <pvj:redwood_bark>]);
+*/
+
 //============================================================================================================================================================================================
 //CORALREEF
 recipes.addShapeless("coral_blocks", <coralreef:reef:0> * 5, [<oe:purple_coral_block>, <oe:blue_coral_block>, <oe:yellow_coral_block>, <oe:red_coral_block>, <oe:pink_coral_block>]);
@@ -157,5 +162,5 @@ recipes.addShapedMirrored("progress_screen_7x7", <ftbquests:progress_screen>.wit
 recipes.addShapedMirrored("progress_screen_9x9", <ftbquests:progress_screen>.withTag({BlockEntityTag: {Height: 8 as byte, id: "ftbquests:progress_screen_core", Width: 4 as byte}, display: {Lore: ["(+NBT)"]}}), [[<ftbquests:progress_screen>.withTag({BlockEntityTag: {Height: 6 as byte, id: "ftbquests:progress_screen_core", Width: 3 as byte}, display: {Lore: ["(+NBT)"]}}), <ftbquests:progress_screen>, <ftbquests:progress_screen>], [<ftbquests:progress_screen>, <ftbquests:progress_screen>.withTag({BlockEntityTag: {Height: 6 as byte, id: "ftbquests:progress_screen_core", Width: 3 as byte}, display: {Lore: ["(+NBT)"]}}), <ftbquests:progress_screen>], [<ftbquests:progress_screen>, <ftbquests:progress_screen>, <ftbquests:progress_screen>.withTag({BlockEntityTag: {Height: 6 as byte, id: "ftbquests:progress_screen_core", Width: 3 as byte}, display: {Lore: ["(+NBT)"]}})]]);
 //============================================================================================================================================================================================
 //CHISEL
-recipes.addShaped("auto_chisel", <chisel:auto_chisel>, [[<ore:blockGlass>, <ore:blockGlass, <ore:blockGlass>], [<ore:blockGlass>, <chisel:chisel_iron>, <ore:blockGlass>], [<ore:chiseled_stone_brick>, <ore:dustRedstone>, <ore:chiseled_stone_brick>]]);
+recipes.addShaped("auto_chisel", <chisel:auto_chisel>, [[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>], [<ore:blockGlass>, <chisel:chisel_iron>, <ore:blockGlass>], [<ore:chiseled_stone_brick>, <ore:dustRedstone>, <ore:chiseled_stone_brick>]]);
 

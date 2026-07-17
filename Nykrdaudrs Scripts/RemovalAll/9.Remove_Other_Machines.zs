@@ -84,6 +84,7 @@ mods.techguns.AmmoPress.removeMetal2(<ore:ingotCopper>);
 
 mods.techguns.ChemLab.removeRecipe(<minecraft:gunpowder>, null);
 mods.techguns.ChemLab.removeRecipe(<techguns:itemshared:76>, null);
+mods.techguns.ChemLab.removeRecipe(<techguns:radpills>, null);
 
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
