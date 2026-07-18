@@ -26,6 +26,8 @@
 <nocubessrpsurvival:ruptersalad>.displayName ="Buglin Stew";
 <nocubessrpsurvival:larvasalad>.displayName = "Rupter Soup";
 <techguns:itemshared:137>.displayName = "Medium Ore Drill (Steel)";
+<pvj:leaves_juniper_berried>.displayName = "Berried Juniper Leaves";
+<pvj:fallenleaves_juniper_berried>.displayName = "Berried Juniper Fallen Leaves";
 //============================================================================================================================================================================================
 <spartanweaponry:dagger_nickel>.displayName = "Zinc Dagger";
 <spartanweaponry:longsword_nickel>.displayName = "Zinc Longsword";

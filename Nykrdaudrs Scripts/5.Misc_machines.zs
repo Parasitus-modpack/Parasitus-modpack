@@ -128,6 +128,7 @@ mods.techguns.ChemLab.addRecipe(<techguns:itemshared:4>, 1, <minecraft:blaze_pow
 mods.techguns.ChemLab.addRecipe(<techguns:itemshared:2>, 8, <minecraft:blaze_powder>, 1, <liquid:bcop-gaseous_lava-cool> * 250, false, <techguns:itemshared:106>, <liquid:water> * 0, 25);
 mods.techguns.ChemLab.addRecipe(<sevendaystomine:salt>, 5, <minecraft:dirt>, 0, <liquid:bcop-gaseous_lava-cool> * 400, false, null, <liquid:mercury> * 500, 35);
 mods.techguns.ChemLab.addRecipe(<sevendaystomine:potassium>, 2, "dustCoal", 1, <liquid:bcop-gaseous_lava-cool> * 250, false, <minecraft:gunpowder>, <liquid:water> * 0, 35);
+mods.techguns.ChemLab.addRecipe("dustCoal", 1, <techguns:itemshared:24>, <liquid:water> * 250, false, <techguns:itemshared:23>, <liquid:water> * 0, 5);
 
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================
@@ -139,7 +140,7 @@ mods.techguns.ChemLab.addRecipe(<sevendaystomine:potassium>, 2, "dustCoal", 1, <
 
 mods.techguns.MetalPress.addRecipe(<quark:iron_plate:0>, <flintblock:flint_block>, <techguns:itemshared:57> * 9, true);
 mods.techguns.MetalPress.addRecipe("plateIron", <srparasites:ada_bolster_drop>, <techguns:itemshared:57>, true);
-mods.techguns.MetalPress.addRecipe(<netherex:frost_rod>, "plateCarbon", <techguns:itemshared:59>, true);
+mods.techguns.MetalPress.addRecipe("plateCarbon", <netherex:frost_rod>, <techguns:itemshared:59> * 2, true);
 
 
 //============================================================================================================================================================================================

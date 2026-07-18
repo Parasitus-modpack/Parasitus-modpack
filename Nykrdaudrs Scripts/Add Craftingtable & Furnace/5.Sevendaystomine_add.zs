@@ -123,6 +123,7 @@ recipes.addShaped("bullet_tip_mold", <sevendaystomine:bullet_tip_mold> * 3, [[<m
 recipes.addShaped("bullet_casing_mold", <sevendaystomine:bullet_casing_mold> * 3, [[<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>], [<ore:ingotBrass>, <minecraft:clay_ball>, <ore:ingotBrass>], [<minecraft:clay_ball>, <ore:ingotBrass>, <minecraft:clay_ball>]]);
 //============================================================================================================================================================================================
 //FROM MODS
+recipes.addShaped("empty_jar", <sevendaystomine:embtyjar>, [[<openblocks:big_button_wood>], [<ore:paneGlassColorless>]]);
 recipes.addShaped("gear", <sevendaystomine:gear>, [[null, <ore:ingotSteel>, null], [<ore:ingotSteel>, <buildcraftcore:gear_iron>, <ore:ingotSteel>], [null, <ore:ingotSteel>, null]]);
 recipes.addShaped("writing_table_2", <sevendaystomine:writingtable:0>, [[<minecraft:stone_slab:7>, <minecraft:stone_slab:7>, <minecraft:stone_slab:7>], [<techguns:itemshared:103>, null, <techguns:itemshared:103>]]);
 recipes.addShaped("wires", <sevendaystomine:wire> * 3, [[null, <sevendaystomine:woodplank>, null], [<ore:wireCopper>, <ore:wireCopper>, <ore:wireCopper>], [null, <sevendaystomine:woodplank>, null]]);
