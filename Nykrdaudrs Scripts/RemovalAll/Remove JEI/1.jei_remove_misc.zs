@@ -262,7 +262,7 @@ mods.jei.JEI.hide(<liquid:molten_diamond_steel.hot>);
 mods.jei.JEI.hide(<liquid:molten_titanium.cool>);
 mods.jei.JEI.hide(<liquid:molten_uranium.cool>);
 mods.jei.JEI.hide(<liquid:molten_diamond_steel.cool>);
-mods.jei.JEI.hide(<liquid:potion>)
+mods.jei.JEI.hide(<liquid:potion>);
 
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================

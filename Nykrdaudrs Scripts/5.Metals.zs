@@ -358,10 +358,10 @@ mods.techguns.MetalPress.addRecipe("blockObsidianSteel", "blockObsidianSteel", <
 //====================================================================
 //materialstack-CARBON
 // 1 pestilent ore and 100 dead blood makes 2 coal
-mods.techguns.BlastFurnace.addRecipe("oreCoal", 1, "oreCoal", 1, <minecraft:coal:0> * 2, 10, 100);
-mods.techguns.BlastFurnace.addRecipe("logWood", 1, "logWood", 1, <minecraft:coal:1> * 2, 10, 100);
-mods.techguns.BlastFurnace.addRecipe(<pvj:redwood_bark>, <pvj:redwood_bark>, <minecraft:coal:1> * 2, 10, 100);
-mods.techguns.BlastFurnace.addRecipe(<quark:bark:*>, <quark:bark:*>, <minecraft:coal:1> * 2, 10, 100);
+mods.techguns.BlastFurnace.addRecipe("oreCoal", 1, "oreCoal", 1, <minecraft:coal:0> * 6, 10, 100);
+mods.techguns.BlastFurnace.addRecipe("logWood", 1, "logWood", 1, <minecraft:coal:1> * 4, 10, 100);
+mods.techguns.BlastFurnace.addRecipe(<pvj:redwood_bark>, <pvj:redwood_bark>, <minecraft:coal:1> * 4, 10, 100);
+mods.techguns.BlastFurnace.addRecipe(<quark:bark:*>, <quark:bark:*>, <minecraft:coal:1> * 4, 10, 100);
 mods.techguns.ReactionChamber.addRecipe("coal_cleansing", <srparasites:infestedore:0>, <liquid:deadblood>, [<minecraft:coal:0> * 3, <srparasites:infestremain> * 4], <techguns:itemshared:104>, 2, 1, 5, 0, 2, 100, 0.0, "BREAK_ITEM", 25000);
 
 //URANIUM
@@ -387,12 +387,13 @@ mods.techguns.ReactionChamber.addRecipe("lapis_cleansing", <srparasites:infested
 
 //POTASSIUM
 //materialstack-POTASSIUM
-mods.techguns.BlastFurnace.addRecipe("orePotassium", 1, "orePotassium", 1, <sevendaystomine:potassium> * 2, 10, 100);
+mods.techguns.BlastFurnace.addRecipe("orePotassium", 1, "orePotassium", 1, <sevendaystomine:potassium> * 6, 10, 100);
 mods.techguns.ChemLab.addRecipe("dustPotassium", 2, "dustCoal", 1, <liquid:lava> * 250, false, <minecraft:gunpowder>, <liquid:water> * 0, 35);
 //====================================================================
 
 //DIAMOND
 // 1 pestilent ore and 100 dead blood makes 2 diamond3, 10, 100);
+mods.techguns.BlastFurnace.addRecipe("oreDiamond", 1, "oreDiamond", 1, <minecraft:diamond> * 3, 10, 100);
 mods.techguns.ReactionChamber.addRecipe("diamond_cleansing", <srparasites:infestedore:1>, <liquid:deadblood>, [<minecraft:diamond> * 3, <srparasites:infestremain> * 4], <techguns:itemshared:104>, 2, 1, 5, 0, 2, 100, 0.0, "BREAK_ITEM", 25000);
 //====================================================================
 
@@ -409,11 +410,11 @@ mods.techguns.ReactionChamber.addRecipe("redstone_cleansing", <srparasites:infes
 //====================================================================
 
 //QUARTZ
-mods.techguns.BlastFurnace.addRecipe("oreQuartz", 1, "oreQuartz", 1, <minecraft:quartz> * 2, 10, 100);
+mods.techguns.BlastFurnace.addRecipe("oreQuartz", 1, "oreQuartz", 1, <minecraft:quartz> * 6, 10, 100);
 
 //====================================================================
 //NETHER AMETHYST
-mods.techguns.BlastFurnace.addRecipe("oreAmethyst", 1, "oreAmethyst", 1, <netherex:amethyst_crystal> * 2, 10, 100);
+mods.techguns.BlastFurnace.addRecipe("oreAmethyst", 1, "oreAmethyst", 1, <netherex:amethyst_crystal> * 6, 10, 100);
 //====================================================================
 
 //NETHER RIME

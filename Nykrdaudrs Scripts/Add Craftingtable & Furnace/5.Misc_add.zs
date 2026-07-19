@@ -40,9 +40,6 @@ recipes.addShaped("leaf_carpet_12", <pvj:fallenleaves_palm> * 3, [[<oe:palm_leav
 recipes.addShaped("leaf_carpet_7", <pvj:fallenleaves_dead> * 3, [[<overlast:brown_leaves>, <overlast:brown_leaves>, <overlast:brown_leaves>]]);
 recipes.addShapeless("redwood_bark_from_log", <pvj:redwood_bark> * 9, [<pvj:log_redwood>, <pvj:log_redwood>, <pvj:log_redwood>, <pvj:log_redwood>, <pvj:log_redwood>, <pvj:log_redwood>, <pvj:log_redwood>, <pvj:log_redwood>, <pvj:log_redwood>]);
 recipes.addShapeless("redwood_log_from_bark", <pvj:log_redwood> * 9, [<pvj:redwood_bark>, <pvj:redwood_bark>, <pvj:redwood_bark>, <pvj:redwood_bark>, <pvj:redwood_bark>, <pvj:redwood_bark>, <pvj:redwood_bark>, <pvj:redwood_bark>, <pvj:redwood_bark>]);
-recipes.addShaped("sugarcane_juice", <pvj:sugarcane_juice>, [[<minecraft:reeds>, <minecraft:reeds>], [<sevendaystomine:emptyjar>, null]]);
-recipes.addShaped("coconut_milk1", <pvj:coconut_milk>, [[<pvj:cracked_coconut>, <pvj:cracked_coconut>], [<sevendaystomine:emptyjar>, null]]);
-recipes.addShaped("coconut_milk2", <pvj:coconut_milk>, [[<oe:coconut_open>, <oe:coconut_open>], [<sevendaystomine:emptyjar>, null]]);
 
 /* when the textures are fixed, this section should be enabled
 recipes.addShaped(<parasitusfix:door_maple> * 3, [[<pvj:planks_maple>, <pvj:planks_maple>, null],[<pvj:planks_maple>, <pvj:planks_maple>, null], [<pvj:planks_maple>, <pvj:planks_maple>, null]]);

@@ -87,7 +87,7 @@ mods.techguns.ChemLab.removeRecipe(<techguns:itemshared:76>, null);
 mods.techguns.ChemLab.removeRecipe(<techguns:radpills>, null);
 mods.techguns.ChemLab.removeRecipe(<techguns:itemshared:25>, null);
 mods.techguns.ChemLab.removeRecipe(<techguns:radaway>, null);
-mods.techguns.ChemLab.removeRecipe(<techguns:itemshared:23, null);
+mods.techguns.ChemLab.removeRecipe(<techguns:itemshared:23>, null);
 
 //============================================================================================================================================================================================
 //============================================================================================================================================================================================

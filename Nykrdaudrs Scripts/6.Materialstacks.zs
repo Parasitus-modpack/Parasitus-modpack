@@ -1242,7 +1242,7 @@ mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:biome_brick>, "stone"
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:world_stone_bricks>, "stone", 9); //granite, andesite, diorite
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:world_stone_carved>, "stone", 9); //granite, andesite, diorite
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:world_stone_pavement>, "stone", 9); //granite, andesite, diorite
-mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:cobblestone_wall:>, "stone", 2.97);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:cobblestone_wall>, "stone", 2.97);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<openmodularturrets:lever_block>, "stone", 14.85);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:cobblestone>, "stone", 9);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:gravel>, "stone", 6);
@@ -1334,7 +1334,7 @@ mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:icy_stone_brick_slab>
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:icy_stone_brick_stairs>, "stone", 4.46);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:cobbed_stone_slab>, "stone", 0.49);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:cobbed_stone_stairs>, "stone", 4.46);
-mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:stone_granite_bricks_stairs>, "stone" 4.46);,
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:stone_granite_bricks_stairs>, "stone", 4.46);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:stone_granite_bricks_slab>, "stone", 0.49);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:stone_diorite_bricks_stairs>, "stone", 4.46);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:stone_diorite_bricks_slab>, "stone", 0.49);
@@ -1359,7 +1359,7 @@ mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:fire_stone_brick_wall
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:icy_stone_brick_wall>, "stone", 2.97);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:stone_granite_bricks_wall>, "stone", 2.97);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:stone_diorite_bricks_wall>, "stone", 2.97);
-mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:dtone_andesite_bricks_wall>, "stone", 2.97);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:stone_andesite_bricks_wall>, "stone", 2.97);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:stone_jasper_bricks_wall>, "stone", 2.97);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:stone_slate_bricks_wall>, "stone", 2.97);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<srparasites:infestedrubble>, "stone", 4.5); //infested stone
@@ -1565,7 +1565,7 @@ mods.sevendaystomine.item.ScrapDataManager.addScrap(<buildcraftfactory:tank>, "g
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<chisel:auto_chisel>, "glass", 89.1);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:rain_detector>, "glass", 53.46);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:daylight_detector>, "glass", 53.46);
-mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft_beacon>, "glass", 89.1);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:beacon>, "glass", 89.1);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:end_crystal>, "glass", 23.52);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<openblocks:tank>, "glass", 7.43);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:glass_item_frame>, "glass", 11.88);
@@ -1760,7 +1760,6 @@ mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:sapling_jacaranda>, "pl
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:variant_sapling:*>, "plant_fiber", 3);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:cactus>, "plant_fiber", 9);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:silverleaf>, "plant_fiber", 1);
-mods.sevendaystomine.item.ScrapDataManager.addScrap(<oe:sea_oat>, "plant_fiber", 1);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:chickweed>, "plant_fiber", 1);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:clovers>, "plant_fiber", 1);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:short_grass>, "plant_fiber", 1);
@@ -1783,10 +1782,10 @@ mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:vine>, "plant_fib
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:goldenrod>, "plant_fiber", 1);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:cornplant>, "plant_fiber", 1);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:waterlily>, "plant_fiber", 1);
-mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:reed>, "plant_fiber", 1);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:reeds>, "plant_fiber", 1);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:wheat>, "plant_fiber", 1);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:wheat_seeds>, "plant_fiber", 1);
-mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:red_flowers>, "plant_fiber", 1);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:red_flower>, "plant_fiber", 1);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:yellow_flower>, "plant_fiber", 1);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:witherweed>, "plant_fiber", 1);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:void_grass>, "plant_fiber", 1);
@@ -1795,14 +1794,14 @@ mods.sevendaystomine.item.ScrapDataManager.addScrap(<oe:purple_coral_fan>, "plan
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<oe:red_coral_fan>, "plant_fiber", 1);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<oe:purple_coral_fan>, "plant_fiber", 1);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<oe:pink_coral>, "plant_fiber", 1);
-mods.sevendaystomine.item.ScrapDataManager.addScrap(<oe:blue:coral>, "plant_fiber", 1);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<oe:blue_coral>, "plant_fiber", 1);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<oe:blue_coral_fan>, "plant_fiber", 1);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<oe:yellow_coral>, "plant_fiber", 1);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<oe:red_coral>, "plant_fiber", 1);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<oe:yellow_coral_fan>, "plant_fiber", 1);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<oe:sponge_chunk>, "plant_fiber", 1);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<oe:tube_sponge>, "plant_fiber", 1);
-mods.sevendaystomine.item.ScrapDataManager.addScrap(<oe:dulce>, "plant_fiber", 1);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<oe:dulse>, "plant_fiber", 1);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<oe:seagrass>, "plant_fiber", 1);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<oe:kelp>, "plant_fiber", 1);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<oe:sea_pickle>, "plant_fiber", 1);
@@ -1829,11 +1828,11 @@ mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:midori_block_wall>, "
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:melon_block>, "plant_fiber", 9);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:pumpkin_seeds>, "plant_fiber", 1);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:melon_seeds>, "plant_fiber", 1);
-mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:nether_warth>, "plant_fiber", 1);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:nether_wart>, "plant_fiber", 1);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:poisonous_potato>, "plant_fiber", 1);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:beetroot_seeds>, "plant_fiber", 1);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:coffee_beans>, "plant_fiber", 1);
-mods.sevendaystomine.item.ScrapDataManager.addScrap(<oe:dried_dulce_block>, "plant_fiber", 9);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<oe:dried_dulse_block>, "plant_fiber", 9);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<oe:dried_kelp_block>, "plant_fiber", 9);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:pumpkin>, "plant_fiber", 9);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:leaves>, "plant_fiber",  9);
@@ -1842,8 +1841,8 @@ mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:leaves_willow>, "plant_
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:leaves_mangrove>, "plant_fiber", 9);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:leaves_palm>, "plant_fiber", 9);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:leaves_redwood>, "plant_fiber", 9);
-mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj_leaves_fir>, "plant_fiber", 9);
-mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj_leaves_pine>, "plant_fiber", 9);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:leaves_fir>, "plant_fiber", 9);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:leaves_pine>, "plant_fiber", 9);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:leaves_aspen>, "plant_fiber", 9);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:leaves_red_maple>, "plant_fiber", 9);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<pvj:leaves_orange_maple>, "plant_fiber", 9);
@@ -1868,7 +1867,7 @@ mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:thatch>, "plant_fiber
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:thatch_slab>, "plant_fiber", 1.96);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:thatch_stairs>, "plant_fiber", 5.88);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:nether_wart_block>, "plant_fiber", 9);
-mods.sevendaystomine.item.ScrapDataManager.addScrap(<overlast_crops> "plant_fiber", 8);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<overlast:crops>, "plant_fiber", 8);
 
 /* materialstacks doesnt support metadata
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:red_flowers:*>, "plant_fiber", 1);
@@ -1932,7 +1931,7 @@ mods.sevendaystomine.item.ScrapDataManager.addScrap(<techguns:itemshared:146>, "
 //ScrapResult = <minecraft:clay_ball>
 
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:sandy_bricks>, "clay", 4);
-mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:sandy_brick_stairs>, "clay", 1.98);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:sandy_bricks_stairs>, "clay", 1.98);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:sandy_bricks_slab>, "clay", 0.66);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:sandy_bricks_wall>, "clay", 1.32);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:dark_bricks>, "clay", 4);
@@ -1953,8 +1952,8 @@ mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:ingotmold>,
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:bullet_tip_mold>, "clay", 6);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:bullet_casing_mold>, "clay", 6);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:cement_mold>, "clay", 6);
-mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:empty_jar_mod>, "clay", 8);
-mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:glass_pane_mold>, 8);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:empty_jar_mold>, "clay", 8);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<sevendaystomine:glass_pane_mold>, "clay", 8);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<minecraft:flower_pot>, "clay", 3);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:colored_flowerpot_white>, "clay", 3);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:colored_flowerpot_orange>, "clay", 3);
@@ -2013,7 +2012,7 @@ mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:stained_clay_tiles_br
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:stained_clay_tiles_green_slab>, "clay", 0.22);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:stained_clay_tiles_red_slab>, "clay", 0.22);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:stained_clay_tiles_black_slab>, "clay", 0.22);
-mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:stained_clay_tiles_stairs>, "clay", 0.65);
+mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:hardened_clay_tiles_stairs>, "clay", 0.65);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:stained_clay_tiles_white_stairs>, "clay", 0.65);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:stained_clay_tiles_orange_stairs>, "clay", 0.65);
 mods.sevendaystomine.item.ScrapDataManager.addScrap(<quark:stained_clay_tiles_magenta_stairs>, "clay", 0.65);
